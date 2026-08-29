@@ -1,0 +1,11 @@
+faiss-cpu
+iterative-stratification
+neo4j
+numpy
+openai
+pandas
+py2neo
+requests
+scikit-learn
+sentence-transformers
+xgboost

@@ -1,0 +1,6318 @@
+[
+  {
+    "ontology_id": "DT001",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "用于诊断心肌缺血的各种检查方法",
+    "type": "test_category",
+    "name_cn": "诊断检查",
+    "name_en": "Diagnostic_Test",
+    "id": "DT001",
+    "label": "Diagnostic_Test",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.001",
+    "level": 2,
+    "parent_id": "DT001",
+    "definition": "通过血液、尿液等生物样本进行的实验室检测",
+    "type": "test_category",
+    "name_cn": "实验室检查",
+    "name_en": "Laboratory_Test",
+    "id": "DT001.001",
+    "label": "Laboratory_Test",
+    "umls_mapping": {
+      "cui": "C0022885",
+      "canonical_name": "Laboratory Procedures",
+      "score": 0.9883,
+      "types": [
+        "T059"
+      ],
+      "definition": "Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CPM",
+        "ICPC2ICD10DUT",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTH",
+        "NCI",
+        "PDQ",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.001",
+    "level": 3,
+    "parent_id": "DT001.001",
+    "definition": "反映心肌细胞损伤程度的生物标志物",
+    "type": "test_category",
+    "name_cn": "心肌损伤标志物",
+    "name_en": "Cardiac_Biomarker",
+    "id": "DT001.001.001",
+    "label": "Cardiac_Biomarker",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.001.001.001",
+    "level": 4,
+    "parent_id": "DT001.001.001",
+    "definition": "心肌细胞收缩蛋白复合体的调节蛋白，心肌损伤的特异性标志物",
+    "type": "test_item",
+    "name_cn": "肌钙蛋白",
+    "name_en": "Troponin",
+    "id": "DT001.001.001.001",
+    "label": "Troponin",
+    "umls_mapping": {
+      "cui": "C0041199",
+      "canonical_name": "Troponin",
+      "score": 0.985,
+      "types": [
+        "T116",
+        "T123"
+      ],
+      "definition": "One of the minor protein components of skeletal and cardiac muscles. It functions as the calcium-binding component in a complex with BETA-TROPOMYOSIN; ACTIN; and MYOSIN and confers calcium sensitivity to the cross-linked actin and myosin filaments. Troponin itself is a complex of three regulatory proteins (TROPONIN C; TROPONIN I; and TROPONIN T).",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "FMA",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHPOL",
+        "MSHPOR",
+        "MTH",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.001.001.001",
+    "level": 5,
+    "parent_id": "DT001.001.001.001",
+    "definition": "高敏感性肌钙蛋白I，检测心肌损伤的高敏感标志物",
+    "type": "test_item",
+    "name_cn": "高敏肌钙蛋白I",
+    "name_en": "hs_TnI",
+    "id": "DT001.001.001.001.001",
+    "label": "hs_TnI",
+    "umls_mapping": {
+      "cui": "C0077401",
+      "canonical_name": "Troponin I",
+      "score": 0.9778,
+      "types": [
+        "T116",
+        "T123"
+      ],
+      "definition": "A TROPONIN complex subunit that inhibits ACTOMYOSIN ATPASE activity thereby disrupting ACTIN and MYOSIN interaction. There are three troponin I subtypes: troponin I1, I2 and I3. Troponin I3 is cardiac-specific whereas troponin I1 and I2 are skeletal subtypes. Troponin I3 is a BIOMARKER for damaged or injured CARDIAC MYOCYTES and mutations in troponin I3 gene are associated with FAMILIAL HYPERTROPHIC CARDIOMYOPATHY.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "FMA",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.001.001.002",
+    "level": 5,
+    "parent_id": "DT001.001.001.001",
+    "definition": "高敏感性肌钙蛋白T，检测心肌损伤的高敏感标志物",
+    "type": "test_item",
+    "name_cn": "高敏肌钙蛋白T",
+    "name_en": "hs_TnT",
+    "id": "DT001.001.001.001.002",
+    "label": "hs_TnT",
+    "umls_mapping": {
+      "cui": "C0041070",
+      "canonical_name": "Trinitrotoluene",
+      "score": 0.9159,
+      "types": [
+        "T109",
+        "T131"
+      ],
+      "definition": "A 2,4,6-trinitrotoluene, which is an explosive chemical that can cause skin irritation and other toxic consequences.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MTH",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.001.002",
+    "level": 4,
+    "parent_id": "DT001.001.001",
+    "definition": "肌酸激酶的心肌特异性同工酶，反映心肌损伤",
+    "type": "test_item",
+    "name_cn": "肌酸激酶同工酶",
+    "name_en": "CK_MB",
+    "id": "DT001.001.001.002",
+    "label": "CK_MB",
+    "umls_mapping": {
+      "cui": "C0010287",
+      "canonical_name": "Creatine Kinase",
+      "score": 0.9777,
+      "types": [
+        "T116",
+        "T126"
+      ],
+      "definition": "A transferase that catalyzes formation of PHOSPHOCREATINE from ATP + CREATINE. The reaction stores ATP energy as phosphocreatine. Three cytoplasmic ISOENZYMES have been identified in human tissues: the MM type from SKELETAL MUSCLE, the MB type from myocardial tissue and the BB type from nervous tissue as well as a mitochondrial isoenzyme. Macro-creatine kinase refers to creatine kinase complexed with other serum proteins.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CPM",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.001.003",
+    "level": 4,
+    "parent_id": "DT001.001.001",
+    "definition": "肌肉组织中的血红素蛋白，心肌损伤的早期标志物",
+    "type": "test_item",
+    "name_cn": "肌红蛋白",
+    "name_en": "Myoglobin",
+    "id": "DT001.001.001.003",
+    "label": "Myoglobin",
+    "umls_mapping": {
+      "cui": "C0027078",
+      "canonical_name": "Myoglobin",
+      "score": 0.9738,
+      "types": [
+        "T116",
+        "T123"
+      ],
+      "definition": "A conjugated protein which is the oxygen-transporting pigment of muscle. It is made up of one globin polypeptide chain and one heme group.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CPM",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MTH",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.001.004",
+    "level": 4,
+    "parent_id": "DT001.001.001",
+    "definition": "由心室分泌的利钠肽，反映心功能状态",
+    "type": "test_item",
+    "name_cn": "脑钠肽",
+    "name_en": "BNP_NT_proBNP",
+    "id": "DT001.001.001.004",
+    "label": "BNP_NT_proBNP",
+    "umls_mapping": {
+      "cui": "C0054015",
+      "canonical_name": "nesiritide",
+      "score": 0.9913,
+      "types": [
+        "T116",
+        "T121",
+        "T125"
+      ],
+      "definition": "A recombinant version of the cardiac neurohormone, human B-type natriuretic peptide (hBNP) produced by the ventricular myocardium. Nesiritide binds to natriuretic peptide receptors on vascular smooth muscle and endothelial cells, through which it triggers guanylate cyclase dependent signal transduction resulting in increase of intracellular concentrations of cGMP. This leads to smooth muscle cell relaxation causing arterial and venous dilatation.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "CHV",
+        "DRUGBANK",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RXNORM",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.002",
+    "level": 3,
+    "parent_id": "DT001.001",
+    "definition": "反映机体炎症状态的生物标志物",
+    "type": "test_category",
+    "name_cn": "炎症标志物",
+    "name_en": "Inflammatory_Marker",
+    "id": "DT001.001.002",
+    "label": "Inflammatory_Marker",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.001.002.001",
+    "level": 4,
+    "parent_id": "DT001.001.002",
+    "definition": "急性时相反应蛋白，反映炎症水平",
+    "type": "test_item",
+    "name_cn": "C反应蛋白",
+    "name_en": "CRP",
+    "id": "DT001.001.002.001",
+    "label": "CRP",
+    "umls_mapping": {
+      "cui": "C0006560",
+      "canonical_name": "C-reactive protein",
+      "score": 0.9647,
+      "types": [
+        "T116",
+        "T129"
+      ],
+      "definition": "A plasma protein that circulates in increased amounts during inflammation and after tissue damage. C-Reactive Protein measured by more sensitive methods often for coronary heart disease risk assessment is referred to as High Sensitivity C-Reactive Protein (hs-CRP).",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPM",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.002.002",
+    "level": 4,
+    "parent_id": "DT001.001.002",
+    "definition": "促炎性细胞因子，参与炎症反应",
+    "type": "test_item",
+    "name_cn": "白介素6",
+    "name_en": "IL6",
+    "id": "DT001.001.002.002",
+    "label": "IL6",
+    "umls_mapping": {
+      "cui": "C0021760",
+      "canonical_name": "interleukin-6",
+      "score": 0.9774,
+      "types": [
+        "T116",
+        "T129"
+      ],
+      "definition": "A cytokine that stimulates the growth and differentiation of B-LYMPHOCYTES and is also a growth factor for HYBRIDOMAS and plasmacytomas. It is produced by many different cells including T-LYMPHOCYTES; MONOCYTES; and FIBROBLASTS.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "FMA",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RXNORM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.003",
+    "level": 3,
+    "parent_id": "DT001.001",
+    "definition": "评估血脂代谢状态的检查项目",
+    "type": "test_category",
+    "name_cn": "血脂检查",
+    "name_en": "Lipid_Profile",
+    "id": "DT001.001.003",
+    "label": "Lipid_Profile",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.001.003.001",
+    "level": 4,
+    "parent_id": "DT001.001.003",
+    "definition": "血液中胆固醇的总含量",
+    "type": "test_item",
+    "name_cn": "总胆固醇",
+    "name_en": "Total_Cholesterol",
+    "id": "DT001.001.003.001",
+    "label": "Total_Cholesterol",
+    "umls_mapping": {
+      "cui": "C0543421",
+      "canonical_name": "Total cholesterol",
+      "score": 0.9838,
+      "types": [
+        "T034"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.003.002",
+    "level": 4,
+    "parent_id": "DT001.001.003",
+    "definition": "低密度脂蛋白胆固醇，动脉粥样硬化的危险因子",
+    "type": "test_item",
+    "name_cn": "低密度脂蛋白",
+    "name_en": "LDL",
+    "id": "DT001.001.003.002",
+    "label": "LDL",
+    "umls_mapping": {
+      "cui": "C0023823",
+      "canonical_name": "Low-Density Lipoproteins",
+      "score": 0.9998,
+      "types": [
+        "T109",
+        "T123"
+      ],
+      "definition": "A class of lipoproteins of small size (18-25 nm) and light (1.019-1.063 g/ml) particles with a core composed mainly of CHOLESTEROL ESTERS and smaller amounts of TRIGLYCERIDES. The surface monolayer consists mostly of PHOSPHOLIPIDS, a single copy of APOLIPOPROTEIN B-100, and free cholesterol molecules. The main LDL function is to transport cholesterol and cholesterol esters to extrahepatic tissues.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "CST",
+        "FMA",
+        "LCH_NW",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.003.003",
+    "level": 4,
+    "parent_id": "DT001.001.003",
+    "definition": "高密度脂蛋白胆固醇，抗动脉粥样硬化因子",
+    "type": "test_item",
+    "name_cn": "高密度脂蛋白",
+    "name_en": "HDL",
+    "id": "DT001.001.003.003",
+    "label": "HDL",
+    "umls_mapping": {
+      "cui": "C0023821",
+      "canonical_name": "High Density Lipoproteins",
+      "score": 0.9978,
+      "types": [
+        "T116",
+        "T123"
+      ],
+      "definition": "A class of lipoproteins of small size (4-13 nm) and dense (greater than 1.063 g/ml) particles. HDL lipoproteins, synthesized in the liver without a lipid core, accumulate cholesterol esters from peripheral tissues and transport them to the liver for re-utilization or elimination from the body (the reverse cholesterol transport). Their major protein component is APOLIPOPROTEIN A-I. HDL also shuttle APOLIPOPROTEINS C and APOLIPOPROTEINS E to and from triglyceride-rich lipoproteins during their catabolism. HDL plasma level has been inversely correlated with the risk of cardiovascular diseases.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "FMA",
+        "LCH_NW",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.003.004",
+    "level": 4,
+    "parent_id": "DT001.001.003",
+    "definition": "血液中甘油三酯含量",
+    "type": "test_item",
+    "name_cn": "甘油三酯",
+    "name_en": "Triglyceride",
+    "id": "DT001.001.003.004",
+    "label": "Triglyceride",
+    "umls_mapping": {
+      "cui": "C0041004",
+      "canonical_name": "Triglycerides",
+      "score": 0.9751,
+      "types": [
+        "T109",
+        "T123"
+      ],
+      "definition": "An ester formed from GLYCEROL and three fatty acid groups.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "CPM",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004",
+    "level": 3,
+    "parent_id": "DT001.001",
+    "definition": "其他重要的生物化学检查指标",
+    "type": "test_category",
+    "name_cn": "其他生化指标",
+    "name_en": "Other_Biochemical",
+    "id": "DT001.001.004",
+    "label": "Other_Biochemical",
+    "umls_mapping": {
+      "cui": "C0205474",
+      "canonical_name": "Biochemical",
+      "score": 0.9734,
+      "types": [
+        "T169"
+      ],
+      "definition": "Of or relating to biochemistry; involving chemical processes in living organisms.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004.001",
+    "level": 4,
+    "parent_id": "DT001.001.004",
+    "definition": "血液中葡萄糖浓度，评估糖代谢状态",
+    "type": "test_item",
+    "name_cn": "血糖",
+    "name_en": "Blood_Glucose",
+    "id": "DT001.001.004.001",
+    "label": "Blood_Glucose",
+    "umls_mapping": {
+      "cui": "C0392201",
+      "canonical_name": "Blood glucose measurement",
+      "score": 0.995,
+      "types": [
+        "T059"
+      ],
+      "definition": "A quantitative measurement for assessing the amount of glucose present in a blood sample.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MEDLINEPLUS",
+        "MTH",
+        "NCI",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004.002",
+    "level": 4,
+    "parent_id": "DT001.001.004",
+    "definition": "反映肾功能状态的生化指标",
+    "type": "test_item",
+    "name_cn": "肌酐",
+    "name_en": "Creatinine",
+    "id": "DT001.001.004.002",
+    "label": "Creatinine",
+    "umls_mapping": {
+      "cui": "C0010294",
+      "canonical_name": "creatinine",
+      "score": 0.9871,
+      "types": [
+        "T109",
+        "T123"
+      ],
+      "definition": "The breakdown product of creatine, a constituent of muscle tissue, that is excreted by the kidney and whose serum level is used to evaluate kidney function.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CPM",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "USP"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004.003",
+    "level": 4,
+    "parent_id": "DT001.001.004",
+    "definition": "评估血液凝固功能的检查",
+    "type": "test_item",
+    "name_cn": "凝血功能",
+    "name_en": "Coagulation_Function",
+    "id": "DT001.001.004.003",
+    "label": "Coagulation_Function",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.001.004.004",
+    "level": 4,
+    "parent_id": "DT001.001.004",
+    "definition": "血液中同型半胱氨酸水平，心血管疾病危险因子",
+    "type": "test_item",
+    "name_cn": "同型半胱氨酸",
+    "name_en": "Homocysteine",
+    "id": "DT001.001.004.004",
+    "label": "Homocysteine",
+    "umls_mapping": {
+      "cui": "C0019878",
+      "canonical_name": "homocysteine",
+      "score": 0.9745,
+      "types": [
+        "T116",
+        "T123"
+      ],
+      "definition": "A thiol-containing amino acid formed by a demethylation of METHIONINE.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPM",
+        "CSP",
+        "DRUGBANK",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004.005",
+    "level": 4,
+    "parent_id": "DT001.001.004",
+    "definition": "纤维蛋白降解产物，反映血栓形成状态",
+    "type": "test_item",
+    "name_cn": "D-二聚体",
+    "name_en": "D_Dimer",
+    "id": "DT001.001.004.005",
+    "label": "D_Dimer",
+    "umls_mapping": {
+      "cui": "C0060323",
+      "canonical_name": "Fibrin fragment D",
+      "score": 0.9631,
+      "types": [
+        "T116",
+        "T123"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPM",
+        "LNC",
+        "MSH",
+        "MTH",
+        "OMIM",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004.006",
+    "level": 4,
+    "parent_id": "DT001.001.004",
+    "definition": "糖化血红蛋白，反映长期血糖控制状况",
+    "type": "test_item",
+    "name_cn": "糖化血红蛋白",
+    "name_en": "HbA1c",
+    "id": "DT001.001.004.006",
+    "label": "HbA1c",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002",
+    "level": 2,
+    "parent_id": "DT001",
+    "definition": "运用影像学技术对心脏结构和功能进行检查",
+    "type": "test_category",
+    "name_cn": "影像学检查",
+    "name_en": "Imaging_Test",
+    "id": "DT001.002",
+    "label": "Imaging_Test",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.001",
+    "level": 3,
+    "parent_id": "DT001.002",
+    "definition": "记录心脏电活动的检查方法",
+    "type": "test_category",
+    "name_cn": "心电图",
+    "name_en": "Electrocardiogram",
+    "id": "DT001.002.001",
+    "label": "Electrocardiogram",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.001.001",
+    "level": 4,
+    "parent_id": "DT001.002.001",
+    "definition": "静息状态下的标准12导联心电图",
+    "type": "test_item",
+    "name_cn": "静息心电图",
+    "name_en": "Resting_ECG",
+    "id": "DT001.002.001.001",
+    "label": "Resting_ECG",
+    "umls_mapping": {
+      "cui": "C0035253",
+      "canonical_name": "Rest",
+      "score": 0.8328,
+      "types": [
+        "T056"
+      ],
+      "definition": "Freedom from activity.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MTH",
+        "NCI",
+        "NOC",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.001.002",
+    "level": 4,
+    "parent_id": "DT001.002.001",
+    "definition": "运动状态下的心电图检查，评估心肌缺血",
+    "type": "test_item",
+    "name_cn": "运动负荷试验",
+    "name_en": "Exercise_Stress_Test",
+    "id": "DT001.002.001.002",
+    "label": "Exercise_Stress_Test",
+    "umls_mapping": {
+      "cui": "C0430120",
+      "canonical_name": "Exercise stress test - endocrine",
+      "score": 0.9783,
+      "types": [
+        "T060"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.001.003",
+    "level": 4,
+    "parent_id": "DT001.002.001",
+    "definition": "24小时连续心电图监测",
+    "type": "test_item",
+    "name_cn": "动态心电图",
+    "name_en": "Holter_ECG",
+    "id": "DT001.002.001.003",
+    "label": "Holter_ECG",
+    "umls_mapping": {
+      "cui": "C0013801",
+      "canonical_name": "Holter Electrocardiography",
+      "score": 0.9487,
+      "types": [
+        "T060"
+      ],
+      "definition": "An ambulatory electrocardiography technique that records a continuous electrocardiographic rhythm pattern for 24 hours or more to detect heart arrhythmias.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "ICPC2P",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.002",
+    "level": 3,
+    "parent_id": "DT001.002",
+    "definition": "使用超声波检查心脏结构和功能",
+    "type": "test_category",
+    "name_cn": "超声心动图",
+    "name_en": "Echocardiography",
+    "id": "DT001.002.002",
+    "label": "Echocardiography",
+    "umls_mapping": {
+      "cui": "C0013516",
+      "canonical_name": "Echocardiography",
+      "score": 0.9933,
+      "types": [
+        "T060"
+      ],
+      "definition": "Ultrasonic recording of the size, motion, and composition of the heart and surrounding tissues. The standard approach is transthoracic.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HL7V2.5",
+        "ICPC2P",
+        "LCH_NW",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "MTHICD9",
+        "NOC",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.002.001",
+    "level": 4,
+    "parent_id": "DT001.002.002",
+    "definition": "经胸壁进行的超声心动图检查",
+    "type": "test_item",
+    "name_cn": "经胸超声心动图",
+    "name_en": "TTE",
+    "id": "DT001.002.002.001",
+    "label": "TTE",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.002.002",
+    "level": 4,
+    "parent_id": "DT001.002.002",
+    "definition": "经食道进行的超声心动图检查",
+    "type": "test_item",
+    "name_cn": "经食道超声心动图",
+    "name_en": "TEE",
+    "id": "DT001.002.002.002",
+    "label": "TEE",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.002.003",
+    "level": 4,
+    "parent_id": "DT001.002.002",
+    "definition": "负荷状态下的超声心动图检查",
+    "type": "test_item",
+    "name_cn": "负荷超声心动图",
+    "name_en": "Stress_Echo",
+    "id": "DT001.002.002.003",
+    "label": "Stress_Echo",
+    "umls_mapping": {
+      "cui": "C0038435",
+      "canonical_name": "Stress",
+      "score": 0.9959,
+      "types": [
+        "T033"
+      ],
+      "definition": "The negative mental, emotional, and physical reactions that occur when environmental stressors are perceived as exceeding the individual's adaptive capacities.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003",
+    "level": 3,
+    "parent_id": "DT001.002",
+    "definition": "使用放射性核素进行的心肌功能检查",
+    "type": "test_category",
+    "name_cn": "核医学检查",
+    "name_en": "Nuclear_Medicine",
+    "id": "DT001.002.003",
+    "label": "Nuclear_Medicine",
+    "umls_mapping": {
+      "cui": "C0028582",
+      "canonical_name": "Discipline of Nuclear Medicine",
+      "score": 0.986,
+      "types": [
+        "T091"
+      ],
+      "definition": "A specialty field of radiology concerned with diagnostic, therapeutic, and investigative use of radioactive compounds.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MTH",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.001",
+    "level": 4,
+    "parent_id": "DT001.002.003",
+    "definition": "评估心肌血流灌注状态的显像检查",
+    "type": "test_item",
+    "name_cn": "心肌灌注显像",
+    "name_en": "Myocardial_Perfusion_Imaging",
+    "id": "DT001.002.003.001",
+    "label": "Myocardial_Perfusion_Imaging",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.003.002",
+    "level": 4,
+    "parent_id": "DT001.002.003",
+    "definition": "正电子发射断层扫描，评估心肌代谢",
+    "type": "test_item",
+    "name_cn": "正电子发射断层扫描",
+    "name_en": "PET",
+    "id": "DT001.002.003.002",
+    "label": "PET",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.004",
+    "level": 3,
+    "parent_id": "DT001.002",
+    "definition": "专门针对冠状动脉的影像学检查",
+    "type": "test_category",
+    "name_cn": "冠脉影像",
+    "name_en": "Coronary_Imaging",
+    "id": "DT001.002.004",
+    "label": "Coronary_Imaging",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.004.001",
+    "level": 4,
+    "parent_id": "DT001.002.004",
+    "definition": "冠状动脉造影，金标准的冠脉检查方法",
+    "type": "test_item",
+    "name_cn": "冠脉造影",
+    "name_en": "Coronary_Angiography",
+    "id": "DT001.002.004.001",
+    "label": "Coronary_Angiography",
+    "umls_mapping": {
+      "cui": "C0085532",
+      "canonical_name": "Coronary angiography",
+      "score": 0.9874,
+      "types": [
+        "T060"
+      ],
+      "definition": "Radiography of the vascular system of the heart muscle after injection of a contrast medium.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICD10AM",
+        "LNC",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.002",
+    "level": 4,
+    "parent_id": "DT001.002.004",
+    "definition": "冠状动脉CT血管成像，无创冠脉检查",
+    "type": "test_item",
+    "name_cn": "冠脉CT血管造影",
+    "name_en": "CCTA",
+    "id": "DT001.002.004.002",
+    "label": "CCTA",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.004.003",
+    "level": 4,
+    "parent_id": "DT001.002.004",
+    "definition": "血管内超声检查，评估冠脉管壁结构",
+    "type": "test_item",
+    "name_cn": "血管内超声",
+    "name_en": "IVUS",
+    "id": "DT001.002.004.003",
+    "label": "IVUS",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.004.004",
+    "level": 4,
+    "parent_id": "DT001.002.004",
+    "definition": "冠脉内光学相干断层扫描，高分辨率冠脉成像",
+    "type": "test_item",
+    "name_cn": "光学相干断层扫描",
+    "name_en": "OCT",
+    "id": "DT001.002.004.004",
+    "label": "OCT",
+    "umls_mapping": {
+      "cui": "C0029279",
+      "canonical_name": "ORNITHINE CARBAMOYLTRANSFERASE",
+      "score": 0.9933,
+      "types": [
+        "T116",
+        "T126"
+      ],
+      "definition": "A urea cycle enzyme that catalyzes the formation of orthophosphate and L-citrulline (CITRULLINE) from CARBAMOYL PHOSPHATE and L-ornithine (ORNITHINE). Deficiency of this enzyme may be transmitted as an X-linked trait. EC 2.1.3.3.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.005",
+    "level": 4,
+    "parent_id": "DT001.002.004",
+    "definition": "分数血流储备测定，评估冠脉功能性狭窄",
+    "type": "test_item",
+    "name_cn": "分数血流储备",
+    "name_en": "FFR",
+    "id": "DT001.002.004.005",
+    "label": "FFR",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.005",
+    "level": 3,
+    "parent_id": "DT001.002",
+    "definition": "其他相关的影像学检查方法",
+    "type": "test_category",
+    "name_cn": "其他影像",
+    "name_en": "Other_Imaging",
+    "id": "DT001.002.005",
+    "label": "Other_Imaging",
+    "umls_mapping": {
+      "cui": "C0011923",
+      "canonical_name": "Diagnostic Imaging",
+      "score": 0.9836,
+      "types": [
+        "T060"
+      ],
+      "definition": "Any visual display of structural or functional patterns of organs or tissues for diagnostic evaluation. It includes measuring physiologic and metabolic responses to physical and chemical stimuli, as well as ultramicroscopy.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "HL7V3.0",
+        "ICD9CM",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MTH",
+        "NCI",
+        "PDQ",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.001",
+    "level": 4,
+    "parent_id": "DT001.002.005",
+    "definition": "胸部X线摄影，评估心肺状态",
+    "type": "test_item",
+    "name_cn": "胸部X线",
+    "name_en": "Chest_X_ray",
+    "id": "DT001.002.005.001",
+    "label": "Chest_X_ray",
+    "umls_mapping": {
+      "cui": "C0039985",
+      "canonical_name": "Plain chest X-ray",
+      "score": 0.9831,
+      "types": [
+        "T060"
+      ],
+      "definition": "An x-ray examination of the chest.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPT",
+        "CSP",
+        "ICD10AM",
+        "LCH_NW",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.002",
+    "level": 4,
+    "parent_id": "DT001.002.005",
+    "definition": "心脏磁共振成像，评估心肌结构和功能",
+    "type": "test_item",
+    "name_cn": "心脏磁共振",
+    "name_en": "Cardiac_MRI",
+    "id": "DT001.002.005.002",
+    "label": "Cardiac_MRI",
+    "umls_mapping": {
+      "cui": "C0412692",
+      "canonical_name": "Magnetic Resonance Imaging (MRI) of Heart",
+      "score": 0.9756,
+      "types": [
+        "T060"
+      ],
+      "definition": "Magnetic resonance imaging of the heart.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003",
+    "level": 2,
+    "parent_id": "DT001",
+    "definition": "评估心脏功能状态的专门检查",
+    "type": "test_category",
+    "name_cn": "功能性检查",
+    "name_en": "Functional_Test",
+    "id": "DT001.003",
+    "label": "Functional_Test",
+    "umls_mapping": {
+      "cui": "C0542341",
+      "canonical_name": "Function (attribute)",
+      "score": 0.8159,
+      "types": [
+        "T169"
+      ],
+      "definition": "The normal action performed by a structure or device.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.001",
+    "level": 3,
+    "parent_id": "DT001.003",
+    "definition": "使用多巴酚丁胺进行的药物负荷试验",
+    "type": "test_item",
+    "name_cn": "多巴酚丁胺负荷试验",
+    "name_en": "Dobutamine_Stress_Test",
+    "id": "DT001.003.001",
+    "label": "Dobutamine_Stress_Test",
+    "umls_mapping": {
+      "cui": "C0012963",
+      "canonical_name": "dobutamine",
+      "score": 0.9758,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A catecholamine derivative with specificity for BETA-1 ADRENERGIC RECEPTORS. It is commonly used as a cardiotonic agent after CARDIAC SURGERY and during DOBUTAMINE STRESS ECHOCARDIOGRAPHY.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RCD",
+        "RXNORM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.002",
+    "level": 3,
+    "parent_id": "DT001.003",
+    "definition": "左心室射血分数，评估心功能指标",
+    "type": "test_item",
+    "name_cn": "左心室射血分数",
+    "name_en": "LVEF",
+    "id": "DT001.003.002",
+    "label": "LVEF",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.003",
+    "level": 3,
+    "parent_id": "DT001.003",
+    "definition": "评估心室壁运动异常",
+    "type": "test_item",
+    "name_cn": "室壁运动评估",
+    "name_en": "Wall_Motion_Assessment",
+    "id": "DT001.003.003",
+    "label": "Wall_Motion_Assessment",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.003.003",
+    "level": 4,
+    "parent_id": "DT001.002.003",
+    "definition": "A nuclear medicine tomographic imaging technique using gamma rays to provide 3D information about the function of tissues.",
+    "type": null,
+    "name_cn": "单光子发射计算机断层扫描",
+    "name_en": "Single-Photon Emission Computed Tomography",
+    "id": "DT001.002.003.003",
+    "label": "Single-Photon Emission Computed Tomography",
+    "umls_mapping": {
+      "cui": "C3472245",
+      "canonical_name": "Single Photon Emission Computed Tomography Computed Tomography",
+      "score": 0.8796,
+      "types": [
+        "T060"
+      ],
+      "definition": "An imaging technique using a device which combines TOMOGRAPHY, EMISSION-COMPUTED, SINGLE-PHOTON and TOMOGRAPHY, X-RAY COMPUTED in the same session.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "NCI",
+        "PDQ",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.004",
+    "level": 3,
+    "parent_id": "DT001.003",
+    "definition": "A diagnostic procedure used to assess the function of the coronary microcirculation invasively, as no technique allows direct visualization of the coronary microcirculation in vivo in humans.",
+    "type": "Diagnostic Procedure",
+    "name_cn": "冠状动脉微循环侵入性功能评估",
+    "name_en": "Invasive Functional Evaluation of the Coronary Microcirculation",
+    "id": "DT001.003.004",
+    "label": "Invasive Functional Evaluation of the Coronary Microcirculation",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.004.001",
+    "level": 4,
+    "parent_id": "DT001.003",
+    "definition": "冠状动脉血流储备（CFR）受损，通常定义为CFR≤2.5",
+    "type": null,
+    "name_cn": "受损冠状动脉血流储备",
+    "name_en": "Impaired_CFR",
+    "id": "DT001.003.004.001",
+    "label": "Impaired_CFR",
+    "umls_mapping": {
+      "cui": "C0221099",
+      "canonical_name": "Impaired",
+      "score": 0.9898,
+      "types": [
+        "T169"
+      ],
+      "definition": "Loss or abnormality of psychological, physiological, or anatomic structure or function.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.005",
+    "level": 3,
+    "parent_id": "DT001.003",
+    "definition": "A diagnostic procedure that involves inducing symptoms or physiological changes to aid in diagnosis.",
+    "type": null,
+    "name_cn": "激发试验",
+    "name_en": "Provocative testing",
+    "id": "DT001.003.005",
+    "label": "Provocative testing",
+    "umls_mapping": {
+      "cui": "C0201784",
+      "canonical_name": "Provocative test",
+      "score": 0.9598,
+      "types": [
+        "T059"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.005.001",
+    "level": 5,
+    "parent_id": "DT001.002.004.005",
+    "definition": "A reduction in the coronary flow reserve, indicating impaired microvascular function.",
+    "type": "Examination_Finding",
+    "name_cn": "冠状动脉血流储备降低",
+    "name_en": "Decreased_Coronary_Flow_Reserve",
+    "id": "DT001.002.004.005.001",
+    "label": "Decreased_Coronary_Flow_Reserve",
+    "umls_mapping": {
+      "cui": "C0205216",
+      "canonical_name": "Decreased",
+      "score": 0.98,
+      "types": [
+        "T081"
+      ],
+      "definition": "A subjective response indicating that something is or has decreased.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.002.004",
+    "level": 4,
+    "parent_id": "DT001.002.002",
+    "definition": "使用多普勒超声测量的冠状动脉血流储备，CFR<2.5提示微血管功能障碍",
+    "type": "Diagnostic_Procedure",
+    "name_cn": "多普勒衍生冠状动脉血流储备评估",
+    "name_en": "Doppler-derived_CFR",
+    "id": "DT001.002.002.004",
+    "label": "Doppler-derived_CFR",
+    "umls_mapping": {
+      "cui": "C1305363",
+      "canonical_name": "Catalytic fraction",
+      "score": 0.978,
+      "types": [
+        "T081"
+      ],
+      "definition": "The quotient of the component catalytic activity and the total catalytic activity.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004",
+    "id": "DT001.004",
+    "name_en": "Invasive_Investigation",
+    "name_cn": "侵入性检查",
+    "definition": "A diagnostic procedure that involves entering the body, typically through the skin or a body cavity, to gather information about a medical condition.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "DT001",
+    "alias": "",
+    "label": "Invasive_Investigation",
+    "umls_mapping": {
+      "cui": "C0205281",
+      "canonical_name": "Invasive",
+      "score": 0.9686,
+      "types": [
+        "T080"
+      ],
+      "definition": "Marked by a tendency to spread, especially into healthy surrounding tissue.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.007",
+    "id": "SS003.002.007",
+    "name_en": "Myocardial Function",
+    "name_cn": "心肌功能",
+    "definition": "Assessment of the functional capacity of the myocardium",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Myocardial Function",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.001",
+    "id": "PC003.005.001",
+    "name_en": "Post-test_Likelihood",
+    "name_cn": "后验概率",
+    "definition": "The probability of a condition after a diagnostic test has been performed.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Post-test_Likelihood",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.001.002",
+    "id": "PC003.005.001.002",
+    "name_en": "Post-test_Likelihood",
+    "name_cn": "检测后概率",
+    "definition": "The probability of a condition after a diagnostic test has been performed.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "PC003.005.001",
+    "alias": "",
+    "label": "Post-test_Likelihood",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.003",
+    "id": "PC003.005.003",
+    "name_en": "Post-test likelihood",
+    "name_cn": "检测后概率",
+    "definition": "The probability of a condition after a diagnostic test has been performed.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Post-test likelihood",
+    "umls_mapping": {
+      "cui": "C0033204",
+      "canonical_name": "Probability",
+      "score": 0.9673,
+      "types": [
+        "T081"
+      ],
+      "definition": "The study of chance processes or the relative frequency characterizing a chance process.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.004.002",
+    "id": "DT001.003.004.002",
+    "name_en": "Intracoronary_Physiological_Assessment",
+    "name_cn": "冠状动脉生理评估",
+    "definition": "评估冠状动脉生理功能的检查方法",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.004",
+    "alias": "",
+    "label": "Intracoronary_Physiological_Assessment",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.001.004.007",
+    "id": "DT001.001.004.007",
+    "name_en": "Inconclusive Fasting Plasma Glucose and Glycated Hemoglobin (HbA1c)",
+    "name_cn": "不确定的空腹血糖和糖化血红蛋白（HbA1c）",
+    "definition": "Laboratory test results indicating unclear or borderline values for fasting plasma glucose and glycated hemoglobin (HbA1c), which may suggest a need for further testing or monitoring.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.004",
+    "alias": "",
+    "label": "Inconclusive Fasting Plasma Glucose and Glycated Hemoglobin (HbA1c)",
+    "umls_mapping": {
+      "cui": "C0205258",
+      "canonical_name": "Indeterminate",
+      "score": 0.9823,
+      "types": [
+        "T080"
+      ],
+      "definition": "Cannot distinguish between two or more possible values in the current context.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V3.0",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004.008",
+    "id": "DT001.001.004.008",
+    "name_en": "Glomerular Filtration Rate",
+    "name_cn": "肾小球滤过率",
+    "definition": "A test used to check how well the kidneys are working by estimating how much blood passes through the glomeruli each minute.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.004",
+    "alias": "",
+    "label": "Glomerular Filtration Rate",
+    "umls_mapping": {
+      "cui": "C0232809",
+      "canonical_name": "Glomerular filtration",
+      "score": 0.8825,
+      "types": [
+        "T042"
+      ],
+      "definition": "The process in which plasma is filtered through the glomerular membrane which consists of capillary endothelial cells, the basement membrane, and epithelial cells. The glomerular filtrate is the same as plasma except it has no significant amount of protein. [GOC:mtg_cardio, GOC:sart, ISBN:0721643949]",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "GO",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.002.003",
+    "id": "DT001.001.002.003",
+    "name_en": "High_sensitivity_C_reactive_protein",
+    "name_cn": "高敏C反应蛋白",
+    "definition": "A biomarker for inflammation, used to assess cardiovascular risk and inflammatory status",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.002",
+    "alias": "",
+    "label": "High_sensitivity_C_reactive_protein",
+    "umls_mapping": {
+      "cui": "C1441604",
+      "canonical_name": "High Sensitivity Method",
+      "score": 0.9901,
+      "types": [
+        "T059"
+      ],
+      "definition": "Any test methodology that is able to detect or quantify analyte at low levels, thus generating fewer false negatives, than a low sensitivity assay.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.001",
+    "id": "DT001.004.001",
+    "name_en": "Wire-based_Intracoronary_Pressure_Measurement",
+    "name_cn": "基于导丝的冠状动脉内压力测量",
+    "definition": "A diagnostic procedure that involves measuring intracoronary pressure using a wire during maximal hyperaemia to calculate FFR or at rest to measure iFR.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Wire-based_Intracoronary_Pressure_Measurement",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.002",
+    "id": "DT001.004.002",
+    "name_en": "Improved_Risk_Assessment",
+    "name_cn": "改进的风险评估",
+    "definition": "The process of using intracoronary pressure measurements to improve the accuracy of risk assessment and clinical decision-making.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Improved_Risk_Assessment",
+    "umls_mapping": {
+      "cui": "C0184511",
+      "canonical_name": "Improved",
+      "score": 0.9708,
+      "types": [
+        "T033"
+      ],
+      "definition": "Condition changed and/or recovered",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCC",
+        "CHV",
+        "LNC",
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.006",
+    "id": "DT001.002.004.006",
+    "name_en": "Poor_correlation_with_diameter_stenosis",
+    "name_cn": "与直径狭窄的相关性差",
+    "definition": "Poor correlation between haemodynamic relevance and diameter stenosis by visual assessment",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.004",
+    "alias": "",
+    "label": "Poor_correlation_with_diameter_stenosis",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.003",
+    "id": "DT001.004.003",
+    "name_en": "Instantaneous Wave-free Ratio",
+    "name_cn": "瞬时无波形比值",
+    "definition": "A measurement used to assess the severity of coronary artery stenosis at rest without the need for hyperemia.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Instantaneous Wave-free Ratio",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.001",
+    "id": "D001.001.006.001.001.001",
+    "name_en": "Diameter_Stenosis_>90%",
+    "name_cn": "直径狭窄大于90%",
+    "definition": "A diameter stenosis of more than 90%, which predicts haemodynamic relevance with high accuracy.",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Diameter_Stenosis_>90%",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.002",
+    "id": "D001.001.006.001.001.002",
+    "name_en": "40-49% Stenosis",
+    "name_cn": "40%-49%狭窄",
+    "definition": "A degree of arterial narrowing between 40% and 49%, assessed for hemodynamic significance in coronary artery disease.",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "40-49% Stenosis",
+    "umls_mapping": {
+      "cui": "C0678234",
+      "canonical_name": "Stenosis Morphology",
+      "score": 0.9955,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.003",
+    "id": "D001.001.006.001.001.003",
+    "name_en": "Coronary_Stenosis_Percentage",
+    "name_cn": "冠状动脉狭窄百分比",
+    "definition": "Percentage of narrowing in coronary arteries, indicating the severity of stenosis",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Coronary_Stenosis_Percentage",
+    "umls_mapping": {
+      "cui": "C0344684",
+      "canonical_name": "Congenital coronary sinus stenosis",
+      "score": 0.8531,
+      "types": [
+        "T019"
+      ],
+      "definition": "A rare congenital anomaly of the coronary sinus characterized by its stenosis at the ostium, lumen, or origin, typically leading to dilation of the vessel. Symptoms are variable and can include palpitations, tachypnea, dyspnea, chest pain, fatigue, and cyanosis. The malformation may be associated with other cardiac anomalies, such as coronary artery-coronary sinus fistula, unroofed coronary sinus, atrial septal defect, coronary sinus-left atrium fistula, total anomalous pulmonary venous connection, and ventricular septal defect.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "ORPHANET",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.004",
+    "id": "DT001.004.004",
+    "name_en": "Discordance in Angiographical and Functional Assessment",
+    "name_cn": "血管造影与功能评估不一致",
+    "definition": "The discrepancy between angiographical findings and functional assessment results in evaluating coronary stenosis severity.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Discordance in Angiographical and Functional Assessment",
+    "umls_mapping": {
+      "cui": "C0278372",
+      "canonical_name": "Functional assessment",
+      "score": 0.969,
+      "types": [
+        "T060"
+      ],
+      "definition": "An appraisal of the operation and performance of an object of interest.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICD9CM",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.005",
+    "id": "DT001.005",
+    "name_en": "functional_assessment",
+    "name_cn": "功能评估",
+    "definition": "评估心脏或其他器官的功能状态",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "DT001",
+    "alias": "",
+    "label": "functional_assessment",
+    "umls_mapping": {
+      "cui": "C0278372",
+      "canonical_name": "Functional assessment",
+      "score": 0.969,
+      "types": [
+        "T060"
+      ],
+      "definition": "An appraisal of the operation and performance of an object of interest.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICD9CM",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.005",
+    "id": "DT001.004.005",
+    "name_en": "Non-hyperemic pressure parameters",
+    "name_cn": "非充血压力参数",
+    "definition": "Parameters used to assess coronary pressure without inducing hyperemia, such as Pd/Pa, dPR, and RFR.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Non-hyperemic pressure parameters",
+    "umls_mapping": {
+      "cui": "C0449381",
+      "canonical_name": "Observation parameter",
+      "score": 0.9871,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.006",
+    "id": "DT001.004.006",
+    "name_en": "Systematic FFR Measurement",
+    "name_cn": "系统性FFR测量",
+    "definition": "The process of systematically measuring Fractional Flow Reserve (FFR) to assess the hemodynamic relevance of coronary stenoses.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Systematic FFR Measurement",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.007",
+    "id": "DT001.004.007",
+    "name_en": "Coronary_Pressure_Measurement",
+    "name_cn": "冠状动脉压力测量",
+    "definition": "A diagnostic procedure to measure the pressure within the coronary arteries during invasive coronary angiography.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Coronary_Pressure_Measurement",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.008",
+    "id": "DT001.004.008",
+    "name_en": "Combined Measurement of Pressure and Flow",
+    "name_cn": "压力和流量的联合测量",
+    "definition": "A diagnostic procedure that involves simultaneous measurement of pressure and flow, often used to assess cardiovascular function.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Combined Measurement of Pressure and Flow",
+    "umls_mapping": {
+      "cui": "C0005824",
+      "canonical_name": "Blood pressure determination",
+      "score": 0.8109,
+      "types": [
+        "T058"
+      ],
+      "definition": "Techniques used for measuring BLOOD PRESSURE.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCC",
+        "CHV",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.009",
+    "id": "DT001.004.009",
+    "name_en": "Hyperaemic Stenosis Resistance",
+    "name_cn": "充血性狭窄阻力",
+    "definition": "An index measured by the pressure gradient across a lesion divided by flow, used for diagnostic and prognostic purposes.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Hyperaemic Stenosis Resistance",
+    "umls_mapping": {
+      "cui": "C1442099",
+      "canonical_name": "Resistance",
+      "score": 0.9958,
+      "types": [
+        "T201"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.007",
+    "id": "DT001.002.004.007",
+    "name_en": "Intravascular_Imaging_Techniques",
+    "name_cn": "血管内成像技术",
+    "definition": "Techniques used to visualize the interior of blood vessels for diagnostic or therapeutic purposes.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.004",
+    "alias": "",
+    "label": "Intravascular_Imaging_Techniques",
+    "umls_mapping": {
+      "cui": "C0449851",
+      "canonical_name": "Techniques",
+      "score": 0.9805,
+      "types": [
+        "T169"
+      ],
+      "definition": "A practiced and regimented skill or series of actions.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MSH",
+        "MSHCZE",
+        "MSHPOR",
+        "MSHSPA",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.004",
+    "id": "D001.001.006.001.004",
+    "name_en": "Left_Main_Stenosis_Severity",
+    "name_cn": "左主干狭窄严重程度",
+    "definition": "Assessment of the severity of stenosis in the left main coronary artery",
+    "type": "diagnostic_test",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Left_Main_Stenosis_Severity",
+    "umls_mapping": {
+      "cui": "C0439793",
+      "canonical_name": "Severities",
+      "score": 0.9799,
+      "types": [
+        "T080"
+      ],
+      "definition": "Used of the degree of something undesirable e.g. pain or weather; also, strictness.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.005",
+    "id": "D001.001.006.001.005",
+    "name_en": "Left_Main_Plaque_Burden",
+    "name_cn": "左主干斑块负荷",
+    "definition": "Assessment of plaque accumulation in the left main coronary artery, often used to predict haemodynamic relevance.",
+    "type": "diagnostic_test",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Left_Main_Plaque_Burden",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.005.001",
+    "id": "DT001.005.001",
+    "name_en": "Functional_Assessment_of_Epicardial_Artery_Stenosis_Severity",
+    "name_cn": "心外膜动脉狭窄严重程度的功能评估",
+    "definition": "A diagnostic procedure to assess the severity of epicardial artery stenosis during invasive coronary angiography to guide revascularization.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.005",
+    "alias": "",
+    "label": "Functional_Assessment_of_Epicardial_Artery_Stenosis_Severity",
+    "umls_mapping": {
+      "cui": "C0278372",
+      "canonical_name": "Functional assessment",
+      "score": 0.969,
+      "types": [
+        "T060"
+      ],
+      "definition": "An appraisal of the operation and performance of an object of interest.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICD9CM",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.005.001",
+    "id": "DT001.003.005.001",
+    "name_en": "Ach_testing",
+    "name_cn": "乙酰胆碱测试",
+    "definition": "A diagnostic test using acetylcholine to assess endothelial dysfunction and coronary microvascular function.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.005",
+    "alias": "",
+    "label": "Ach_testing",
+    "umls_mapping": {
+      "cui": "C0039593",
+      "canonical_name": "Testing",
+      "score": 0.8315,
+      "types": [
+        "T169"
+      ],
+      "definition": "A procedure for critical evaluation; a means of determining the presence, quality, or truth of something.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LCH",
+        "LNC",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.008",
+    "id": "DT001.002.004.008",
+    "name_en": "Coronary Artery Calcium Score",
+    "name_cn": "冠状动脉钙化积分",
+    "definition": "A measurement derived from an ECG-gated non-contrast-enhanced computed tomography (CT) scan to assess coronary artery calcification.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.004",
+    "alias": "",
+    "label": "Coronary Artery Calcium Score",
+    "umls_mapping": {
+      "cui": "C2825178",
+      "canonical_name": "Coronary artery calcium score",
+      "score": 0.9855,
+      "types": [
+        "T081"
+      ],
+      "definition": "A quantitative value that is the compilation of assessed size and densities of calcium deposits throughout the coronary tree.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.008.001",
+    "id": "DT001.002.004.008.001",
+    "name_en": "Absence_of_CAC",
+    "name_cn": "冠状动脉钙化缺失",
+    "definition": "The absence of coronary artery calcification, which may indicate lower risk of coronary artery disease.",
+    "type": "diagnostic_test",
+    "level": 4,
+    "parent_id": "DT001.002.004.008",
+    "alias": "",
+    "label": "Absence_of_CAC",
+    "umls_mapping": {
+      "cui": "C0332197",
+      "canonical_name": "Absent",
+      "score": 0.9857,
+      "types": [
+        "T169"
+      ],
+      "definition": "Not existing in a specified place at a specified time.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.009",
+    "id": "DT001.002.004.009",
+    "name_en": "CACS_RF_CL_Model",
+    "name_cn": "冠状动脉钙化评分+风险因素-临床表现模型",
+    "definition": "A diagnostic model combining Coronary Artery Calcium Scoring (CACS) with risk factors and clinical presentation for assessing coronary artery disease.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.004",
+    "alias": "",
+    "label": "CACS_RF_CL_Model",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.004.010",
+    "id": "DT001.002.004.010",
+    "name_en": "CACS-CL_Model",
+    "name_cn": "冠状动脉钙化评分-临床模型",
+    "definition": "A diagnostic model combining coronary artery calcium scoring with clinical parameters for assessing coronary artery disease likelihood",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.004",
+    "alias": "",
+    "label": "CACS-CL_Model",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.007",
+    "id": "PC003.005.007",
+    "name_en": "Pre-test_Likelihood_Estimate",
+    "name_cn": "测试前概率估计",
+    "definition": "The probability of a condition before a diagnostic test is performed.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Pre-test_Likelihood_Estimate",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.008",
+    "id": "PC003.005.008",
+    "name_en": "Post-test_probability_of_obstructive_CAD",
+    "name_cn": "阻塞性冠状动脉疾病的后验概率",
+    "definition": "The probability of obstructive coronary artery disease (CAD) after considering pre-test likelihood estimates and diagnostic imaging-test results.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Post-test_probability_of_obstructive_CAD",
+    "umls_mapping": {
+      "cui": "C0549186",
+      "canonical_name": "Obstructed",
+      "score": 0.9888,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "RCD",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.009",
+    "id": "PC003.005.009",
+    "name_en": "Pre-test likelihood estimation",
+    "name_cn": "测试前可能性评估",
+    "definition": "用于指导非侵入性诊断测试策略的预测性评估方法",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Pre-test likelihood estimation",
+    "umls_mapping": {
+      "cui": "C0033204",
+      "canonical_name": "Probability",
+      "score": 0.9673,
+      "types": [
+        "T081"
+      ],
+      "definition": "The study of chance processes or the relative frequency characterizing a chance process.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.008",
+    "id": "SS003.002.008",
+    "name_en": "Cardiac_Function_and_Anatomy",
+    "name_cn": "心功能与解剖",
+    "definition": "Assessment of cardiac function and anatomical structure",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Cardiac_Function_and_Anatomy",
+    "umls_mapping": {
+      "cui": "C0232164",
+      "canonical_name": "Cardiac function",
+      "score": 0.9732,
+      "types": [
+        "T042"
+      ],
+      "definition": "physiological activity and functions of the heart as a whole or of any of its parts, including the contractile activity of the myocardium and hemodynamic and electrophysiological action of the atrium and ventricles that provide for the oxygenation of blood and transportation of blood to the body.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "ICF",
+        "ICF-CY",
+        "MTH",
+        "NOC",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.003",
+    "id": "DT001.002.005.003",
+    "name_en": "Cardiac Magnetic Resonance",
+    "name_cn": "心脏磁共振",
+    "definition": "An imaging technique used to assess the structure and function of the heart, including global and regional function, myocardial ischemia, and scarred myocardium.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Cardiac Magnetic Resonance",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.005.004",
+    "id": "DT001.002.005.004",
+    "name_en": "Late Gadolinium Enhancement CMR",
+    "name_cn": "延迟钆增强心脏磁共振",
+    "definition": "A cardiac magnetic resonance (CMR) technique used to reveal a typical pattern of scarred myocardium in patients who have experienced a myocardial infarction.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Late Gadolinium Enhancement CMR",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.002.005",
+    "id": "DT001.002.002.005",
+    "name_en": "Resting_Transthoracic_Ultrasound",
+    "name_cn": "静息经胸超声",
+    "definition": "A diagnostic imaging technique using ultrasound to examine the heart at rest through the chest wall.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.002",
+    "alias": "",
+    "label": "Resting_Transthoracic_Ultrasound",
+    "umls_mapping": {
+      "cui": "C1315081",
+      "canonical_name": "Urological ultrasound",
+      "score": 0.9833,
+      "types": [
+        "T060"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.009",
+    "id": "SS003.002.009",
+    "name_en": "Significant_Ischemic_ECG_Changes",
+    "name_cn": "显著缺血性心电图改变",
+    "definition": "心电图显示显著的缺血性变化，通常用于评估心肌缺血",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Significant_Ischemic_ECG_Changes",
+    "umls_mapping": {
+      "cui": "C0475224",
+      "canonical_name": "Ischemic",
+      "score": 0.8433,
+      "types": [
+        "T169"
+      ],
+      "definition": "insufficient blood supply to a body part",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.001.002.001",
+    "id": "DT001.002.001.002.001",
+    "name_en": "Abnormal_exercise_ECG_results",
+    "name_cn": "运动心电图异常结果",
+    "definition": "Abnormal results obtained from an exercise electrocardiogram test, indicating potential cardiovascular issues.",
+    "type": "diagnostic_test",
+    "level": 4,
+    "parent_id": "DT001.002.001.002",
+    "alias": "",
+    "label": "Abnormal_exercise_ECG_results",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.006",
+    "id": "DT001.003.006",
+    "name_en": "Duke_Treadmill_Score",
+    "name_cn": "杜克平板运动评分",
+    "definition": "A scoring system used to assess the risk of coronary artery disease based on treadmill exercise test results.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Duke_Treadmill_Score",
+    "umls_mapping": {
+      "cui": "C0582804",
+      "canonical_name": "Duke's coronary artery disease score",
+      "score": 0.9649,
+      "types": [
+        "T170"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.001.002.001.001",
+    "id": "DT001.002.001.002.001.001",
+    "name_en": "Negative_exercise_ECG",
+    "name_cn": "阴性运动心电图",
+    "definition": "运动心电图测试结果为阴性，表明在运动过程中未检测到心肌缺血的迹象。",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "DT001.002.001.002.001",
+    "alias": "",
+    "label": "Negative_exercise_ECG",
+    "umls_mapping": {
+      "cui": "C0205160",
+      "canonical_name": "Negative",
+      "score": 0.9771,
+      "types": [
+        "T033"
+      ],
+      "definition": "<p>An absence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.</p><p>\\[Note: Negative does not necessarily imply the complete absence of the specified item.\\]</p>",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HL7V3.0",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.010",
+    "id": "PC003.005.010",
+    "name_en": "Diamond_Forrester_Approach",
+    "name_cn": "Diamond-Forrester方法",
+    "definition": "A method for estimating the probability of coronary artery disease based on clinical factors.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Diamond_Forrester_Approach",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.007.002",
+    "id": "D001.007.002",
+    "name_en": "Atherosclerotic_Disease_Detection",
+    "name_cn": "动脉粥样硬化疾病检测",
+    "definition": "The process of identifying atherosclerotic disease in non-coronary arteries using imaging techniques such as ultrasound or CT scans.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "D001.007",
+    "alias": "",
+    "label": "Atherosclerotic_Disease_Detection",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.003.004",
+    "id": "DT001.002.003.004",
+    "name_en": "Absolute Quantitative Measures of MBF",
+    "name_cn": "MBF的绝对定量测量",
+    "definition": "PET-CT成像的独特优势是能够提供稳健的MBF绝对定量测量。",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Absolute Quantitative Measures of MBF",
+    "umls_mapping": {
+      "cui": "C0205344",
+      "canonical_name": "Absolute",
+      "score": 0.976,
+      "types": [
+        "T080"
+      ],
+      "definition": "Complete and without restriction or qualification; something that does not depend on anything else; not relative.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.008",
+    "id": "SS003.003.008",
+    "name_en": "Superior_Image_Quality",
+    "name_cn": "卓越的图像质量",
+    "definition": "Refers to the high quality of images produced by certain imaging techniques, such as PET-CT, compared to others like SPECT.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Superior_Image_Quality",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.007",
+    "id": "DT001.003.007",
+    "name_en": "Measurement_of_blood_flow_through_the_coronary_circulation",
+    "name_cn": "冠状动脉循环血流测量",
+    "definition": "Quantifying blood flow through the coronary circulation to assess microvascular function and identify cases of MVA.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Measurement_of_blood_flow_through_the_coronary_circulation",
+    "umls_mapping": {
+      "cui": "C0242485",
+      "canonical_name": "Measurement",
+      "score": 0.9883,
+      "types": [
+        "T169"
+      ],
+      "definition": "Annotation used to indicate the size or magnitude of something that was determined by comparison to a standard.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LNC",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.008",
+    "id": "DT001.003.008",
+    "name_en": "Microvascular Function Reserve",
+    "name_cn": "微血管功能储备",
+    "definition": "A measure of the ability of the microvasculature to respond to a stimulus, representing small vessel function.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Microvascular Function Reserve",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.003.009",
+    "id": "SS003.003.009",
+    "name_en": "Small_Vessel_Function",
+    "name_cn": "小血管功能",
+    "definition": "Assessment of the functional capacity of small vessels, particularly in response to stimuli",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Small_Vessel_Function",
+    "umls_mapping": {
+      "cui": "C0225988",
+      "canonical_name": "Structure of small blood vessel (organ)",
+      "score": 0.995,
+      "types": [
+        "T023"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.005",
+    "id": "DT001.002.005.005",
+    "name_en": "Quantitative Cardiovascular Magnetic Resonance",
+    "name_cn": "定量心血管磁共振",
+    "definition": "An emerging technique for the assessment of microvascular dysfunction through myocardial blood flow quantification.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Quantitative Cardiovascular Magnetic Resonance",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.002.006",
+    "id": "DT001.002.002.006",
+    "name_en": "Myocardial contrast echocardiography",
+    "name_cn": "心肌对比超声心动图",
+    "definition": "A technique for assessing myocardial perfusion through destruction-reperfusion imaging and analysis of time-intensity curves.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.002",
+    "alias": "",
+    "label": "Myocardial contrast echocardiography",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.009",
+    "id": "DT001.003.009",
+    "name_en": "Capillary_Blood_Flow",
+    "name_cn": "毛细血管血流",
+    "definition": "Assessment of blood flow through capillaries, which comprise 90% of the microvasculature.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Capillary_Blood_Flow",
+    "umls_mapping": {
+      "cui": "C0006901",
+      "canonical_name": "Blood capillaries",
+      "score": 0.8733,
+      "types": [
+        "T023"
+      ],
+      "definition": "The minute vessels that connect arterioles and venules.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.008.001",
+    "id": "DT001.003.008.001",
+    "name_en": "Reduced Myocardial Blood Flow Reserve",
+    "name_cn": "心肌血流储备减低",
+    "definition": "A condition where the myocardial blood flow reserve is reduced, indicating microcirculatory abnormalities.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.008",
+    "alias": "",
+    "label": "Reduced Myocardial Blood Flow Reserve",
+    "umls_mapping": {
+      "cui": "C0392756",
+      "canonical_name": "Reduced",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "Made less in size or amount or degree.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.010",
+    "id": "DT001.003.010",
+    "name_en": "Coronary Flow Reserve",
+    "name_cn": "冠状动脉血流储备",
+    "definition": "A measure of the ability of the coronary circulation to increase blood flow in response to increased myocardial demand, typically assessed during stress hyperaemia.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Coronary Flow Reserve",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.013",
+    "id": "PC003.013",
+    "name_en": "CAD_Risk_Evaluation",
+    "name_cn": "冠心病风险评估",
+    "definition": "评估患者冠心病风险的过程",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "CAD_Risk_Evaluation",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001.003",
+    "id": "SS003.001.003",
+    "name_en": "Systolic_Blood_Pressure",
+    "name_cn": "收缩压",
+    "definition": "The pressure in the arteries when the heart beats, measured in mmHg.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.001",
+    "alias": "",
+    "label": "Systolic_Blood_Pressure",
+    "umls_mapping": {
+      "cui": "C0488055",
+      "canonical_name": "Intravascular systolic:Pressure:Point in time:Arterial system:Quantitative",
+      "score": 0.9901,
+      "types": [
+        "T201"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "LNC-DE-AT",
+        "LNC-DE-DE",
+        "LNC-EL-GR",
+        "LNC-ES-AR",
+        "LNC-ES-MX",
+        "LNC-FR-CA",
+        "LNC-IT-IT",
+        "LNC-NL-NL",
+        "LNC-PT-BR",
+        "LNC-RU-RU",
+        "LNC-ZH-CN",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.011",
+    "id": "DT001.003.011",
+    "name_en": "Non-Invasive Stress Testing",
+    "name_cn": "无创负荷试验",
+    "definition": "A diagnostic procedure that evaluates myocardial ischemia without invasive techniques, often including methods like stress echocardiography, stress PET, or stress MRI.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Non-Invasive Stress Testing",
+    "umls_mapping": {
+      "cui": "C0205303",
+      "canonical_name": "Non-invasive",
+      "score": 0.9779,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.012",
+    "id": "DT001.003.012",
+    "name_en": "Coronary_Microcirculation",
+    "name_cn": "冠状动脉微循环",
+    "definition": "Assessment of the microvascular function in the coronary circulation",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Coronary_Microcirculation",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.010",
+    "id": "DT001.004.010",
+    "name_en": "Diameter_Reduction_Threshold",
+    "name_cn": "直径减少阈值",
+    "definition": "用于定义冠状动脉狭窄程度的视觉阈值，通常为50%或70%的直径减少。",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Diameter_Reduction_Threshold",
+    "umls_mapping": {
+      "cui": "C1301886",
+      "canonical_name": "Diameter (qualifier value)",
+      "score": 0.9676,
+      "types": [
+        "T081"
+      ],
+      "definition": "The length of a straight line passing through the center of a circle or sphere and connecting two points on the circumference.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.001.002.002",
+    "id": "DT001.002.001.002.002",
+    "name_en": "ST-segment changes interpretation",
+    "name_cn": "ST段变化解读",
+    "definition": "The assessment and interpretation of ST-segment changes during diagnostic tests such as exercise ECG.",
+    "type": "diagnostic_test",
+    "level": 4,
+    "parent_id": "DT001.002.001.002",
+    "alias": "",
+    "label": "ST-segment changes interpretation",
+    "umls_mapping": {
+      "cui": "C0392747",
+      "canonical_name": "Changing",
+      "score": 0.9852,
+      "types": [
+        "T169"
+      ],
+      "definition": "The act of alteration or modification; changed or altered in form or character.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.006",
+    "id": "DT001.002.005.006",
+    "name_en": "CT_Technology_64-slice_or_above",
+    "name_cn": "64排及以上CT技术",
+    "definition": "Contemporary CT technology with 64-slice technology or above, used for detailed imaging in procedures like CCTA.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "CT_Technology_64-slice_or_above",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.013",
+    "id": "DT001.003.013",
+    "name_en": "Abnormal Non-Invasive Testing",
+    "name_cn": "异常无创检查",
+    "definition": "无创检查结果异常",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Abnormal Non-Invasive Testing",
+    "umls_mapping": {
+      "cui": "C0205161",
+      "canonical_name": "Abnormal",
+      "score": 0.9744,
+      "types": [
+        "T033"
+      ],
+      "definition": "Deviating in any way from the state, position, structure, condition, behavior, or rule which is considered a norm.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.014",
+    "id": "DT001.003.014",
+    "name_en": "Index of Microcirculatory Resistance (IMR), Hyperemic Microvascular Resistance (HMR), Microvascular Resistance Reserve (MRR)",
+    "name_cn": "微循环阻力指数（IMR）、充血微血管阻力（HMR）、微血管阻力储备（MRR）",
+    "definition": "用于评估冠状动脉微循环功能的血流动力学指标",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Index of Microcirculatory Resistance (IMR), Hyperemic Microvascular Resistance (HMR), Microvascular Resistance Reserve (MRR)",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.014.001",
+    "id": "DT001.003.014.001",
+    "name_en": "Increased_IMR",
+    "name_cn": "增加的微循环阻力指数",
+    "definition": "微循环阻力指数（IMR）的增加，通常定义为IMR≥25",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.014",
+    "alias": "",
+    "label": "Increased_IMR",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.014.002",
+    "id": "DT001.003.014.002",
+    "name_en": "Doppler-derived_HMR",
+    "name_cn": "多普勒衍生的HMR",
+    "definition": "通过多普勒超声测量的血流动力学参数，用于评估冠状动脉微循环功能。",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.014",
+    "alias": "",
+    "label": "Doppler-derived_HMR",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.014.003",
+    "id": "DT001.003.014.003",
+    "name_en": "Myocardial resistance ratio",
+    "name_cn": "心肌阻力比",
+    "definition": "心肌阻力比，用于评估心肌微循环功能",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.014",
+    "alias": "",
+    "label": "Myocardial resistance ratio",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.007",
+    "id": "D001.001.006.001.001.007",
+    "name_en": "Lumen reduction <90%",
+    "name_cn": "管腔减少<90%",
+    "definition": "A diagnostic criterion indicating that the lumen reduction is less than 90%, used to diagnose microvascular spasm.",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Lumen reduction <90%",
+    "umls_mapping": {
+      "cui": "C0524461",
+      "canonical_name": "Structure of lumen of body system",
+      "score": 0.9897,
+      "types": [
+        "T030"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.006.001",
+    "id": "SS003.002.006.001",
+    "name_en": "Ischemic_ECG_Changes",
+    "name_cn": "缺血性心电图改变",
+    "definition": "心电图显示心肌缺血的改变，如ST段抬高或压低、T波倒置等",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "SS003.002.006",
+    "alias": "",
+    "label": "Ischemic_ECG_Changes",
+    "umls_mapping": {
+      "cui": "C0475224",
+      "canonical_name": "Ischemic",
+      "score": 0.9888,
+      "types": [
+        "T169"
+      ],
+      "definition": "insufficient blood supply to a body part",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.014.004",
+    "id": "DT001.003.014.004",
+    "name_en": "Coronary_Flow_Reserve_and_Index_of_Microcirculatory_Resistance",
+    "name_cn": "冠状动脉血流储备和微循环阻力指数",
+    "definition": "Assessment of coronary flow reserve and microcirculatory resistance to evaluate endothelial-independent vasodilation.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.014",
+    "alias": "",
+    "label": "Coronary_Flow_Reserve_and_Index_of_Microcirculatory_Resistance",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.004.001",
+    "id": "SS002.001.004.001",
+    "name_en": "Canadian Cardiovascular Society Classification",
+    "name_cn": "加拿大心血管学会分类",
+    "definition": "A grading system for effort-induced angina to quantify the threshold at which symptoms occur with physical activities.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "SS002.001.004",
+    "alias": "",
+    "label": "Canadian Cardiovascular Society Classification",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC001.004.001",
+    "id": "PC001.004.001",
+    "name_en": "Body Mass Index",
+    "name_cn": "体重指数",
+    "definition": "A measurement of body fat based on height and weight, commonly used in cardiovascular risk assessment",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC001.004",
+    "alias": "",
+    "label": "Body Mass Index",
+    "umls_mapping": {
+      "cui": "C0005893",
+      "canonical_name": "Body mass index procedure",
+      "score": 0.986,
+      "types": [
+        "T060"
+      ],
+      "definition": ""
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.005",
+    "id": "DT001.002.003.005",
+    "name_en": "Technetium-99m_based_tracers",
+    "name_cn": "锝-99m标记示踪剂",
+    "definition": "Radioactive tracers labeled with Technetium-99m, commonly used in radiopharmaceuticals for imaging.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Technetium-99m_based_tracers",
+    "umls_mapping": {
+      "cui": "C0303611",
+      "canonical_name": "technetium 99m",
+      "score": 0.9704,
+      "types": [
+        "T130"
+      ],
+      "definition": "One of the radioactive isotopes of technetium, a gamma/beta-emitter with a half life of 6 hours.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "DRUGBANK",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RCD",
+        "RXNORM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.006",
+    "id": "DT001.002.003.006",
+    "name_en": "Thallium_201",
+    "name_cn": "铊201",
+    "definition": "A radiopharmaceutical used in medical imaging, associated with higher radiation exposure.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Thallium_201",
+    "umls_mapping": {
+      "cui": "C0039738",
+      "canonical_name": "thallium",
+      "score": 0.9859,
+      "types": [
+        "T196"
+      ],
+      "definition": "A heavy, bluish white metal, atomic number 81, atomic weight [204.382; 204.385], symbol Tl.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "RCD",
+        "RXNORM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.007",
+    "id": "DT001.002.003.007",
+    "name_en": "Reduced Radionuclide Tracer Uptake and Retention",
+    "name_cn": "放射性核素示踪剂摄取和保留减少",
+    "definition": "A characteristic observed in myocardial hypoperfusion where there is relatively reduced uptake and retention of radionuclide tracer during vasodilatation or stress compared to rest.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Reduced Radionuclide Tracer Uptake and Retention",
+    "umls_mapping": {
+      "cui": "C0392756",
+      "canonical_name": "Reduced",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "Made less in size or amount or degree.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.011",
+    "id": "DT001.004.011",
+    "name_en": "Transient_Ischemic_Dilatation",
+    "name_cn": "短暂性缺血扩张",
+    "definition": "A non-perfusion predictor of severe obstructive coronary artery disease observed during cardiac stress testing.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Transient_Ischemic_Dilatation",
+    "umls_mapping": {
+      "cui": "C2986833",
+      "canonical_name": "Transient Ischemic Dilation",
+      "score": 0.9331,
+      "types": [
+        "T059"
+      ],
+      "definition": "The ratio of the left ventricular cavity volume during stress to the left ventricular cavity volume at rest.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.013",
+    "id": "SS003.002.013",
+    "name_en": "Reduced Post-Stress Ejection Fraction",
+    "name_cn": "应激后射血分数降低",
+    "definition": "A decrease in the ejection fraction observed after stress, which is an important non-perfusion predictor of severe obstructive coronary artery disease.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Reduced Post-Stress Ejection Fraction",
+    "umls_mapping": {
+      "cui": "C0392756",
+      "canonical_name": "Reduced",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "Made less in size or amount or degree.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.005",
+    "id": "PC002.005",
+    "name_en": "History_Taking",
+    "name_cn": "病史采集",
+    "definition": "The process of obtaining detailed information from a patient about their medical history for diagnostic purposes.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "PC002",
+    "alias": "",
+    "label": "History_Taking",
+    "umls_mapping": {
+      "cui": "C0262512",
+      "canonical_name": "History of present illness (finding)",
+      "score": 0.9943,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "COSTAR",
+        "LNC",
+        "MEDCIN",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.006",
+    "id": "DT001.006",
+    "name_en": "Diagnostic Algorithm (2023 ESC Guidelines)",
+    "name_cn": "诊断算法（2023 ESC指南）",
+    "definition": "A diagnostic algorithm recommended by the 2023 ESC Guidelines for the management of patients with acute coronary syndromes to rule out an acute event.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "DT001",
+    "alias": "",
+    "label": "Diagnostic Algorithm (2023 ESC Guidelines)",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS001.001",
+    "id": "SS001.001",
+    "name_en": "Physical_Examination",
+    "name_cn": "体格检查",
+    "definition": "A thorough examination of the body to assess overall health and detect potential medical conditions.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "SS001",
+    "alias": "",
+    "label": "Physical_Examination",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.015",
+    "id": "PC003.015",
+    "name_en": "Cardiovascular_Health_Assessment",
+    "name_cn": "心血管健康评估",
+    "definition": "A comprehensive evaluation of cardiovascular health including physical examination and diagnostic tests to assess risk factors and potential diseases.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Cardiovascular_Health_Assessment",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.001.005",
+    "id": "SS003.001.005",
+    "name_en": "Blood_Pressure_Measurement",
+    "name_cn": "血压测量",
+    "definition": "The process of measuring the blood pressure",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.001",
+    "alias": "",
+    "label": "Blood_Pressure_Measurement",
+    "umls_mapping": {
+      "cui": "C0005824",
+      "canonical_name": "Blood pressure determination",
+      "score": 0.9866,
+      "types": [
+        "T058"
+      ],
+      "definition": "Techniques used for measuring BLOOD PRESSURE.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCC",
+        "CHV",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.004.002",
+    "id": "PC001.004.002",
+    "name_en": "BMI_calculation",
+    "name_cn": "体重指数计算",
+    "definition": "Assessment of body mass index (BMI) through calculation based on height and weight measurements",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC001.004",
+    "alias": "",
+    "label": "BMI_calculation",
+    "umls_mapping": {
+      "cui": "C0005893",
+      "canonical_name": "Body mass index procedure",
+      "score": 0.9943,
+      "types": [
+        "T060"
+      ],
+      "definition": ""
+    }
+  },
+  {
+    "ontology_id": "SS001.001.001",
+    "id": "SS001.001.001",
+    "name_en": "Auscultation",
+    "name_cn": "听诊",
+    "definition": "A diagnostic procedure that involves listening to internal body sounds, typically using a stethoscope.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS001.001",
+    "alias": "",
+    "label": "Auscultation",
+    "umls_mapping": {
+      "cui": "C0004339",
+      "canonical_name": "Auscultation",
+      "score": 0.9628,
+      "types": [
+        "T060"
+      ],
+      "definition": "Act of listening for sounds within the body.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.015",
+    "id": "SS003.002.015",
+    "name_en": "Dynamic_ST_segment_changes",
+    "name_cn": "动态ST段改变",
+    "definition": "ECG recording of dynamic ST-segment changes during ongoing angina, indicative of transient myocardial ischemia.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Dynamic_ST_segment_changes",
+    "umls_mapping": {
+      "cui": "C0441635",
+      "canonical_name": "Anatomical segmentation",
+      "score": 0.9593,
+      "types": [
+        "T082"
+      ],
+      "definition": "One of the parts into which something naturally divides.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "FMA",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.016",
+    "id": "SS003.002.016",
+    "name_en": "ECG_Changes",
+    "name_cn": "心电图改变",
+    "definition": "Electrocardiogram changes indicating possible cardiac issues such as ischemia.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "ECG_Changes",
+    "umls_mapping": {
+      "cui": "C1623258",
+      "canonical_name": "Electrocardiography",
+      "score": 0.9903,
+      "types": [
+        "T060"
+      ],
+      "definition": "Recording of the moment-to-moment electromotive forces of the HEART as projected onto various sites on the body's surface, delineated as a scalar function of time. The recording is monitored by a tracing on slow moving chart paper or by observing it on a cardioscope, which is a CATHODE RAY TUBE DISPLAY."
+    }
+  },
+  {
+    "ontology_id": "DT001.002.001.004",
+    "id": "DT001.002.001.004",
+    "name_en": "Ambulatory ECG Monitoring",
+    "name_cn": "动态心电图监测",
+    "definition": "A continuous ECG recording over a period of time to detect cardiac abnormalities.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.001",
+    "alias": "",
+    "label": "Ambulatory ECG Monitoring",
+    "umls_mapping": {
+      "cui": "C0439841",
+      "canonical_name": "Ambulatory - qualifier value",
+      "score": 0.9752,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.004.009",
+    "id": "DT001.001.004.009",
+    "name_en": "Oral_Glucose_Tolerance_Test",
+    "name_cn": "口服葡萄糖耐量试验",
+    "definition": "A method to evaluate the body's ability to metabolize glucose by measuring blood glucose levels after ingestion of a glucose-rich drink.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.004",
+    "alias": "",
+    "label": "Oral_Glucose_Tolerance_Test",
+    "umls_mapping": {
+      "cui": "C0178665",
+      "canonical_name": "glucose tolerance",
+      "score": 0.8858,
+      "types": [
+        "T039"
+      ],
+      "definition": "physiological ability of the body to properly metabolize glucose.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LNC"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.003.005",
+    "id": "DT001.001.003.005",
+    "name_en": "Lipoprotein(a)",
+    "name_cn": "脂蛋白(a)",
+    "definition": "A lipoprotein particle that is a risk factor for cardiovascular disease",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.003",
+    "alias": "",
+    "label": "Lipoprotein(a)",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.001.004.010",
+    "id": "DT001.001.004.010",
+    "name_en": "Renal_Function",
+    "name_cn": "肾功能",
+    "definition": "评估肾脏功能的检查",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.004",
+    "alias": "",
+    "label": "Renal_Function",
+    "umls_mapping": {
+      "cui": "C0232804",
+      "canonical_name": "Renal function",
+      "score": 0.9652,
+      "types": [
+        "T042"
+      ],
+      "definition": "Pertaining to the physiologic processes of the kidneys.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "CSP",
+        "LNC",
+        "MTH",
+        "NCI",
+        "NOC",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.002.004",
+    "id": "DT001.001.002.004",
+    "name_en": "Fibrinogen",
+    "name_cn": "纤维蛋白原",
+    "definition": "A blood plasma protein that is essential for blood clotting.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.002",
+    "alias": "",
+    "label": "Fibrinogen",
+    "umls_mapping": {
+      "cui": "C0016006",
+      "canonical_name": "fibrinogen",
+      "score": 0.9869,
+      "types": [
+        "T116",
+        "T121",
+        "T123"
+      ],
+      "definition": "Plasma glycoprotein clotted by thrombin, composed of a dimer of three non-identical pairs of polypeptide chains (alpha, beta, gamma) held together by disulfide bonds. Fibrinogen clotting is a sol-gel change involving complex molecular arrangements: whereas fibrinogen is cleaved by thrombin to form polypeptides A and B, the proteolytic action of other enzymes yields different fibrinogen degradation products.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CPM",
+        "CSP",
+        "DRUGBANK",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MMSL",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.001.002.005",
+    "id": "DT001.001.002.005",
+    "name_en": "High-Sensitivity C-Reactive Protein (hs-CRP)",
+    "name_cn": "高敏C反应蛋白（hs-CRP）",
+    "definition": "A blood test marker used to measure low levels of inflammation and predict cardiovascular disease risk.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.001.002",
+    "alias": "",
+    "label": "High-Sensitivity C-Reactive Protein (hs-CRP)",
+    "umls_mapping": {
+      "cui": "C0006560",
+      "canonical_name": "C-reactive protein",
+      "score": 0.8879,
+      "types": [
+        "T116",
+        "T129"
+      ],
+      "definition": "A plasma protein that circulates in increased amounts during inflammation and after tissue damage. C-Reactive Protein measured by more sensitive methods often for coronary heart disease risk assessment is referred to as High Sensitivity C-Reactive Protein (hs-CRP).",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPM",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.011",
+    "id": "DT001.002.004.011",
+    "name_en": "Plaque_Features",
+    "name_cn": "斑块特征",
+    "definition": "通过冠状动脉CT血管成像（CCTA）等技术观察到的冠状动脉斑块特征",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.004",
+    "alias": "",
+    "label": "Plaque_Features",
+    "umls_mapping": {
+      "cui": "C0011389",
+      "canonical_name": "Dental Plaque",
+      "score": 0.962,
+      "types": [
+        "T047"
+      ],
+      "definition": "A film that attaches to teeth, often causing DENTAL CARIES and GINGIVITIS. It is composed of MUCINS, secreted from salivary glands, and microorganisms.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "LCH",
+        "LNC",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.006",
+    "id": "DT001.002.006",
+    "name_en": "Contemporary CT Technology",
+    "name_cn": "现代CT技术",
+    "definition": "Contemporary CT technology refers to advanced CT imaging techniques, such as 64-slice technology or above, used for detailed examinations like CCTA.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.002",
+    "alias": "",
+    "label": "Contemporary CT Technology",
+    "umls_mapping": {
+      "cui": "C0016492",
+      "canonical_name": "Food Technology",
+      "score": 0.8463,
+      "types": [
+        "T090"
+      ],
+      "definition": "The application of knowledge to the food industry."
+    }
+  },
+  {
+    "ontology_id": "DT001.002.007",
+    "id": "DT001.002.007",
+    "name_en": "Compromised_Image_Quality",
+    "name_cn": "图像质量受损",
+    "definition": "The reduction in the quality of medical imaging, often due to factors like patient obesity or chronic obstructive pulmonary disease.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.002",
+    "alias": "",
+    "label": "Compromised_Image_Quality",
+    "umls_mapping": {
+      "cui": "C0806487",
+      "canonical_name": "Image Quality",
+      "score": 0.996,
+      "types": [
+        "T080"
+      ],
+      "definition": "A characteristic of an image that measures its perceived quality, especially as compared to an ideal or perfect image.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.013",
+    "id": "SS003.003.013",
+    "name_en": "Regional Wall Thickening Abnormality",
+    "name_cn": "区域性室壁增厚异常",
+    "definition": "A marker of ischemia observed in stress echocardiography, indicating abnormal thickening of the heart wall during stress.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Regional Wall Thickening Abnormality",
+    "umls_mapping": {
+      "cui": "C0205147",
+      "canonical_name": "regional",
+      "score": 0.9697,
+      "types": [
+        "T082"
+      ],
+      "definition": "Of or belonging to a broader area or region of the body.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.010.001",
+    "id": "DT001.003.010.001",
+    "name_en": "Coronary Flow Velocity Reserve",
+    "name_cn": "冠状动脉血流速度储备",
+    "definition": "A measurement based on Doppler flow velocity recordings at rest and during stress in the left anterior descending (LAD) artery, used to assess coronary artery function.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "Coronary Flow Velocity Reserve",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.015",
+    "id": "DT001.003.015",
+    "name_en": "Reduced Coronary Flow Velocity Reserve",
+    "name_cn": "降低的冠状动脉血流速度储备",
+    "definition": "A reduction in the coronary flow velocity reserve, often indicating coronary microcirculatory dysfunction.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Reduced Coronary Flow Velocity Reserve",
+    "umls_mapping": {
+      "cui": "C0392756",
+      "canonical_name": "Reduced",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "Made less in size or amount or degree.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.018",
+    "id": "SS003.002.018",
+    "name_en": "Abnormal LV Contractile Reserve",
+    "name_cn": "左心室收缩储备异常",
+    "definition": "左心室在应激状态下收缩功能储备能力的异常表现",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Abnormal LV Contractile Reserve",
+    "umls_mapping": {
+      "cui": "C0205161",
+      "canonical_name": "Abnormal",
+      "score": 0.9744,
+      "types": [
+        "T033"
+      ],
+      "definition": "Deviating in any way from the state, position, structure, condition, behavior, or rule which is considered a norm.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.007",
+    "id": "DT001.002.005.007",
+    "name_en": "Regional_Myocardial_Blood_Flow",
+    "name_cn": "区域性心肌血流",
+    "definition": "The blood flow to specific regions of the myocardium, often assessed in cardiovascular imaging studies.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Regional_Myocardial_Blood_Flow",
+    "umls_mapping": {
+      "cui": "C0205147",
+      "canonical_name": "regional",
+      "score": 0.9697,
+      "types": [
+        "T082"
+      ],
+      "definition": "Of or belonging to a broader area or region of the body.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.008",
+    "id": "DT001.002.003.008",
+    "name_en": "Technetium-99m",
+    "name_cn": "锝-99m",
+    "definition": "A radioactive isotope used in medical imaging.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Technetium-99m",
+    "umls_mapping": {
+      "cui": "C0303611",
+      "canonical_name": "technetium 99m",
+      "score": 0.9704,
+      "types": [
+        "T130"
+      ],
+      "definition": "One of the radioactive isotopes of technetium, a gamma/beta-emitter with a half life of 6 hours.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "DRUGBANK",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RCD",
+        "RXNORM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.016",
+    "id": "DT001.003.016",
+    "name_en": "Pharmacological_Stressors",
+    "name_cn": "药物负荷试验",
+    "definition": "使用药物（如多巴酚丁胺）诱导心肌缺血以进行诊断的检查方法",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Pharmacological_Stressors",
+    "umls_mapping": {
+      "cui": "C0031330",
+      "canonical_name": "Pharmacology",
+      "score": 0.9776,
+      "types": [
+        "T091"
+      ],
+      "definition": "The study of the origin, nature, properties, and actions of drugs and their effects on living organisms.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.009",
+    "id": "DT001.002.003.009",
+    "name_en": "Cadmium-Zinc-Telluride Semiconductor Detector Technology",
+    "name_cn": "镉锌碲半导体探测器技术",
+    "definition": "A newer-generation SPECT camera technology that enables reduced radiation dose exposure, shorter acquisition time, and increased diagnostic accuracy.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Cadmium-Zinc-Telluride Semiconductor Detector Technology",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.005.008",
+    "id": "DT001.002.005.008",
+    "name_en": "Non-contrast-enhanced CT",
+    "name_cn": "非增强CT",
+    "definition": "A type of computed tomography scan performed without the use of contrast agents, often used for attenuation correction and additional coronary artery calcium scoring.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Non-contrast-enhanced CT",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.003.010",
+    "id": "DT001.002.003.010",
+    "name_en": "Myocardial Blood Flow",
+    "name_cn": "心肌血流量",
+    "definition": "Quantitative measure of blood flow through the myocardium, typically assessed using PET-CT imaging.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Myocardial Blood Flow",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.010.002",
+    "id": "DT001.003.010.002",
+    "name_en": "MBF during hyperaemia",
+    "name_cn": "充血状态下的心肌血流量",
+    "definition": "Measurement of myocardial blood flow during hyperaemia, typically obtained through PET-CT myocardial perfusion imaging.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "MBF during hyperaemia",
+    "umls_mapping": {
+      "cui": "C0020452",
+      "canonical_name": "Hyperemia",
+      "score": 0.978,
+      "types": [
+        "T047"
+      ],
+      "definition": "The presence of an increased amount of blood in a body part or an organ leading to congestion or engorgement of blood vessels. Hyperemia can be due to increase of blood flow into the area (active or arterial), or due to obstruction of outflow of blood from the area (passive or venous).",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NANDA-I",
+        "NCI",
+        "OMIM",
+        "RCDAE",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.010.003",
+    "id": "DT001.003.010.003",
+    "name_en": "MBF Reserve",
+    "name_cn": "心肌血流储备",
+    "definition": "A measurement obtained during myocardial perfusion imaging that indicates the ratio of myocardial blood flow during hyperaemia to myocardial blood flow at rest.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "MBF Reserve",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.010.004",
+    "id": "DT001.003.010.004",
+    "name_en": "Relative_Myocardial_Blood_Flow_Reserve",
+    "name_cn": "相对心肌血流量储备",
+    "definition": "A measurement obtained during myocardial perfusion imaging that compares blood flow during hyperaemia to rest, providing diagnostic and prognostic value.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "Relative_Myocardial_Blood_Flow_Reserve",
+    "umls_mapping": {
+      "cui": "C0080103",
+      "canonical_name": "Relative (related person)",
+      "score": 0.9884,
+      "types": [
+        "T099"
+      ],
+      "definition": "A person related by blood or marriage.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHNOR",
+        "MSHPOR",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.010.005",
+    "id": "DT001.003.010.005",
+    "name_en": "Low MBF Reserve",
+    "name_cn": "低心肌血流储备",
+    "definition": "A measurement indicating reduced myocardial blood flow reserve, which is predictive of mortality and can guide treatment decisions such as revascularization.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "Low MBF Reserve",
+    "umls_mapping": {
+      "cui": "C0205251",
+      "canonical_name": "low",
+      "score": 0.9945,
+      "types": [
+        "T080"
+      ],
+      "definition": "A minimum level or position or degree; less than normal in degree, intensity or amount.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.017",
+    "id": "DT001.003.017",
+    "name_en": "Impaired Myocardial Blood Flow",
+    "name_cn": "心肌血流受损",
+    "definition": "A condition where the blood flow to the myocardium is reduced, often measured using quantitative techniques such as PET-CT myocardial perfusion imaging.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Impaired Myocardial Blood Flow",
+    "umls_mapping": {
+      "cui": "C0221099",
+      "canonical_name": "Impaired",
+      "score": 0.9898,
+      "types": [
+        "T169"
+      ],
+      "definition": "Loss or abnormality of psychological, physiological, or anatomic structure or function.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.004.001",
+    "id": "DT001.002.003.004.001",
+    "name_en": "quantitative myocardial blood flow assessment",
+    "name_cn": "定量心肌血流评估",
+    "definition": "通过心脏磁共振（CMR）方法评估心肌血流量的定量检查",
+    "type": "diagnostic_test",
+    "level": 4,
+    "parent_id": "DT001.002.003.004",
+    "alias": "",
+    "label": "quantitative myocardial blood flow assessment",
+    "umls_mapping": {
+      "cui": "C0392762",
+      "canonical_name": "Quantitative (qualifier value)",
+      "score": 0.9918,
+      "types": [
+        "T081"
+      ],
+      "definition": "Capable of being estimated or expressed with numeric values."
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.009",
+    "id": "DT001.002.005.009",
+    "name_en": "Stress_CMR",
+    "name_cn": "负荷心脏磁共振",
+    "definition": "A cardiac magnetic resonance imaging performed under stress conditions to assess myocardial ischemia and other cardiac functions.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Stress_CMR",
+    "umls_mapping": {
+      "cui": "C0038435",
+      "canonical_name": "Stress",
+      "score": 0.9959,
+      "types": [
+        "T033"
+      ],
+      "definition": "The negative mental, emotional, and physical reactions that occur when environmental stressors are perceived as exceeding the individual's adaptive capacities.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.010.006",
+    "id": "DT001.003.010.006",
+    "name_en": "MFR_less_than_2.0",
+    "name_cn": "心肌血流储备低于2.0",
+    "definition": "An MFR of less than 2.0 is often considered abnormal for PET.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "MFR_less_than_2.0",
+    "umls_mapping": {
+      "cui": "C0695600",
+      "canonical_name": "Myofascial release",
+      "score": 0.9971,
+      "types": [
+        "T061"
+      ],
+      "definition": "A massage therapy which focuses on releasing MUSCLE TIGHTNESS often used to relieve muscular pain from myofascial tissues (e.g., MYOFASCIAL PAIN SYNDROME)."
+    }
+  },
+  {
+    "ontology_id": "DT001.003.010.007",
+    "id": "DT001.003.010.007",
+    "name_en": "MBF_Measurement",
+    "name_cn": "心肌血流测量",
+    "definition": "Measurement of myocardial blood flow at rest and during hyperaemia to calculate MBF reserve.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "MBF_Measurement",
+    "umls_mapping": {
+      "cui": "C0242485",
+      "canonical_name": "Measurement",
+      "score": 0.9883,
+      "types": [
+        "T169"
+      ],
+      "definition": "Annotation used to indicate the size or magnitude of something that was determined by comparison to a standard.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LNC",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.018",
+    "id": "DT001.003.018",
+    "name_en": "Reduced Myocardial Blood Flow Reserve by Myocardial Contrast Echocardiography",
+    "name_cn": "心肌对比超声心动图显示的心肌血流储备减少",
+    "definition": "A diagnostic finding indicating microcirculatory abnormalities observed through myocardial contrast echocardiography when obstructive coronary artery disease is absent.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Reduced Myocardial Blood Flow Reserve by Myocardial Contrast Echocardiography",
+    "umls_mapping": {
+      "cui": "C0392756",
+      "canonical_name": "Reduced",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "Made less in size or amount or degree.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.019",
+    "id": "DT001.003.019",
+    "name_en": "Transthoracic Doppler Evaluation",
+    "name_cn": "经胸多普勒评估",
+    "definition": "A diagnostic procedure using Doppler ultrasound to assess blood flow in the coronary arteries, particularly the LAD artery, to evaluate coronary flow reserve and other hemodynamic parameters.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Transthoracic Doppler Evaluation",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.020",
+    "id": "DT001.003.020",
+    "name_en": "Coronary_Blood_Flow",
+    "name_cn": "冠状动脉血流",
+    "definition": "The blood flow in the coronary arteries, which supply the heart muscle with oxygen and nutrients.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Coronary_Blood_Flow",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.012",
+    "id": "DT001.004.012",
+    "name_en": "iFR",
+    "name_cn": "瞬时无波型比率",
+    "definition": "Instantaneous wave-free ratio, a method to assess coronary artery stenosis functionally",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "iFR",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.021",
+    "id": "PC003.021",
+    "name_en": "Risk_Assessment",
+    "name_cn": "风险评估",
+    "definition": "评估患者潜在的健康风险或疾病发展的可能性",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Risk_Assessment",
+    "umls_mapping": {
+      "cui": "C0086930",
+      "canonical_name": "Risk Assessment",
+      "score": 0.9709,
+      "types": [
+        "T058"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "ICNP",
+        "LNC",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.008",
+    "id": "D001.001.006.001.001.008",
+    "name_en": "Diameter_Stenosis",
+    "name_cn": "直径狭窄",
+    "definition": "The narrowing of the diameter of a blood vessel, typically measured during imaging examinations.",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Diameter_Stenosis",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.009",
+    "id": "D001.001.006.001.001.009",
+    "name_en": "Coronary_Stenosis",
+    "name_cn": "冠状动脉狭窄",
+    "definition": "Coronary artery narrowing percentage, often assessed for hemodynamic significance",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Coronary_Stenosis",
+    "umls_mapping": {
+      "cui": "C0344684",
+      "canonical_name": "Congenital coronary sinus stenosis",
+      "score": 0.8531,
+      "types": [
+        "T019"
+      ],
+      "definition": "A rare congenital anomaly of the coronary sinus characterized by its stenosis at the ostium, lumen, or origin, typically leading to dilation of the vessel. Symptoms are variable and can include palpitations, tachypnea, dyspnea, chest pain, fatigue, and cyanosis. The malformation may be associated with other cardiac anomalies, such as coronary artery-coronary sinus fistula, unroofed coronary sinus, atrial septal defect, coronary sinus-left atrium fistula, total anomalous pulmonary venous connection, and ventricular septal defect.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "ORPHANET",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.016.002.001",
+    "id": "D001.016.002.001",
+    "name_en": "Haemodynamically_Relevant_Stenosis",
+    "name_cn": "血流动力学相关狭窄",
+    "definition": "Stenosis that has significant impact on blood flow dynamics",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "D001.016.002",
+    "alias": "",
+    "label": "Haemodynamically_Relevant_Stenosis",
+    "umls_mapping": {
+      "cui": "C0678234",
+      "canonical_name": "Stenosis Morphology",
+      "score": 0.9955,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.013",
+    "id": "D001.001.006.001.013",
+    "name_en": "Stenosis_Severity",
+    "name_cn": "狭窄程度",
+    "definition": "The degree of narrowing in blood vessels, often measured as a percentage of the vessel's diameter.",
+    "type": "diagnostic_test",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Stenosis_Severity",
+    "umls_mapping": {
+      "cui": "C0678234",
+      "canonical_name": "Stenosis Morphology",
+      "score": 0.9955,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.016.002.003",
+    "id": "D001.016.002.003",
+    "name_en": "Hemodynamic_Relevance",
+    "name_cn": "血流动力学相关性",
+    "definition": "The significance of a stenosis or other cardiovascular condition in terms of its impact on blood flow dynamics.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "D001.016.002",
+    "alias": "",
+    "label": "Hemodynamic_Relevance",
+    "umls_mapping": {
+      "cui": "C0019010",
+      "canonical_name": "Hemodynamics",
+      "score": 0.9717,
+      "types": [
+        "T042"
+      ],
+      "definition": "The movement and the forces involved in the movement of the blood through the CARDIOVASCULAR SYSTEM.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.016.002.004",
+    "id": "D001.016.002.004",
+    "name_en": "Left_Main_Stenosis_Cutoff",
+    "name_cn": "左主干狭窄临界值",
+    "definition": "The optimal angiographic cut-off value for functionally non-significant stenosis in the left main artery.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "D001.016.002",
+    "alias": "",
+    "label": "Left_Main_Stenosis_Cutoff",
+    "umls_mapping": {
+      "cui": "C1442160",
+      "canonical_name": "Cutoff",
+      "score": 0.9798,
+      "types": [
+        "T169"
+      ],
+      "definition": "A designated limit beyond which something cannot function, must be terminated, or no longer applies.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.016.003",
+    "id": "D001.016.003",
+    "name_en": "Optimal Angiographic Cut-off for Small Vessels",
+    "name_cn": "小血管最佳血管造影临界值",
+    "definition": "The optimal angiographic cut-off value for functionally non-significant stenosis in small vessels, which is 55% diameter stenosis.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "D001.016",
+    "alias": "",
+    "label": "Optimal Angiographic Cut-off for Small Vessels",
+    "umls_mapping": {
+      "cui": "C3260738",
+      "canonical_name": "Outpatient Physical Therapy Improvement in Movement and Assessment Log (OPTIMAL) Survey",
+      "score": 0.9846,
+      "types": [
+        "T170"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.010",
+    "id": "D001.001.006.001.001.010",
+    "name_en": "Diameter_Stenosis",
+    "name_cn": "直径狭窄",
+    "definition": "A measurement of the percentage of narrowing in the diameter of an artery.",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Diameter_Stenosis",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.013",
+    "id": "DT001.004.013",
+    "name_en": "R3F study",
+    "name_cn": "R3F研究",
+    "definition": "A study related to the integration of FFR to ICA and its impact on treatment reclassification.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "R3F study",
+    "umls_mapping": {
+      "cui": "C0557651",
+      "canonical_name": "Room of building - Study",
+      "score": 0.9774,
+      "types": [
+        "T073"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.007",
+    "id": "DT001.007",
+    "name_en": "POST-IT_study",
+    "name_cn": "POST-IT研究",
+    "definition": "A clinical study involving the integration of FFR to ICA for treatment reclassification in coronary cases.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "DT001",
+    "alias": "",
+    "label": "POST-IT_study",
+    "umls_mapping": {
+      "cui": "C0557651",
+      "canonical_name": "Room of building - Study",
+      "score": 0.9774,
+      "types": [
+        "T073"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.014",
+    "id": "DT001.004.014",
+    "name_en": "RIPCORD study",
+    "name_cn": "RIPCORD研究",
+    "definition": "A clinical study related to the integration of FFR to ICA and treatment reclassification.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "RIPCORD study",
+    "umls_mapping": {
+      "cui": "C0557651",
+      "canonical_name": "Room of building - Study",
+      "score": 0.9774,
+      "types": [
+        "T073"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.015",
+    "id": "DT001.004.015",
+    "name_en": "DEFINE-REAL study",
+    "name_cn": "DEFINE-REAL研究",
+    "definition": "A study related to the integration of FFR to ICA and its impact on treatment reclassification.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "DEFINE-REAL study",
+    "umls_mapping": {
+      "cui": "C0557651",
+      "canonical_name": "Room of building - Study",
+      "score": 0.9774,
+      "types": [
+        "T073"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.016",
+    "id": "DT001.004.016",
+    "name_en": "Quantitative Flow Ratio",
+    "name_cn": "定量血流比",
+    "definition": "A 3D angiographically derived coronary pressure parameter used to assess functional stenosis in coronary arteries.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Quantitative Flow Ratio",
+    "umls_mapping": {
+      "cui": "C0392762",
+      "canonical_name": "Quantitative (qualifier value)",
+      "score": 0.8589,
+      "types": [
+        "T081"
+      ],
+      "definition": "Capable of being estimated or expressed with numeric values.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPM",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.002.007",
+    "id": "DT001.002.002.007",
+    "name_en": "Doppler",
+    "name_cn": "多普勒检查",
+    "definition": "A method for measuring blood flow using the Doppler effect, commonly used in echocardiography or vascular studies.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.002",
+    "alias": "",
+    "label": "Doppler",
+    "umls_mapping": {
+      "cui": "C0554756",
+      "canonical_name": "Doppler studies",
+      "score": 0.9784,
+      "types": [
+        "T060"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICPC2P",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MTH",
+        "RCD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.017",
+    "id": "DT001.004.017",
+    "name_en": "Pressure_and_Flow_Measurement",
+    "name_cn": "压力和流量测量",
+    "definition": "The combined measurements of pressure and flow, often measured by Doppler or thermodilution.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Pressure_and_Flow_Measurement",
+    "umls_mapping": {
+      "cui": "C0033095",
+      "canonical_name": "Pressure- physical agent",
+      "score": 0.9924,
+      "types": [
+        "T067"
+      ],
+      "definition": "A type of stress exerted uniformly in all directions. Its measure is the force exerted per unit area. (McGraw-Hill Dictionary of Scientific and Technical Terms, 6th ed)",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.018",
+    "id": "DT001.004.018",
+    "name_en": "Thermodilution",
+    "name_cn": "热稀释法",
+    "definition": "A method for measuring blood flow, typically cardiac output, by injecting a cold solution into the bloodstream and measuring the temperature change downstream.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Thermodilution",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.019",
+    "id": "DT001.004.019",
+    "name_en": "FFR and CFR Concordance",
+    "name_cn": "FFR和CFR一致性",
+    "definition": "Fractional Flow Reserve (FFR) and Coronary Flow Reserve (CFR) measurements that are both normal and concordant, indicating no significant coronary ischemia.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "FFR and CFR Concordance",
+    "umls_mapping": {
+      "cui": "C1305363",
+      "canonical_name": "Catalytic fraction",
+      "score": 0.978,
+      "types": [
+        "T081"
+      ],
+      "definition": "The quotient of the component catalytic activity and the total catalytic activity.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.020",
+    "id": "DT001.004.020",
+    "name_en": "FFR_CFR_Discordance",
+    "name_cn": "FFR与CFR结果不一致",
+    "definition": "Fractional Flow Reserve (FFR)和Coronary Flow Reserve (CFR)测量结果不一致的情况",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "FFR_CFR_Discordance",
+    "umls_mapping": {
+      "cui": "C1305363",
+      "canonical_name": "Catalytic fraction",
+      "score": 0.978,
+      "types": [
+        "T081"
+      ],
+      "definition": "The quotient of the component catalytic activity and the total catalytic activity.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.018.001",
+    "id": "DT001.004.018.001",
+    "name_en": "Continuous_Thermodilution_Technique",
+    "name_cn": "持续热稀释技术",
+    "definition": "A technique used to measure blood flow by continuously injecting a thermal indicator and monitoring the temperature change.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.004.018",
+    "alias": "",
+    "label": "Continuous_Thermodilution_Technique",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.010.008",
+    "id": "DT001.003.010.008",
+    "name_en": "Absolute_Coronary_Flow",
+    "name_cn": "绝对冠状动脉血流",
+    "definition": "通过冠状动脉的血流量的绝对测量值",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "Absolute_Coronary_Flow",
+    "umls_mapping": {
+      "cui": "C0205344",
+      "canonical_name": "Absolute",
+      "score": 0.976,
+      "types": [
+        "T080"
+      ],
+      "definition": "Complete and without restriction or qualification; something that does not depend on anything else; not relative.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.014.005",
+    "id": "DT001.003.014.005",
+    "name_en": "Microvascular Resistance Reserve (MRR)",
+    "name_cn": "微血管阻力储备",
+    "definition": "A novel index for assessing coronary microvascular function.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.014",
+    "alias": "",
+    "label": "Microvascular Resistance Reserve (MRR)",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.021",
+    "id": "DT001.003.021",
+    "name_en": "Coronary Flow Capacity",
+    "name_cn": "冠状动脉血流能力",
+    "definition": "An index that integrates hyperaemic flow and coronary flow reserve (CFR) for assessing coronary microvascular function.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Coronary Flow Capacity",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.022",
+    "id": "DT001.003.022",
+    "name_en": "Hyperaemic flow",
+    "name_cn": "充血血流",
+    "definition": "A measure of blood flow under hyperaemic conditions, often used in assessing coronary microvascular function.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Hyperaemic flow",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.021",
+    "id": "DT001.004.021",
+    "name_en": "Coronary_Pressure_Thresholds",
+    "name_cn": "冠状动脉压力阈值",
+    "definition": "Specific pressure thresholds used in clinical decision-making for coronary artery disease, such as 0.80 for FFR and 0.89 for iFR.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Coronary_Pressure_Thresholds",
+    "umls_mapping": {
+      "cui": "C0449864",
+      "canonical_name": "Threshold",
+      "score": 0.9742,
+      "types": [
+        "T080"
+      ],
+      "definition": "The lowest limit at which something becomes detectable or relevant.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "NCI",
+        "PSY",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.013.001",
+    "id": "D001.001.006.001.013.001",
+    "name_en": "Epicardial_Artery_Stenosis_Severity",
+    "name_cn": "心外膜动脉狭窄严重程度",
+    "definition": "用于评估心外膜动脉狭窄程度的临床指标",
+    "type": "diagnostic_test",
+    "level": 5,
+    "parent_id": "D001.001.006.001.013",
+    "alias": "",
+    "label": "Epicardial_Artery_Stenosis_Severity",
+    "umls_mapping": {
+      "cui": "C0439793",
+      "canonical_name": "Severities",
+      "score": 0.9799,
+      "types": [
+        "T080"
+      ],
+      "definition": "Used of the degree of something undesirable e.g. pain or weather; also, strictness.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.015",
+    "id": "SS003.003.015",
+    "name_en": "Endothelium-Independent Vasodilation",
+    "name_cn": "内皮非依赖性血管舒张",
+    "definition": "Assessment of vasodilation that occurs independent of endothelial function, often through direct action on vascular smooth muscle cells.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Endothelium-Independent Vasodilation",
+    "umls_mapping": {
+      "cui": "C0042401",
+      "canonical_name": "Vasodilation",
+      "score": 0.9632,
+      "types": [
+        "T042"
+      ],
+      "definition": "The physiological widening of BLOOD VESSELS by relaxing the underlying VASCULAR SMOOTH MUSCLE.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "GO",
+        "ICPC2ICD10ENG",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NANDA-I",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.018.002",
+    "id": "DT001.004.018.002",
+    "name_en": "Bolus_Thermodilution",
+    "name_cn": "热稀释法",
+    "definition": "A method for measuring cardiac output by injecting a cold bolus and measuring temperature changes downstream.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.004.018",
+    "alias": "",
+    "label": "Bolus_Thermodilution",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.022",
+    "id": "DT001.004.022",
+    "name_en": "Distal_Coronary_Pressure",
+    "name_cn": "远端冠脉压力",
+    "definition": "The blood pressure measured at the distal part of the coronary artery.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Distal_Coronary_Pressure",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.023",
+    "id": "DT001.004.023",
+    "name_en": "Hyperemic_Mean_Transit_Time",
+    "name_cn": "充血平均通过时间",
+    "definition": "A measurement of the mean transit time of blood flow under hyperemic conditions, often used in cardiovascular imaging studies.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Hyperemic_Mean_Transit_Time",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.014.006",
+    "id": "DT001.003.014.006",
+    "name_en": "Increased_IMR",
+    "name_cn": "增加的微循环阻力指数",
+    "definition": "Increased IMR (≥25 U) indicates microvascular dysfunction.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.014",
+    "alias": "",
+    "label": "Increased_IMR",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.024",
+    "id": "DT001.004.024",
+    "name_en": "Angiography-derived index of coronary microcirculatory resistance",
+    "name_cn": "冠状动脉微循环阻力血管造影衍生指数",
+    "definition": "A method for assessing coronary microcirculation without the use of intracoronary wires.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Angiography-derived index of coronary microcirculatory resistance",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.025",
+    "id": "PC003.025",
+    "name_en": "Risk factor-weighted clinical likelihood",
+    "name_cn": "风险因素加权临床可能性",
+    "definition": "A model for estimating the clinical likelihood of obstructive coronary artery disease based on risk factors.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Risk factor-weighted clinical likelihood",
+    "umls_mapping": {
+      "cui": "C0035647",
+      "canonical_name": "Risk",
+      "score": 0.9762,
+      "types": [
+        "T078"
+      ],
+      "definition": "The probability that an event will occur. It encompasses a variety of measures of the probability of a generally unfavorable outcome.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "HL7V3.0",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.008",
+    "id": "DT001.002.008",
+    "name_en": "ECG and echocardiography findings",
+    "name_cn": "心电图和超声心动图检查结果",
+    "definition": "Combined findings from electrocardiogram and echocardiography examinations",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.002",
+    "alias": "",
+    "label": "ECG and echocardiography findings",
+    "umls_mapping": {
+      "cui": "C0013516",
+      "canonical_name": "Echocardiography",
+      "score": 0.9933,
+      "types": [
+        "T060"
+      ],
+      "definition": "Ultrasonic recording of the size, motion, and composition of the heart and surrounding tissues. The standard approach is transthoracic.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HL7V2.5",
+        "ICPC2P",
+        "LCH_NW",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "MTHICD9",
+        "NOC",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.004.012",
+    "id": "DT001.002.004.012",
+    "name_en": "High Coronary Artery Calcium Score",
+    "name_cn": "高冠状动脉钙化评分",
+    "definition": "A high score indicating significant coronary artery calcium burden, used to assess the likelihood of obstructive coronary artery disease.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.004",
+    "alias": "",
+    "label": "High Coronary Artery Calcium Score",
+    "umls_mapping": {
+      "cui": "C0205250",
+      "canonical_name": "High",
+      "score": 0.988,
+      "types": [
+        "T080"
+      ],
+      "definition": "An elevated level or position or degree; greater than normal in degree or intensity or amount.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.025",
+    "id": "DT001.004.025",
+    "name_en": "Coronary_Pressure_Assessment",
+    "name_cn": "冠状动脉压力评估",
+    "definition": "评估冠状动脉内压力的方法，用于指导血运重建的适应症",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "Coronary_Pressure_Assessment",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.002.005.010",
+    "id": "DT001.002.005.010",
+    "name_en": "Myocardial_Viability",
+    "name_cn": "心肌存活",
+    "definition": "The ability of myocardial tissue to remain alive and potentially recover function after an ischemic event.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Myocardial_Viability",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.008",
+    "id": "DT001.008",
+    "name_en": "Ischemia_Test",
+    "name_cn": "缺血检测",
+    "definition": "Tests for detecting ischemia, which have better rule-in power compared with CCTA.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "DT001",
+    "alias": "",
+    "label": "Ischemia_Test",
+    "umls_mapping": {
+      "cui": "C0022116",
+      "canonical_name": "Ischemia",
+      "score": 0.9904,
+      "types": [
+        "T046"
+      ],
+      "definition": "A hypoperfusion of the BLOOD through an organ or tissue caused by a PATHOLOGIC CONSTRICTION or obstruction of its BLOOD VESSELS, or an absence of BLOOD CIRCULATION.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NANDA-I",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.009",
+    "id": "DT001.009",
+    "name_en": "Combined_Testing",
+    "name_cn": "联合检查",
+    "definition": "Combined anatomical and functional testing for non-invasive diagnosis and improved prognostication.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "DT001",
+    "alias": "",
+    "label": "Combined_Testing",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.023",
+    "id": "DT001.003.023",
+    "name_en": "Negative_DSE",
+    "name_cn": "阴性多巴酚丁胺负荷试验",
+    "definition": "A negative result from a dobutamine stress echocardiography test, indicating a lower likelihood of certain cardiac conditions.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Negative_DSE",
+    "umls_mapping": {
+      "cui": "C0205160",
+      "canonical_name": "Negative",
+      "score": 0.9771,
+      "types": [
+        "T033"
+      ],
+      "definition": "<p>An absence finding of the specified component / analyte, organism or clinical sign based on the established threshold of the performed test or procedure.</p><p>\\[Note: Negative does not necessarily imply the complete absence of the specified item.\\]</p>",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HL7V3.0",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.015",
+    "id": "PC003.005.015",
+    "name_en": "Post-test_likelihood",
+    "name_cn": "测试后概率",
+    "definition": "The probability of a condition after a diagnostic test has been performed.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Post-test_likelihood",
+    "umls_mapping": {
+      "cui": "C0033204",
+      "canonical_name": "Probability",
+      "score": 0.9673,
+      "types": [
+        "T081"
+      ],
+      "definition": "The study of chance processes or the relative frequency characterizing a chance process.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.004.026",
+    "id": "DT001.004.026",
+    "name_en": "ICA_referral",
+    "name_cn": "ICA转诊",
+    "definition": "Patients can be referred for ICA if CCTA detects a ≥50% stenosis of the left main stem, three-vessel or two-vessel disease including the proximal LAD artery with ≥70% stenosis, or if functional imaging shows moderate or severe ischaemia encompassing an extensive perfusion territory.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.004",
+    "alias": "",
+    "label": "ICA_referral",
+    "umls_mapping": {
+      "cui": "C0201519",
+      "canonical_name": "Antibody to islet cells of pancreas measurement",
+      "score": 0.9686,
+      "types": [
+        "T059"
+      ],
+      "definition": "The determination of the amount of islet cell antibody present in a sample.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPT",
+        "HCPT",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.005.011",
+    "id": "DT001.002.005.011",
+    "name_en": "Combined Anatomical and Functional Imaging",
+    "name_cn": "联合解剖和功能成像",
+    "definition": "A diagnostic approach that integrates both anatomical and functional imaging modalities to provide comprehensive assessment of physiological and structural abnormalities.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.005",
+    "alias": "",
+    "label": "Combined Anatomical and Functional Imaging",
+    "umls_mapping": {
+      "cui": "C0220784",
+      "canonical_name": "anatomic",
+      "score": 0.9853,
+      "types": [
+        "T080"
+      ],
+      "definition": "Relating to anatomy.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.028",
+    "id": "PC003.028",
+    "name_en": "Adverse_Risk_Event_Assessment",
+    "name_cn": "不良风险事件评估",
+    "definition": "评估患者不良风险事件的可能性，以识别高风险患者",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Adverse_Risk_Event_Assessment",
+    "umls_mapping": {
+      "cui": "C0877248",
+      "canonical_name": "Adverse event",
+      "score": 0.8404,
+      "types": [
+        "T046"
+      ],
+      "definition": "Any unfavorable or unintended disease, sign, or symptom (including an abnormal laboratory finding) that is temporally associated with the use of a medical treatment or procedure, and that may or may not be considered related to the medical treatment or procedure. Such events can be related to the intervention, dose, route of administration, patient, or caused by an interaction with another drug(s) or procedure(s).",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MTH",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.003.001",
+    "id": "SS003.002.003.001",
+    "name_en": "Left_Ventricular_Function",
+    "name_cn": "左心室功能",
+    "definition": "The functional capacity of the left ventricle of the heart.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "SS003.002.003",
+    "alias": "",
+    "label": "Left_Ventricular_Function",
+    "umls_mapping": {
+      "cui": "C0080310",
+      "canonical_name": "Left Ventricular Function",
+      "score": 0.9829,
+      "types": [
+        "T042"
+      ],
+      "definition": "The hemodynamic and electrophysiological action of the left HEART VENTRICLE. Its measurement is an important aspect of the clinical evaluation of patients with heart disease to determine the effects of the disease on cardiac performance.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MTH",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.013.007",
+    "id": "D001.001.013.007",
+    "name_en": "High_Plaque_Burden",
+    "name_cn": "高斑块负荷",
+    "definition": "冠状动脉斑块负荷较高",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "D001.001.013",
+    "alias": "",
+    "label": "High_Plaque_Burden",
+    "umls_mapping": {
+      "cui": "C0011389",
+      "canonical_name": "Dental Plaque",
+      "score": 0.962,
+      "types": [
+        "T047"
+      ],
+      "definition": "A film that attaches to teeth, often causing DENTAL CARIES and GINGIVITIS. It is composed of MUCINS, secreted from salivary glands, and microorganisms.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "LCH",
+        "LNC",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.006.001",
+    "id": "DT001.006.001",
+    "name_en": "Prognostic_Value",
+    "name_cn": "预后价值",
+    "definition": "The extent to which a test or measurement can predict future outcomes, such as mortality or risk of myocardial infarction.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.006",
+    "alias": "",
+    "label": "Prognostic_Value",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.035",
+    "id": "PC003.035",
+    "name_en": "Outcome_Prediction",
+    "name_cn": "预后预测",
+    "definition": "The process of estimating the likely result or course of a disease or condition based on diagnostic tests and patient data.",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Outcome_Prediction",
+    "umls_mapping": {
+      "cui": "C0033325",
+      "canonical_name": "Forecast of outcome",
+      "score": 0.9452,
+      "types": [
+        "T058"
+      ],
+      "definition": "A prediction of the probable outcome of a disease based on a individual's condition and the usual course of the disease as seen in similar situations.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.020",
+    "id": "SS003.002.020",
+    "name_en": "Left Ventricular Ejection Fraction",
+    "name_cn": "左心室射血分数",
+    "definition": "A measurement of the percentage of blood leaving the left ventricle with each contraction.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Left Ventricular Ejection Fraction",
+    "umls_mapping": {
+      "cui": "C0428772",
+      "canonical_name": "Left ventricular ejection fraction",
+      "score": 0.9526,
+      "types": [
+        "T201"
+      ],
+      "definition": "The fraction of the left ventricular end diastolic volume ejected with each beat. The left ventricular ejection fraction is equal to the left ventricular stroke volume divided by the left ventricular end diastolic volume.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MDRKOR",
+        "MDRLAV",
+        "MDRLIT",
+        "MDRPOL",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.026.001",
+    "id": "D001.026.001",
+    "name_en": "Coronary_Arteries",
+    "name_cn": "冠状动脉",
+    "definition": "The blood vessels that supply the heart muscle with oxygen-rich blood",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "D001.026",
+    "alias": "",
+    "label": "Coronary_Arteries",
+    "umls_mapping": {
+      "cui": "C0205042",
+      "canonical_name": "Coronary artery",
+      "score": 0.9871,
+      "types": [
+        "T023"
+      ],
+      "definition": "One of two arteries that arise from the aortic sinuses of the ascending aorta and supply blood to the myocardium",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CSP",
+        "FMA",
+        "LCH",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.002.003.011",
+    "id": "DT001.002.003.011",
+    "name_en": "Resting and Stress Single-Photon Emission Computed Tomography",
+    "name_cn": "静息和负荷单光子发射计算机断层扫描",
+    "definition": "A non-invasive functional myocardial imaging test used in the initial diagnostic management of individuals with suspected chronic coronary syndrome.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.002.003",
+    "alias": "",
+    "label": "Resting and Stress Single-Photon Emission Computed Tomography",
+    "umls_mapping": {
+      "cui": "C0035253",
+      "canonical_name": "Rest",
+      "score": 0.9954,
+      "types": [
+        "T056"
+      ],
+      "definition": "Freedom from activity.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MTH",
+        "NCI",
+        "NOC",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.003.024",
+    "id": "DT001.003.024",
+    "name_en": "Exercise_or_pharmacological_stress_echocardiography",
+    "name_cn": "运动或药物负荷超声心动图",
+    "definition": "A diagnostic procedure that uses ultrasound to assess the heart's structure and function under stress induced by exercise or pharmacological agents, used for the assessment of inducible ischemia and differential diagnosis of HFpEF.",
+    "type": "diagnostic_test",
+    "level": 2,
+    "parent_id": "DT001.003",
+    "alias": "",
+    "label": "Exercise_or_pharmacological_stress_echocardiography",
+    "umls_mapping": {
+      "cui": "C0015259",
+      "canonical_name": "Exercise",
+      "score": 0.9732,
+      "types": [
+        "T056"
+      ],
+      "definition": "Physical activity which is usually regular and done with the intention of improving or maintaining PHYSICAL FITNESS or HEALTH. Contrast with PHYSICAL EXERTION which is concerned largely with the physiologic and metabolic response to energy expenditure.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "DT001.010",
+    "id": "DT001.010",
+    "name_en": "Viability_Testing",
+    "name_cn": "存活率检测",
+    "definition": "评估心肌存活状况的检查",
+    "type": "diagnostic_test",
+    "level": 1,
+    "parent_id": "DT001",
+    "alias": "",
+    "label": "Viability_Testing",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.010.009",
+    "id": "DT001.003.010.009",
+    "name_en": "Coronary Flow Velocity Reserve Measurement",
+    "name_cn": "冠状动脉血流速度储备测量",
+    "definition": "Measurement of the coronary flow velocity reserve (CFVR) based on Doppler flow velocity recordings at rest and during stress in the left anterior descending (LAD) artery.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "Coronary Flow Velocity Reserve Measurement",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.003.010.010",
+    "id": "DT001.003.010.010",
+    "name_en": "Coronary Flow Velocity Reserve",
+    "name_cn": "冠状动脉血流速度储备",
+    "definition": "A measure of the coronary microcirculatory function, assessed during stress echocardiography.",
+    "type": "diagnostic_test",
+    "level": 3,
+    "parent_id": "DT001.003.010",
+    "alias": "",
+    "label": "Coronary Flow Velocity Reserve",
+    "umls_mapping": null
+  }
+]

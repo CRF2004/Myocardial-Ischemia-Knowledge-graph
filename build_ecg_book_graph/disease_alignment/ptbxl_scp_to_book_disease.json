@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "task": "align_ptbxl_scp_labels_to_book_disease_entities",
+    "embedding_model": "text-embedding-3-small",
+    "llm_model": "gpt-4o-mini",
+    "top_k": 8,
+    "generated_at": "2026-02-09T08:34:47Z",
+    "input_book_graph": "/mnt/chengrongfeng_private/SRP心肌缺血知识图谱/build_ecg_book_graph/ecgfinding_alignment/chapter_extraction_results.json",
+    "input_label_csv": "/mnt/data/ptb-xl-a-comprehensive-electrocardiographic-feature-dataset-1.0.1/labels/disease_scp_label.csv",
+    "output_path": "/mnt/chengrongfeng_private/SRP心肌缺血知识图谱/build_ecg_book_graph/disease_alignment/ptbxl_scp_to_book_disease.json"
+  },
+  "items": [
+    {
+      "scp_code": "IMI",
+      "label_text": "inferior myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "same disease, wording variation",
+          "rank": 1,
+          "similarity": 0.8334211707115173,
+          "node_text": "Inferior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "same disease, wording variation",
+          "rank": 2,
+          "similarity": 0.8056627511978149,
+          "node_text": "Inferior Wall Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "query is a subtype",
+          "rank": 3,
+          "similarity": 0.7585110664367676,
+          "node_text": "Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "query is a subtype",
+          "rank": 8,
+          "similarity": 0.6545954942703247,
+          "node_text": "Acute Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "ASMI",
+      "label_text": "anteroseptal myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "general type of myocardial infarction",
+          "rank": 2,
+          "similarity": 0.6211402416229248,
+          "node_text": "Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "anterior wall includes anteroseptal",
+          "rank": 5,
+          "similarity": 0.5874420404434204,
+          "node_text": "Anterior wall myocardial infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "ILMI",
+      "label_text": "inferolateral myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "Synonymous term",
+          "rank": 2,
+          "similarity": 0.676814079284668,
+          "node_text": "Inferior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "General myocardial infarction",
+          "rank": 3,
+          "similarity": 0.6728460788726807,
+          "node_text": "Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "Broader inferiority category",
+          "rank": 5,
+          "similarity": 0.6568814516067505,
+          "node_text": "Inferior Wall Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "AMI",
+      "label_text": "anterior myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "exact match on wording",
+          "rank": 1,
+          "similarity": 0.8761476874351501,
+          "node_text": "Anterior Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "anterior wall is broader",
+          "rank": 3,
+          "similarity": 0.773312509059906,
+          "node_text": "Anterior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "acute encompasses specific types",
+          "rank": 4,
+          "similarity": 0.7174826860427856,
+          "node_text": "Acute Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "myocardial infarction is broader",
+          "rank": 5,
+          "similarity": 0.6611607074737549,
+          "node_text": "Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "ALMI",
+      "label_text": "anterolateral myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "Equivalent meaning",
+          "rank": 2,
+          "similarity": 0.7371638417243958,
+          "node_text": "Lateral Wall Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "Subtype of anterior MI",
+          "rank": 5,
+          "similarity": 0.6594342589378357,
+          "node_text": "Anterior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "General myocardial infarction",
+          "rank": 6,
+          "similarity": 0.6496118903160095,
+          "node_text": "Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "General myocardial infarction",
+          "rank": 8,
+          "similarity": 0.6363816261291504,
+          "node_text": "Acute Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "LMI",
+      "label_text": "lateral myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "semantic equivalence",
+          "rank": 1,
+          "similarity": 0.8295711278915405,
+          "node_text": "Lateral Wall Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "broad category",
+          "rank": 4,
+          "similarity": 0.6592362523078918,
+          "node_text": "Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "INJIN",
+      "label_text": "subendocardial injury in inferior leads",
+      "statement_category": "ischemic ST-T changes compatible with subendocardial injury",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "specific type of myocardial injury",
+          "rank": 2,
+          "similarity": 0.5971287488937378,
+          "node_text": "Inferior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "specific type of myocardial injury",
+          "rank": 3,
+          "similarity": 0.5625818967819214,
+          "node_text": "Inferior Wall Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "general category of myocardial injury",
+          "rank": 7,
+          "similarity": 0.4956359267234802,
+          "node_text": "Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "INJLA",
+      "label_text": "subendocardial injury in lateral leads",
+      "statement_category": "ischemic ST-T changes compatible with subendocardial injury",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "broad concept of myocardial injury",
+          "rank": 2,
+          "similarity": 0.5901767015457153,
+          "node_text": "Myocardial Injury"
+        }
+      ]
+    },
+    {
+      "scp_code": "INJIL",
+      "label_text": "subendocardial injury in inferolateral leads",
+      "statement_category": "ischemic ST-T changes compatible with subendocardial injury",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "subendocardial injury subtype",
+          "rank": 2,
+          "similarity": 0.5646880865097046,
+          "node_text": "Inferior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "subendocardial injury subtype",
+          "rank": 3,
+          "similarity": 0.5631721019744873,
+          "node_text": "Lateral Wall Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "subendocardial injury subtype",
+          "rank": 7,
+          "similarity": 0.5308610796928406,
+          "node_text": "Inferior Wall Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "general myocardial infarction",
+          "rank": 8,
+          "similarity": 0.5201094746589661,
+          "node_text": "Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "PMI",
+      "label_text": "posterior myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "exact match to query",
+          "rank": 1,
+          "similarity": 0.9027674198150635,
+          "node_text": "Posterior Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "more general category",
+          "rank": 5,
+          "similarity": 0.6599889397621155,
+          "node_text": "Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "more general category",
+          "rank": 7,
+          "similarity": 0.6150446534156799,
+          "node_text": "Acute Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "IPLMI",
+      "label_text": "inferoposterolateral myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "Equivalent term",
+          "rank": 3,
+          "similarity": 0.649358868598938,
+          "node_text": "Inferior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "Broader category",
+          "rank": 4,
+          "similarity": 0.6449646353721619,
+          "node_text": "Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "Broader category",
+          "rank": 6,
+          "similarity": 0.6278090476989746,
+          "node_text": "Inferior Wall Myocardial Infarction"
+        }
+      ]
+    },
+    {
+      "scp_code": "IPMI",
+      "label_text": "inferoposterior myocardial infarction",
+      "statement_category": "Myocardial Infarction",
+      "top_k": 8,
+      "generated_at": "2026-02-09T08:34:47Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "Equivalent term",
+          "rank": 3,
+          "similarity": 0.7025455236434937,
+          "node_text": "Inferior wall myocardial infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "More general",
+          "rank": 5,
+          "similarity": 0.6860203146934509,
+          "node_text": "Myocardial Infarction"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "Equivalent term",
+          "rank": 7,
+          "similarity": 0.6688477396965027,
+          "node_text": "Inferior Wall Myocardial Infarction"
+        }
+      ]
+    }
+  ]
+}

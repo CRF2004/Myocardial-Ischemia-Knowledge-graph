@@ -1,0 +1,4006 @@
+[
+  {
+    "ontology_id": "PC001",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "描述患者基本信息的特征集合",
+    "type": "category",
+    "name_cn": "人口学特征",
+    "name_en": "Demographics",
+    "id": "PC001",
+    "label": "Demographics",
+    "umls_mapping": {
+      "cui": "C4264318",
+      "canonical_name": "Demographic observations",
+      "score": 0.9858,
+      "types": [
+        "T170"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.001",
+    "level": 2,
+    "parent_id": "PC001",
+    "definition": "患者的年龄信息",
+    "type": "demographic_feature",
+    "name_cn": "年龄",
+    "name_en": "Age",
+    "id": "PC001.001",
+    "label": "Age",
+    "umls_mapping": {
+      "cui": "C0001779",
+      "canonical_name": "Age",
+      "score": 0.9952,
+      "types": [
+        "T032"
+      ],
+      "definition": "How long something has existed; elapsed time since birth.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "FMA",
+        "ICPC2ICD10ENG",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.002",
+    "level": 2,
+    "parent_id": "PC001",
+    "definition": "患者的性别信息",
+    "type": "demographic_feature",
+    "name_cn": "性别",
+    "name_en": "Gender",
+    "id": "PC001.002",
+    "label": "Gender",
+    "umls_mapping": {
+      "cui": "C0079399",
+      "canonical_name": "Gender",
+      "score": 0.9874,
+      "types": [
+        "T032"
+      ],
+      "definition": "Socially-constructed identity of male or female.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "MSHITA",
+        "MSHNOR",
+        "MSHPOR",
+        "MSHSPA",
+        "MSHSWE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.003",
+    "level": 2,
+    "parent_id": "PC001",
+    "definition": "患者的种族背景",
+    "type": "demographic_feature",
+    "name_cn": "种族",
+    "name_en": "Race",
+    "id": "PC001.003",
+    "label": "Race",
+    "umls_mapping": {
+      "cui": "C1315098",
+      "canonical_name": "Race:Type:Point in time:^Patient:Nominal",
+      "score": 0.9989,
+      "types": [
+        "T201"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "LNC-EL-GR",
+        "LNC-ES-AR",
+        "LNC-ES-MX",
+        "LNC-FR-BE",
+        "LNC-IT-IT",
+        "LNC-NL-NL",
+        "LNC-PT-BR",
+        "LNC-RU-RU",
+        "LNC-TR-TR",
+        "LNC-UK-UA",
+        "LNC-ZH-CN",
+        "MTH"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.004",
+    "level": 2,
+    "parent_id": "PC001",
+    "definition": "体重指数，用于评估患者体重状态",
+    "type": "demographic_feature",
+    "name_cn": "体重指数",
+    "name_en": "BMI",
+    "id": "PC001.004",
+    "label": "BMI",
+    "umls_mapping": {
+      "cui": "C0005893",
+      "canonical_name": "Body mass index procedure",
+      "score": 0.9943,
+      "types": [
+        "T060"
+      ],
+      "definition": ""
+    }
+  },
+  {
+    "ontology_id": "PC002",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "患者既往疾病和手术历史",
+    "type": "category",
+    "name_cn": "既往史",
+    "name_en": "Medical_History",
+    "id": "PC002",
+    "label": "Medical_History",
+    "umls_mapping": {
+      "cui": "C0262926",
+      "canonical_name": "Medical History",
+      "score": 0.9829,
+      "types": [
+        "T033"
+      ],
+      "definition": "A record of a patient's background regarding health and the occurrence of disease events of the individual. In addition, personal medical history may be a variable in epidemiologic studies.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AIR",
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.001",
+    "level": 2,
+    "parent_id": "PC002",
+    "definition": "心血管系统相关疾病史",
+    "type": "medical_history_category",
+    "name_cn": "心血管病史",
+    "name_en": "Cardiovascular_History",
+    "id": "PC002.001",
+    "label": "Cardiovascular_History",
+    "umls_mapping": {
+      "cui": "C0007226",
+      "canonical_name": "Cardiovascular system",
+      "score": 0.8028,
+      "types": [
+        "T022"
+      ],
+      "definition": "The HEART and the BLOOD VESSELS by which BLOOD is pumped and circulated through the body.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CST",
+        "FMA",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.001.001",
+    "level": 3,
+    "parent_id": "PC002.001",
+    "definition": "冠状动脉疾病既往史",
+    "type": "medical_history",
+    "name_cn": "冠心病史",
+    "name_en": "CAD_History",
+    "id": "PC002.001.001",
+    "label": "CAD_History",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.001.002",
+    "level": 3,
+    "parent_id": "PC002.001",
+    "definition": "心肌梗死既往史",
+    "type": "medical_history",
+    "name_cn": "心肌梗死史",
+    "name_en": "MI_History",
+    "id": "PC002.001.002",
+    "label": "MI_History",
+    "umls_mapping": {
+      "cui": "C0025939",
+      "canonical_name": "Michigan (geographic location)",
+      "score": 0.9633,
+      "types": [
+        "T083"
+      ],
+      "definition": "State bounded on the north by the Great Lakes, on the east by Canada, on the south by Wisconsin, Indiana, and Ohio, and on the west by Lake Michigan and Wisconsin.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "HL7V2.5",
+        "LCH",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.001.003",
+    "level": 3,
+    "parent_id": "PC002.001",
+    "definition": "心力衰竭既往史",
+    "type": "medical_history",
+    "name_cn": "心力衰竭史",
+    "name_en": "HF_History",
+    "id": "PC002.001.003",
+    "label": "HF_History",
+    "umls_mapping": {
+      "cui": "C1538440",
+      "canonical_name": "CFH gene",
+      "score": 0.999,
+      "types": [
+        "T028"
+      ],
+      "definition": "This gene is involved in the alternative pathway of complement activation.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "HGNC",
+        "LNC",
+        "MEDLINEPLUS",
+        "MTH",
+        "NCI",
+        "OMIM"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.001.004",
+    "level": 3,
+    "parent_id": "PC002.001",
+    "definition": "心律失常既往史",
+    "type": "medical_history",
+    "name_cn": "心律失常史",
+    "name_en": "Arrhythmia_History",
+    "id": "PC002.001.004",
+    "label": "Arrhythmia_History",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC002.002",
+    "level": 2,
+    "parent_id": "PC002",
+    "definition": "非心血管系统疾病史",
+    "type": "medical_history_category",
+    "name_cn": "其他疾病史",
+    "name_en": "Other_Disease_History",
+    "id": "PC002.002",
+    "label": "Other_Disease_History",
+    "umls_mapping": {
+      "cui": "C0683519",
+      "canonical_name": "disease history",
+      "score": 0.9898,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LNC"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.001",
+    "level": 3,
+    "parent_id": "PC002.002",
+    "definition": "糖尿病既往史",
+    "type": "medical_history",
+    "name_cn": "糖尿病",
+    "name_en": "Diabetes_Mellitus",
+    "id": "PC002.002.001",
+    "label": "Diabetes_Mellitus",
+    "umls_mapping": {
+      "cui": "C0011878",
+      "canonical_name": "Diabetic Diet",
+      "score": 0.8687,
+      "types": [
+        "T061"
+      ],
+      "definition": "A course of food intake prescribed for patients, that limits the amount of foods with a high GLYCEMIC INDEX.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.002",
+    "level": 3,
+    "parent_id": "PC002.002",
+    "definition": "高血压既往史",
+    "type": "medical_history",
+    "name_cn": "高血压",
+    "name_en": "Hypertension",
+    "id": "PC002.002.002",
+    "label": "Hypertension",
+    "umls_mapping": {
+      "cui": "C0235222",
+      "canonical_name": "Diastolic hypertension",
+      "score": 0.8993,
+      "types": [
+        "T047"
+      ],
+      "definition": "Hypertension characterized diastolic blood pressure greater than 90 mmHg on two occasions.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "BI",
+        "CCPSS",
+        "CST",
+        "DXP",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "NCI",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.003",
+    "level": 3,
+    "parent_id": "PC002.002",
+    "definition": "血脂异常既往史",
+    "type": "medical_history",
+    "name_cn": "高脂血症",
+    "name_en": "Hyperlipidemia",
+    "id": "PC002.002.003",
+    "label": "Hyperlipidemia",
+    "umls_mapping": {
+      "cui": "C0428465",
+      "canonical_name": "Serum lipids high (finding)",
+      "score": 0.9747,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US",
+        "SNOMEDCT_VET"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.004",
+    "level": 3,
+    "parent_id": "PC002.002",
+    "definition": "慢性肾脏疾病既往史",
+    "type": "medical_history",
+    "name_cn": "慢性肾病",
+    "name_en": "Chronic_Kidney_Disease",
+    "id": "PC002.002.004",
+    "label": "Chronic_Kidney_Disease",
+    "umls_mapping": {
+      "cui": "C2316401",
+      "canonical_name": "Chronic kidney disease stage 1",
+      "score": 0.8754,
+      "types": [
+        "T047"
+      ],
+      "definition": "Long-standing and persistent renal disease with glomerular filtration rate (GFR) greater than 90 ml/min.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICD10CM",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MDRKOR",
+        "MDRLAV",
+        "MEDCIN",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.005",
+    "level": 3,
+    "parent_id": "PC002.002",
+    "definition": "外周血管疾病既往史",
+    "type": "medical_history",
+    "name_cn": "外周血管病",
+    "name_en": "Peripheral_Vascular_Disease",
+    "id": "PC002.002.005",
+    "label": "Peripheral_Vascular_Disease",
+    "umls_mapping": {
+      "cui": "C1704436",
+      "canonical_name": "Peripheral Arterial Diseases",
+      "score": 0.9039,
+      "types": [
+        "T047"
+      ],
+      "definition": "Lack of perfusion in the EXTREMITIES resulting from atherosclerosis. It is characterized by INTERMITTENT CLAUDICATION, and an ANKLE BRACHIAL INDEX of 0.9 or less.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.003",
+    "level": 2,
+    "parent_id": "PC002",
+    "definition": "既往手术治疗史",
+    "type": "medical_history_category",
+    "name_cn": "手术史",
+    "name_en": "Surgical_History",
+    "id": "PC002.003",
+    "label": "Surgical_History",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC002.003.001",
+    "level": 3,
+    "parent_id": "PC002.003",
+    "definition": "冠状动脉搭桥手术史",
+    "type": "surgical_history",
+    "name_cn": "冠脉搭桥术",
+    "name_en": "CABG_History",
+    "id": "PC002.003.001",
+    "label": "CABG_History",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC002.003.002",
+    "level": 3,
+    "parent_id": "PC002.003",
+    "definition": "经皮冠状动脉介入治疗史",
+    "type": "surgical_history",
+    "name_cn": "经皮冠脉介入",
+    "name_en": "PCI_History",
+    "id": "PC002.003.002",
+    "label": "PCI_History",
+    "umls_mapping": {
+      "cui": "C0262926",
+      "canonical_name": "Medical History",
+      "score": 0.8319,
+      "types": [
+        "T033"
+      ],
+      "definition": "A record of a patient's background regarding health and the occurrence of disease events of the individual. In addition, personal medical history may be a variable in epidemiologic studies.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AIR",
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.003.003",
+    "level": 3,
+    "parent_id": "PC002.003",
+    "definition": "其他心脏手术史",
+    "type": "surgical_history",
+    "name_cn": "其他心脏手术",
+    "name_en": "Other_Cardiac_Surgery",
+    "id": "PC002.003.003",
+    "label": "Other_Cardiac_Surgery",
+    "umls_mapping": {
+      "cui": "C0018821",
+      "canonical_name": "Cardiac Surgery procedures",
+      "score": 0.9863,
+      "types": [
+        "T061"
+      ],
+      "definition": "Surgery performed on the heart.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LNC",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "影响心血管疾病发生发展的危险因素",
+    "type": "category",
+    "name_cn": "危险因素",
+    "name_en": "Risk_Factors",
+    "id": "PC003",
+    "label": "Risk_Factors",
+    "umls_mapping": {
+      "cui": "C0035648",
+      "canonical_name": "risk factors",
+      "score": 0.977,
+      "types": [
+        "T033"
+      ],
+      "definition": "An aspect of personal behavior or lifestyle, environmental exposure, inborn or inherited characteristic, which, based on epidemiological evidence, is known to be associated with a health-related condition considered important to prevent.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "ICPC2EDUT",
+        "ICPC2EENG",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.001",
+    "level": 2,
+    "parent_id": "PC003",
+    "definition": "经典的心血管危险因素",
+    "type": "risk_factor_category",
+    "name_cn": "传统危险因素",
+    "name_en": "Traditional_Risk_Factor",
+    "id": "PC003.001",
+    "label": "Traditional_Risk_Factor",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.001.001",
+    "level": 3,
+    "parent_id": "PC003.001",
+    "definition": "吸烟行为史",
+    "type": "risk_factor",
+    "name_cn": "吸烟史",
+    "name_en": "Smoking_History",
+    "id": "PC003.001.001",
+    "label": "Smoking_History",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.001.002",
+    "level": 3,
+    "parent_id": "PC003.001",
+    "definition": "心血管疾病家族史",
+    "type": "risk_factor",
+    "name_cn": "家族史",
+    "name_en": "Family_History",
+    "id": "PC003.001.002",
+    "label": "Family_History",
+    "umls_mapping": {
+      "cui": "C0241889",
+      "canonical_name": "Family history (finding)",
+      "score": 0.9935,
+      "types": [
+        "T033"
+      ],
+      "definition": "A record of a patient's background regarding health and disease events of blood relatives. A patient's family medical history may be important in diagnosing existing conditions.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "CSP",
+        "DXP",
+        "HPO",
+        "ICPC2ICD10ENG",
+        "LNC",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.001.003",
+    "level": 3,
+    "parent_id": "PC003.001",
+    "definition": "缺乏体力活动的生活方式",
+    "type": "risk_factor",
+    "name_cn": "久坐生活方式",
+    "name_en": "Sedentary_Lifestyle",
+    "id": "PC003.001.003",
+    "label": "Sedentary_Lifestyle",
+    "umls_mapping": {
+      "cui": "C0205254",
+      "canonical_name": "Sedentary",
+      "score": 0.9788,
+      "types": [
+        "T080"
+      ],
+      "definition": "Not progressing or moving.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MDRKOR",
+        "MDRLAV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.001.004",
+    "level": 3,
+    "parent_id": "PC003.001",
+    "definition": "体重过重状态",
+    "type": "risk_factor",
+    "name_cn": "肥胖",
+    "name_en": "Obesity",
+    "id": "PC003.001.004",
+    "label": "Obesity",
+    "umls_mapping": {
+      "cui": "C4551560",
+      "canonical_name": "Truncal obesity",
+      "score": 0.806,
+      "types": [
+        "T033"
+      ],
+      "definition": "Obesity in which excess fat is accumulated primarily in the area of the abdomen.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "DXP",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "OMIM",
+        "QMR",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.002",
+    "level": 2,
+    "parent_id": "PC003",
+    "definition": "新兴的心血管危险因素",
+    "type": "risk_factor_category",
+    "name_cn": "新兴危险因素",
+    "name_en": "Emerging_Risk_Factor",
+    "id": "PC003.002",
+    "label": "Emerging_Risk_Factor",
+    "umls_mapping": {
+      "cui": "C0035648",
+      "canonical_name": "risk factors",
+      "score": 0.9704,
+      "types": [
+        "T033"
+      ],
+      "definition": "An aspect of personal behavior or lifestyle, environmental exposure, inborn or inherited characteristic, which, based on epidemiological evidence, is known to be associated with a health-related condition considered important to prevent.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "ICPC2EDUT",
+        "ICPC2EENG",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.002.001",
+    "level": 3,
+    "parent_id": "PC003.002",
+    "definition": "慢性炎症状态",
+    "type": "risk_factor",
+    "name_cn": "慢性炎症",
+    "name_en": "Chronic_Inflammation",
+    "id": "PC003.002.001",
+    "label": "Chronic_Inflammation",
+    "umls_mapping": {
+      "cui": "C0333383",
+      "canonical_name": "Acute and chronic inflammation",
+      "score": 0.8733,
+      "types": [
+        "T046"
+      ],
+      "definition": "The coexistence of a chronic inflammatory process with a superimposed polymorphonuclear neutrophilic infiltration.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "NCI",
+        "OMIM",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.002.002",
+    "level": 3,
+    "parent_id": "PC003.002",
+    "definition": "睡眠呼吸暂停综合征",
+    "type": "risk_factor",
+    "name_cn": "睡眠呼吸暂停",
+    "name_en": "Sleep_Apnea",
+    "id": "PC003.002.002",
+    "label": "Sleep_Apnea",
+    "umls_mapping": {
+      "cui": "C3887547",
+      "canonical_name": "Central sleep apnea syndrome",
+      "score": 0.8867,
+      "types": [
+        "T047"
+      ],
+      "definition": "A broad classification of disorders which includes 6 subtypes (primary central sleep apnea, central sleep apnea due to Cheyne-Stokes breathing pattern, central sleep apnea due to medical condition not Cheyne-Stokes, central sleep apnea due to high-altitude periodic breathing, central sleep apnea due to drug or substance and primary sleep apnea of infancy) that are each characterized by interruptions in breathing while asleep. It is caused by improper signaling from the brainstem to respiratory muscles and is triggered by either hypoventilation or hyperventilation. In adults, this disorder may arise following a stroke, congestive heart failure, trauma, infection or the use of narcotic medications. It is more common in older males and may present as a co-morbid condition to obesity. Clinical signs include snoring, insomnia or hypersomnia, difficulty concentrating and fatigue. Recurrent episodes of hypoxia/hypoxemia have long-term detrimental effects on cardiovascular health.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICD10AM",
+        "ICD10AMAE",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.002.003",
+    "level": 3,
+    "parent_id": "PC003.002",
+    "definition": "精神心理压力状态",
+    "type": "risk_factor",
+    "name_cn": "精神压力",
+    "name_en": "Psychological_Stress",
+    "id": "PC003.002.003",
+    "label": "Psychological_Stress",
+    "umls_mapping": {
+      "cui": "C0038443",
+      "canonical_name": "Stress, Psychological",
+      "score": 0.9784,
+      "types": [
+        "T048"
+      ],
+      "definition": "Stress wherein emotional factors predominate.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "ICPC2ICD10DUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "患者既往和现在使用的药物",
+    "type": "category",
+    "name_cn": "用药史",
+    "name_en": "Medication_History",
+    "id": "PC004",
+    "label": "Medication_History",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC004.001",
+    "level": 2,
+    "parent_id": "PC004",
+    "definition": "心血管系统相关药物使用史",
+    "type": "medication_category",
+    "name_cn": "心血管药物",
+    "name_en": "Cardiovascular_Medication",
+    "id": "PC004.001",
+    "label": "Cardiovascular_Medication",
+    "umls_mapping": {
+      "cui": "C0007220",
+      "canonical_name": "Cardiovascular Agents",
+      "score": 0.9103,
+      "types": [
+        "T121"
+      ],
+      "definition": "Agents that affect the rate or intensity of cardiac contraction, blood vessel diameter, or blood volume.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MED-RT",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "SNMI",
+        "SNOMEDCT_US",
+        "USPMG"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004.001.001",
+    "level": 3,
+    "parent_id": "PC004.001",
+    "definition": "抗血小板聚集药物使用史",
+    "type": "medication_history",
+    "name_cn": "抗血小板药物",
+    "name_en": "Antiplatelet_Agent",
+    "id": "PC004.001.001",
+    "label": "Antiplatelet_Agent",
+    "umls_mapping": {
+      "cui": "C0085826",
+      "canonical_name": "Antiplatelet Agents",
+      "score": 0.9763,
+      "types": [
+        "T121"
+      ],
+      "definition": "An agent that inhibits platelet aggregation and reduces coagulation in the circulatory system.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "NCI",
+        "RCD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004.001.002",
+    "level": 3,
+    "parent_id": "PC004.001",
+    "definition": "β受体阻滞剂使用史",
+    "type": "medication_history",
+    "name_cn": "β受体阻滞剂",
+    "name_en": "Beta_Blocker",
+    "id": "PC004.001.002",
+    "label": "Beta_Blocker",
+    "umls_mapping": {
+      "cui": "C4538223",
+      "canonical_name": "Beta adrenergic receptor antagonist (disposition)",
+      "score": 0.9835,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004.001.003",
+    "level": 3,
+    "parent_id": "PC004.001",
+    "definition": "血管紧张素转换酶抑制剂和血管紧张素受体阻滞剂使用史",
+    "type": "medication_history",
+    "name_cn": "ACEI_ARB",
+    "name_en": "ACE_Inhibitor_ARB",
+    "id": "PC004.001.003",
+    "label": "ACE_Inhibitor_ARB",
+    "umls_mapping": {
+      "cui": "C0003015",
+      "canonical_name": "Angiotensin-Converting Enzyme Inhibitors",
+      "score": 0.9759,
+      "types": [
+        "T121"
+      ],
+      "definition": "A class of drugs whose main indications are the treatment of hypertension and heart failure. They exert their hemodynamic effect mainly by inhibiting the renin-angiotensin system. They also modulate sympathetic nervous system activity and increase prostaglandin synthesis. They cause mainly vasodilation and mild natriuresis without affecting heart rate and contractility.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CSP",
+        "LCH_NW",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004.001.004",
+    "level": 3,
+    "parent_id": "PC004.001",
+    "definition": "他汀类降脂药物使用史",
+    "type": "medication_history",
+    "name_cn": "他汀类药物",
+    "name_en": "Statin",
+    "id": "PC004.001.004",
+    "label": "Statin",
+    "umls_mapping": {
+      "cui": "C0360714",
+      "canonical_name": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "score": 0.9916,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "Compounds that inhibit HYDROXYMETHYLGLUTARYL COA REDUCTASES. They have been shown to directly lower CHOLESTEROL synthesis.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004.002",
+    "level": 2,
+    "parent_id": "PC004",
+    "definition": "非心血管药物使用史",
+    "type": "medication_category",
+    "name_cn": "其他药物",
+    "name_en": "Other_Medication",
+    "id": "PC004.002",
+    "label": "Other_Medication",
+    "umls_mapping": {
+      "cui": "C0013227",
+      "canonical_name": "Pharmaceutical Preparations",
+      "score": 0.9859,
+      "types": [
+        "T121"
+      ],
+      "definition": "Drugs intended for human or veterinary use, presented in their finished dosage form. Included here are materials used in the preparation and/or formulation of the finished dosage form.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICF",
+        "ICF-CY",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004.002.001",
+    "level": 3,
+    "parent_id": "PC004.002",
+    "definition": "降血糖药物使用史",
+    "type": "medication_history",
+    "name_cn": "降糖药",
+    "name_en": "Antidiabetic_Drug",
+    "id": "PC004.002.001",
+    "label": "Antidiabetic_Drug",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC004.002.002",
+    "level": 3,
+    "parent_id": "PC004.002",
+    "definition": "抗凝血药物使用史",
+    "type": "medication_history",
+    "name_cn": "抗凝药物",
+    "name_en": "Anticoagulant",
+    "id": "PC004.002.002",
+    "label": "Anticoagulant",
+    "umls_mapping": {
+      "cui": "C0003280",
+      "canonical_name": "Anticoagulants",
+      "score": 0.9672,
+      "types": [
+        "T121"
+      ],
+      "definition": "Agents that prevent BLOOD CLOTTING.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LNC",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US",
+        "USPMG",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.004.001",
+    "id": "PC002.002.004.001",
+    "name_en": "eGFR less than 30 mL/min/1.73 m2",
+    "name_cn": "肾小球滤过率低于30 mL/min/1.73 m2",
+    "definition": "A condition where the estimated glomerular filtration rate (eGFR) is less than 30 mL/min/1.73 m2, indicating severe kidney impairment.",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC002.002.004",
+    "alias": "",
+    "label": "eGFR less than 30 mL/min/1.73 m2",
+    "umls_mapping": {
+      "cui": "C0034802",
+      "canonical_name": "Epidermal Growth Factor Receptor",
+      "score": 0.9994,
+      "types": [
+        "T116",
+        "T126",
+        "T192"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "PDQ",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.003",
+    "id": "PC003.003",
+    "name_en": "Very_High_Clinical_Likelihood_of_Obstructive_CAD",
+    "name_cn": "阻塞性冠状动脉疾病的极高临床可能性",
+    "definition": "A clinical assessment indicating a very high likelihood (≥85%) of obstructive coronary artery disease.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Very_High_Clinical_Likelihood_of_Obstructive_CAD",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.005",
+    "id": "PC001.005",
+    "name_en": "Older_Patients_With_Extensive_Coronary_Calcifications",
+    "name_cn": "具有广泛冠状动脉钙化的老年患者",
+    "definition": "A patient characteristic describing older individuals who exhibit more extensive coronary artery calcifications.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC001",
+    "alias": "",
+    "label": "Older_Patients_With_Extensive_Coronary_Calcifications",
+    "umls_mapping": {
+      "cui": "C0205231",
+      "canonical_name": "Extensive",
+      "score": 0.9904,
+      "types": [
+        "T080"
+      ],
+      "definition": "Large in quantity, range, or spatial extent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.004",
+    "id": "PC003.004",
+    "name_en": "Limitations",
+    "name_cn": "限制",
+    "definition": "Factors that restrict the applicability or effectiveness of a diagnostic or therapeutic approach.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Limitations",
+    "umls_mapping": {
+      "cui": "C0449295",
+      "canonical_name": "Limitation",
+      "score": 0.9764,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005",
+    "id": "PC003.005",
+    "name_en": "Pre-test_likelihood",
+    "name_cn": "预测试概率",
+    "definition": "The probability of a condition before a diagnostic test is performed",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Pre-test_likelihood",
+    "umls_mapping": {
+      "cui": "C0033204",
+      "canonical_name": "Probability",
+      "score": 0.9673,
+      "types": [
+        "T081"
+      ],
+      "definition": "The study of chance processes or the relative frequency characterizing a chance process.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.002",
+    "id": "PC003.005.002",
+    "name_en": "Adjusted_Pre-test_Likelihood",
+    "name_cn": "调整后的测试前概率",
+    "definition": "基于患者特征和测试条件调整后的疾病概率估计",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Adjusted_Pre-test_Likelihood",
+    "umls_mapping": {
+      "cui": "C0456081",
+      "canonical_name": "Adjustment Action",
+      "score": 0.9577,
+      "types": [
+        "T169"
+      ],
+      "definition": "The act of making necessary corrections or modifications.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.009",
+    "id": "D001.001.009",
+    "name_en": "Chronic coronary syndrome patients",
+    "name_cn": "慢性冠状动脉综合征患者",
+    "definition": "Patients diagnosed with chronic coronary syndrome, a condition characterized by long-term coronary artery disease.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Chronic coronary syndrome patients",
+    "umls_mapping": {
+      "cui": "C0030705",
+      "canonical_name": "Patients",
+      "score": 0.9821,
+      "types": [
+        "T101"
+      ],
+      "definition": "Individuals participating in the health care system for the purpose of receiving therapeutic, diagnostic, or preventive procedures.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "HL7V3.0",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.006",
+    "id": "PC003.006",
+    "name_en": "All_Cause_Mortality",
+    "name_cn": "全因死亡率",
+    "definition": "The total number of deaths from any cause in a population.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "All_Cause_Mortality",
+    "umls_mapping": {
+      "cui": "C0026565",
+      "canonical_name": "Mortality Vital Statistics",
+      "score": 0.9924,
+      "types": [
+        "T081"
+      ],
+      "definition": "All deaths reported in a given population.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LCH",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.007",
+    "id": "PC003.007",
+    "name_en": "Long-term All-cause and Cardiac Mortality",
+    "name_cn": "长期全因和心脏死亡率",
+    "definition": "长期随访中全因死亡和心脏相关死亡的综合评估",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Long-term All-cause and Cardiac Mortality",
+    "umls_mapping": {
+      "cui": "C0423909",
+      "canonical_name": "Memory, Long-Term",
+      "score": 0.8059,
+      "types": [
+        "T041"
+      ],
+      "definition": "The memory process that deals with the storage, retrieval and modification of information a long time (typically weeks, months or years) after receiving that information. This type of memory is typically dependent on gene transcription regulated by second messenger activation. [http://hebb.mit.edu/courses/9.03/lecture4.html, ISBN:0582227089]",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "GO",
+        "ICF",
+        "ICF-CY",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.004",
+    "id": "PC003.005.004",
+    "name_en": "Very Low Likelihood of Obstructive CAD",
+    "name_cn": "阻塞性冠状动脉疾病极低可能性",
+    "definition": "Individuals categorized as having a very low likelihood of obstructive coronary artery disease based on clinical factors and diagnostic tests.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Very Low Likelihood of Obstructive CAD",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.008",
+    "id": "PC003.008",
+    "name_en": "Annualized_Event_Rates_of_MI_and_Death",
+    "name_cn": "心肌梗死和死亡的年化事件率",
+    "definition": "The calculated annual occurrence rates of myocardial infarction and death in a given population.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Annualized_Event_Rates_of_MI_and_Death",
+    "umls_mapping": {
+      "cui": "C0025939",
+      "canonical_name": "Michigan (geographic location)",
+      "score": 0.9633,
+      "types": [
+        "T083"
+      ],
+      "definition": "State bounded on the north by the Great Lakes, on the east by Canada, on the south by Wisconsin, Indiana, and Ohio, and on the west by Lake Michigan and Wisconsin.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "HL7V2.5",
+        "LCH",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005",
+    "id": "PC003.005.005",
+    "name_en": "Clinical_Likelihood_of_CAD",
+    "name_cn": "CAD的临床可能性",
+    "definition": "The probability or likelihood of having coronary artery disease (CAD) based on clinical assessment.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Clinical_Likelihood_of_CAD",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.001",
+    "id": "PC003.005.005.001",
+    "name_en": "Low_Likelihood_Obstructive_CAD",
+    "name_cn": "低可能性阻塞性冠状动脉疾病",
+    "definition": "The probability (>5%-15%) that a patient has obstructive coronary artery disease.",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC003.005.005",
+    "alias": "",
+    "label": "Low_Likelihood_Obstructive_CAD",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.006",
+    "id": "PC003.005.006",
+    "name_en": "Moderate_Likelihood_of_Obstructive_CAD",
+    "name_cn": "中度冠状动脉疾病可能性",
+    "definition": "A patient characteristic indicating a moderate likelihood (15%-50%) of obstructive coronary artery disease.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Moderate_Likelihood_of_Obstructive_CAD",
+    "umls_mapping": {
+      "cui": "C0205081",
+      "canonical_name": "Moderate (severity modifier)",
+      "score": 0.9829,
+      "types": [
+        "T080"
+      ],
+      "definition": "<p>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a moderate risk of harm to an individual's reputation and sense of privacy.</p><i>Usage Note:</i>The level of protection afforded moderately confidential information is dictated by privacy policies intended to engender trust in a service provider. May include publicly available information in jurisdictions that restrict uses of that information without the consent of the data subject.<p>Privacy policies mandating moderate levels of protection, which preempt less protective privacy policies. \"Moderate\" confidentiality policies differ from and would be preempted by the prevailing privacy policies mandating the normative level of protection for information used in the delivery and management of healthcare.</p>Confidentiality code total order hierarchy: Moderate (M) is less protective than<i>V, R, and N*, and subsumes all other protection levels (i.e., *L</i>and *U*).<b>Examples:</b>Includes personal and health information that an individual authorizes to be collected, accessed, used or disclosed to a bank for a health credit card or savings account; to health oversight authorities; to a hospital patient directory; to worker compensation, disability, property and casualty or life insurers; and to personal health record systems, consumer-controlled devices, social media accounts and online Apps; or for marketing purposes",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V3.0",
+        "HPO",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.002",
+    "id": "PC003.005.005.002",
+    "name_en": "Obstructive_CAD_Likelihood_High",
+    "name_cn": "阻塞性冠状动脉疾病可能性高",
+    "definition": "Patients with a high likelihood (50%–85%) of obstructive coronary artery disease (CAD).",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC003.005.005",
+    "alias": "",
+    "label": "Obstructive_CAD_Likelihood_High",
+    "umls_mapping": {
+      "cui": "C0033204",
+      "canonical_name": "Probability",
+      "score": 0.8175,
+      "types": [
+        "T081"
+      ],
+      "definition": "The study of chance processes or the relative frequency characterizing a chance process.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.003",
+    "id": "PC003.005.005.003",
+    "name_en": "Very_High_Likelihood_of_Obstructive_CAD",
+    "name_cn": "阻塞性冠状动脉疾病极高可能性",
+    "definition": "Probability greater than 85% of having obstructive coronary artery disease.",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC003.005.005",
+    "alias": "",
+    "label": "Very_High_Likelihood_of_Obstructive_CAD",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.009",
+    "id": "PC003.009",
+    "name_en": "Mortality",
+    "name_cn": "死亡率",
+    "definition": "The state of being subject to death or the incidence of death in a population.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Mortality",
+    "umls_mapping": {
+      "cui": "C0026565",
+      "canonical_name": "Mortality Vital Statistics",
+      "score": 0.9924,
+      "types": [
+        "T081"
+      ],
+      "definition": "All deaths reported in a given population.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LCH",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.006",
+    "id": "PC001.006",
+    "name_en": "Sex",
+    "name_cn": "性别",
+    "definition": "The biological characteristics that distinguish male and female.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC001",
+    "alias": "",
+    "label": "Sex",
+    "umls_mapping": {
+      "cui": "C0079399",
+      "canonical_name": "Gender",
+      "score": 0.9688,
+      "types": [
+        "T032"
+      ],
+      "definition": "Socially-constructed identity of male or female.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "MSHITA",
+        "MSHNOR",
+        "MSHPOR",
+        "MSHSPA",
+        "MSHSWE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.008.001",
+    "id": "PC003.008.001",
+    "name_en": "MI_and_death_event_rates",
+    "name_cn": "心肌梗死和死亡事件率",
+    "definition": "The rates of myocardial infarction and death events in a given population or study.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.008",
+    "alias": "",
+    "label": "MI_and_death_event_rates",
+    "umls_mapping": {
+      "cui": "C0025939",
+      "canonical_name": "Michigan (geographic location)",
+      "score": 0.9633,
+      "types": [
+        "T083"
+      ],
+      "definition": "State bounded on the north by the Great Lakes, on the east by Canada, on the south by Wisconsin, Indiana, and Ohio, and on the west by Lake Michigan and Wisconsin.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "HL7V2.5",
+        "LCH",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.011",
+    "id": "PC003.005.011",
+    "name_en": "Low_Risk_Group",
+    "name_cn": "低风险组",
+    "definition": "A group of patients with low risk of developing obstructive coronary artery disease, often identified by the absence of coronary artery calcium and other clinical prediction models.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Low_Risk_Group",
+    "umls_mapping": {
+      "cui": "C0205251",
+      "canonical_name": "low",
+      "score": 0.9945,
+      "types": [
+        "T080"
+      ],
+      "definition": "A minimum level or position or degree; less than normal in degree, intensity or amount.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.004",
+    "id": "PC003.005.005.004",
+    "name_en": "Low_Clinical_Likelihood_of_Obstructive_CAD",
+    "name_cn": "阻塞性冠状动脉疾病的低临床可能性",
+    "definition": "A clinical assessment indicating a low probability of obstructive coronary artery disease based on patient characteristics and diagnostic criteria.",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC003.005.005",
+    "alias": "",
+    "label": "Low_Clinical_Likelihood_of_Obstructive_CAD",
+    "umls_mapping": {
+      "cui": "C0205251",
+      "canonical_name": "low",
+      "score": 0.9945,
+      "types": [
+        "T080"
+      ],
+      "definition": "A minimum level or position or degree; less than normal in degree, intensity or amount.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.005",
+    "id": "PC003.005.005.005",
+    "name_en": "Increased Clinical Likelihood of Obstructive CAD",
+    "name_cn": "阻塞性冠状动脉疾病临床可能性增加",
+    "definition": "A higher probability of having obstructive coronary artery disease based on clinical assessment and other diagnostic findings.",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC003.005.005",
+    "alias": "",
+    "label": "Increased Clinical Likelihood of Obstructive CAD",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.006",
+    "id": "PC003.005.005.006",
+    "name_en": "Obstructive_CAD_Likelihood",
+    "name_cn": "阻塞性冠状动脉疾病可能性",
+    "definition": "Assessment of the likelihood of obstructive coronary artery disease based on clinical criteria, such as symptoms, risk factors, and non-invasive test results.",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC003.005.005",
+    "alias": "",
+    "label": "Obstructive_CAD_Likelihood",
+    "umls_mapping": {
+      "cui": "C0033204",
+      "canonical_name": "Probability",
+      "score": 0.9673,
+      "types": [
+        "T081"
+      ],
+      "definition": "The study of chance processes or the relative frequency characterizing a chance process.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MSHPOR",
+        "MSHRUS",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.007",
+    "id": "PC002.002.007",
+    "name_en": "Refractory_Condition",
+    "name_cn": "难治性病症",
+    "definition": "A condition that does not respond to standard medical treatments.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC002.002",
+    "alias": "",
+    "label": "Refractory_Condition",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC001.002.001",
+    "id": "PC001.002.001",
+    "name_en": "Symptomatic_Women",
+    "name_cn": "有症状女性",
+    "definition": "A subgroup of female patients presenting with clinical symptoms",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.002",
+    "alias": "",
+    "label": "Symptomatic_Women",
+    "umls_mapping": {
+      "cui": "C0231220",
+      "canonical_name": "Symptomatic",
+      "score": 0.9737,
+      "types": [
+        "T169"
+      ],
+      "definition": "Exhibiting the symptoms of a particular disease.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.010",
+    "id": "PC003.010",
+    "name_en": "Morbidity_Mortality",
+    "name_cn": "发病率/死亡率",
+    "definition": "指疾病发病率和死亡率的综合情况",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Morbidity_Mortality",
+    "umls_mapping": {
+      "cui": "C0026565",
+      "canonical_name": "Mortality Vital Statistics",
+      "score": 0.9924,
+      "types": [
+        "T081"
+      ],
+      "definition": "All deaths reported in a given population.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LCH",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.011",
+    "id": "PC003.011",
+    "name_en": "Quality_of_Life",
+    "name_cn": "生活质量",
+    "definition": "An individual's perception of their position in life in the context of the culture and value systems in which they live and in relation to their goals, expectations, standards and concerns.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Quality_of_Life",
+    "umls_mapping": {
+      "cui": "C0518214",
+      "canonical_name": "Perceived quality of life",
+      "score": 0.9733,
+      "types": [
+        "T033"
+      ],
+      "definition": "The subjective measurement of an individual's sense of well-being and ability to enjoy life. The concept holds varying meanings for different people and may evolve over time. For some individuals it implies autonomy, empowerment, capability, and choice; for others, security, social integration, or freedom from stress or illness.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.012",
+    "id": "PC003.012",
+    "name_en": "Increased_risk_of_CVD",
+    "name_cn": "心血管疾病风险增加",
+    "definition": "An elevated likelihood of developing cardiovascular diseases.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Increased_risk_of_CVD",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.013.001",
+    "id": "PC003.013.001",
+    "name_en": "Increased_Risk_of_Coronary_Calcium_Score",
+    "name_cn": "冠状动脉钙化评分风险增加",
+    "definition": "An elevated likelihood of having a higher coronary calcium score, often associated with certain cancer treatments.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.013",
+    "alias": "",
+    "label": "Increased_Risk_of_Coronary_Calcium_Score",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.009.001",
+    "id": "PC003.009.001",
+    "name_en": "Clinical_Events",
+    "name_cn": "临床事件",
+    "definition": "Clinical events refer to any significant medical occurrences in a patient's health status during the course of a study or treatment.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.009",
+    "alias": "",
+    "label": "Clinical_Events",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC001.007",
+    "id": "PC001.007",
+    "name_en": "Socioeconomic_Status",
+    "name_cn": "社会经济地位",
+    "definition": "A measure of an individual's or family's economic and social position based on factors such as education, occupation, household income, health, disability, and living conditions.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC001",
+    "alias": "",
+    "label": "Socioeconomic_Status",
+    "umls_mapping": {
+      "cui": "C0086996",
+      "canonical_name": "Socioeconomic Status",
+      "score": 0.9642,
+      "types": [
+        "T080"
+      ],
+      "definition": "<p>Code specifying observations or indicators related to socio-economic status used to assess to assess for services, e.g., discharge planning, or to establish eligibility for coverage under a policy or program.</p>",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "HL7V3.0",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHNOR",
+        "MTH",
+        "NCI",
+        "PSY"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.007.001",
+    "id": "PC001.007.001",
+    "name_en": "Lower_Socioeconomic_Groups",
+    "name_cn": "低社会经济群体",
+    "definition": "A group of individuals with lower socioeconomic status, often associated with disparities in health outcomes.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.007",
+    "alias": "",
+    "label": "Lower_Socioeconomic_Groups",
+    "umls_mapping": {
+      "cui": "C0441994",
+      "canonical_name": "Lower - spatial qualifier",
+      "score": 0.9888,
+      "types": [
+        "T082"
+      ],
+      "definition": "The bottom one of two.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.014",
+    "id": "PC003.014",
+    "name_en": "good prognosis",
+    "name_cn": "良好预后",
+    "definition": "A favorable outcome or course of a disease or condition.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "good prognosis",
+    "umls_mapping": {
+      "cui": "C0033325",
+      "canonical_name": "Forecast of outcome",
+      "score": 0.96,
+      "types": [
+        "T058"
+      ],
+      "definition": "A prediction of the probable outcome of a disease based on a individual's condition and the usual course of the disease as seen in similar situations.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.004.002",
+    "id": "PC003.005.004.002",
+    "name_en": "Very_Low_Likelihood",
+    "name_cn": "极低可能性",
+    "definition": "A classification indicating a very low probability (<5%) of obstructive CAD, where further testing can be deferred.",
+    "type": "patient_characteristics",
+    "level": 3,
+    "parent_id": "PC003.005.004",
+    "alias": "",
+    "label": "Very_Low_Likelihood",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC002.004",
+    "id": "PC002.004",
+    "name_en": "Asymptomatic_Individual",
+    "name_cn": "无症状个体",
+    "definition": "Individuals who do not exhibit symptoms of a disease or condition.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC002",
+    "alias": "",
+    "label": "Asymptomatic_Individual",
+    "umls_mapping": {
+      "cui": "C0231221",
+      "canonical_name": "Asymptomatic (finding)",
+      "score": 0.9688,
+      "types": [
+        "T033"
+      ],
+      "definition": "Without clinical signs or indications that raise the possibility of a particular disorder or dysfunction.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "OMIM",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.008",
+    "id": "PC001.008",
+    "name_en": "Patients",
+    "name_cn": "患者",
+    "definition": "Individuals receiving medical care or participating in clinical studies",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC001",
+    "alias": "",
+    "label": "Patients",
+    "umls_mapping": {
+      "cui": "C0030705",
+      "canonical_name": "Patients",
+      "score": 0.9821,
+      "types": [
+        "T101"
+      ],
+      "definition": "Individuals participating in the health care system for the purpose of receiving therapeutic, diagnostic, or preventive procedures.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "HL7V3.0",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.005.001",
+    "id": "PC001.005.001",
+    "name_en": "Heavily_Calcified_Coronary_Arteries",
+    "name_cn": "严重钙化冠状动脉",
+    "definition": "A condition characterized by heavy calcification in the coronary arteries, often seen in older patients.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.005",
+    "alias": "",
+    "label": "Heavily_Calcified_Coronary_Arteries",
+    "umls_mapping": {
+      "cui": "C1611184",
+      "canonical_name": "Calcification of coronary artery",
+      "score": 0.8229,
+      "types": [
+        "T046"
+      ],
+      "definition": "An accumulation of calcium and phosphate in arteries with mineral deposits in the intimal or medial layer of the vessel wall in a coronary artery. [HPO:probinson]",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MDRKOR",
+        "MDRLAV",
+        "MDRLIT",
+        "MDRPOL",
+        "NCI",
+        "OMIM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.002.002",
+    "id": "PC001.002.002",
+    "name_en": "Postmenopausal women",
+    "name_cn": "绝经后女性",
+    "definition": "Refers to women who have reached menopause, a stage in life marked by the cessation of menstruation.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.002",
+    "alias": "",
+    "label": "Postmenopausal women",
+    "umls_mapping": {
+      "cui": "C0232970",
+      "canonical_name": "Postmenopausal state",
+      "score": 0.9611,
+      "types": [
+        "T033"
+      ],
+      "definition": "After menopause.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "BI",
+        "CCPSS",
+        "CHV",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "PDQ",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.009",
+    "id": "PC001.009",
+    "name_en": "Contraindications_to_Adenosine",
+    "name_cn": "腺苷禁忌症",
+    "definition": "患者存在使用腺苷的禁忌症",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC001",
+    "alias": "",
+    "label": "Contraindications_to_Adenosine",
+    "umls_mapping": {
+      "cui": "C1301624",
+      "canonical_name": "Medical contraindication",
+      "score": 0.9855,
+      "types": [
+        "T033"
+      ],
+      "definition": "A symptom or medical condition that makes a particular treatment or procedure inadvisable because a person is likely to have a bad reaction.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "HL7V3.0",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.010",
+    "id": "PC001.010",
+    "name_en": "Japanese_population",
+    "name_cn": "日本人群",
+    "definition": "A population group with higher prevalence of coronary vasospasm compared to Western populations.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC001",
+    "alias": "",
+    "label": "Japanese_population",
+    "umls_mapping": {
+      "cui": "C0376247",
+      "canonical_name": "Japanese language",
+      "score": 0.9737,
+      "types": [
+        "T171"
+      ],
+      "definition": "An East Asian language spoken as the official language of Japan.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.010.001",
+    "id": "PC001.010.001",
+    "name_en": "Korean population",
+    "name_cn": "韩国人群",
+    "definition": "A subgroup of the population originating from Korea.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.010",
+    "alias": "",
+    "label": "Korean population",
+    "umls_mapping": {
+      "cui": "C0022774",
+      "canonical_name": "Korean language",
+      "score": 0.9711,
+      "types": [
+        "T171"
+      ],
+      "definition": "An East Asian language that originated in the Korean peninsula. It is the official language of South Korea and North Korea.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.003.001",
+    "id": "PC001.003.001",
+    "name_en": "Caucasians",
+    "name_cn": "白种人",
+    "definition": "A racial classification referring to people of European origin.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.003",
+    "alias": "",
+    "label": "Caucasians",
+    "umls_mapping": {
+      "cui": "C0007457",
+      "canonical_name": "Caucasian",
+      "score": 0.9831,
+      "types": [
+        "T098"
+      ],
+      "definition": "A group distinguished by classification according to physical features. This group, also called Europoid, centers around the Mediterranean Sea but includes other parts of Europe. (from Winick: Dictionary of Anthropology, 1972; American Heritage Dictionary, 2d College ed)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CDCREC",
+        "CHV",
+        "DXP",
+        "HL7V3.0",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.007.001",
+    "id": "PC003.007.001",
+    "name_en": "One_Year_Outcomes",
+    "name_cn": "一年期结果",
+    "definition": "Patients' health outcomes observed over a one-year period.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.007",
+    "alias": "",
+    "label": "One_Year_Outcomes",
+    "umls_mapping": {
+      "cui": "C0439234",
+      "canonical_name": "year",
+      "score": 0.9739,
+      "types": [
+        "T079"
+      ],
+      "definition": "A period of time that it takes for Earth to make a complete revolution around the sun, approximately 365 days; a specific one year period.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HL7V3.0",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.016",
+    "id": "PC003.016",
+    "name_en": "Prognostic_Information",
+    "name_cn": "预后信息",
+    "definition": "Information used to predict the likely outcome of a disease or condition",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Prognostic_Information",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.017",
+    "id": "PC003.017",
+    "name_en": "Cardiovascular_Risk",
+    "name_cn": "心血管风险",
+    "definition": "The likelihood of developing cardiovascular diseases in the future",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Cardiovascular_Risk",
+    "umls_mapping": {
+      "cui": "C0007226",
+      "canonical_name": "Cardiovascular system",
+      "score": 0.9832,
+      "types": [
+        "T022"
+      ],
+      "definition": "The HEART and the BLOOD VESSELS by which BLOOD is pumped and circulated through the body.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CST",
+        "FMA",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC004.001.005",
+    "id": "PC004.001.005",
+    "name_en": "Elevated_Lipoprotein_A",
+    "name_cn": "脂蛋白(a)升高",
+    "definition": "Elevated levels of lipoprotein(a) in the blood",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC004.001",
+    "alias": "",
+    "label": "Elevated_Lipoprotein_A",
+    "umls_mapping": {
+      "cui": "C0205250",
+      "canonical_name": "High",
+      "score": 0.9778,
+      "types": [
+        "T080"
+      ],
+      "definition": "An elevated level or position or degree; greater than normal in degree or intensity or amount.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.018",
+    "id": "PC003.018",
+    "name_en": "Residual_Inflammatory_Risk",
+    "name_cn": "残余炎症风险",
+    "definition": "持续存在的炎症风险状态",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Residual_Inflammatory_Risk",
+    "umls_mapping": {
+      "cui": "C1609982",
+      "canonical_name": "Residual",
+      "score": 0.9523,
+      "types": [
+        "T080"
+      ],
+      "definition": "Remaining or left behind.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.019",
+    "id": "PC003.019",
+    "name_en": "Increased_risk_of_death",
+    "name_cn": "死亡风险增加",
+    "definition": "A higher likelihood of mortality associated with a condition or treatment",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Increased_risk_of_death",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.006",
+    "id": "PC002.006",
+    "name_en": "Contrast_agent_allergy",
+    "name_cn": "造影剂过敏",
+    "definition": "An allergic reaction to contrast agents used in medical imaging.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC002",
+    "alias": "",
+    "label": "Contrast_agent_allergy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC002.007",
+    "id": "PC002.007",
+    "name_en": "Obesity_and_Chronic_Obstructive_Pulmonary_Disease",
+    "name_cn": "肥胖和慢性阻塞性肺疾病",
+    "definition": "A patient characteristic indicating the presence of both obesity and chronic obstructive pulmonary disease.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC002",
+    "alias": "",
+    "label": "Obesity_and_Chronic_Obstructive_Pulmonary_Disease",
+    "umls_mapping": {
+      "cui": "C4551560",
+      "canonical_name": "Truncal obesity",
+      "score": 0.806,
+      "types": [
+        "T033"
+      ],
+      "definition": "Obesity in which excess fat is accumulated primarily in the area of the abdomen.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "DXP",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "OMIM",
+        "QMR",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.020",
+    "id": "PC003.020",
+    "name_en": "Inadequate Exercise Capacity",
+    "name_cn": "运动能力不足",
+    "definition": "The inability to perform sufficient physical exercise, often due to underlying health conditions.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Inadequate Exercise Capacity",
+    "umls_mapping": {
+      "cui": "C0205412",
+      "canonical_name": "Inadequate (qualifier)",
+      "score": 0.946,
+      "types": [
+        "T080"
+      ],
+      "definition": "Not meeting a quantitative or qualitative measure necessary for a requirement.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.012",
+    "id": "PC003.005.012",
+    "name_en": "High_Event_Risk",
+    "name_cn": "高风险事件",
+    "definition": "A condition or situation indicating an elevated risk of a clinical event, such as a cardiovascular event.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "High_Event_Risk",
+    "umls_mapping": {
+      "cui": "C0035647",
+      "canonical_name": "Risk",
+      "score": 0.9762,
+      "types": [
+        "T078"
+      ],
+      "definition": "The probability that an event will occur. It encompasses a variety of measures of the probability of a generally unfavorable outcome.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "HL7V3.0",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.008.001",
+    "id": "PC001.008.001",
+    "name_en": "Number_of_patients_recommended_for_revascularization",
+    "name_cn": "推荐进行血运重建的患者数量",
+    "definition": "The count of patients who are recommended to undergo revascularization procedures",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.008",
+    "alias": "",
+    "label": "Number_of_patients_recommended_for_revascularization",
+    "umls_mapping": {
+      "cui": "C0030705",
+      "canonical_name": "Patients",
+      "score": 0.9821,
+      "types": [
+        "T101"
+      ],
+      "definition": "Individuals participating in the health care system for the purpose of receiving therapeutic, diagnostic, or preventive procedures.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "HL7V3.0",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.009.002",
+    "id": "PC003.009.002",
+    "name_en": "All_Cause_Mortality_Increase",
+    "name_cn": "全因死亡率增加",
+    "definition": "A 2% absolute increase in all-cause mortality",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.009",
+    "alias": "",
+    "label": "All_Cause_Mortality_Increase",
+    "umls_mapping": {
+      "cui": "C0026565",
+      "canonical_name": "Mortality Vital Statistics",
+      "score": 0.9924,
+      "types": [
+        "T081"
+      ],
+      "definition": "All deaths reported in a given population.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LCH",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.022",
+    "id": "PC003.022",
+    "name_en": "Improved_Clinical_Outcome",
+    "name_cn": "改善的临床结果",
+    "definition": "A better result or condition achieved in a clinical setting, often measured by reduced symptoms, fewer complications, or improved patient functionality.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Improved_Clinical_Outcome",
+    "umls_mapping": {
+      "cui": "C0184511",
+      "canonical_name": "Improved",
+      "score": 0.9708,
+      "types": [
+        "T033"
+      ],
+      "definition": "Condition changed and/or recovered",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCC",
+        "CHV",
+        "LNC",
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.014.001",
+    "id": "PC003.014.001",
+    "name_en": "Excellent_Prognosis",
+    "name_cn": "良好预后",
+    "definition": "A favorable outcome or high likelihood of recovery from a disease or condition.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.014",
+    "alias": "",
+    "label": "Excellent_Prognosis",
+    "umls_mapping": {
+      "cui": "C1961136",
+      "canonical_name": "Excellent (qualifier value)",
+      "score": 0.9643,
+      "types": [
+        "T080"
+      ],
+      "definition": "Conforming to the highest quality or standard.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.023",
+    "id": "PC003.023",
+    "name_en": "Good_Clinical_Outcome",
+    "name_cn": "良好临床结果",
+    "definition": "评估患者在接受治疗或检查后的临床结果状态",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Good_Clinical_Outcome",
+    "umls_mapping": {
+      "cui": "C0205170",
+      "canonical_name": "Good",
+      "score": 0.9834,
+      "types": [
+        "T080"
+      ],
+      "definition": "Valuable or useful or agreeable or pleasing.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.024",
+    "id": "PC003.024",
+    "name_en": "Revascularization_Need",
+    "name_cn": "血运重建需求",
+    "definition": "Assessment of the need for revascularization based on patient's symptoms and non-invasive stress testing results.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Revascularization_Need",
+    "umls_mapping": {
+      "cui": "C0581603",
+      "canonical_name": "Revascularization - action",
+      "score": 0.9615,
+      "types": [
+        "T061"
+      ],
+      "definition": "procedures performed on the blood vessels with the intent of restoring the circulation or integrity of the blood vessels and to improve circulation deficiencies due to disease, injuries, or deformities.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.008",
+    "id": "PC002.008",
+    "name_en": "Severe_Comorbidities",
+    "name_cn": "严重合并症",
+    "definition": "存在多种严重疾病或健康问题，导致预期寿命有限或治疗效果受限",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC002",
+    "alias": "",
+    "label": "Severe_Comorbidities",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9812,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.009",
+    "id": "PC002.009",
+    "name_en": "Severe_Comorbidities",
+    "name_cn": "严重合并症",
+    "definition": "The presence of one or more additional conditions co-occurring with a primary condition, which are severe enough to impact life expectancy or treatment decisions.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC002",
+    "alias": "",
+    "label": "Severe_Comorbidities",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9812,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.026",
+    "id": "PC003.026",
+    "name_en": "Clinical_Likelihood",
+    "name_cn": "临床可能性",
+    "definition": "基于临床情况对患者疾病状态的可能性的评估",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Clinical_Likelihood",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.013",
+    "id": "PC003.005.013",
+    "name_en": "Moderate_Likelihood_Group",
+    "name_cn": "中等可能性组",
+    "definition": "A group of individuals with a moderate likelihood of having a specific medical condition, such as obstructive CAD.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Moderate_Likelihood_Group",
+    "umls_mapping": {
+      "cui": "C0205081",
+      "canonical_name": "Moderate (severity modifier)",
+      "score": 0.9829,
+      "types": [
+        "T080"
+      ],
+      "definition": "<p>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a moderate risk of harm to an individual's reputation and sense of privacy.</p><i>Usage Note:</i>The level of protection afforded moderately confidential information is dictated by privacy policies intended to engender trust in a service provider. May include publicly available information in jurisdictions that restrict uses of that information without the consent of the data subject.<p>Privacy policies mandating moderate levels of protection, which preempt less protective privacy policies. \"Moderate\" confidentiality policies differ from and would be preempted by the prevailing privacy policies mandating the normative level of protection for information used in the delivery and management of healthcare.</p>Confidentiality code total order hierarchy: Moderate (M) is less protective than<i>V, R, and N*, and subsumes all other protection levels (i.e., *L</i>and *U*).<b>Examples:</b>Includes personal and health information that an individual authorizes to be collected, accessed, used or disclosed to a bank for a health credit card or savings account; to health oversight authorities; to a hospital patient directory; to worker compensation, disability, property and casualty or life insurers; and to personal health record systems, consumer-controlled devices, social media accounts and online Apps; or for marketing purposes",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V3.0",
+        "HPO",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.011",
+    "id": "PC001.011",
+    "name_en": "55-year-old man",
+    "name_cn": "55岁男性",
+    "definition": "A patient characteristic indicating the age and gender of the individual.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC001",
+    "alias": "",
+    "label": "55-year-old man",
+    "umls_mapping": {
+      "cui": "C0025266",
+      "canonical_name": "Male population group",
+      "score": 0.9994,
+      "types": [
+        "T098"
+      ],
+      "definition": "Human males as cultural, psychological, sociological, political, and economic entities.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LCH",
+        "LCH_NW",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.008.002",
+    "id": "PC001.008.002",
+    "name_en": "Elderly_male_patient",
+    "name_cn": "老年男性患者",
+    "definition": "A male patient aged 65 years or older.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.008",
+    "alias": "",
+    "label": "Elderly_male_patient",
+    "umls_mapping": {
+      "cui": "C0001792",
+      "canonical_name": "Elderly (population group)",
+      "score": 0.9822,
+      "types": [
+        "T098"
+      ],
+      "definition": "A person 65 years of age or older. For a person older than 79 years, AGED, 80 AND OVER is available.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "DXP",
+        "ICPC2P",
+        "LCH",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NANDA-I",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.014",
+    "id": "PC003.005.014",
+    "name_en": "Adjusted_Pre-test_Likelihood",
+    "name_cn": "调整后的预测试概率",
+    "definition": "The probability of a condition after adjusting for specific patient characteristics or test results.",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC003.005",
+    "alias": "",
+    "label": "Adjusted_Pre-test_Likelihood",
+    "umls_mapping": {
+      "cui": "C0456081",
+      "canonical_name": "Adjustment Action",
+      "score": 0.9577,
+      "types": [
+        "T169"
+      ],
+      "definition": "The act of making necessary corrections or modifications.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.027",
+    "id": "PC003.027",
+    "name_en": "Patients without left main disease nor reduced LVEF and with moderate-severe ischaemia",
+    "name_cn": "无左主干病变且无左心室射血分数降低并伴有中重度缺血的患者",
+    "definition": "Patients who do not have left main disease or reduced left ventricular ejection fraction (LVEF) and exhibit moderate to severe ischemia during non-invasive testing.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Patients without left main disease nor reduced LVEF and with moderate-severe ischaemia",
+    "umls_mapping": {
+      "cui": "C0030705",
+      "canonical_name": "Patients",
+      "score": 0.9821,
+      "types": [
+        "T101"
+      ],
+      "definition": "Individuals participating in the health care system for the purpose of receiving therapeutic, diagnostic, or preventive procedures.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "HL7V3.0",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.029",
+    "id": "PC003.029",
+    "name_en": "Event_Risk",
+    "name_cn": "事件风险",
+    "definition": "The risk of experiencing a cardiac event, categorized as high, intermediate, or low based on cardiac mortality rates.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Event_Risk",
+    "umls_mapping": {
+      "cui": "C0441471",
+      "canonical_name": "Event",
+      "score": 0.9657,
+      "types": [
+        "T051"
+      ],
+      "definition": "Something that happens at a given place and time.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPM",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.030",
+    "id": "PC003.030",
+    "name_en": "Cardiac_Mortality_Rate",
+    "name_cn": "心脏死亡率",
+    "definition": "Annual rate of death due to cardiac causes",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Cardiac_Mortality_Rate",
+    "umls_mapping": {
+      "cui": "C1521828",
+      "canonical_name": "Rate",
+      "score": 0.9952,
+      "types": [
+        "T081"
+      ],
+      "definition": "A measurement of degree, speed, or frequency relative to time.",
+      "sources": [
+        "LNC"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH",
+        "NCI"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC001.001.001",
+    "id": "PC001.001.001",
+    "name_en": "Advanced_Age",
+    "name_cn": "高龄",
+    "definition": "年龄较大，通常指老年人",
+    "type": "patient_characteristics",
+    "level": 2,
+    "parent_id": "PC001.001",
+    "alias": "",
+    "label": "Advanced_Age",
+    "umls_mapping": {
+      "cui": "C0205179",
+      "canonical_name": "Advanced phase",
+      "score": 0.9645,
+      "types": [
+        "T080"
+      ],
+      "definition": "Far along in course.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.031",
+    "id": "PC003.031",
+    "name_en": "High_Risk_of_Events",
+    "name_cn": "事件高风险",
+    "definition": "Increased likelihood of experiencing adverse medical events",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "High_Risk_of_Events",
+    "umls_mapping": {
+      "cui": "C0332167",
+      "canonical_name": "High risk of",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.032",
+    "id": "PC003.032",
+    "name_en": "High_risk_for_all_cause_and_cardiovascular_death",
+    "name_cn": "全因和心血管死亡高风险",
+    "definition": "Increased likelihood of death from any cause or specifically from cardiovascular diseases",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "High_risk_for_all_cause_and_cardiovascular_death",
+    "umls_mapping": {
+      "cui": "C0332167",
+      "canonical_name": "High risk of",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.033",
+    "id": "PC003.033",
+    "name_en": "High_Risk_of_Cardiac_Mortality",
+    "name_cn": "心脏死亡高风险",
+    "definition": "A condition where the patient has a high risk of death due to cardiac causes",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "High_Risk_of_Cardiac_Mortality",
+    "umls_mapping": {
+      "cui": "C0332167",
+      "canonical_name": "High risk of",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.034",
+    "id": "PC003.034",
+    "name_en": "Increased_risk_of_MI",
+    "name_cn": "心肌梗死风险增加",
+    "definition": "An elevated likelihood of experiencing a myocardial infarction",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Increased_risk_of_MI",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.010",
+    "id": "PC002.010",
+    "name_en": "CAD_Severity",
+    "name_cn": "冠心病严重程度",
+    "definition": "The severity of coronary artery disease, as assessed by clinical or imaging criteria.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC002",
+    "alias": "",
+    "label": "CAD_Severity",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.036",
+    "id": "PC003.036",
+    "name_en": "Overall_Prognosis",
+    "name_cn": "总体预后",
+    "definition": "The expected outcome or course of a disease or condition, including the likelihood of recovery or recurrence.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "Overall_Prognosis",
+    "umls_mapping": {
+      "cui": "C0033325",
+      "canonical_name": "Forecast of outcome",
+      "score": 0.96,
+      "types": [
+        "T058"
+      ],
+      "definition": "A prediction of the probable outcome of a disease based on a individual's condition and the usual course of the disease as seen in similar situations.",
+      "sources": [
+        "LNC",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.037",
+    "id": "PC003.037",
+    "name_en": "High_Risk_of_Stroke",
+    "name_cn": "卒中高风险",
+    "definition": "An elevated likelihood of experiencing a stroke, often due to underlying conditions or risk factors.",
+    "type": "patient_characteristics",
+    "level": 1,
+    "parent_id": "PC003",
+    "alias": "",
+    "label": "High_Risk_of_Stroke",
+    "umls_mapping": {
+      "cui": "C0332167",
+      "canonical_name": "High risk of",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  }
+]

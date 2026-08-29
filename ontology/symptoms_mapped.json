@@ -1,0 +1,2478 @@
+[
+  {
+    "ontology_id": "SS001",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "疾病的临床表现，包括主观症状和客观体征",
+    "type": "symptom_root",
+    "name_cn": "症状体征",
+    "name_en": "Symptom_Sign",
+    "id": "SS001",
+    "label": "Symptom_Sign",
+    "umls_mapping": {
+      "cui": "C0037088",
+      "canonical_name": "Signs and Symptoms",
+      "score": 0.9392,
+      "types": [
+        "T184"
+      ],
+      "definition": "Clinical manifestations that can be either objective when observed by a physician, or subjective when perceived by the patient.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "HL7V2.5",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MTH",
+        "NCI",
+        "NOC",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002",
+    "level": 2,
+    "parent_id": "SS001",
+    "definition": "患者主观描述的症状",
+    "type": "symptom_category",
+    "name_cn": "主观症状",
+    "name_en": "Subjective_Symptom",
+    "id": "SS002",
+    "label": "Subjective_Symptom",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003",
+    "level": 2,
+    "parent_id": "SS001",
+    "definition": "通过检查或测量获得的体征",
+    "type": "sign_category",
+    "name_cn": "客观体征",
+    "name_en": "Objective_Sign",
+    "id": "SS003",
+    "label": "Objective_Sign",
+    "umls_mapping": {
+      "cui": "C0018017",
+      "canonical_name": "objective (goal)",
+      "score": 0.9787,
+      "types": [
+        "T170"
+      ],
+      "definition": "The end-result or objective, which may be specified or required in advance.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.001",
+    "level": 3,
+    "parent_id": "SS002",
+    "symptom_type": "胸部症状",
+    "definition": "胸部相关的主观症状",
+    "type": "symptom_subcategory",
+    "name_cn": "胸部症状",
+    "name_en": "Chest_Symptom",
+    "id": "SS002.001",
+    "label": "Chest_Symptom",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.002",
+    "level": 3,
+    "parent_id": "SS002",
+    "symptom_type": "放射痛",
+    "definition": "疼痛放射至其他部位的症状",
+    "type": "symptom_subcategory",
+    "name_cn": "放射痛",
+    "name_en": "Radiating_Pain",
+    "id": "SS002.002",
+    "label": "Radiating_Pain",
+    "umls_mapping": {
+      "cui": "C0332301",
+      "canonical_name": "Radiating to",
+      "score": 0.9869,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.003",
+    "level": 3,
+    "parent_id": "SS002",
+    "symptom_type": "伴随症状",
+    "definition": "伴随主要症状的其他主观症状",
+    "type": "symptom_subcategory",
+    "name_cn": "伴随症状",
+    "name_en": "Associated_Symptom",
+    "id": "SS002.003",
+    "label": "Associated_Symptom",
+    "umls_mapping": {
+      "cui": "C0332281",
+      "canonical_name": "Associated with",
+      "score": 0.9861,
+      "types": [
+        "T080"
+      ],
+      "definition": "Joined in some kind of relationship.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001",
+    "level": 3,
+    "parent_id": "SS003",
+    "definition": "生命体征测量异常",
+    "type": "sign_subcategory",
+    "name_cn": "生命体征异常",
+    "name_en": "Vital_Sign_Abnormality",
+    "id": "SS003.001",
+    "label": "Vital_Sign_Abnormality",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.002",
+    "level": 3,
+    "parent_id": "SS003",
+    "definition": "心脏相关体征",
+    "type": "sign_subcategory",
+    "name_cn": "心脏体征",
+    "name_en": "Cardiac_Sign",
+    "id": "SS003.002",
+    "label": "Cardiac_Sign",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.003",
+    "level": 3,
+    "parent_id": "SS003",
+    "definition": "其他部位的体征",
+    "type": "sign_subcategory",
+    "name_cn": "其他体征",
+    "name_en": "Other_Sign",
+    "id": "SS003.003",
+    "label": "Other_Sign",
+    "umls_mapping": {
+      "cui": "C0311392",
+      "canonical_name": "Physical findings",
+      "score": 0.9921,
+      "types": [
+        "T033"
+      ],
+      "definition": "Objective evidence of disease perceptible to the examining healthcare provider.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "CST",
+        "LNC",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.001.001",
+    "level": 4,
+    "parent_id": "SS002.001",
+    "symptom_type": "疼痛",
+    "definition": "胸部区域的疼痛感觉",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "胸痛",
+    "name_en": "Chest_Pain",
+    "anatomical_location": "胸部",
+    "id": "SS002.001.001",
+    "label": "Chest_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.002",
+    "level": 4,
+    "parent_id": "SS002.001",
+    "symptom_type": "憋闷感",
+    "definition": "胸部憋闷、呼吸不畅的感觉",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "胸闷",
+    "name_en": "Chest_Tightness",
+    "anatomical_location": "胸部",
+    "id": "SS002.001.002",
+    "label": "Chest_Tightness",
+    "umls_mapping": {
+      "cui": "C0817096",
+      "canonical_name": "Chest",
+      "score": 0.993,
+      "types": [
+        "T029"
+      ],
+      "definition": "The upper part of the trunk between the NECK and the ABDOMEN. It contains the chief organs of the circulatory and respiratory systems. (From Stedman, 25th ed)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "FMA",
+        "HL7V2.5",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "OMIM",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.001.003",
+    "level": 4,
+    "parent_id": "SS002.001",
+    "symptom_type": "不适感",
+    "definition": "胸部模糊的不适感",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "胸部不适",
+    "name_en": "Chest_Discomfort",
+    "anatomical_location": "胸部",
+    "id": "SS002.001.003",
+    "label": "Chest_Discomfort",
+    "umls_mapping": {
+      "cui": "C0235710",
+      "canonical_name": "Chest discomfort",
+      "score": 0.9599,
+      "types": [
+        "T184"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "CST",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MEDCIN",
+        "MTHICD9",
+        "RCD",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.002.001",
+    "level": 4,
+    "parent_id": "SS002.002",
+    "symptom_type": "放射痛",
+    "definition": "左侧上肢的疼痛",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "左臂痛",
+    "name_en": "Left_Arm_Pain",
+    "anatomical_location": "左上肢",
+    "id": "SS002.002.001",
+    "label": "Left_Arm_Pain",
+    "umls_mapping": {
+      "cui": "C0564820",
+      "canonical_name": "Pain in left arm",
+      "score": 0.9827,
+      "types": [
+        "T184"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICD10CM",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MEDCIN",
+        "MTH",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.002.002",
+    "level": 4,
+    "parent_id": "SS002.002",
+    "symptom_type": "放射痛",
+    "definition": "颈部的疼痛",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "颈部痛",
+    "name_en": "Neck_Pain",
+    "anatomical_location": "颈部",
+    "id": "SS002.002.002",
+    "label": "Neck_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.002.003",
+    "level": 4,
+    "parent_id": "SS002.002",
+    "symptom_type": "放射痛",
+    "definition": "下颌部的疼痛",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "下颌痛",
+    "name_en": "Jaw_Pain",
+    "anatomical_location": "下颌部",
+    "id": "SS002.002.003",
+    "label": "Jaw_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.002.004",
+    "level": 4,
+    "parent_id": "SS002.002",
+    "symptom_type": "放射痛",
+    "definition": "背部的疼痛",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "后背痛",
+    "name_en": "Back_Pain",
+    "anatomical_location": "背部",
+    "id": "SS002.002.004",
+    "label": "Back_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.003.001",
+    "system": "呼吸系统",
+    "level": 4,
+    "parent_id": "SS002.003",
+    "alias": "气促,气短",
+    "definition": "呼吸费力或呼吸不足的主观感觉",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "呼吸困难",
+    "name_en": "Dyspnea",
+    "id": "SS002.003.001",
+    "label": "Dyspnea",
+    "umls_mapping": {
+      "cui": "C0743330",
+      "canonical_name": "Resting Dyspnea",
+      "score": 0.8952,
+      "types": [
+        "T033"
+      ],
+      "definition": "Breathlessness at rest or without exertion.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "HPO",
+        "ICNP",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RCD",
+        "RCDAE",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.003.002",
+    "system": "消化系统",
+    "level": 4,
+    "parent_id": "SS002.003",
+    "definition": "胃部不适，有呕吐冲动的感觉",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "恶心",
+    "name_en": "Nausea",
+    "id": "SS002.003.002",
+    "label": "Nausea",
+    "umls_mapping": {
+      "cui": "C1171206",
+      "canonical_name": "Nausea care",
+      "score": 0.8395,
+      "types": [
+        "T058"
+      ],
+      "definition": "Actions performed to control the distaste for food and desire to vomit",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ALT",
+        "CCC",
+        "MEDCIN",
+        "NIC",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.003.003",
+    "system": "消化系统",
+    "level": 4,
+    "parent_id": "SS002.003",
+    "definition": "胃内容物反向经口排出",
+    "type": "symptom_major",
+    "category": "客观体征",
+    "name_cn": "呕吐",
+    "name_en": "Vomiting",
+    "id": "SS002.003.003",
+    "label": "Vomiting",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.003.004",
+    "system": "心血管系统",
+    "level": 4,
+    "parent_id": "SS002.003",
+    "definition": "心跳异常的主观感觉",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "心悸",
+    "name_en": "Palpitation",
+    "id": "SS002.003.004",
+    "label": "Palpitation",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.003.005",
+    "system": "全身症状",
+    "level": 4,
+    "parent_id": "SS002.003",
+    "definition": "全身疲乏无力感",
+    "type": "symptom_major",
+    "category": "主观症状",
+    "name_cn": "乏力",
+    "name_en": "Fatigue",
+    "id": "SS002.003.005",
+    "label": "Fatigue",
+    "umls_mapping": {
+      "cui": "C3165508",
+      "canonical_name": "No fatigue",
+      "score": 0.8967,
+      "types": [
+        "T033"
+      ],
+      "definition": "A response indicating that an individual has not experienced any fatigue.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICNP",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.001",
+    "system": "皮肤系统",
+    "level": 4,
+    "parent_id": "SS003.003",
+    "alias": "多汗,盗汗",
+    "definition": "异常的出汗现象",
+    "type": "symptom_major",
+    "category": "客观体征",
+    "name_cn": "出汗",
+    "name_en": "Diaphoresis",
+    "id": "SS003.003.001",
+    "label": "Diaphoresis",
+    "umls_mapping": {
+      "cui": "C0003028",
+      "canonical_name": "Anhidrosis",
+      "score": 0.8509,
+      "types": [
+        "T047"
+      ],
+      "definition": "Lack of sweating or the ability to sweat when provoked by the appropriate stimulus.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICD10",
+        "ICD10AM",
+        "ICD10CM",
+        "ICD10DUT",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSHCZE",
+        "MSHDUT",
+        "NCI",
+        "OMIM",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001.001",
+    "measurement_type": "生命体征",
+    "level": 4,
+    "parent_id": "SS003.001",
+    "parameter": "血压",
+    "definition": "血压测量值异常",
+    "type": "sign_major",
+    "category": "客观体征",
+    "name_cn": "血压异常",
+    "name_en": "Blood_Pressure_Abnormality",
+    "id": "SS003.001.001",
+    "label": "Blood_Pressure_Abnormality",
+    "umls_mapping": {
+      "cui": "C0005824",
+      "canonical_name": "Blood pressure determination",
+      "score": 0.9879,
+      "types": [
+        "T058"
+      ],
+      "definition": "Techniques used for measuring BLOOD PRESSURE.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCC",
+        "CHV",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001.002",
+    "measurement_type": "生命体征",
+    "level": 4,
+    "parent_id": "SS003.001",
+    "parameter": "心率",
+    "definition": "心率测量值异常",
+    "type": "sign_major",
+    "category": "客观体征",
+    "name_cn": "心率异常",
+    "name_en": "Heart_Rate_Abnormality",
+    "id": "SS003.001.002",
+    "label": "Heart_Rate_Abnormality",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.002.001",
+    "system": "心血管系统",
+    "level": 4,
+    "parent_id": "SS003.002",
+    "examination_method": "听诊/心电图",
+    "definition": "心跳节律的异常",
+    "type": "sign_major",
+    "category": "客观体征",
+    "name_cn": "心律不齐",
+    "name_en": "Arrhythmia",
+    "id": "SS003.002.001",
+    "label": "Arrhythmia",
+    "umls_mapping": {
+      "cui": "C0085611",
+      "canonical_name": "Atrial arrhythmia",
+      "score": 0.8588,
+      "types": [
+        "T046"
+      ],
+      "definition": "An electrocardiographic finding of an atypical cardiac rhythm resulting from a pathologic process in the cardiac atria.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CST",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.002",
+    "system": "心血管系统",
+    "level": 4,
+    "parent_id": "SS003.002",
+    "examination_method": "听诊",
+    "definition": "听诊发现的异常心脏杂音",
+    "type": "sign_major",
+    "category": "客观体征",
+    "name_cn": "心脏杂音",
+    "name_en": "Heart_Murmur",
+    "id": "SS003.002.002",
+    "label": "Heart_Murmur",
+    "umls_mapping": {
+      "cui": "C0232257",
+      "canonical_name": "Systolic Murmurs",
+      "score": 0.8403,
+      "types": [
+        "T033"
+      ],
+      "definition": "Heart murmurs which are systolic in timing. They occur between the first and the second HEART SOUNDS, between the closure of MITRAL VALVE and TRICUSPID VALVE and the closure of semilunar aortic and pulmonary valves. Systolic murmurs include ejection murmurs and regurgitant murmurs.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "BI",
+        "CCPSS",
+        "CHV",
+        "ICD10CM",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "OMIM",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.002",
+    "level": 4,
+    "parent_id": "SS003.003",
+    "alias": "下肢水肿",
+    "definition": "四肢或其他部位的水肿",
+    "type": "sign_major",
+    "category": "客观体征",
+    "name_cn": "外周水肿",
+    "name_en": "Peripheral_Edema",
+    "anatomical_location": "外周组织",
+    "id": "SS003.003.002",
+    "label": "Peripheral_Edema",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.001.001",
+    "severity": "中重度",
+    "level": 5,
+    "parent_id": "SS002.001.001",
+    "definition": "如重物压迫般的胸部疼痛",
+    "typical_for": "心肌缺血",
+    "type": "symptom_subtype",
+    "category": "主观症状",
+    "pain_character": "压榨样",
+    "name_cn": "压榨性胸痛",
+    "name_en": "Crushing_Chest_Pain",
+    "id": "SS002.001.001.001",
+    "label": "Crushing_Chest_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.001.002",
+    "severity": "中度",
+    "level": 5,
+    "parent_id": "SS002.001.001",
+    "definition": "如火烧般的胸部疼痛",
+    "type": "symptom_subtype",
+    "category": "主观症状",
+    "pain_character": "烧灼样",
+    "name_cn": "烧灼感胸痛",
+    "name_en": "Burning_Chest_Pain",
+    "id": "SS002.001.001.002",
+    "label": "Burning_Chest_Pain",
+    "umls_mapping": {
+      "cui": "C0235716",
+      "canonical_name": "Burning Chest Pain",
+      "score": 0.9778,
+      "types": [
+        "T184"
+      ],
+      "definition": "The sensation of chest pain described as an intense discomfort, similar to that experience as a result of a thermal burn, distinct from sharp, stabbing or aching, often related to nerves; sometimes used to describe gastric or esophageal pain.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CST",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "SNOMEDCT_US",
+        "WHO",
+        "WHOFRE",
+        "WHOGER"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.001.001.003",
+    "severity": "轻中度",
+    "level": 5,
+    "parent_id": "SS002.001.001",
+    "definition": "如针刺般的胸部疼痛",
+    "type": "symptom_subtype",
+    "category": "主观症状",
+    "pain_character": "刺痛样",
+    "name_cn": "刺痛性胸痛",
+    "name_en": "Sharp_Chest_Pain",
+    "id": "SS002.001.001.003",
+    "label": "Sharp_Chest_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.001.004",
+    "severity": "轻中度",
+    "level": 5,
+    "parent_id": "SS002.001.001",
+    "definition": "钝性胀痛感的胸部疼痛",
+    "type": "symptom_subtype",
+    "category": "主观症状",
+    "pain_character": "闷胀样",
+    "name_cn": "闷胀性胸痛",
+    "name_en": "Dull_Chest_Pain",
+    "id": "SS002.001.001.004",
+    "label": "Dull_Chest_Pain",
+    "umls_mapping": {
+      "cui": "C0232285",
+      "canonical_name": "Dull chest pain",
+      "score": 0.9837,
+      "types": [
+        "T184"
+      ],
+      "definition": "The sensation of chest pain described as a mild or blunted discomfort.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CST",
+        "DXP",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.003.001.001",
+    "level": 5,
+    "parent_id": "SS002.003.001",
+    "definition": "活动时出现的呼吸困难",
+    "trigger": "体力活动",
+    "type": "symptom_subtype",
+    "category": "主观症状",
+    "name_cn": "劳力性呼吸困难",
+    "name_en": "Exertional_Dyspnea",
+    "id": "SS002.003.001.001",
+    "label": "Exertional_Dyspnea",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.003.001.002",
+    "severity": "重度",
+    "level": 5,
+    "parent_id": "SS002.003.001",
+    "definition": "静息状态下的呼吸困难",
+    "trigger": "静息状态",
+    "type": "symptom_subtype",
+    "category": "主观症状",
+    "name_cn": "静息呼吸困难",
+    "name_en": "Rest_Dyspnea",
+    "id": "SS002.003.001.002",
+    "label": "Rest_Dyspnea",
+    "umls_mapping": {
+      "cui": "C0743330",
+      "canonical_name": "Resting Dyspnea",
+      "score": 0.9627,
+      "types": [
+        "T033"
+      ],
+      "definition": "Breathlessness at rest or without exertion.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "HPO",
+        "ICNP",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RCD",
+        "RCDAE",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.003.001.003",
+    "level": 5,
+    "parent_id": "SS002.003.001",
+    "definition": "平卧时加重，坐起后缓解的呼吸困难",
+    "trigger": "体位变化",
+    "type": "symptom_subtype",
+    "category": "主观症状",
+    "name_cn": "端坐呼吸",
+    "name_en": "Orthopnea",
+    "id": "SS002.003.001.003",
+    "label": "Orthopnea",
+    "umls_mapping": {
+      "cui": "C0085619",
+      "canonical_name": "Orthopnea",
+      "score": 0.967,
+      "types": [
+        "T033"
+      ],
+      "definition": "Breathlessness in the recumbent position.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICD10CM",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "NANDA-I",
+        "NOC",
+        "QMR",
+        "RCDAE",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001.001.001",
+    "severity": "根据血压值分级",
+    "level": 5,
+    "parent_id": "SS003.001.001",
+    "definition": "血压持续升高",
+    "type": "sign_subtype",
+    "category": "客观体征",
+    "normal_range": "收缩压≥140mmHg或舒张压≥90mmHg",
+    "name_cn": "高血压",
+    "name_en": "Hypertension",
+    "id": "SS003.001.001.001",
+    "label": "Hypertension",
+    "umls_mapping": {
+      "cui": "C0235222",
+      "canonical_name": "Diastolic hypertension",
+      "score": 0.8993,
+      "types": [
+        "T047"
+      ],
+      "definition": "Hypertension characterized diastolic blood pressure greater than 90 mmHg on two occasions.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "BI",
+        "CCPSS",
+        "CST",
+        "DXP",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "NCI",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001.001.002",
+    "level": 5,
+    "parent_id": "SS003.001.001",
+    "clinical_significance": "可能提示心功能不全或休克",
+    "definition": "血压持续降低",
+    "type": "sign_subtype",
+    "normal_range": "收缩压<90mmHg",
+    "category": "客观体征",
+    "name_cn": "低血压",
+    "name_en": "Hypotension",
+    "id": "SS003.001.001.002",
+    "label": "Hypotension",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.001.002.001",
+    "level": 5,
+    "parent_id": "SS003.001.002",
+    "definition": "心率过快",
+    "type": "sign_subtype",
+    "category": "客观体征",
+    "normal_range": "成人静息心率>100次/分",
+    "name_cn": "心动过速",
+    "name_en": "Tachycardia",
+    "id": "SS003.001.002.001",
+    "label": "Tachycardia",
+    "umls_mapping": {
+      "cui": "C0546959",
+      "canonical_name": "Atrial tachycardia",
+      "score": 0.8388,
+      "types": [
+        "T047"
+      ],
+      "definition": "A disorder characterized by an electrocardiographic finding of an organized, regular atrial rhythm with atrial rate between 101 and 240 beats per minute. The P wave morphology must be distinct from the sinus P wave morphology. (CDISC)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CST",
+        "ICPC2ICD10DUT",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTH",
+        "NOC",
+        "OMIM",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001.002.002",
+    "level": 5,
+    "parent_id": "SS003.001.002",
+    "definition": "心率过慢",
+    "type": "sign_subtype",
+    "category": "客观体征",
+    "normal_range": "成人静息心率<60次/分",
+    "name_cn": "心动过缓",
+    "name_en": "Bradycardia",
+    "id": "SS003.001.002.002",
+    "label": "Bradycardia",
+    "umls_mapping": {
+      "cui": "C0085610",
+      "canonical_name": "Sinus bradycardia",
+      "score": 0.8408,
+      "types": [
+        "T046"
+      ],
+      "definition": "A disorder characterized by an electrocardiographic finding of abnormally slow heart rate with its origin in the sinus node. Thresholds for different age, gender, and patient populations exist. (CDISC)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "COSTAR",
+        "CST",
+        "HPO",
+        "ICD10CM",
+        "ICPC2ICD10DUT",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTH",
+        "OMIM",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.003",
+    "level": 3,
+    "parent_id": "SS003.002",
+    "definition": "A condition where the left ventricle of the heart has reduced pumping efficiency, often indicated by decreased systolic shortening or other abnormalities.",
+    "type": "symptom",
+    "name_cn": "左心室功能减退",
+    "name_en": "Decreased left ventricular function",
+    "id": "SS003.002.003",
+    "label": "Decreased left ventricular function",
+    "umls_mapping": {
+      "cui": "C0205216",
+      "canonical_name": "Decreased",
+      "score": 0.98,
+      "types": [
+        "T081"
+      ],
+      "definition": "A subjective response indicating that something is or has decreased.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.004",
+    "level": 3,
+    "parent_id": "SS003.002",
+    "definition": "Abnormal movement of a segment of the heart wall during the cardiac cycle, often indicative of ischemic myocardial damage.",
+    "type": "symptom",
+    "name_cn": "局部室壁运动异常",
+    "name_en": "Regional_Wall_Motion_Abnormality",
+    "id": "SS003.002.004",
+    "label": "Regional_Wall_Motion_Abnormality",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.002.005",
+    "level": 3,
+    "parent_id": "SS003.002",
+    "definition": "A condition where the left ventricle of the heart is not functioning properly, often leading to reduced cardiac output.",
+    "type": "Disease",
+    "name_cn": "左心室功能障碍",
+    "name_en": "Left_Ventricle_Dysfunction",
+    "id": "SS003.002.005",
+    "label": "Left_Ventricle_Dysfunction",
+    "umls_mapping": {
+      "cui": "C0242698",
+      "canonical_name": "Ventricular Dysfunction, Left",
+      "score": 0.8228,
+      "types": [
+        "T046"
+      ],
+      "definition": "A condition in which the LEFT VENTRICLE of the heart was functionally impaired. This condition usually leads to HEART FAILURE; MYOCARDIAL INFARCTION; and other cardiovascular complications. Diagnosis is made by measuring the diminished ejection fraction and a depressed level of motility of the left ventricular wall.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NCI",
+        "OMIM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.003",
+    "level": 3,
+    "parent_id": "SS003.003",
+    "definition": "Bleeding that occurs without any apparent cause or trauma",
+    "type": null,
+    "name_cn": "自发性出血",
+    "name_en": "Spontaneous_Bleeding",
+    "id": "SS003.003.003",
+    "label": "Spontaneous_Bleeding",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.003.006",
+    "level": 3,
+    "parent_id": "SS002.003",
+    "definition": "A transient loss of consciousness due to temporary reduction in blood flow to the brain.",
+    "type": "symptom",
+    "name_cn": "晕厥",
+    "name_en": "Syncope",
+    "id": "SS002.003.006",
+    "label": "Syncope",
+    "umls_mapping": {
+      "cui": "C0700200",
+      "canonical_name": "Presyncope",
+      "score": 0.8798,
+      "types": [
+        "T184"
+      ],
+      "definition": "An episode of lightheadedness and dizziness which may precede an episode of syncope.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CST",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "OMIM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.004",
+    "level": 3,
+    "parent_id": "SS003.003",
+    "definition": "An abnormal response of the microcirculatory system, often observed in patients with angina but without obstructive epicardial coronary arteries.",
+    "type": null,
+    "name_cn": "微循环反应异常",
+    "name_en": "Abnormal_Microcirculatory_Response",
+    "id": "SS003.003.004",
+    "label": "Abnormal_Microcirculatory_Response",
+    "umls_mapping": {
+      "cui": "C0205161",
+      "canonical_name": "Abnormal",
+      "score": 0.9744,
+      "types": [
+        "T033"
+      ],
+      "definition": "Deviating in any way from the state, position, structure, condition, behavior, or rule which is considered a norm.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.006",
+    "id": "SS003.002.006",
+    "name_en": "ST-segment_elevations_or_depressions",
+    "name_cn": "ST段抬高或压低",
+    "definition": "Transient changes in the ST segment of an ECG, which can indicate myocardial ischemia or other cardiac conditions.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "ST-segment_elevations_or_depressions",
+    "umls_mapping": {
+      "cui": "C0702240",
+      "canonical_name": "Elevation",
+      "score": 0.9657,
+      "types": [
+        "T082"
+      ],
+      "definition": "The condition of being elevated.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICPC2P",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.004",
+    "id": "SS002.004",
+    "name_en": "CCS_Symptom_Characteristic",
+    "name_cn": "CCS症状特征",
+    "definition": "Coronary Calcium Score (CCS) related symptom characteristics used for assessing likelihood of obstructive CAD",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS002",
+    "alias": "",
+    "label": "CCS_Symptom_Characteristic",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.004",
+    "id": "SS002.001.004",
+    "name_en": "Anginal Frequency or Physical Limitations",
+    "name_cn": "心绞痛频率或身体限制",
+    "definition": "The frequency of angina episodes or the physical limitations experienced by patients with angina.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.001",
+    "alias": "",
+    "label": "Anginal Frequency or Physical Limitations",
+    "umls_mapping": {
+      "cui": "C0376249",
+      "canonical_name": "With frequency",
+      "score": 0.991,
+      "types": [
+        "T079"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.005",
+    "id": "SS002.005",
+    "name_en": "Severe_Anemia",
+    "name_cn": "严重贫血",
+    "definition": "A condition characterized by a significantly lower than normal number of red blood cells or hemoglobin, leading to reduced oxygen transport.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS002",
+    "alias": "",
+    "label": "Severe_Anemia",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9812,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.005",
+    "id": "SS003.003.005",
+    "name_en": "Impaired_Vasodilation",
+    "name_cn": "血管舒张功能受损",
+    "definition": "A condition characterized by reduced ability of blood vessels to dilate, often leading to impaired blood flow.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Impaired_Vasodilation",
+    "umls_mapping": {
+      "cui": "C0221099",
+      "canonical_name": "Impaired",
+      "score": 0.9898,
+      "types": [
+        "T169"
+      ],
+      "definition": "Loss or abnormality of psychological, physiological, or anatomic structure or function.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.006",
+    "id": "SS003.003.006",
+    "name_en": "Lack_of_flow-mediated_vasodilation",
+    "name_cn": "血流介导的血管舒张功能缺失",
+    "definition": "The absence or reduction of the normal increase in blood vessel diameter in response to increased blood flow, often indicating endothelial dysfunction.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Lack_of_flow-mediated_vasodilation",
+    "umls_mapping": {
+      "cui": "C0332268",
+      "canonical_name": "Lacking",
+      "score": 0.9926,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.007",
+    "id": "SS003.003.007",
+    "name_en": "Macro- and Microcirculatory Vasoconstriction",
+    "name_cn": "宏观和微观循环血管收缩",
+    "definition": "A condition characterized by the constriction of both macro- and microcirculatory blood vessels, potentially leading to reduced blood flow and ischemia.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Macro- and Microcirculatory Vasoconstriction",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.005",
+    "id": "SS002.001.005",
+    "name_en": "Chest_Pain_Characteristics",
+    "name_cn": "胸痛特征",
+    "definition": "Characteristics of chest pain used to classify angina types (typical, atypical, or non-cardiac/non-anginal)",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.001",
+    "alias": "",
+    "label": "Chest_Pain_Characteristics",
+    "umls_mapping": {
+      "cui": "C0035648",
+      "canonical_name": "risk factors",
+      "score": 0.8293,
+      "types": [
+        "T033"
+      ],
+      "definition": "An aspect of personal behavior or lifestyle, environmental exposure, inborn or inherited characteristic, which, based on epidemiological evidence, is known to be associated with a health-related condition considered important to prevent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "ICPC2EDUT",
+        "ICPC2EENG",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.001.005.001",
+    "id": "SS002.001.005.001",
+    "name_en": "Angina_Symptom_Score",
+    "name_cn": "心绞痛症状评分",
+    "definition": "A scoring system that categorizes chest pain based on the number of characteristics present, with three characteristics as 'typical' angina (3 points), two of three characteristics as 'atypical' angina (2 points), and no or one characteristic as 'non-cardiac/non-anginal' (0–1 point).",
+    "type": "symptoms",
+    "level": 3,
+    "parent_id": "SS002.001.005",
+    "alias": "",
+    "label": "Angina_Symptom_Score",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.005.002",
+    "id": "SS002.001.005.002",
+    "name_en": "Non-cardiac_or_non-anginal_chest_pain_characteristic",
+    "name_cn": "非心脏性或非心绞痛性胸痛特征",
+    "definition": "Defined as having no or one characteristic of chest pain, as opposed to 'typical' or 'atypical' angina.",
+    "type": "symptoms",
+    "level": 3,
+    "parent_id": "SS002.001.005",
+    "alias": "",
+    "label": "Non-cardiac_or_non-anginal_chest_pain_characteristic",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.005.003",
+    "id": "SS002.001.005.003",
+    "name_en": "Non-cardiac_Non-anginal",
+    "name_cn": "非心脏性/非心绞痛性胸痛",
+    "definition": "Chest pain with no or only one characteristic of angina, indicating a non-cardiac or non-anginal origin.",
+    "type": "symptoms",
+    "level": 3,
+    "parent_id": "SS002.001.005",
+    "alias": "",
+    "label": "Non-cardiac_Non-anginal",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.005.004",
+    "id": "SS002.001.005.004",
+    "name_en": "Anginal_complaints",
+    "name_cn": "心绞痛主诉",
+    "definition": "Patient-reported symptoms suggestive of angina pectoris",
+    "type": "symptoms",
+    "level": 3,
+    "parent_id": "SS002.001.005",
+    "alias": "",
+    "label": "Anginal_complaints",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.005.005",
+    "id": "SS002.001.005.005",
+    "name_en": "Angina symptom score",
+    "name_cn": "心绞痛症状评分",
+    "definition": "A scoring system to classify angina based on the number of chest pain characteristics present.",
+    "type": "symptoms",
+    "level": 3,
+    "parent_id": "SS002.001.005",
+    "alias": "",
+    "label": "Angina symptom score",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.005.006",
+    "id": "SS002.001.005.006",
+    "name_en": "Angina_Symptom_Score",
+    "name_cn": "心绞痛症状评分",
+    "definition": "A scoring system to classify chest pain characteristics as 'typical' angina (3 points), 'atypical' angina (2 points), or 'non-cardiac/non-anginal' (0-1 point).",
+    "type": "symptoms",
+    "level": 3,
+    "parent_id": "SS002.001.005",
+    "alias": "",
+    "label": "Angina_Symptom_Score",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.002.010",
+    "id": "SS003.002.010",
+    "name_en": "Epicardial_Spasm",
+    "name_cn": "心外膜痉挛",
+    "definition": "A condition characterized by spasms in the epicardial coronary arteries, often leading to reduced blood flow and myocardial ischemia.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Epicardial_Spasm",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.006",
+    "id": "SS002.006",
+    "name_en": "Symptoms_of_Myocardial_Ischemia",
+    "name_cn": "心肌缺血症状",
+    "definition": "Symptoms caused by insufficient blood supply to the heart muscle due to coronary artery disease or other conditions.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS002",
+    "alias": "",
+    "label": "Symptoms_of_Myocardial_Ischemia",
+    "umls_mapping": {
+      "cui": "C0474715",
+      "canonical_name": "ECG myocardial ischemia",
+      "score": 0.8375,
+      "types": [
+        "T033"
+      ],
+      "definition": "An electrocardiographic finding of ST and T wave changes consistent with impaired myocardial perfusion.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.010",
+    "id": "SS003.003.010",
+    "name_en": "Spontaneous_bleeding_in_ACS",
+    "name_cn": "ACS自发性出血",
+    "definition": "Acute coronary syndrome patients presenting with spontaneous bleeding, which has been associated with subsequent cancer diagnosis.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Spontaneous_bleeding_in_ACS",
+    "umls_mapping": {
+      "cui": "C0796147",
+      "canonical_name": "Acrocallosal Syndrome",
+      "score": 0.9558,
+      "types": [
+        "T047"
+      ],
+      "definition": "Autosomal recessive syndrome characterized by hypogenesis or agenesis of CORPUS CALLOSUM. Clinical features include MENTAL RETARDATION; CRANIOFACIAL ABNORMALITIES; digital malformations, and growth retardation.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "JABL",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "OMIM",
+        "ORPHANET",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.006.001",
+    "id": "SS002.006.001",
+    "name_en": "Myocardial_Ischemia_Symptoms",
+    "name_cn": "心肌缺血症状",
+    "definition": "Symptoms associated with myocardial ischemia, which may include chest pain, shortness of breath, and fatigue.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.006",
+    "alias": "",
+    "label": "Myocardial_Ischemia_Symptoms",
+    "umls_mapping": {
+      "cui": "C0474715",
+      "canonical_name": "ECG myocardial ischemia",
+      "score": 0.8375,
+      "types": [
+        "T033"
+      ],
+      "definition": "An electrocardiographic finding of ST and T wave changes consistent with impaired myocardial perfusion.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.003.007",
+    "id": "SS002.003.007",
+    "name_en": "Non_Anginal_Symptoms",
+    "name_cn": "非心绞痛症状",
+    "definition": "Symptoms such as dyspnoea and fatigue that are not typical of angina.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.003",
+    "alias": "",
+    "label": "Non_Anginal_Symptoms",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.003.011",
+    "id": "SS003.003.011",
+    "name_en": "Abnormal_Vasoconstriction",
+    "name_cn": "异常血管收缩",
+    "definition": "An abnormal narrowing of blood vessels due to constriction of the muscular walls of the vessels.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Abnormal_Vasoconstriction",
+    "umls_mapping": {
+      "cui": "C0205161",
+      "canonical_name": "Abnormal",
+      "score": 0.9744,
+      "types": [
+        "T033"
+      ],
+      "definition": "Deviating in any way from the state, position, structure, condition, behavior, or rule which is considered a norm.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.012",
+    "id": "SS003.003.012",
+    "name_en": "Haemorrhagic_Events",
+    "name_cn": "出血事件",
+    "definition": "Complications characterized by bleeding, often associated with cardiovascular conditions.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Haemorrhagic_Events",
+    "umls_mapping": {
+      "cui": "C0333275",
+      "canonical_name": "Hemorrhagic",
+      "score": 0.8055,
+      "types": [
+        "T080"
+      ],
+      "definition": "A morphologic finding indicating a change in a tissue due to vascular injury or leakage.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.011",
+    "id": "SS003.002.011",
+    "name_en": "ST-segment depression at low workload",
+    "name_cn": "低负荷下ST段压低",
+    "definition": "An ECG finding indicating myocardial ischemia during low levels of physical exertion, often associated with high risk of cardiac mortality.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "ST-segment depression at low workload",
+    "umls_mapping": {
+      "cui": "C0520887",
+      "canonical_name": "ST segment depression (finding)",
+      "score": 0.8496,
+      "types": [
+        "T033"
+      ],
+      "definition": "An electrocardiographic finding of ST segment depression below the baseline, often described as up sloping, down sloping or horizontal.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CST",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "SNMI",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.006.002",
+    "id": "SS002.006.002",
+    "name_en": "Low_Exercise_Capacity",
+    "name_cn": "运动能力低下",
+    "definition": "An individual's reduced ability to perform physical activities, often associated with cardiovascular or respiratory conditions.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.006",
+    "alias": "",
+    "label": "Low_Exercise_Capacity",
+    "umls_mapping": {
+      "cui": "C0205251",
+      "canonical_name": "low",
+      "score": 0.9945,
+      "types": [
+        "T080"
+      ],
+      "definition": "A minimum level or position or degree; less than normal in degree, intensity or amount.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.001.004",
+    "id": "SS003.001.004",
+    "name_en": "Abnormal blood pressure response",
+    "name_cn": "异常血压反应",
+    "definition": "An atypical change in blood pressure during physical exertion or other activities, often indicating cardiovascular risk.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.001",
+    "alias": "",
+    "label": "Abnormal blood pressure response",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.006.003",
+    "id": "SS002.006.003",
+    "name_en": "Symptom_Severity",
+    "name_cn": "症状严重程度",
+    "definition": "The intensity or seriousness of symptoms experienced by the patient.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.006",
+    "alias": "",
+    "label": "Symptom_Severity",
+    "umls_mapping": {
+      "cui": "C0439793",
+      "canonical_name": "Severities",
+      "score": 0.9799,
+      "types": [
+        "T080"
+      ],
+      "definition": "Used of the degree of something undesirable e.g. pain or weather; also, strictness.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.003.008",
+    "id": "SS002.003.008",
+    "name_en": "Cough",
+    "name_cn": "咳嗽",
+    "definition": "A reflex action to clear the throat and airways of irritants or mucus.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.003",
+    "alias": "",
+    "label": "Cough",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.001.001.005",
+    "id": "SS002.001.001.005",
+    "name_en": "Stinging_Pain",
+    "name_cn": "刺痛",
+    "definition": "A sharp, pricking pain sensation.",
+    "type": "symptoms",
+    "level": 3,
+    "parent_id": "SS002.001.001",
+    "alias": "",
+    "label": "Stinging_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS002.007",
+    "id": "SS002.007",
+    "name_en": "Less_Likelihood_of_CCS",
+    "name_cn": "CCS可能性降低",
+    "definition": "A reduced probability of having CCS (Chronic Cardiac Syndrome) based on clinical context.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS002",
+    "alias": "",
+    "label": "Less_Likelihood_of_CCS",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.002.014",
+    "id": "SS003.002.014",
+    "name_en": "Repolarization_Abnormality",
+    "name_cn": "复极异常",
+    "definition": "Abnormalities in the repolarization phase of the cardiac cycle, often detected as ST-segment depressions or T wave abnormalities.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Repolarization_Abnormality",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS001.002",
+    "id": "SS001.002",
+    "name_en": "Adverse_Outcomes",
+    "name_cn": "不良后果",
+    "definition": "Negative results or complications associated with a medical condition or treatment",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS001",
+    "alias": "",
+    "label": "Adverse_Outcomes",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.002.017",
+    "id": "SS003.002.017",
+    "name_en": "Regional_Systolic_Wall-Thickening_Abnormality",
+    "name_cn": "区域性收缩期室壁增厚异常",
+    "definition": "Abnormalities in the thickening of the ventricular wall during systole, often indicative of myocardial ischemia.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Regional_Systolic_Wall-Thickening_Abnormality",
+    "umls_mapping": {
+      "cui": "C0205147",
+      "canonical_name": "regional",
+      "score": 0.9697,
+      "types": [
+        "T082"
+      ],
+      "definition": "Of or belonging to a broader area or region of the body.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.006.004",
+    "id": "SS002.006.004",
+    "name_en": "Myocardial_Oxygen_Demand_Increase",
+    "name_cn": "心肌需氧量增加",
+    "definition": "An increase in the oxygen requirement of the heart muscle, often due to increased workload or reduced supply.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.006",
+    "alias": "",
+    "label": "Myocardial_Oxygen_Demand_Increase",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS001.003",
+    "id": "SS001.003",
+    "name_en": "Lung_Congestion",
+    "name_cn": "肺充血",
+    "definition": "A condition where there is an abnormal accumulation of fluid in the lungs, often visualized through B-lines on lung ultrasound.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS001",
+    "alias": "",
+    "label": "Lung_Congestion",
+    "umls_mapping": {
+      "cui": "C0242073",
+      "canonical_name": "Pulmonary congestion",
+      "score": 0.9645,
+      "types": [
+        "T047"
+      ],
+      "definition": ""
+    }
+  },
+  {
+    "ontology_id": "SS001.004",
+    "id": "SS001.004",
+    "name_en": "Pulmonary_Congestion",
+    "name_cn": "肺充血",
+    "definition": "An abnormal accumulation of fluid in the lungs, often due to heart failure or other cardiac conditions.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS001",
+    "alias": "",
+    "label": "Pulmonary_Congestion",
+    "umls_mapping": {
+      "cui": "C0242073",
+      "canonical_name": "Pulmonary congestion",
+      "score": 0.973,
+      "types": [
+        "T047"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CST",
+        "DXP",
+        "ICPC2ICD10DUT",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTHICD9",
+        "NANDA-I",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.008",
+    "id": "SS002.008",
+    "name_en": "Severe_Symptom",
+    "name_cn": "严重症状",
+    "definition": "Patient-reported severe symptoms",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS002",
+    "alias": "",
+    "label": "Severe_Symptom",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9812,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS001.005",
+    "id": "SS001.005",
+    "name_en": "Major_Complications",
+    "name_cn": "主要并发症",
+    "definition": "Significant adverse events following a medical procedure, such as bleeding requiring blood transfusions.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS001",
+    "alias": "",
+    "label": "Major_Complications",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.003.014",
+    "id": "SS003.003.014",
+    "name_en": "Bleeding Requiring Blood Transfusions",
+    "name_cn": "需要输血的出血",
+    "definition": "A condition where bleeding is severe enough to necessitate blood transfusions.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Bleeding Requiring Blood Transfusions",
+    "umls_mapping": {
+      "cui": "C0426747",
+      "canonical_name": "Bleeding from anus",
+      "score": 0.8559,
+      "types": [
+        "T046"
+      ],
+      "definition": "Bleeding originating from the anal area.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "DXP",
+        "ICPC2ICD10DUT",
+        "ICPC2ICD10ENG",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTH",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS001.006",
+    "id": "SS001.006",
+    "name_en": "Reduced_Major_Bleeding",
+    "name_cn": "减少主要出血",
+    "definition": "A decrease in the occurrence of significant bleeding events, often associated with specific medical procedures or treatments.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS001",
+    "alias": "",
+    "label": "Reduced_Major_Bleeding",
+    "umls_mapping": {
+      "cui": "C0392756",
+      "canonical_name": "Reduced",
+      "score": 0.9816,
+      "types": [
+        "T033"
+      ],
+      "definition": "Made less in size or amount or degree.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.009",
+    "id": "SS002.009",
+    "name_en": "Ischemia_Identification",
+    "name_cn": "缺血识别",
+    "definition": "The process of identifying ischemia, a condition characterized by inadequate blood supply to an organ or part of the body.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS002",
+    "alias": "",
+    "label": "Ischemia_Identification",
+    "umls_mapping": {
+      "cui": "C0022116",
+      "canonical_name": "Ischemia",
+      "score": 0.9904,
+      "types": [
+        "T046"
+      ],
+      "definition": "A hypoperfusion of the BLOOD through an organ or tissue caused by a PATHOLOGIC CONSTRICTION or obstruction of its BLOOD VESSELS, or an absence of BLOOD CIRCULATION.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NANDA-I",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.010",
+    "id": "SS002.010",
+    "name_en": "Medical_Therapy_Unresponsive_Symptoms",
+    "name_cn": "药物治疗无效的症状",
+    "definition": "Symptoms that do not respond to medical therapy.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS002",
+    "alias": "",
+    "label": "Medical_Therapy_Unresponsive_Symptoms",
+    "umls_mapping": {
+      "cui": "C0418981",
+      "canonical_name": "Medical therapy",
+      "score": 0.9764,
+      "types": [
+        "T061"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.002.019",
+    "id": "SS003.002.019",
+    "name_en": "ST-segment depression",
+    "name_cn": "ST段压低",
+    "definition": "An electrocardiographic finding indicating a depression in the ST segment, which may suggest myocardial ischemia or other cardiac conditions.",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "ST-segment depression",
+    "umls_mapping": {
+      "cui": "C0520887",
+      "canonical_name": "ST segment depression (finding)",
+      "score": 0.8496,
+      "types": [
+        "T033"
+      ],
+      "definition": "An electrocardiographic finding of ST segment depression below the baseline, often described as up sloping, down sloping or horizontal.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CST",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "SNMI",
+        "SNOMEDCT_US",
+        "WHO"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.004",
+    "id": "SS003.004",
+    "name_en": "worse diastolic relaxation velocities",
+    "name_cn": "舒张松弛速度变差",
+    "definition": "A condition where the diastolic relaxation velocities of the heart are impaired, often associated with heart failure with preserved ejection fraction (HFpEF) and coronary microvascular dysfunction (CMD).",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS003",
+    "alias": "",
+    "label": "worse diastolic relaxation velocities",
+    "umls_mapping": {
+      "cui": "C0012000",
+      "canonical_name": "Diastole",
+      "score": 0.9848,
+      "types": [
+        "T201"
+      ],
+      "definition": "Post-systolic relaxation of the HEART, especially the HEART VENTRICLES.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS002.006.005",
+    "id": "SS002.006.005",
+    "name_en": "Exercise_Intolerance",
+    "name_cn": "运动耐量下降",
+    "definition": "Reduced ability to perform physical activities at the expected level or duration due to symptoms like fatigue or dyspnea",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS002.006",
+    "alias": "",
+    "label": "Exercise_Intolerance",
+    "umls_mapping": {
+      "cui": "C0015259",
+      "canonical_name": "Exercise",
+      "score": 0.9732,
+      "types": [
+        "T056"
+      ],
+      "definition": "Physical activity which is usually regular and done with the intention of improving or maintaining PHYSICAL FITNESS or HEALTH. Contrast with PHYSICAL EXERTION which is concerned largely with the physiologic and metabolic response to energy expenditure.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.003.016",
+    "id": "SS003.003.016",
+    "name_en": "Visibility_Issues_During_Stress",
+    "name_cn": "应激状态下可见性问题",
+    "definition": "在应激状态下出现的可见性问题，常用于描述心脏超声检查中某些节段在应激状态下不可见的情况",
+    "type": "symptoms",
+    "level": 2,
+    "parent_id": "SS003.003",
+    "alias": "",
+    "label": "Visibility_Issues_During_Stress",
+    "umls_mapping": {
+      "cui": "C0038435",
+      "canonical_name": "Stress",
+      "score": 0.9959,
+      "types": [
+        "T033"
+      ],
+      "definition": "The negative mental, emotional, and physical reactions that occur when environmental stressors are perceived as exceeding the individual's adaptive capacities.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "SS003.005",
+    "id": "SS003.005",
+    "name_en": "Anaphylactic_Reaction",
+    "name_cn": "过敏反应",
+    "definition": "A severe, potentially life-threatening allergic reaction that can occur rapidly after exposure to an allergen.",
+    "type": "symptoms",
+    "level": 1,
+    "parent_id": "SS003",
+    "alias": "",
+    "label": "Anaphylactic_Reaction",
+    "umls_mapping": {
+      "cui": "C4316895",
+      "canonical_name": "Anaphylactic shock",
+      "score": 0.974,
+      "types": [
+        "T046"
+      ],
+      "definition": "Progression of anaphylaxis into systemic shock, which is characterized by significant reduction in tissue perfusion which leads to hypoxia and hypotension, and can lead to death if untreated.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICD10DUT",
+        "ICPC2ICD10DUT",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHICD9",
+        "NOC",
+        "SNOMEDCT_US"
+      ]
+    }
+  }
+]

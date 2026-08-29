@@ -1,0 +1,10 @@
+file,method,model,accuracy,macro_accuracy,total,correct,num_questions,missing_question_id,metric
+all_naive_rag_1.json,naive_rag,gpt-4o-mini,0.39473684210526316,0.39473684210526316,38,15,38,0,accuracy
+all_naive_rag_2.json,naive_rag,gpt-4o-mini,0.5104895104895105,0.5104895104895105,286,146,286,0,accuracy
+naive_rag_1.json,naive_rag,gpt-4o-mini,0.4473684210526316,0.4473684210526316,38,17,38,0,accuracy
+naive_rag_2.json,naive_rag,gpt-4o-mini,0.493006993006993,0.493006993006993,286,141,286,0,accuracy
+only_llm_1.json,only_llm,gpt-4o-mini,0.5789473684210527,0.5789473684210527,38,22,38,0,accuracy
+only_llm_2.json,only_llm,gpt-4o-mini,0.6013986013986014,0.6013986013986014,286,172,286,0,accuracy
+relevance_1_filtered_n_hop_results.json,n_hop,gpt-4o-mini,0.42105263157894735,0.42105263157894735,38,16,38,0,accuracy
+relevance_2_filtered_n_hop_results.json,n_hop,gpt-4o-mini,0.548951048951049,0.548951048951049,286,157,286,0,accuracy
+relevance_2_filtered_path_test_results.json,n_hop,gpt-4o-mini,0.5384615384615384,0.5384615384615384,286,154,286,0,accuracy

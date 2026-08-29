@@ -1,0 +1,41 @@
+{
+  "model2_dir": "/mnt/chengrongfeng_private/SRP心肌缺血知识图谱/model/models/model2_z_oof_all_12sl",
+  "export_dir": "/mnt/chengrongfeng_private/SRP心肌缺血知识图谱/inference_systems/graph_only",
+  "ptbxl_statements_csv": "/mnt/data/ptb-xl-a-comprehensive-electrocardiographic-feature-dataset-1.0.1/labels/ptbxl_statements.csv",
+  "disease_label_csv": "/mnt/data/ptb-xl-a-comprehensive-electrocardiographic-feature-dataset-1.0.1/labels/disease_label.csv",
+  "strict_label_alignment": false,
+  "threshold_cfg": {
+    "grid_size": 201,
+    "default_tau": 0.5,
+    "min_pos": 1,
+    "tie_break": "higher_recall"
+  },
+  "use_fixed_threshold": true,
+  "weights": {
+    "alpha": 1.0,
+    "eps": 1e-06,
+    "w_rel_finding": {
+      "EXACT": 1.0,
+      "NARROWER": 0.8,
+      "BROADER": 0.6,
+      "RELATED": 0.1,
+      "": 0.4,
+      "NONE": 0.0
+    },
+    "w_rel_label_to_disease": {
+      "EXACT": 1.0,
+      "BROADER": 0.8,
+      "NARROWER": 0.6,
+      "RELATED": 0.1,
+      "NONE": 0.0,
+      "": 0.4
+    },
+    "w_edge_evidence": {
+      "INDICATES": 1.0,
+      "IS_SPECIFIC_FOR": 0.9,
+      "SUPPORTS": 0.7,
+      "ASSOCIATED_WITH": 0.6,
+      "": 0.5
+    }
+  }
+}

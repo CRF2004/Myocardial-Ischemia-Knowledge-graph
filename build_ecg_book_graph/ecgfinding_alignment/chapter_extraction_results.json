@@ -1,0 +1,852 @@
+[
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Of all of the ECG changes, ST segment elevation is the most prominent... help localize the specific region and amount of cardiac tissue being affected",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Abstract",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST-segment elevation",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST-segment elevation indicates myocardial injury.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST depression",
+    "knowledge_entity": "Transmural Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Reciprocal ST depression is indicative of transmural ischemia.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "T-wave inversions",
+    "knowledge_entity": "Myocardial Ischemia",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "T-wave inversions are highly specific for myocardial ischemia.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Abnormal ventricular depolarization: Q waves",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "The presence of Q waves is a classic sign indicating myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Abnormal ventricular depolarization: Q waves",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "Q waves are highly specific for identifying myocardial injury.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Transmural Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Abnormal ventricular repolarization: ST segment elevation...",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 3,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment depression",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "Abnormal ventricular repolarization: ST segment depression...",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 3,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "inverted T waves",
+    "knowledge_entity": "Myocardial Ischemia",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "Abnormal ventricular repolarization: inverted T waves...",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ECG Changes in Acute Myocardial Infarction",
+    "paragraph_index": 3,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "T wave peaking",
+    "knowledge_entity": "Acute Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "T wave peaking can sometimes be observed during acute myocardial infarction/ischemia.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Peaking",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "T wave peaking",
+    "knowledge_entity": "Myocardial Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "T wave peaking can sometimes be observed during acute myocardial infarction/ischemia.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Peaking",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "T wave peaking",
+    "knowledge_entity": "Hyperacute T Waves",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "These ion concentration changes are responsible for peaked or 'hyperacute' T waves that can sometimes be observed during acute myocardial infarction/ischemia.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Peaking",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Abnormalities in the ST segment, either elevation or depression",
+    "knowledge_entity": "Ischemia/Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Abnormalities in the ST segment, either elevation or depression, are the most commonly used ECG findings for the diagnosis of ischemia/infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "In the setting of a myocardial infarction associated with ST segment elevation...",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST segment depression",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "ST segment depressions are usually called 'reciprocal changes' in order to emphasize that both the ST segment elevation and depression arise from the same process.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST segment elevation during myocardial infarction is a complex process.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 4,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Complete and sustained occlusion of a coronary artery with development of a myocardial infarction will lead to ST segment elevation in the electrodes that are overlying the injured area.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 5,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST depression (reciprocal changes)",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "ST depression (reciprocal changes) in leads that are looking at the injured area 'from a distance' through normal tissue.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 5,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST segment depression",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "The presence of reciprocal changes in the setting of localized ST segment elevation is a very specific finding for myocardial infarction (> 90%).",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 8,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST segment depression",
+    "knowledge_entity": "pericarditis",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "reciprocal ST segment depression is seen only in lead aVR in pericarditis and is usually not observed in early repolarization.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 8,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Coexistence of ST segment elevation and ST segment depression (reciprocal changes)",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Coexistence of ST segment elevation and ST segment depression (reciprocal changes) in a 12-lead ECG should always arouse suspicion of myocardial injury.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "ST Segment Changes",
+    "paragraph_index": 9,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "abnormal Q waves",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "However, one of the most important causes for an abnormal Q wave is myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Q Waves",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Q waves develop within the first few minutes/hours of myocardial injury",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Q waves can develop within the first few minutes/hours of myocardial injury",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Q Waves",
+    "paragraph_index": 0,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "accompanying decrease in the amplitude of the R waves",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "an accompanying decrease in the amplitude of the R waves will sometimes be observed",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Q Waves",
+    "paragraph_index": 0,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "Q waves",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Q waves can be observed in the acute process of a myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Q Waves",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "STEMI",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "myocardial infarctions are usually classified by whether ST segment elevation is present (ST segment elevation myocardial infarction or STEMI)",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment depression",
+    "knowledge_entity": "Non-STEMI",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "The ECG changes associated with non-STEMI infarctions can be subtle and include ST segment depression",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "T wave inversion",
+    "knowledge_entity": "Non-STEMI",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "The ECG changes associated with non-STEMI infarctions can be subtle and include T wave inversion",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment depression associated with chest pain",
+    "knowledge_entity": "Myocardial Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST segment depression associated with chest pain should always arouse suspicion of myocardial ischemia.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "isolated ST segment depression in the anterior leads V2 and V3",
+    "knowledge_entity": "Myocardial Ischemia",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "isolated ST segment depression in the anterior leads V2 and V3 has been associated with occlusion of the circumflex.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "horizontal ST segment depression",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "horizontal ST segment depression... is more characteristic for ischemia/infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "dynamic ST segment depression",
+    "knowledge_entity": "Myocardial Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Finally, dynamic ST segment depression strongly suggests underlying ischemia with transient occlusion and reperfusion of a coronary artery.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 2,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "subtle ST segment depression in V3 \u2013V6",
+    "knowledge_entity": "Myocardial Ischemia",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "Notice that the ECG obtained during chest pain also has subtle ST segment depression in V3 \u2013V6",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 2,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "deeply inverted T waves",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "deeply inverted T waves in the setting of myocardial injury/ischemia usually suggest the presence of viable myocardium and usually portend a better prognosis.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 5,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "deeply inverted T waves",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "deep symmetric T wave inversion in the anterior chest leads (V2 and V3) can be associated with significant narrowing in the left anterior descending artery and is sometimes called Wellens\u2019 sign.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 5,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "T wave inversion with concomitant ST segment elevation",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "The presence of T wave inversion with concomitant ST segment elevation would be a very unusual finding in pericarditis and should arouse suspicion of a myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "T Wave Inversion and ST Segment Depression",
+    "paragraph_index": 6,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in two adjacent leads",
+    "knowledge_entity": "Anterior Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "The presence of ST segment elevation in two adjacent leads is used for the diagnosis of an anterior myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Anterior Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in V3 through V5",
+    "knowledge_entity": "Anterior Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "If the blockage is past the first diagonal branch, ST segment elevation will normally be present in V3 through V5.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Anterior Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in lateral leads (aVL, I, and V6)",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Thus the general location of the coronary occlusion and the myocardium at risk can be estimated by the extent of ST segment elevation.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Anterior Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "ST segment elevation in lateral leads (aVL, I, and V6)",
+    "knowledge_entity": "Transmural Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Thus the general location of the coronary occlusion and the myocardium at risk can be estimated by the extent of ST segment elevation.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Anterior Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "anterior ST segment elevation",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "occlusion of the left anterior descending can be associated with anterior ST segment elevation",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Anterior Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in the inferior leads",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "occlusion of the left anterior descending can be associated with [...] ST segment elevation in the inferior leads",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Anterior Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Q waves",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "Q waves were generally thought to represent irreversible damage to the heart and a relatively late manifestation of myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Anterior Infarction",
+    "paragraph_index": 3,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in the inferior leads (II, III, and aVF)",
+    "knowledge_entity": "Inferior Wall Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Occlusion of the right coronary artery will cause injury to the inferior wall of the heart and lead to ST segment elevation in the inferior leads (II, III, and aVF).",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Inferior Myocardial Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST depression in leads I and aVL",
+    "knowledge_entity": "Inferior Wall Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "In addition, reciprocal ST depression is usually prominently seen in I and aVL, since these lateral leads 'look' at the infarcted region through normal tissue.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Inferior Myocardial Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "prominent ST segment elevation in lead III compared to lead II",
+    "knowledge_entity": "Right Coronary Artery Occlusion",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "In patients where the inferior wall myocardial infarction is due to occlusion of the right coronary artery, the ST segment elevation in lead III is usually more prominent than that in lead II.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Inferior Myocardial Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "prominent R wave in lead V1",
+    "knowledge_entity": "Posterior Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "By ECG criteria, a posterior myocardial infarction is present when a prominent R wave is noted in lead V1.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Inferior Myocardial Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "significant ST segment depression and an upright T wave",
+    "knowledge_entity": "Posterior Myocardial Infarction",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "In addition to the prominent R wave, posterior myocardial infarction is usually associated with significant ST segment depression and an upright T wave.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Inferior Myocardial Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in the inferior leads",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Mr. Arbuckle has ST segment elevation in the inferior leads.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Inferior Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST depression in aVL",
+    "knowledge_entity": "Transmural Ischemia",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "Accompanying reciprocal ST depression in aVL suggests that the occlusion is in the right coronary artery.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Inferior Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in inferior and lateral leads",
+    "knowledge_entity": "Inferior Wall Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "occlusion of the right coronary artery will often lead to ST segment elevation in the inferior and lateral leads",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Lateral Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "absent reciprocal ST segment depression in aVL",
+    "knowledge_entity": "Circumflex Coronary Artery Occlusion",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "occlusion of the circumflex coronary artery will also lead to inferolateral ST segment elevation...is associated with absent reciprocal changes in leads I and aVL",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Lateral Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "equal ST segment elevation in leads II, aVF, and III",
+    "knowledge_entity": "Right Coronary Artery Occlusion",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "In an inferior wall myocardial infarction due to right coronary artery occlusion, equal ST segment elevation is observed in II, aVF, and III",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Lateral Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in lead II",
+    "knowledge_entity": "Inferior Wall Myocardial Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "in an inferior wall myocardial infarction due to occlusion of the circumflex artery, ST segment elevation is more prominent in lead II",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Lateral Myocardial Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "lack of reciprocal changes in V1 and V2",
+    "knowledge_entity": "Myocardial Infarction of the Right Ventricle",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "if a proximal occlusion of the right coronary artery causes both an inferior wall and right ventricular infarction, lack of reciprocal changes or even frank ST segment elevation will be observed in leads V1 and V2 due to injury of the right ventricle.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Right Ventricular Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "frank ST segment elevation in V1 and V2",
+    "knowledge_entity": "Myocardial Infarction of the Right Ventricle",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "if a proximal occlusion of the right coronary artery causes both an inferior wall and right ventricular infarction, lack of reciprocal changes or even frank ST segment elevation will be observed in leads V1 and V2 due to injury of the right ventricle.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Right Ventricular Infarction",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in RV4",
+    "knowledge_entity": "Right Ventricular Infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "ST segment elevation in RV4 is an excellent ECG sign for the presence of a right ventricular infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Right Ventricular Infarction",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST depression in V1 and V2",
+    "knowledge_entity": "Right Ventricular Infarction",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "If the reciprocal ST depression is less than expected, one should consider the presence of a right ventricular infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Right Ventricular Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST depression in V1 and V2",
+    "knowledge_entity": "Posterior Wall Myocardial Infarction",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "Conversely, if the reciprocal ST depression in V1 and V2 is more prominent than the inferior ST segment elevation, accompanying posterior wall myocardial infarction should be considered.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Right Ventricular Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in the inferior leads",
+    "knowledge_entity": "Inferior Wall Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "It is important that any time an inferior wall myocardial infarction is present, the presence of accompanying right ventricular infarction or extension to the posterior wall should be considered.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Right Ventricular Infarction",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "isolated ST segment elevation in aVR",
+    "knowledge_entity": "Left Main Coronary Artery Occlusion",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "Thus isolated ST segment elevation in aVR should raise concern for occlusion or narrowing of the left main coronary artery.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Left Main",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "diffuse ST segment depression",
+    "knowledge_entity": "Diffuse Ischemia of the Left Ventricle",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "diffuse ST segment depression is often observed... Obstruction of the left main results in diffuse ischemia of the left ventricle.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Left Main",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in V1 with occlusion of the left main artery",
+    "knowledge_entity": "Transmural Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST segment elevation will be observed in V1 with occlusion of the left main artery.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Left Main",
+    "paragraph_index": 0,
+    "chunk_index": 1
+  },
+  {
+    "ecg_finding": "\u22651 mm ST segment elevation associated with a positive QRS complex",
+    "knowledge_entity": "Acute Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "The most diagnostic finding is the presence of \u22651 mm ST segment elevation associated with a positive QRS complex.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment depression \u22651 mm in the right precordial leads (V1 through V3)",
+    "knowledge_entity": "Myocardial Ischemia/Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST segment depression \u22651 mm in the right precordial leads (V1 through V3) should arouse suspicion of myocardial ischemia/infarction in a patient complaining of chest pain.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Exaggerated ST segment elevation (\u22655 mm)",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "Exaggerated ST segment elevation (\u22655 mm) should also arouse suspicion of a myocardial infarction, but this is the weakest criteria for myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Q wave (> 30 ms) in two or more lateral leads (I, aVL, V5, or V6)",
+    "knowledge_entity": "remote anterior myocardial infarction",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "the presence of a Q wave (> 30 ms) in two or more lateral leads (I, aVL, V5, or V6) is a fairly specific finding for the presence of a remote anterior myocardial infarction",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in a patient with chest pain",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "any significant ST segment elevation in a patient with chest pain should arouse suspicion for the presence of a myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 3,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment changes in the same direction as the QRS complex",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST segment changes in the same direction as the QRS complex.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 4,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Exaggerated ST segment elevation (>5 mm)",
+    "knowledge_entity": "Transmural Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Exaggerated ST segment elevation (>5 mm).",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 4,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Presence of Q waves in two of the lateral leads (I, aVL, V5, V6)",
+    "knowledge_entity": "Old Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Presence of Q waves in two of the lateral leads (I, aVL, V5, V6).",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 4,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "T wave inversion in the inferior leads",
+    "knowledge_entity": "Myocardial Injury",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "The ECG now shows T wave inversion and the development of Q waves in the inferior leads.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 5,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "Development of Q waves in the inferior leads",
+    "knowledge_entity": "Transmural Ischemia",
+    "relation": "SPECIFIC_FOR",
+    "evidence_text": "The ECG now shows T wave inversion and the development of Q waves in the inferior leads.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Myocardial Infarction in the Presence of Bundle Branch Block",
+    "paragraph_index": 5,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST segment elevation is an ECG sign of complete coronary artery occlusion and myocardial infarction.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Key Points",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "ST segment elevation due to myocardial infarction can generally be 'localized' to a specific region of the heart supplied by a particular coronary artery.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Key Points",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in leads II, III, and aVF",
+    "knowledge_entity": "Inferior Wall Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Inferior wall myocardial infarction is characterized by ST segment elevation in leads II, III, and aVF.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "reciprocal ST depression in leads I and aVL",
+    "knowledge_entity": "Right Coronary Artery Involvement",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "right coronary artery involvement is associated with reciprocal ST depression in leads I and aVL.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "absence of reciprocal ST depression in I and aVL",
+    "knowledge_entity": "Circumflex Artery Involvement",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "circumflex artery involvement is suggested by the absence of reciprocal ST depression in I and aVL.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in leads I, aVL, V5, and V6",
+    "knowledge_entity": "Lateral Wall Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Lateral wall myocardial infarction is associated with ST segment elevation in leads I, aVL, V5, and V6.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 1,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in the precordial leads V1, V2, V3, and V4",
+    "knowledge_entity": "Anterior wall myocardial infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Anterior wall myocardial infarction presents with ST segment elevation in the precordial leads V1, V2, V3, and V4.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in leads I and aVL",
+    "knowledge_entity": "Proximal coronary artery occlusion",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "ECG interpretation should include assessment of whether the lesion is proximal, which may be indicated by ST segment elevation in leads I and aVL.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in leads II, III, and aVF",
+    "knowledge_entity": "Inferior wall myocardial infarction",
+    "relation": "WEAK_EVIDENCE_FOR",
+    "evidence_text": "Involvement of the inferior apex should also be considered, as suggested by ST segment elevation in leads II, III, and aVF.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 2,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation in leads aVR and V1, accompanied by diffuse ST segment depression in the inferolateral leads",
+    "knowledge_entity": "Widespread Myocardial Ischemia",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Left main coronary artery involvement is suggested by ST segment elevation in leads aVR and V1, accompanied by diffuse ST segment depression in the inferolateral leads.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Infarction Type and ECG Changes",
+    "paragraph_index": 3,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "ST Elevation Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Among these, ST segment elevation is of particular clinical importance, as it defines ST elevation myocardial infarction (STEMI).",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Review",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  },
+  {
+    "ecg_finding": "ST segment elevation",
+    "knowledge_entity": "Myocardial Infarction",
+    "relation": "STRONG_EVIDENCE_FOR",
+    "evidence_text": "Electrocardiographic findings associated with myocardial infarction encompass a range of abnormalities, including ST segment elevation.",
+    "source": "https://link.springer.com/chapter/10.1007/978-3-030-40341-6_7",
+    "section_title": "Review",
+    "paragraph_index": 0,
+    "chunk_index": 0
+  }
+]

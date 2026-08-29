@@ -1,0 +1,3493 @@
+[
+  {
+    "ontology_id": "TI001",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "针对心血管疾病的各种治疗方法和干预措施",
+    "type": "category",
+    "name_cn": "治疗与干预",
+    "name_en": "Treatment_Intervention",
+    "id": "TI001",
+    "label": "Treatment_Intervention",
+    "umls_mapping": {
+      "cui": "C0087111",
+      "canonical_name": "Therapeutic procedure",
+      "score": 0.9704,
+      "types": [
+        "T061"
+      ],
+      "definition": "Procedures concerned with the remedial treatment or prevention of diseases.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CPT",
+        "ICPC2P",
+        "LCH",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "MTHMST",
+        "NCI",
+        "PDQ",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001",
+    "level": 2,
+    "parent_id": "TI001",
+    "definition": "通过不同方式实施的治疗干预类型",
+    "type": "subcategory",
+    "name_cn": "干预类型",
+    "name_en": "Intervention_Type",
+    "id": "TI001.001",
+    "label": "Intervention_Type",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001",
+    "level": 3,
+    "parent_id": "TI001.001",
+    "definition": "使用药物进行的治疗方法",
+    "type": "treatment_category",
+    "name_cn": "药物治疗",
+    "name_en": "Pharmacotherapy",
+    "id": "TI001.001.001",
+    "label": "Pharmacotherapy",
+    "umls_mapping": {
+      "cui": "C0392920",
+      "canonical_name": "Chemotherapy Regimen",
+      "score": 0.8797,
+      "types": [
+        "T061"
+      ],
+      "definition": "application of the beneficial effects of drugs to control or cure neoplastic growth.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCS",
+        "CHV",
+        "CSP",
+        "ICPC2ICD10DUT",
+        "ICPC2ICD10ENG",
+        "MTH",
+        "NANDA-I",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.001",
+    "level": 4,
+    "parent_id": "TI001.001.001",
+    "definition": "抑制血小板聚集的药物治疗",
+    "type": "treatment_subcategory",
+    "name_cn": "抗血小板治疗",
+    "name_en": "Antiplatelet_Therapy",
+    "id": "TI001.001.001.001",
+    "label": "Antiplatelet_Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.001.001",
+    "level": 5,
+    "parent_id": "TI001.001.001.001",
+    "definition": "乙酰水杨酸，抗血小板聚集药物",
+    "type": "medication",
+    "name_cn": "阿司匹林",
+    "name_en": "Aspirin",
+    "id": "TI001.001.001.001.001",
+    "label": "Aspirin",
+    "umls_mapping": {
+      "cui": "C0004057",
+      "canonical_name": "aspirin",
+      "score": 0.981,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "The prototypical analgesic used in the treatment of mild to moderate pain. It has anti-inflammatory and antipyretic properties and acts as an inhibitor of cyclooxygenase which results in the inhibition of the biosynthesis of prostaglandins. Aspirin also inhibits platelet aggregation and is used in the prevention of arterial and venous thrombosis. (From Martindale, The Extra Pharmacopoeia, 30th ed, p5)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "LCH",
+        "LCH_NW",
+        "MEDCIN",
+        "MMSL",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.001.002",
+    "level": 5,
+    "parent_id": "TI001.001.001.001",
+    "definition": "P2Y12受体拮抗剂，如氯吡格雷、替格瑞洛",
+    "type": "medication",
+    "name_cn": "P2Y12抑制剂",
+    "name_en": "P2Y12_Inhibitor",
+    "id": "TI001.001.001.001.002",
+    "label": "P2Y12_Inhibitor",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.002",
+    "level": 4,
+    "parent_id": "TI001.001.001",
+    "definition": "抑制血液凝固的药物治疗",
+    "type": "treatment_subcategory",
+    "name_cn": "抗凝治疗",
+    "name_en": "Anticoagulation_Therapy",
+    "id": "TI001.001.001.002",
+    "label": "Anticoagulation_Therapy",
+    "umls_mapping": {
+      "cui": "C0003281",
+      "canonical_name": "Anticoagulation Therapy",
+      "score": 0.963,
+      "types": [
+        "T061"
+      ],
+      "definition": "Drug treatment to thin the blood in order to prevent or reduce blood clot formation.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "ICNP",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MTH",
+        "NCI",
+        "PDQ",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003",
+    "level": 4,
+    "parent_id": "TI001.001.001",
+    "definition": "缓解心绞痛症状的药物治疗",
+    "type": "treatment_subcategory",
+    "name_cn": "抗心绞痛治疗",
+    "name_en": "Anti-anginal_Therapy",
+    "id": "TI001.001.001.003",
+    "label": "Anti-anginal_Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.003.001",
+    "level": 5,
+    "parent_id": "TI001.001.001.003",
+    "definition": "阻断β肾上腺素受体的药物",
+    "type": "medication",
+    "name_cn": "β受体阻滞剂",
+    "name_en": "Beta-Blockers",
+    "id": "TI001.001.001.003.001",
+    "label": "Beta-Blockers",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.003.002",
+    "level": 5,
+    "parent_id": "TI001.001.001.003",
+    "definition": "硝酸酯类血管扩张剂",
+    "type": "medication",
+    "name_cn": "硝酸酯类",
+    "name_en": "Nitrates",
+    "id": "TI001.001.001.003.002",
+    "label": "Nitrates",
+    "umls_mapping": {
+      "cui": "C0028125",
+      "canonical_name": "Nitrates",
+      "score": 0.9842,
+      "types": [
+        "T197"
+      ],
+      "definition": "Inorganic or organic salts and esters of nitric acid. These compounds contain the NO3- radical.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "DRUGBANK",
+        "LCH",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.003",
+    "level": 5,
+    "parent_id": "TI001.001.001.003",
+    "definition": "阻断钙离子通道的药物",
+    "type": "medication",
+    "name_cn": "钙通道阻滞剂",
+    "name_en": "Calcium_Channel_Blockers",
+    "id": "TI001.001.001.003.003",
+    "label": "Calcium_Channel_Blockers",
+    "umls_mapping": {
+      "cui": "C0006684",
+      "canonical_name": "Calcium Channel Blockers",
+      "score": 0.9827,
+      "types": [
+        "T121"
+      ],
+      "definition": "A class of drugs that act by selective inhibition of calcium influx through cellular membranes.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "ATC",
+        "CHV",
+        "CSP",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.004",
+    "level": 5,
+    "parent_id": "TI001.001.001.003",
+    "definition": "哌嗪衍生物，用于慢性稳定性心绞痛",
+    "type": "medication",
+    "name_cn": "雷诺嗪",
+    "name_en": "Ranolazine",
+    "id": "TI001.001.001.003.004",
+    "label": "Ranolazine",
+    "umls_mapping": {
+      "cui": "C0073633",
+      "canonical_name": "ranolazine",
+      "score": 0.9678,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "An orally available, piperazine derivative with anti-anginal and potential antineoplastic activities. Ranolazine's mechanism of action for its anti-ischemic effects has yet to be fully elucidated but may involve the alteration of the trans-cellular late sodium current in the ischemic myocyte. By preventing the rise of intracellular sodium levels, ranolazine may affect the transport activity of sodium-dependent calcium channels and prevent the calcium overload during myocardial ischemia, thereby preventing cellular injury. Ranolazine's potential antineoplastic effect may depend on its inhibitory effect on fatty acid oxidation, which may sensitize tumor cells to apoptosis and decrease tumor cell proliferation; fatty acid oxidation provides energy and promotes tumor cell proliferation and survival.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "DRUGBANK",
+        "GS",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RXNORM",
+        "SNOMEDCT_US",
+        "USP",
+        "USPMG",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.004",
+    "level": 4,
+    "parent_id": "TI001.001.001",
+    "definition": "预防心血管事件复发的药物",
+    "type": "treatment_subcategory",
+    "name_cn": "二级预防药物",
+    "name_en": "Secondary_Prevention",
+    "id": "TI001.001.001.004",
+    "label": "Secondary_Prevention",
+    "umls_mapping": {
+      "cui": "C0679699",
+      "canonical_name": "Secondary Prevention",
+      "score": 0.9706,
+      "types": [
+        "T061"
+      ],
+      "definition": "The prevention of recurrences or exacerbations of a disease or complications of its therapy.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MSH",
+        "MSHCZE",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.004.001",
+    "level": 5,
+    "parent_id": "TI001.001.001.004",
+    "definition": "HMG-CoA还原酶抑制剂，降脂药物",
+    "type": "medication",
+    "name_cn": "他汀类药物",
+    "name_en": "Statins",
+    "id": "TI001.001.001.004.001",
+    "label": "Statins",
+    "umls_mapping": {
+      "cui": "C0360714",
+      "canonical_name": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+      "score": 0.9917,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "Compounds that inhibit HYDROXYMETHYLGLUTARYL COA REDUCTASES. They have been shown to directly lower CHOLESTEROL synthesis.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.004.002",
+    "level": 5,
+    "parent_id": "TI001.001.001.004",
+    "definition": "血管紧张素转换酶抑制剂或血管紧张素受体阻滞剂",
+    "type": "medication",
+    "name_cn": "ACEI/ARB药物",
+    "name_en": "ACEI_ARB",
+    "id": "TI001.001.001.004.002",
+    "label": "ACEI_ARB",
+    "umls_mapping": {
+      "cui": "C1264693",
+      "canonical_name": "Arbitrary (property) (qualifier value)",
+      "score": 0.9562,
+      "types": [
+        "T080"
+      ],
+      "definition": "Based on or subject to individual discretion or preference or sometimes impulse or caprice.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.005",
+    "level": 4,
+    "parent_id": "TI001.001.001",
+    "definition": "促进水钠排泄的药物治疗",
+    "type": "treatment_subcategory",
+    "name_cn": "利尿剂治疗",
+    "name_en": "Diuretic_Therapy",
+    "id": "TI001.001.001.005",
+    "label": "Diuretic_Therapy",
+    "umls_mapping": {
+      "cui": "C0948575",
+      "canonical_name": "Diuretic therapy",
+      "score": 0.973,
+      "types": [
+        "T061"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.006",
+    "level": 4,
+    "parent_id": "TI001.001.001",
+    "definition": "增强心肌收缩力的药物",
+    "type": "treatment_subcategory",
+    "name_cn": "正性肌力药物",
+    "name_en": "Positive_Inotropic_Agents",
+    "id": "TI001.001.001.006",
+    "label": "Positive_Inotropic_Agents",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.007",
+    "level": 4,
+    "parent_id": "TI001.001.001",
+    "definition": "血管紧张素受体脑啡肽酶抑制剂",
+    "type": "treatment_subcategory",
+    "name_cn": "ARNI药物",
+    "name_en": "ARNI",
+    "id": "TI001.001.001.007",
+    "label": "ARNI",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002",
+    "level": 3,
+    "parent_id": "TI001.001",
+    "definition": "恢复冠状动脉血流的治疗方法",
+    "type": "treatment_category",
+    "name_cn": "再灌注治疗",
+    "name_en": "Reperfusion_Therapy",
+    "id": "TI001.001.002",
+    "label": "Reperfusion_Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.001",
+    "level": 4,
+    "parent_id": "TI001.001.002",
+    "definition": "经皮经腔冠状动脉成形术及相关介入治疗",
+    "type": "procedure",
+    "name_cn": "经皮冠状动脉介入治疗",
+    "name_en": "PCI",
+    "id": "TI001.001.002.001",
+    "label": "PCI",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.001.001",
+    "level": 5,
+    "parent_id": "TI001.001.002.001",
+    "definition": "使用球囊扩张狭窄的冠状动脉",
+    "type": "procedure",
+    "name_cn": "球囊血管成形术",
+    "name_en": "Balloon_Angioplasty",
+    "id": "TI001.001.002.001.001",
+    "label": "Balloon_Angioplasty",
+    "umls_mapping": {
+      "cui": "C0336637",
+      "canonical_name": "Angioplasty balloon catheter",
+      "score": 0.8501,
+      "types": [
+        "T074"
+      ],
+      "definition": "Angioplasty vascular catheters that dilate a stenotic artery by controlled inflation of a distensible balloon. These catheters usually consist of a double-lumen tube with a balloon in the distal tip and a side hole that is used for pressure recording and contrast material ejection. Typically, a guiding catheter is peripherally inserted and advanced into the section of the artery requiring dilatation; this catheter guides the dilating catheter into the stenotic arterial branch, where the balloon is inflated across the stenosis to a predetermined maximal outer diameter, thereby enlarging the lumen. After balloon deflation, the catheter is withdrawn. These catheters are mostly used for the treatment of obstructions in the coronary arteries and aortocoronary saphenous vein bypass grafts, but they are also used in the treatment of other arterial (e.g., renal artery, peripheral arteries) occlusive diseases.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "DMDUMD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US",
+        "SPN",
+        "UMD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.001.002",
+    "level": 5,
+    "parent_id": "TI001.001.002.001",
+    "definition": "植入支架维持血管通畅",
+    "type": "procedure",
+    "name_cn": "支架植入术",
+    "name_en": "Stenting",
+    "id": "TI001.001.002.001.002",
+    "label": "Stenting",
+    "umls_mapping": {
+      "cui": "C0038257",
+      "canonical_name": "Stent, device",
+      "score": 0.993,
+      "types": [
+        "T074"
+      ],
+      "definition": "Devices that provide support for tubular structures that are being anastomosed or for body cavities during skin grafting.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LNC",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US",
+        "UMD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.002",
+    "level": 4,
+    "parent_id": "TI001.001.002",
+    "definition": "使用溶栓药物溶解血栓",
+    "type": "procedure",
+    "name_cn": "溶栓治疗",
+    "name_en": "Thrombolysis",
+    "id": "TI001.001.002.002",
+    "label": "Thrombolysis",
+    "umls_mapping": {
+      "cui": "C0520997",
+      "canonical_name": "Thrombolysis, function",
+      "score": 0.9852,
+      "types": [
+        "T201"
+      ],
+      "definition": "The process of breaking up and dissolving blood clots.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.003",
+    "level": 3,
+    "parent_id": "TI001.001",
+    "definition": "通过外科手术进行的治疗",
+    "type": "treatment_category",
+    "name_cn": "外科手术",
+    "name_en": "Surgery",
+    "id": "TI001.001.003",
+    "label": "Surgery",
+    "umls_mapping": {
+      "cui": "C1274039",
+      "canonical_name": "General surgery specialty",
+      "score": 0.9868,
+      "types": [
+        "T091"
+      ],
+      "definition": "A specialty in which manual or operative procedures are used in the treatment of disease, injuries, or deformities.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MSHNOR",
+        "MSHPOL",
+        "MTH",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.003.001",
+    "level": 4,
+    "parent_id": "TI001.001.003",
+    "definition": "建立冠状动脉旁路的外科手术",
+    "type": "procedure",
+    "name_cn": "冠状动脉旁路移植术",
+    "name_en": "CABG",
+    "id": "TI001.001.003.001",
+    "label": "CABG",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.004",
+    "level": 3,
+    "parent_id": "TI001.001",
+    "definition": "机械装置辅助的治疗方法",
+    "type": "treatment_category",
+    "name_cn": "机械辅助治疗",
+    "name_en": "Mechanical_Support_Therapy",
+    "id": "TI001.001.004",
+    "label": "Mechanical_Support_Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.004.001",
+    "level": 4,
+    "parent_id": "TI001.001.004",
+    "definition": "主动脉内球囊反搏支持装置",
+    "type": "device",
+    "name_cn": "主动脉内球囊反搏",
+    "name_en": "IABP",
+    "id": "TI001.001.004.001",
+    "label": "IABP",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.004.002",
+    "level": 4,
+    "parent_id": "TI001.001.004",
+    "definition": "体外膜式氧合器",
+    "type": "device",
+    "name_cn": "体外膜肺氧合",
+    "name_en": "ECMO",
+    "id": "TI001.001.004.002",
+    "label": "ECMO",
+    "umls_mapping": {
+      "cui": "C0015357",
+      "canonical_name": "Extracorporeal Membrane Oxygenation",
+      "score": 0.9821,
+      "types": [
+        "T061"
+      ],
+      "definition": "Application of a life support system that circulates the blood through an oxygenating system, which may consist of a pump, a membrane oxygenator, and a heat exchanger. Examples of its use are to assist victims of SMOKE INHALATION INJURY; RESPIRATORY FAILURE; and CARDIAC FAILURE.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCSR_ICD10PCS",
+        "LCH_NW",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "MTHICD9",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.004.003",
+    "level": 4,
+    "parent_id": "TI001.001.004",
+    "definition": "左心室辅助装置",
+    "type": "device",
+    "name_cn": "左心辅助装置",
+    "name_en": "LVAD",
+    "id": "TI001.001.004.003",
+    "label": "LVAD",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.005",
+    "level": 3,
+    "parent_id": "TI001.001",
+    "definition": "电生理相关的治疗方法",
+    "type": "treatment_category",
+    "name_cn": "电生理治疗",
+    "name_en": "Electrophysiology_Therapy",
+    "id": "TI001.001.005",
+    "label": "Electrophysiology_Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.005.001",
+    "level": 4,
+    "parent_id": "TI001.001.005",
+    "definition": "心脏起搏器植入术",
+    "type": "procedure",
+    "name_cn": "起搏器植入",
+    "name_en": "Pacemaker_Implantation",
+    "id": "TI001.001.005.001",
+    "label": "Pacemaker_Implantation",
+    "umls_mapping": {
+      "cui": "C0397442",
+      "canonical_name": "Maintenance procedure for cardiac pacemaker system",
+      "score": 0.8647,
+      "types": [
+        "T061"
+      ],
+      "definition": "Actions performed to control the use of an electronic device that provides a normal heartbeat",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCC",
+        "CHV",
+        "ICPC2P",
+        "MEDCIN",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.005.002",
+    "level": 4,
+    "parent_id": "TI001.001.005",
+    "definition": "植入式心律转复除颤器",
+    "type": "procedure",
+    "name_cn": "ICD植入",
+    "name_en": "ICD_Implantation",
+    "id": "TI001.001.005.002",
+    "label": "ICD_Implantation",
+    "umls_mapping": {
+      "cui": "C0020725",
+      "canonical_name": "Type II Mucolipidosis",
+      "score": 0.9916,
+      "types": [
+        "T047"
+      ],
+      "definition": "An inherited lysosomal storage disease characterized by the presence of dense intracytoplasmic inclusions in mesenchymal cells, especially fibroblasts. Signs and symptoms include developmental delay, psychomotor deterioration, and growth failure.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICPC2ICD10DUT",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "ORPHANET",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.006",
+    "level": 3,
+    "parent_id": "TI001.001",
+    "definition": "通过改变生活方式进行的干预",
+    "type": "treatment_category",
+    "name_cn": "生活方式干预",
+    "name_en": "Lifestyle_Intervention",
+    "id": "TI001.001.006",
+    "label": "Lifestyle_Intervention",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.006.001",
+    "level": 4,
+    "parent_id": "TI001.001.006",
+    "definition": "戒除吸烟习惯的干预措施",
+    "type": "lifestyle_intervention",
+    "name_cn": "戒烟",
+    "name_en": "Smoking_Cessation",
+    "id": "TI001.001.006.001",
+    "label": "Smoking_Cessation",
+    "umls_mapping": {
+      "cui": "C0037369",
+      "canonical_name": "Smoking",
+      "score": 0.963,
+      "types": [
+        "T055"
+      ],
+      "definition": "Willful or deliberate act of inhaling and exhaling SMOKE from burning substances or agents held by hand.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "BI",
+        "CHV",
+        "COSTAR",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MTH",
+        "NANDA-I",
+        "NCI",
+        "NOC",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.006.002",
+    "level": 4,
+    "parent_id": "TI001.001.006",
+    "definition": "心脏疾病患者的康复训练",
+    "type": "lifestyle_intervention",
+    "name_cn": "心脏康复",
+    "name_en": "Cardiac_Rehabilitation",
+    "id": "TI001.001.006.002",
+    "label": "Cardiac_Rehabilitation",
+    "umls_mapping": {
+      "cui": "C0700431",
+      "canonical_name": "Cardiac rehabilitation",
+      "score": 0.9655,
+      "types": [
+        "T061"
+      ],
+      "definition": "A medically supervised program to improve the health and well-being of people who have heart problems. This may include exercise training, education on heart healthy living, and/or counseling to reduce stress. (ACC)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCC",
+        "CCPSS",
+        "CHV",
+        "ICPC2ICD10DUT",
+        "ICPC2ICD10ENG",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.006.003",
+    "level": 4,
+    "parent_id": "TI001.001.006",
+    "definition": "饮食结构和营养的管理",
+    "type": "lifestyle_intervention",
+    "name_cn": "饮食管理",
+    "name_en": "Dietary_Management",
+    "id": "TI001.001.006.003",
+    "label": "Dietary_Management",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.007",
+    "level": 3,
+    "parent_id": "TI001.001",
+    "definition": "血液净化相关治疗",
+    "type": "treatment_category",
+    "name_cn": "血液净化治疗",
+    "name_en": "Blood_Purification_Therapy",
+    "id": "TI001.001.007",
+    "label": "Blood_Purification_Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.002",
+    "level": 2,
+    "parent_id": "TI001",
+    "definition": "不同阶段和情况下的治疗策略",
+    "type": "subcategory",
+    "name_cn": "治疗策略",
+    "name_en": "Treatment_Strategy",
+    "id": "TI001.002",
+    "label": "Treatment_Strategy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.002.001",
+    "level": 3,
+    "parent_id": "TI001.002",
+    "definition": "疾病初期的管理策略",
+    "type": "strategy",
+    "name_cn": "初始管理",
+    "name_en": "Initial_Management",
+    "id": "TI001.002.001",
+    "label": "Initial_Management",
+    "umls_mapping": {
+      "cui": "C0205265",
+      "canonical_name": "Initially",
+      "score": 0.9787,
+      "types": [
+        "T079"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.002.002",
+    "level": 3,
+    "parent_id": "TI001.002",
+    "definition": "疾病的长期管理策略",
+    "type": "strategy",
+    "name_cn": "长期管理",
+    "name_en": "Long-term_Management",
+    "id": "TI001.002.002",
+    "label": "Long-term_Management",
+    "umls_mapping": {
+      "cui": "C0423909",
+      "canonical_name": "Memory, Long-Term",
+      "score": 0.8059,
+      "types": [
+        "T041"
+      ],
+      "definition": "The memory process that deals with the storage, retrieval and modification of information a long time (typically weeks, months or years) after receiving that information. This type of memory is typically dependent on gene transcription regulated by second messenger activation. [http://hebb.mit.edu/courses/9.03/lecture4.html, ISBN:0582227089]",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "GO",
+        "ICF",
+        "ICF-CY",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.002.003",
+    "level": 3,
+    "parent_id": "TI001.002",
+    "definition": "紧急情况下的处理策略",
+    "type": "strategy",
+    "name_cn": "紧急处理",
+    "name_en": "Emergency_Management",
+    "id": "TI001.002.003",
+    "label": "Emergency_Management",
+    "umls_mapping": {
+      "cui": "C0013958",
+      "canonical_name": "Emergency Care Information Systems",
+      "score": 0.8035,
+      "types": [
+        "T073",
+        "T170"
+      ],
+      "definition": "Data management information systems designed to provide clinical and administrative information related to the emergency care services and facilities. These systems include hardware and software capabilities to collect information from devices such as physiological monitors and fluid administration equipment; they can also keep records of drug administration and patient trends. Emergency care data management information systems assist the physician to manage the prognosis and treatment of high-risk patients, typically during critical care treatment.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHNOR",
+        "MSHPOR",
+        "MSHSPA",
+        "SCTSPA",
+        "SNOMEDCT_US",
+        "UMD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003",
+    "level": 2,
+    "parent_id": "TI001",
+    "definition": "治疗的时间相关特征",
+    "type": "subcategory",
+    "name_cn": "时间维度",
+    "name_en": "Temporal_Dimension",
+    "id": "TI001.003",
+    "label": "Temporal_Dimension",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.001",
+    "level": 3,
+    "parent_id": "TI001.003",
+    "definition": "疾病发展的不同阶段",
+    "type": "temporal_category",
+    "name_cn": "疾病进程阶段",
+    "name_en": "Disease_Phase",
+    "id": "TI001.003.001",
+    "label": "Disease_Phase",
+    "umls_mapping": {
+      "cui": "C0457338",
+      "canonical_name": "Disease phases",
+      "score": 0.9849,
+      "types": [
+        "T079"
+      ],
+      "definition": "The stage or period of an individual's disease.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.001.001",
+    "level": 4,
+    "parent_id": "TI001.003.001",
+    "definition": "疾病的急性发作期",
+    "type": "phase",
+    "name_cn": "急性期",
+    "name_en": "Acute_Phase",
+    "id": "TI001.003.001.001",
+    "label": "Acute_Phase",
+    "umls_mapping": {
+      "cui": "C0439557",
+      "canonical_name": "Acute phase",
+      "score": 0.9837,
+      "types": [
+        "T079"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.001.001.001",
+    "level": 5,
+    "parent_id": "TI001.003.001.001",
+    "definition": "发病后12小时内的超急性期",
+    "type": "phase",
+    "name_cn": "超急性期",
+    "name_en": "Hyperacute_Phase",
+    "id": "TI001.003.001.001.001",
+    "label": "Hyperacute_Phase",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.001.001.002",
+    "level": 5,
+    "parent_id": "TI001.003.001.001",
+    "definition": "发病后12-72小时的急性早期",
+    "type": "phase",
+    "name_cn": "急性早期",
+    "name_en": "Early_Acute_Phase",
+    "id": "TI001.003.001.001.002",
+    "label": "Early_Acute_Phase",
+    "umls_mapping": {
+      "cui": "C1279919",
+      "canonical_name": "Early",
+      "score": 0.9845,
+      "types": [
+        "T079"
+      ],
+      "definition": "At or near the beginning of a period of time or course of events.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.001.001.003",
+    "level": 5,
+    "parent_id": "TI001.003.001.001",
+    "definition": "发病后3-7天的急性晚期",
+    "type": "phase",
+    "name_cn": "急性晚期",
+    "name_en": "Late_Acute_Phase",
+    "id": "TI001.003.001.001.003",
+    "label": "Late_Acute_Phase",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.001.002",
+    "level": 4,
+    "parent_id": "TI001.003.001",
+    "definition": "发病后1-4周的亚急性期",
+    "type": "phase",
+    "name_cn": "亚急性期",
+    "name_en": "Subacute_Phase",
+    "id": "TI001.003.001.002",
+    "label": "Subacute_Phase",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.001.003",
+    "level": 4,
+    "parent_id": "TI001.003.001",
+    "definition": "疾病的稳定慢性期",
+    "type": "phase",
+    "name_cn": "稳定期",
+    "name_en": "Stable_Phase",
+    "id": "TI001.003.001.003",
+    "label": "Stable_Phase",
+    "umls_mapping": {
+      "cui": "C0205360",
+      "canonical_name": "Stable status",
+      "score": 0.9964,
+      "types": [
+        "T080"
+      ],
+      "definition": "The quality of being free from change or variation or not taking part readily in chemical change.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.001.004",
+    "level": 4,
+    "parent_id": "TI001.003.001",
+    "definition": "疾病的终末阶段",
+    "type": "phase",
+    "name_cn": "终末期",
+    "name_en": "End-Stage_Phase",
+    "id": "TI001.003.001.004",
+    "label": "End-Stage_Phase",
+    "umls_mapping": {
+      "cui": "C0205088",
+      "canonical_name": "End-stage",
+      "score": 0.957,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "MTH",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.002",
+    "level": 3,
+    "parent_id": "TI001.003",
+    "definition": "治疗实施的时机选择",
+    "type": "temporal_category",
+    "name_cn": "治疗时机",
+    "name_en": "Treatment_Timing",
+    "id": "TI001.003.002",
+    "label": "Treatment_Timing",
+    "umls_mapping": {
+      "cui": "C0087111",
+      "canonical_name": "Therapeutic procedure",
+      "score": 0.9704,
+      "types": [
+        "T061"
+      ],
+      "definition": "Procedures concerned with the remedial treatment or prevention of diseases.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CPT",
+        "ICPC2P",
+        "LCH",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "MTHMST",
+        "NCI",
+        "PDQ",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.002.001",
+    "level": 4,
+    "parent_id": "TI001.003.002",
+    "definition": "入院前的院前治疗",
+    "type": "timing",
+    "name_cn": "入院前",
+    "name_en": "Pre-hospital",
+    "id": "TI001.003.002.001",
+    "label": "Pre-hospital",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.002.002",
+    "level": 4,
+    "parent_id": "TI001.003.002",
+    "definition": "患者入院时的治疗",
+    "type": "timing",
+    "name_cn": "入院时",
+    "name_en": "At_Admission",
+    "id": "TI001.003.002.002",
+    "label": "At_Admission",
+    "umls_mapping": {
+      "cui": "C0184666",
+      "canonical_name": "Hospital admission",
+      "score": 0.9628,
+      "types": [
+        "T058"
+      ],
+      "definition": "<p>**Description:**The patient has been admitted to a care facility and their community medications are suspended until hospital discharge.</p>",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V3.0",
+        "ICPC2P",
+        "LNC",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.002.003",
+    "level": 4,
+    "parent_id": "TI001.003.002",
+    "definition": "STEMI患者90分钟内的关键时间窗",
+    "type": "timing",
+    "name_cn": "黄金时间窗",
+    "name_en": "Golden_Hour",
+    "id": "TI001.003.002.003",
+    "label": "Golden_Hour",
+    "umls_mapping": {
+      "cui": "C0331431",
+      "canonical_name": "Solidago",
+      "score": 0.8083,
+      "types": [
+        "T002"
+      ],
+      "definition": "A plant genus of the family Asteraceae known for allergenic pollen (ALLERGENS).",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MTH",
+        "NCBI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.002.004",
+    "level": 4,
+    "parent_id": "TI001.003.002",
+    "definition": "住院期间的治疗",
+    "type": "timing",
+    "name_cn": "住院期间",
+    "name_en": "In-hospital",
+    "id": "TI001.003.002.004",
+    "label": "In-hospital",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.002.005",
+    "level": 4,
+    "parent_id": "TI001.003.002",
+    "definition": "出院时的治疗安排",
+    "type": "timing",
+    "name_cn": "出院时",
+    "name_en": "At_Discharge",
+    "id": "TI001.003.002.005",
+    "label": "At_Discharge",
+    "umls_mapping": {
+      "cui": "C0012621",
+      "canonical_name": "Body Fluid Discharge",
+      "score": 0.9903,
+      "types": [
+        "T031"
+      ],
+      "definition": "The pouring forth of a fluid.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.002.006",
+    "level": 4,
+    "parent_id": "TI001.003.002",
+    "definition": "出院后的随访期治疗",
+    "type": "timing",
+    "name_cn": "随访期",
+    "name_en": "Follow-up_Period",
+    "id": "TI001.003.002.006",
+    "label": "Follow-up_Period",
+    "umls_mapping": {
+      "cui": "C0589120",
+      "canonical_name": "Follow-up status",
+      "score": 0.9677,
+      "types": [
+        "T033"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.003",
+    "level": 3,
+    "parent_id": "TI001.003",
+    "definition": "干预措施的时间特性",
+    "type": "temporal_category",
+    "name_cn": "干预时间特性",
+    "name_en": "Intervention_Temporal_Characteristic",
+    "id": "TI001.003.003",
+    "label": "Intervention_Temporal_Characteristic",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.003.001",
+    "level": 4,
+    "parent_id": "TI001.003.003",
+    "definition": "初始大剂量给药",
+    "type": "dosing",
+    "name_cn": "负荷剂量",
+    "name_en": "Loading_Dose",
+    "id": "TI001.003.003.001",
+    "label": "Loading_Dose",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.003.002",
+    "level": 4,
+    "parent_id": "TI001.003.003",
+    "definition": "长期维持的药物剂量",
+    "type": "dosing",
+    "name_cn": "维持剂量",
+    "name_en": "Maintenance_Dose",
+    "id": "TI001.003.003.002",
+    "label": "Maintenance_Dose",
+    "umls_mapping": {
+      "cui": "C0178602",
+      "canonical_name": "Dosage",
+      "score": 0.9949,
+      "types": [
+        "T081"
+      ],
+      "definition": "A quantity of an agent (such as substance or energy) administered, taken, or absorbed at one time.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.003.003",
+    "level": 4,
+    "parent_id": "TI001.003.003",
+    "definition": "一次性给药方式",
+    "type": "dosing",
+    "name_cn": "单次给药",
+    "name_en": "Single_Administration",
+    "id": "TI001.003.003.003",
+    "label": "Single_Administration",
+    "umls_mapping": {
+      "cui": "C0001554",
+      "canonical_name": "Administration occupational activities",
+      "score": 0.8033,
+      "types": [
+        "T057"
+      ],
+      "definition": "Performing or possessing executive duties; acting as a supervisor or manager.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LCH",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHNOR",
+        "MSHPOR",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.003.003.004",
+    "level": 4,
+    "parent_id": "TI001.003.003",
+    "definition": "持续静脉输注给药",
+    "type": "dosing",
+    "name_cn": "持续输注",
+    "name_en": "Continuous_Infusion",
+    "id": "TI001.003.003.004",
+    "label": "Continuous_Infusion",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.003.005",
+    "level": 4,
+    "parent_id": "TI001.003.003",
+    "definition": "手术或操作前的预处理用药",
+    "type": "procedural",
+    "name_cn": "术前用药",
+    "name_en": "Pre-procedural_Medication",
+    "id": "TI001.003.003.005",
+    "label": "Pre-procedural_Medication",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.003.006",
+    "level": 4,
+    "parent_id": "TI001.003.003",
+    "definition": "手术或操作过程中的治疗",
+    "type": "procedural",
+    "name_cn": "术中治疗",
+    "name_en": "Intra-procedural_Treatment",
+    "id": "TI001.003.003.006",
+    "label": "Intra-procedural_Treatment",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.003.003.007",
+    "level": 4,
+    "parent_id": "TI001.003.003",
+    "definition": "手术或操作后的管理",
+    "type": "procedural",
+    "name_cn": "术后管理",
+    "name_en": "Post-procedural_Management",
+    "id": "TI001.003.003.007",
+    "label": "Post-procedural_Management",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.001.002.001",
+    "level": 6,
+    "parent_id": "TI001.001.002.001.002",
+    "definition": "A stent that releases medication to prevent the growth of scar tissue in the artery lining.",
+    "type": "medical device",
+    "name_cn": "药物洗脱支架",
+    "name_en": "Drug-eluting stent",
+    "id": "TI001.001.002.001.002.001",
+    "label": "Drug-eluting stent",
+    "umls_mapping": {
+      "cui": "C1322815",
+      "canonical_name": "Drug-Eluting Stents",
+      "score": 0.9538,
+      "types": [
+        "T074"
+      ],
+      "definition": "Stents that are covered with materials that are embedded with chemicals that are gradually released into the surrounding milieu.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LCH_NW",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.003.002",
+    "level": 4,
+    "parent_id": "TI001.001.003",
+    "definition": "A procedure to replace a damaged aortic valve with a prosthetic valve delivered via catheter.",
+    "type": null,
+    "name_cn": "经导管主动脉瓣植入术",
+    "name_en": "Transcatheter Aortic Valve Implantation",
+    "id": "TI001.001.003.002",
+    "label": "Transcatheter Aortic Valve Implantation",
+    "umls_mapping": {
+      "cui": "C5568478",
+      "canonical_name": "Valve-in-valve TAVI (transcatheter aortic valve implantation)",
+      "score": 0.9001,
+      "types": [
+        "T061"
+      ],
+      "definition": "A surgical cardiac procedure involving repair of the aortic valve by implanting a replacement valve (within a stent) into the previously implanted aortic valve without removing the old, damaged valve or the previously implanted valve.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.008",
+    "id": "TI001.001.008",
+    "name_en": "Medical_Therapy_and_Lifestyle_Changes",
+    "name_cn": "药物治疗和生活方式改变",
+    "definition": "A combination of medical treatment and lifestyle modifications for managing chronic conditions.",
+    "type": "treatment_intervention",
+    "level": 2,
+    "parent_id": "TI001.001",
+    "alias": "",
+    "label": "Medical_Therapy_and_Lifestyle_Changes",
+    "umls_mapping": {
+      "cui": "C0418981",
+      "canonical_name": "Medical therapy",
+      "score": 0.9764,
+      "types": [
+        "T061"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.002.004",
+    "id": "TI001.002.004",
+    "name_en": "Direct_proceeding_to_ICA",
+    "name_cn": "直接进行ICA",
+    "definition": "A treatment approach where patients proceed directly to invasive coronary angiography (ICA) without further diagnostic testing, based on initial clinical evaluation indicating high event risk.",
+    "type": "treatment_intervention",
+    "level": 2,
+    "parent_id": "TI001.002",
+    "alias": "",
+    "label": "Direct_proceeding_to_ICA",
+    "umls_mapping": {
+      "cui": "C0201519",
+      "canonical_name": "Antibody to islet cells of pancreas measurement",
+      "score": 0.9686,
+      "types": [
+        "T059"
+      ],
+      "definition": "The determination of the amount of islet cell antibody present in a sample.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPT",
+        "HCPT",
+        "LNC",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.004.003",
+    "id": "TI001.001.001.004.003",
+    "name_en": "Lipid-Lowering_Therapy",
+    "name_cn": "降脂治疗",
+    "definition": "降低血脂水平的治疗方法",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.004",
+    "alias": "",
+    "label": "Lipid-Lowering_Therapy",
+    "umls_mapping": {
+      "cui": "C0585943",
+      "canonical_name": "Lipid-lowering therapy",
+      "score": 0.9612,
+      "types": [
+        "T061"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.003",
+    "id": "TI001.001.002.003",
+    "name_en": "Inappropriate_Revascularization",
+    "name_cn": "不适当的血管重建",
+    "definition": "A medical procedure where revascularization is performed without sufficient evidence or justification, potentially leading to unnecessary risks.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Inappropriate_Revascularization",
+    "umls_mapping": {
+      "cui": "C3542467",
+      "canonical_name": "Inappropriate component (foundation metadata concept)",
+      "score": 0.976,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.004",
+    "id": "TI001.001.002.004",
+    "name_en": "QFR-guided_Therapy",
+    "name_cn": "QFR引导治疗",
+    "definition": "A treatment approach guided by Quantitative Flow Ratio (QFR) measurements to improve clinical outcomes by reducing myocardial infarctions and ischemia-driven revascularizations.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "QFR-guided_Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.005",
+    "id": "TI001.001.002.005",
+    "name_en": "Need_for_Revascularization",
+    "name_cn": "需要血运重建",
+    "definition": "The clinical indication or necessity for performing revascularization procedures to restore blood flow to ischemic tissues.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Need_for_Revascularization",
+    "umls_mapping": {
+      "cui": "C0027552",
+      "canonical_name": "Needs",
+      "score": 0.9706,
+      "types": [
+        "T080"
+      ],
+      "definition": "Anything that is necessary but lacking; the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "MSHNOR",
+        "MSHPOR",
+        "MSHSPA",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.006",
+    "id": "TI001.001.002.006",
+    "name_en": "Need_for_Downstream_Testing_and_Revascularization",
+    "name_cn": "需要进行下游测试和血运重建",
+    "definition": "The necessity for further diagnostic testing and revascularization procedures following initial assessment.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Need_for_Downstream_Testing_and_Revascularization",
+    "umls_mapping": {
+      "cui": "C0027552",
+      "canonical_name": "Needs",
+      "score": 0.9706,
+      "types": [
+        "T080"
+      ],
+      "definition": "Anything that is necessary but lacking; the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "MSHNOR",
+        "MSHPOR",
+        "MSHSPA",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.003.001",
+    "id": "TI001.001.001.003.003.001",
+    "name_en": "Amlodipine",
+    "name_cn": "氨氯地平",
+    "definition": "A calcium channel blocker used to treat hypertension and angina",
+    "type": "treatment_intervention",
+    "level": 5,
+    "parent_id": "TI001.001.001.003.003",
+    "alias": "",
+    "label": "Amlodipine",
+    "umls_mapping": {
+      "cui": "C0051696",
+      "canonical_name": "amlodipine",
+      "score": 0.9584,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A long-acting dihydropyridine calcium channel blocker. It is effective in the treatment of ANGINA PECTORIS and HYPERTENSION.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LCH_NW",
+        "LNC",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "RCD",
+        "RXNORM",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.006.004",
+    "id": "TI001.001.006.004",
+    "name_en": "Exercise_Time_Improvement",
+    "name_cn": "运动时间改善",
+    "definition": "通过治疗或干预措施使患者的运动时间显著增加",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.006",
+    "alias": "",
+    "label": "Exercise_Time_Improvement",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.009",
+    "id": "TI001.001.009",
+    "name_en": "Spinal_Cord_Stimulation",
+    "name_cn": "脊髓刺激",
+    "definition": "A treatment option for patients who remain refractory after medical therapy, involving electrical stimulation of the spinal cord.",
+    "type": "treatment_intervention",
+    "level": 2,
+    "parent_id": "TI001.001",
+    "alias": "",
+    "label": "Spinal_Cord_Stimulation",
+    "umls_mapping": {
+      "cui": "C0394477",
+      "canonical_name": "Neurostimulation procedures of spinal cord tissue",
+      "score": 0.9701,
+      "types": [
+        "T061"
+      ],
+      "definition": "Application of electric current to the spine for treatment of a variety of conditions involving innervation from the spinal cord.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.004.001.001",
+    "id": "TI001.001.001.004.001.001",
+    "name_en": "WARRIOR_Trial",
+    "name_cn": "女性缺血试验以减少非阻塞性冠状动脉疾病事件",
+    "definition": "A multicentre, prospective, randomized, blinded outcome evaluation to assess intensive statin and ACE-I/ARB therapy vs. usual care on MACE in symptomatic women with ANOCA.",
+    "type": "treatment_intervention",
+    "level": 5,
+    "parent_id": "TI001.001.001.004.001",
+    "alias": "",
+    "label": "WARRIOR_Trial",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.004.004",
+    "id": "TI001.001.001.004.004",
+    "name_en": "Intensive Statin and ACE-I/ARB Therapy",
+    "name_cn": "强化他汀和ACE-I/ARB治疗",
+    "definition": "A treatment regimen involving intensive use of statins and ACE inhibitors or angiotensin receptor blockers (ARBs) to manage cardiovascular conditions.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.004",
+    "alias": "",
+    "label": "Intensive Statin and ACE-I/ARB Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.003.005",
+    "id": "TI001.001.001.003.005",
+    "name_en": "Zibotentan",
+    "name_cn": "齐波腾坦",
+    "definition": "A drug used in clinical trials for the treatment of microvascular angina.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Zibotentan",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.008",
+    "id": "TI001.001.001.008",
+    "name_en": "Antihypertensive_Treatment",
+    "name_cn": "抗高血压治疗",
+    "definition": "Treatment aimed at reducing high blood pressure",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.001",
+    "alias": "",
+    "label": "Antihypertensive_Treatment",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.005.003",
+    "id": "TI001.001.005.003",
+    "name_en": "Surgical_Ablation",
+    "name_cn": "手术消融",
+    "definition": "A surgical procedure to remove or destroy tissue, often used in the treatment of atrial fibrillation.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.005",
+    "alias": "",
+    "label": "Surgical_Ablation",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.004.003.001",
+    "id": "TI001.001.001.004.003.001",
+    "name_en": "PCSK9 Inhibitor",
+    "name_cn": "PCSK9抑制剂",
+    "definition": "A treatment that inhibits PCSK9, used to lower cholesterol levels.",
+    "type": "treatment_intervention",
+    "level": 5,
+    "parent_id": "TI001.001.001.004.003",
+    "alias": "",
+    "label": "PCSK9 Inhibitor",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.009",
+    "id": "TI001.001.001.009",
+    "name_en": "Guideline-Directed Medical Therapy",
+    "name_cn": "指南导向的药物治疗",
+    "definition": "A medical therapy that follows established guidelines for the treatment of specific conditions, such as coronary artery disease.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.001",
+    "alias": "",
+    "label": "Guideline-Directed Medical Therapy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.007",
+    "id": "TI001.001.002.007",
+    "name_en": "Revascularization",
+    "name_cn": "血运重建",
+    "definition": "A medical procedure to restore blood flow to a blocked or narrowed blood vessel, often performed to treat obstructive coronary artery disease.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Revascularization",
+    "umls_mapping": {
+      "cui": "C0581603",
+      "canonical_name": "Revascularization - action",
+      "score": 0.9615,
+      "types": [
+        "T061"
+      ],
+      "definition": "procedures performed on the blood vessels with the intent of restoring the circulation or integrity of the blood vessels and to improve circulation deficiencies due to disease, injuries, or deformities.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.010",
+    "id": "TI001.001.001.010",
+    "name_en": "Guidelines",
+    "name_cn": "指南",
+    "definition": "Established protocols or recommendations for medical treatment and management",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.001",
+    "alias": "",
+    "label": "Guidelines",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.002.005",
+    "id": "TI001.002.005",
+    "name_en": "Patient_Management",
+    "name_cn": "患者管理",
+    "definition": "General strategies for managing patients, particularly in the context of cardiovascular disease and diagnostic procedures.",
+    "type": "treatment_intervention",
+    "level": 2,
+    "parent_id": "TI001.002",
+    "alias": "",
+    "label": "Patient_Management",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.008",
+    "id": "TI001.001.002.008",
+    "name_en": "Future_Coronary_Revascularization",
+    "name_cn": "未来冠状动脉血运重建",
+    "definition": "A potential future procedure to restore blood flow to the heart muscle in patients with coronary artery disease.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Future_Coronary_Revascularization",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.010.001",
+    "id": "TI001.001.010.001",
+    "name_en": "Systolic_Blood_Pressure_Target",
+    "name_cn": "收缩压目标",
+    "definition": "The recommended target range for systolic blood pressure in treated patients, as per clinical guidelines.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.010",
+    "alias": "",
+    "label": "Systolic_Blood_Pressure_Target",
+    "umls_mapping": {
+      "cui": "C0871470",
+      "canonical_name": "Systolic Pressure",
+      "score": 0.9901,
+      "types": [
+        "T201"
+      ],
+      "definition": "The maximum pressure exerted into the systemic arterial circulation during the contraction of the left ventricle of the heart.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "NOC",
+        "PSY",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.006",
+    "id": "TI001.001.001.003.006",
+    "name_en": "Acetylcholine",
+    "name_cn": "乙酰胆碱",
+    "definition": "A neurotransmitter that exerts a cholinergic effect on the atrioventricular node, potentially causing bradycardia when infused in specific coronary arteries.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Acetylcholine",
+    "umls_mapping": {
+      "cui": "C0001041",
+      "canonical_name": "acetylcholine",
+      "score": 0.9733,
+      "types": [
+        "T109",
+        "T121",
+        "T123"
+      ],
+      "definition": "A neurotransmitter found at neuromuscular junctions, autonomic ganglia, parasympathetic effector junctions, a subset of sympathetic effector junctions, and at many sites in the central nervous system.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "FMA",
+        "GS",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "PSY",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.007",
+    "id": "TI001.001.001.003.007",
+    "name_en": "Atropine",
+    "name_cn": "阿托品",
+    "definition": "An anticholinergic drug used to antagonize the effects of acetylcholine, such as bradycardia.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Atropine",
+    "umls_mapping": {
+      "cui": "C0004259",
+      "canonical_name": "atropine",
+      "score": 0.9866,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "An alkaloid, originally from Atropa belladonna, but found in other plants, mainly SOLANACEAE. Hyoscyamine is the 3(S)-endo isomer of atropine.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MEDCIN",
+        "MMSL",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NDDF",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "USP"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.005.004",
+    "id": "TI001.001.005.004",
+    "name_en": "Prophylactic Ventricular Pacing",
+    "name_cn": "预防性心室起搏",
+    "definition": "A preventive measure involving ventricular pacing to avoid bradycardia during certain procedures.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.005",
+    "alias": "",
+    "label": "Prophylactic Ventricular Pacing",
+    "umls_mapping": {
+      "cui": "C0445202",
+      "canonical_name": "Prophylactic behavior",
+      "score": 0.9873,
+      "types": [
+        "T169"
+      ],
+      "definition": "Any intervention to prevent disease or infection.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRBPO",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRKOR",
+        "MDRLAV",
+        "MDRLIT",
+        "MDRPOL",
+        "MDRPOR",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.008",
+    "id": "TI001.001.001.003.008",
+    "name_en": "Papaverine",
+    "name_cn": "罂粟碱",
+    "definition": "A vasodilator used in patients with contraindications to adenosine, with precautions needed due to the risk of inducing polymorphic ventricular tachycardia.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Papaverine",
+    "umls_mapping": {
+      "cui": "C0030350",
+      "canonical_name": "papaverine",
+      "score": 0.9465,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "An alkaloid found in opium but not closely related to the other opium alkaloids in its structure or pharmacological actions. It is a direct-acting smooth muscle relaxant used in the treatment of impotence and as a vasodilator, especially for cerebral vasodilation. The mechanism of its pharmacological actions is not clear, but it apparently can inhibit phosphodiesterases and it may have direct actions on calcium channels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LNC",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "PSY",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.010",
+    "id": "TI001.001.010",
+    "name_en": "Intracoronary Administration of Adenosine",
+    "name_cn": "冠状动脉内腺苷给药",
+    "definition": "A method of administering adenosine directly into the coronary arteries to assess endothelial-independent vasodilation.",
+    "type": "treatment_intervention",
+    "level": 2,
+    "parent_id": "TI001.001",
+    "alias": "",
+    "label": "Intracoronary Administration of Adenosine",
+    "umls_mapping": {
+      "cui": "C0595454",
+      "canonical_name": "Intracoronary Route of Drug Administration",
+      "score": 0.8659,
+      "types": [
+        "T169"
+      ],
+      "definition": "Administration of a drug within the coronary arteries supplying blood to the tissues of the heart.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HL7V3.0",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.009",
+    "id": "TI001.001.001.003.009",
+    "name_en": "Myocyte Relaxation and Ventricular Compliance",
+    "name_cn": "心肌细胞松弛和心室顺应性",
+    "definition": "Improvement in myocyte relaxation and ventricular compliance by decreasing sodium and calcium overload.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Myocyte Relaxation and Ventricular Compliance",
+    "umls_mapping": {
+      "cui": "C0149596",
+      "canonical_name": "Vestibular fold",
+      "score": 0.8056,
+      "types": [
+        "T023"
+      ],
+      "definition": "One of two folds of a mucous membrane spanning the larynx. The two folds aid in breathing and preventing regurgitation to a greater extent than producing sounds.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "FMA",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.002.001",
+    "id": "TI001.001.001.003.002.001",
+    "name_en": "Sublingual_Nitroglycerine",
+    "name_cn": "舌下硝酸甘油",
+    "definition": "A form of nitroglycerin administered under the tongue for rapid relief of angina symptoms.",
+    "type": "treatment_intervention",
+    "level": 5,
+    "parent_id": "TI001.001.001.003.002",
+    "alias": "",
+    "label": "Sublingual_Nitroglycerine",
+    "umls_mapping": {
+      "cui": "C0001565",
+      "canonical_name": "Sublingual Route of Drug Administration",
+      "score": 0.9604,
+      "types": [
+        "T169"
+      ],
+      "definition": "Administration of a soluble dosage form by placement under the tongue.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.004.003.002",
+    "id": "TI001.001.001.004.003.002",
+    "name_en": "Ezetimibe",
+    "name_cn": "依折麦布",
+    "definition": "A medication used to lower cholesterol levels by inhibiting the absorption of cholesterol in the small intestine.",
+    "type": "treatment_intervention",
+    "level": 5,
+    "parent_id": "TI001.001.001.004.003",
+    "alias": "",
+    "label": "Ezetimibe",
+    "umls_mapping": {
+      "cui": "C1142985",
+      "canonical_name": "ezetimibe",
+      "score": 0.9725,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "An azetidinone derivative and a cholesterol absorption inhibitor with lipid-lowering activity. Ezetimibe appears to interact physically with cholesterol transporters at the brush border of the small intestine and inhibits the intestinal absorption of cholesterol and related phytosterols. As a result, ezetimibe causes a decrease in the level of blood cholesterol or an increase in the clearance of cholesterol from the bloodstream. Overall, the following effects observed are a reduction of hepatic cholesterol stores and a reduction of total cholesterol, LDL cholesterol, and other triglycerides in the blood.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "CHV",
+        "DRUGBANK",
+        "GS",
+        "LNC",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RXNORM",
+        "SNOMEDCT_US",
+        "USP",
+        "USPMG",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.011",
+    "id": "TI001.001.001.011",
+    "name_en": "Experimental Inhibition of Interleukin-6",
+    "name_cn": "实验性白细胞介素-6抑制",
+    "definition": "Experimental approaches to inhibit the activity of interleukin-6, a cytokine involved in inflammation and immune response.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.001",
+    "alias": "",
+    "label": "Experimental Inhibition of Interleukin-6",
+    "umls_mapping": {
+      "cui": "C0021469",
+      "canonical_name": "Metabolic Inhibition",
+      "score": 0.9534,
+      "types": [
+        "T044"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.009",
+    "id": "TI001.001.002.009",
+    "name_en": "Unnecessary_Invasive_Coronary_Angiography",
+    "name_cn": "不必要的侵入性冠状动脉造影",
+    "definition": "Invasive coronary angiography procedures that are deemed unnecessary based on clinical evaluation or alternative diagnostic methods.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Unnecessary_Invasive_Coronary_Angiography",
+    "umls_mapping": {
+      "cui": "C0205281",
+      "canonical_name": "Invasive",
+      "score": 0.9686,
+      "types": [
+        "T080"
+      ],
+      "definition": "Marked by a tendency to spread, especially into healthy surrounding tissue.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.012",
+    "id": "TI001.001.001.012",
+    "name_en": "Need_for_Medical_Treatment",
+    "name_cn": "需要药物治疗",
+    "definition": "The necessity to initiate or intensify medical treatment based on clinical findings.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.001",
+    "alias": "",
+    "label": "Need_for_Medical_Treatment",
+    "umls_mapping": {
+      "cui": "C0027552",
+      "canonical_name": "Needs",
+      "score": 0.9706,
+      "types": [
+        "T080"
+      ],
+      "definition": "Anything that is necessary but lacking; the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MSH",
+        "MSHCZE",
+        "MSHFRE",
+        "MSHNOR",
+        "MSHPOR",
+        "MSHSPA",
+        "MTH",
+        "NCI",
+        "PSY",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.004.004",
+    "id": "TI001.001.004.004",
+    "name_en": "Ultrasound_Contrast_Agents",
+    "name_cn": "超声造影剂",
+    "definition": "Substances used to enhance the visibility of internal structures in ultrasound imaging.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.004",
+    "alias": "",
+    "label": "Ultrasound_Contrast_Agents",
+    "umls_mapping": {
+      "cui": "C0493823",
+      "canonical_name": "Ultrasound contrast media",
+      "score": 0.981,
+      "types": [
+        "T130"
+      ],
+      "definition": "Contrast media used to enhance the differences in signal intensity emitted from tissues during ultrasonic imaging procedures. Ultrasound contrast agents typically consist of consist of microbubbles of gas (e.g., air, nitrogen, perfluorocarbon) encapsulated by a shell that increase the reflectivity of fluids (e.g., blood) or tissues, enhancing the ultrasound image. Ultrasound contrast microbubble shells are composed of various materials, including albumin, galactose, or lipids. The composition of the shell and the type of gas within the microbubble determine its degree of elasticity, which affects how the microbubble responds to the acoustic energy in the ultrasound beam. Ultrasound contrast media typically require product-specific preparation prior to administration. Some agents are delivered in powder form that is reconstituted with sterile saline, while other agents are in liquid form and require either hand agitation or mechanical agitation using a specialized machine.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "DMDUMD",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US",
+        "SPN",
+        "UMD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.013",
+    "id": "TI001.001.001.013",
+    "name_en": "Dipyridamole",
+    "name_cn": "双嘧达莫",
+    "definition": "A vasodilator used as a pharmacological stressor in scans.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.001",
+    "alias": "",
+    "label": "Dipyridamole",
+    "umls_mapping": {
+      "cui": "C0012582",
+      "canonical_name": "dipyridamole",
+      "score": 0.9697,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A phosphodiesterase inhibitor that blocks uptake and metabolism of adenosine by erythrocytes and vascular endothelial cells. Dipyridamole also potentiates the antiaggregating action of prostacyclin. (From AMA Drug Evaluations Annual, 1994, p752)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "LNC",
+        "MEDCIN",
+        "MMSL",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NDDF",
+        "PDQ",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "USP"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.010",
+    "id": "TI001.001.001.003.010",
+    "name_en": "Adenosine",
+    "name_cn": "腺苷",
+    "definition": "A pharmacological stressor used in diagnostic tests for myocardial ischemia.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Adenosine",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.003.011",
+    "id": "TI001.001.001.003.011",
+    "name_en": "Regadenoson",
+    "name_cn": "瑞加德松",
+    "definition": "A pharmacological stress agent used in myocardial perfusion imaging.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Regadenoson",
+    "umls_mapping": {
+      "cui": "C1698215",
+      "canonical_name": "regadenoson",
+      "score": 0.9662,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "An adenosine derivative and selective A2A adenosine receptor agonist with coronary vasodilating activity. Upon administration, regadenoson selectively binds to and activates the A2A adenosine receptor, which induces coronary vasodilation. This leads to an increase in coronary blood flow and enhances myocardial perfusion. Compared to adenosine, regadenoson has a longer half-life and shows higher selectivity towards the A2A adenosine receptor. This agent is a very weak agonist for the A1 adenosine receptor and has negligible affinity for the A2B and A3 adenosine receptors.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "DRUGBANK",
+        "GS",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RXNORM",
+        "SCTSPA",
+        "SNOMEDCT_US",
+        "USP",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.010",
+    "id": "TI001.001.002.010",
+    "name_en": "Early_Revascularization",
+    "name_cn": "早期血运重建",
+    "definition": "A treatment procedure to restore blood flow to the heart early in the course of coronary artery disease, typically involving PCI or CABG.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Early_Revascularization",
+    "umls_mapping": {
+      "cui": "C1279919",
+      "canonical_name": "Early",
+      "score": 0.9845,
+      "types": [
+        "T079"
+      ],
+      "definition": "At or near the beginning of a period of time or course of events.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.011",
+    "id": "TI001.001.002.011",
+    "name_en": "Radial_Access",
+    "name_cn": "桡动脉入路",
+    "definition": "A medical procedure involving access to the vascular system via the radial artery, often used in cardiac catheterization.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Radial_Access",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.011.001",
+    "id": "TI001.001.002.011.001",
+    "name_en": "Rapid_Ambulation",
+    "name_cn": "快速行走",
+    "definition": "A treatment or procedure that allows patients to walk quickly after a medical intervention, such as radial access for ICA.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.002.011",
+    "alias": "",
+    "label": "Rapid_Ambulation",
+    "umls_mapping": {
+      "cui": "C0456962",
+      "canonical_name": "Rapid",
+      "score": 0.9946,
+      "types": [
+        "T080"
+      ],
+      "definition": "Acting or occurring in a brief period of time.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.004.001",
+    "id": "TI001.004.001",
+    "name_en": "FFR/iFR-based reclassification",
+    "name_cn": "基于FFR/iFR的重新分类",
+    "definition": "A treatment approach involving the reclassification of patients based on fractional flow reserve (FFR) or instantaneous wave-free ratio (iFR) measurements.",
+    "type": "treatment_intervention",
+    "level": 2,
+    "parent_id": "TI001.004",
+    "alias": "",
+    "label": "FFR/iFR-based reclassification",
+    "umls_mapping": {
+      "cui": "C0008902",
+      "canonical_name": "Classification",
+      "score": 0.8383,
+      "types": [
+        "T185"
+      ],
+      "definition": "The systematic arrangement of entities in any field into categories classes based on common characteristics such as properties, morphology, subject matter, etc.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CPM",
+        "LCH",
+        "LCH_NW",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PDQ",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.002.012",
+    "id": "TI001.001.002.012",
+    "name_en": "Unplanned_Revascularization",
+    "name_cn": "非计划性血运重建",
+    "definition": "A procedure to restore blood flow to the heart that was not previously planned, often performed in response to an acute coronary event or worsening condition.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Unplanned_Revascularization",
+    "umls_mapping": {
+      "cui": "C0581603",
+      "canonical_name": "Revascularization - action",
+      "score": 0.9615,
+      "types": [
+        "T061"
+      ],
+      "definition": "procedures performed on the blood vessels with the intent of restoring the circulation or integrity of the blood vessels and to improve circulation deficiencies due to disease, injuries, or deformities.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.004.001.001",
+    "id": "TI001.004.001.001",
+    "name_en": "iFR_Based_Deferral",
+    "name_cn": "基于iFR的延迟治疗",
+    "definition": "A treatment strategy where the decision to defer intervention is based on the instantaneous wave-free ratio (iFR) measurement.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.004.001",
+    "alias": "",
+    "label": "iFR_Based_Deferral",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.004.001.002",
+    "id": "TI001.004.001.002",
+    "name_en": "FFR_based_deferral",
+    "name_cn": "基于FFR的延迟治疗",
+    "definition": "A treatment strategy where the decision to defer intervention is based on fractional flow reserve (FFR) measurements to assess the hemodynamic significance of a stenosis.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.004.001",
+    "alias": "",
+    "label": "FFR_based_deferral",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.004",
+    "id": "TI001.004",
+    "name_en": "Clinical_Outcome_Improvement",
+    "name_cn": "临床结果改善",
+    "definition": "Strategies or interventions aimed at improving clinical outcomes",
+    "type": "treatment_intervention",
+    "level": 1,
+    "parent_id": "TI001",
+    "alias": "",
+    "label": "Clinical_Outcome_Improvement",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "DT001.004.018.003",
+    "id": "DT001.004.018.003",
+    "name_en": "Continuous_Thermodilution",
+    "name_cn": "持续热稀释",
+    "definition": "A method of measuring blood flow by continuous injection of a solution at a known temperature and measuring the temperature change downstream.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "DT001.004.018",
+    "alias": "",
+    "label": "Continuous_Thermodilution",
+    "umls_mapping": {
+      "cui": "C0549178",
+      "canonical_name": "Continuous",
+      "score": 0.9324,
+      "types": [
+        "T078"
+      ],
+      "definition": "Remain in force or carry on without letup; keep or maintain in unaltered condition; exist in time or space without stop or interruption.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.012",
+    "id": "TI001.001.001.003.012",
+    "name_en": "Ivabradine",
+    "name_cn": "伊伐布雷定",
+    "definition": "A selective inhibitor of the sinoatrial node's funny current (If), used for heart rate control in chronic coronary syndrome",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Ivabradine",
+    "umls_mapping": {
+      "cui": "C0257190",
+      "canonical_name": "ivabradine",
+      "score": 0.97,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "An orally bioavailable, hyperpolarization-activated, cyclic nucleotide-gated (HCN) channel blocker, with negative chronotropic activity. Upon administration, ivabradine selectively binds to the intracellular portion of the HCN channel pore and blocks HCN channels in the pacemaker cells within the sinoatrial (SA) node. This inhibits the If (funny) pacemaker ion current, prevents the inward flow and intracellular accumulation of positively charged ions, reduces pacemaker activity and slows diastolic depolarization. This decreases heart rate, reduces myocardial oxygen demand and allows more time for blood to flow to the myocardium without affecting cardiac contractility. HCN channels, mixed sodium (Na+) and potassium (K+) channels that carry the inward If current, play a key role in the regulation of pacemaker firing rate in the SA node. The If pacemaker current, the inward flow of positively charged Na+-K+ ions, initiates the spontaneous diastolic depolarization phase and modulating heart rate.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "DRUGBANK",
+        "GS",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "RXNORM",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.011",
+    "id": "TI001.001.011",
+    "name_en": "Preventive_Measures",
+    "name_cn": "预防措施",
+    "definition": "Measures taken to prevent the occurrence of diseases or conditions",
+    "type": "treatment_intervention",
+    "level": 2,
+    "parent_id": "TI001.001",
+    "alias": "",
+    "label": "Preventive_Measures",
+    "umls_mapping": {
+      "cui": "C0199176",
+      "canonical_name": "Prophylactic treatment",
+      "score": 0.858,
+      "types": [
+        "T061"
+      ],
+      "definition": "Therapeutic, nutritional, environmental, social and/or behavioral interventions at the societal, community, organizational or individual levels to reduce, modify or stop the course of a disease.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LCH",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MTH",
+        "NCI",
+        "PDQ",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.002.005.001",
+    "id": "TI001.002.005.001",
+    "name_en": "usual care",
+    "name_cn": "常规护理",
+    "definition": "Standard or typical care provided to patients, often used as a comparison in clinical trials.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.002.005",
+    "alias": "",
+    "label": "usual care",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.009.001",
+    "id": "TI001.001.009.001",
+    "name_en": "Optimized_GDMT",
+    "name_cn": "优化指南导向的药物治疗",
+    "definition": "A treatment strategy involving the optimal use of guideline-directed medical therapy for managing cardiovascular conditions.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.009",
+    "alias": "",
+    "label": "Optimized_GDMT",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.003.013",
+    "id": "TI001.001.001.003.013",
+    "name_en": "Amiodarone",
+    "name_cn": "胺碘酮",
+    "definition": "A class III antiarrhythmic agent used for rhythm control in patients with cardiac arrhythmias such as atrial fibrillation.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Amiodarone",
+    "umls_mapping": {
+      "cui": "C0002598",
+      "canonical_name": "amiodarone",
+      "score": 0.9717,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "An antianginal and class III antiarrhythmic drug. It increases the duration of ventricular and atrial muscle action by inhibiting POTASSIUM CHANNELS and VOLTAGE-GATED SODIUM CHANNELS. There is a resulting decrease in heart rate and in vascular resistance.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "RCD",
+        "RXNORM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.014",
+    "id": "TI001.001.001.003.014",
+    "name_en": "Dronedarone",
+    "name_cn": "决奈达隆",
+    "definition": "A drug used for rhythm control in patients with CAD and AF, as an alternative to catheter ablation.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Dronedarone",
+    "umls_mapping": {
+      "cui": "C0766326",
+      "canonical_name": "dronedarone",
+      "score": 0.9732,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A non-iodinated derivative of amiodarone that is used for the treatment of ARRHYTHMIA.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "DRUGBANK",
+        "GS",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "RXNORM",
+        "SNOMEDCT_US",
+        "USPMG",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.006.005",
+    "id": "TI001.001.006.005",
+    "name_en": "Stressors",
+    "name_cn": "应激剂",
+    "definition": "用于诱发心血管应激反应的药物或方法，如多巴酚丁胺",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.006",
+    "alias": "",
+    "label": "Stressors",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.002.013",
+    "id": "TI001.001.002.013",
+    "name_en": "Surgical_Revascularization",
+    "name_cn": "外科血运重建",
+    "definition": "A surgical procedure to restore blood flow to the heart muscle in patients with myocardial ischemia.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.002",
+    "alias": "",
+    "label": "Surgical_Revascularization",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "TI001.001.001.014",
+    "id": "TI001.001.001.014",
+    "name_en": "SGLT2_Inhibitor",
+    "name_cn": "钠-葡萄糖协同转运蛋白2抑制剂",
+    "definition": "A class of drugs that inhibit sodium-glucose transport protein 2 (SGLT2) and are used in the treatment of type 2 diabetes and heart failure.",
+    "type": "treatment_intervention",
+    "level": 3,
+    "parent_id": "TI001.001.001",
+    "alias": "",
+    "label": "SGLT2_Inhibitor",
+    "umls_mapping": {
+      "cui": "C0003015",
+      "canonical_name": "Angiotensin-Converting Enzyme Inhibitors",
+      "score": 0.8887,
+      "types": [
+        "T121"
+      ],
+      "definition": "A class of drugs whose main indications are the treatment of hypertension and heart failure. They exert their hemodynamic effect mainly by inhibiting the renin-angiotensin system. They also modulate sympathetic nervous system activity and increase prostaglandin synthesis. They cause mainly vasodilation and mild natriuresis without affecting heart rate and contractility.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CSP",
+        "LCH_NW",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.015",
+    "id": "TI001.001.001.003.015",
+    "name_en": "Diltiazem",
+    "name_cn": "地尔硫卓",
+    "definition": "A calcium channel blocker used to treat hypertension, angina, and certain types of arrhythmia.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Diltiazem",
+    "umls_mapping": {
+      "cui": "C0012373",
+      "canonical_name": "diltiazem",
+      "score": 0.9789,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A benzothiazepine derivative with vasodilating action due to its antagonism of the actions of CALCIUM ion on membrane functions.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "ATC",
+        "CHV",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LNC",
+        "MEDCIN",
+        "MMSL",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NCI",
+        "NDDF",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "USPMG",
+        "VANDF"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.016",
+    "id": "TI001.001.001.003.016",
+    "name_en": "Verapamil",
+    "name_cn": "维拉帕米",
+    "definition": "A calcium channel blocker used to treat hypertension, angina, and arrhythmias.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Verapamil",
+    "umls_mapping": {
+      "cui": "C0042523",
+      "canonical_name": "verapamil",
+      "score": 0.982,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A calcium channel blocker that is a class IV anti-arrhythmia agent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "ATC",
+        "CHV",
+        "CPM",
+        "CSP",
+        "DRUGBANK",
+        "GS",
+        "LCH_NW",
+        "LNC",
+        "MEDCIN",
+        "MMSL",
+        "MSHCZE",
+        "MTH",
+        "MTHSPL",
+        "NDDF",
+        "PDQ",
+        "RCD",
+        "RXNORM",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.017",
+    "id": "TI001.001.001.003.017",
+    "name_en": "Trimetazidine",
+    "name_cn": "曲美他嗪",
+    "definition": "A medication used for the symptomatic treatment of angina pectoris.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Trimetazidine",
+    "umls_mapping": {
+      "cui": "C0041037",
+      "canonical_name": "trimetazidine",
+      "score": 0.9655,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A vasodilator used in angina of effort or ischemic heart disease.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "CHV",
+        "DRUGBANK",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MSHITA",
+        "MSHJPN",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RXNORM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.018",
+    "id": "TI001.001.001.003.018",
+    "name_en": "Nicorandil",
+    "name_cn": "尼可地尔",
+    "definition": "A vasodilatory drug used in the treatment of angina pectoris.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Nicorandil",
+    "umls_mapping": {
+      "cui": "C0068700",
+      "canonical_name": "nicorandil",
+      "score": 0.9863,
+      "types": [
+        "T109",
+        "T121"
+      ],
+      "definition": "A derivative of the NIACINAMIDE that is structurally combined with an organic nitrate. It is a potassium-channel opener that causes vasodilatation of arterioles and large coronary arteries. Its nitrate-like properties produce venous vasodilation through stimulation of guanylate cyclase.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ATC",
+        "CHV",
+        "DRUGBANK",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "NDDF",
+        "PDQ",
+        "RCD",
+        "RXNORM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "TI001.001.001.003.019",
+    "id": "TI001.001.001.003.019",
+    "name_en": "Vasodilators",
+    "name_cn": "血管扩张剂",
+    "definition": "Substances that cause blood vessels to dilate, thereby increasing blood flow and reducing blood pressure.",
+    "type": "treatment_intervention",
+    "level": 4,
+    "parent_id": "TI001.001.001.003",
+    "alias": "",
+    "label": "Vasodilators",
+    "umls_mapping": {
+      "cui": "C0042402",
+      "canonical_name": "Vasodilator Agents",
+      "score": 0.9896,
+      "types": [
+        "T121"
+      ],
+      "definition": "Drugs used to cause dilation of the blood vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CHV",
+        "CSP",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  }
+]

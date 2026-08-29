@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "task": "align_ptbxl_scp_labels_to_book_ecg_findings",
+    "embedding_model": "text-embedding-3-small",
+    "llm_model": "gpt-4o-mini",
+    "top_k": 8,
+    "generated_at": "2026-02-06T08:56:41Z",
+    "input_book_graph": "/mnt/chengrongfeng_private/SRP心肌缺血知识图谱/build_ecg_book_graph/ecgfinding_alignment/chapter_extraction_results.json",
+    "input_label_csv": "/mnt/data/ptb-xl-a-comprehensive-electrocardiographic-feature-dataset-1.0.1/labels/finding_scp_label.csv",
+    "output_path": "/mnt/chengrongfeng_private/SRP心肌缺血知识图谱/build_ecg_book_graph/ecgfinding_alignment/ptbxl_scp_to_book_ecgfinding.json"
+  },
+  "items": [
+    {
+      "scp_code": "ISC_",
+      "label_text": "non-specific ischemic",
+      "statement_category": "Basic roots for coding ST-T changes and abnormalities",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "more general than non-specific",
+          "rank": 2,
+          "similarity": 0.42263123393058777,
+          "node_text": "ST segment depression"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "general category of elevation",
+          "rank": 7,
+          "similarity": 0.3946021497249603,
+          "node_text": "ST-segment elevation"
+        }
+      ]
+    },
+    {
+      "scp_code": "ISCAL",
+      "label_text": "ischemic in anterolateral leads",
+      "statement_category": "ischemic ST-T changes",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "lateral leads included",
+          "rank": 8,
+          "similarity": 0.6129074692726135,
+          "node_text": "ST segment elevation in lateral leads (aVL, I, and V6)"
+        }
+      ]
+    },
+    {
+      "scp_code": "ISCIN",
+      "label_text": "ischemic in inferior leads",
+      "statement_category": "ischemic ST-T changes",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "equivalent finding in inferior leads",
+          "rank": 5,
+          "similarity": 0.6767625212669373,
+          "node_text": "ST segment elevation in the inferior leads (II, III, and aVF)"
+        }
+      ]
+    },
+    {
+      "scp_code": "ISCIL",
+      "label_text": "ischemic in inferolateral leads",
+      "statement_category": "ischemic ST-T changes",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "generalizes ST elevation",
+          "rank": 1,
+          "similarity": 0.6950572729110718,
+          "node_text": "ST segment elevation in inferior and lateral leads"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "specific case of ischemic finding",
+          "rank": 3,
+          "similarity": 0.6649612784385681,
+          "node_text": "ST segment elevation in the inferior leads"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "generalization of two leads",
+          "rank": 5,
+          "similarity": 0.6382272243499756,
+          "node_text": "ST segment elevation in two adjacent leads"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "subset of inferior leads",
+          "rank": 6,
+          "similarity": 0.6246271729469299,
+          "node_text": "ST segment elevation in the inferior leads (II, III, and aVF)"
+        }
+      ]
+    },
+    {
+      "scp_code": "ISCLA",
+      "label_text": "ischemic in lateral leads",
+      "statement_category": "ischemic ST-T changes",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "same lateral leads involvement",
+          "rank": 3,
+          "similarity": 0.6230058073997498,
+          "node_text": "ST segment elevation in lateral leads (aVL, I, and V6)"
+        }
+      ]
+    },
+    {
+      "scp_code": "INJLA",
+      "label_text": "subendocardial injury in lateral leads",
+      "statement_category": "ischemic ST-T changes compatible with subendocardial injury",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "general ST elevation",
+          "rank": 4,
+          "similarity": 0.6043423414230347,
+          "node_text": "ST segment elevation in lateral leads (aVL, I, and V6)"
+        }
+      ]
+    },
+    {
+      "scp_code": "QWAVE",
+      "label_text": "Q waves present",
+      "statement_category": "Other QRS morphology descriptive statements",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "exact equivalence",
+          "rank": 1,
+          "similarity": 0.8709629774093628,
+          "node_text": "Q waves"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "broader category",
+          "rank": 2,
+          "similarity": 0.7020890712738037,
+          "node_text": "abnormal Q waves"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "broader category",
+          "rank": 3,
+          "similarity": 0.6702477931976318,
+          "node_text": "Abnormal ventricular depolarization: Q waves"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "broader category",
+          "rank": 4,
+          "similarity": 0.6618287563323975,
+          "node_text": "Q wave (> 30 ms) in two or more lateral leads (I, aVL, V5, or V6)"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "broader category",
+          "rank": 7,
+          "similarity": 0.6363341808319092,
+          "node_text": "Presence of Q waves in two of the lateral leads (I, aVL, V5, V6)"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "broader category",
+          "rank": 8,
+          "similarity": 0.6353856921195984,
+          "node_text": "Development of Q waves in the inferior leads"
+        }
+      ]
+    },
+    {
+      "scp_code": "STD_",
+      "label_text": "non-specific ST depression",
+      "statement_category": "Basic roots for coding ST-T changes and abnormalities",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "specific type of ST depression",
+          "rank": 1,
+          "similarity": 0.7617446780204773,
+          "node_text": "diffuse ST segment depression"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "general type of ST depression",
+          "rank": 3,
+          "similarity": 0.7024798393249512,
+          "node_text": "ST segment depression"
+        }
+      ]
+    },
+    {
+      "scp_code": "STE_",
+      "label_text": "non-specific ST elevation",
+      "statement_category": "Basic roots for coding ST-T changes and abnormalities",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "exact match with elevation",
+          "rank": 2,
+          "similarity": 0.7180912494659424,
+          "node_text": "ST-segment elevation"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "synonymous finding",
+          "rank": 4,
+          "similarity": 0.6925619840621948,
+          "node_text": "ST segment elevation"
+        }
+      ]
+    },
+    {
+      "scp_code": "TAB_",
+      "label_text": "T-wave abnormality",
+      "statement_category": "Basic roots for coding ST-T changes and abnormalities",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "same abnormality stated",
+          "rank": 1,
+          "similarity": 0.7290679812431335,
+          "node_text": "T wave inversion"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "synonymous wording",
+          "rank": 2,
+          "similarity": 0.712441086769104,
+          "node_text": "T-wave inversions"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "same abnormality stated",
+          "rank": 4,
+          "similarity": 0.6761167049407959,
+          "node_text": "inverted T waves"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "specific T-wave inversion",
+          "rank": 6,
+          "similarity": 0.6539959907531738,
+          "node_text": "T wave inversion in the inferior leads"
+        }
+      ]
+    },
+    {
+      "scp_code": "INVT",
+      "label_text": "inverted T-waves",
+      "statement_category": "other ST-T descriptive statements",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "exact wording match",
+          "rank": 1,
+          "similarity": 0.9652091264724731,
+          "node_text": "inverted T waves"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "SUPERTYPE_OF",
+          "reason": "deeper degree of inversion",
+          "rank": 2,
+          "similarity": 0.8645179867744446,
+          "node_text": "deeply inverted T waves"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "equivalent wording",
+          "rank": 3,
+          "similarity": 0.8034812211990356,
+          "node_text": "T wave inversion"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "variation in wording",
+          "rank": 4,
+          "similarity": 0.7986539602279663,
+          "node_text": "T-wave inversions"
+        }
+      ]
+    },
+    {
+      "scp_code": "LOWT",
+      "label_text": "low amplitude T-waves",
+      "statement_category": "other ST-T descriptive statements",
+      "top_k": 8,
+      "generated_at": "2026-02-06T08:56:41Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "equivalent to T wave inversion",
+          "rank": 4,
+          "similarity": 0.6324051022529602,
+          "node_text": "T wave inversion"
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "MAPS_TO",
+          "reason": "equivalent to T wave inversion",
+          "rank": 5,
+          "similarity": 0.6116783618927002,
+          "node_text": "T-wave inversions"
+        }
+      ]
+    }
+  ]
+}

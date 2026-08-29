@@ -1,0 +1,1045 @@
+{
+  "meta": {
+    "input_csv": "/mnt/data/ptb-xl-a-comprehensive-electrocardiographic-feature-dataset-1.0.1/labels/disease_scp_label.csv",
+    "output_json": "/mnt/chengrongfeng_private/SRP心肌缺血知识图谱/disease_alignment/disease_label_to_node_multi.json",
+    "model": "gpt-4o-mini",
+    "top_k": 10,
+    "min_similarity": null,
+    "keep_none": false,
+    "llm_batch_mode": true,
+    "generated_at": "2026-02-09T07:56:06.285176Z"
+  },
+  "items": [
+    {
+      "disease": {
+        "scp_code": "IMI",
+        "description": "inferior myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:56:16.999303Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "节点与描述完全对应，均指下壁心肌梗死。",
+          "rank": 1,
+          "node_id": "1626",
+          "similarity": 0.8851751685142517,
+          "node_text": "inferior wall myocardial infarction",
+          "node_properties": {
+            "ontology_id": "TEMP_diseases_1626",
+            "name": "inferior wall myocardial infarction"
+          }
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "节点中的'Old inferior myocardial infarction'也涉及下壁心肌梗死，因此可以视为等价。",
+          "rank": 2,
+          "node_id": "1777",
+          "similarity": 0.8449313640594482,
+          "node_text": "Old inferior myocardial infarction",
+          "node_properties": {}
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "节点明确指示心电图显示的下壁心肌梗死，与描述相符。",
+          "rank": 6,
+          "node_id": "1776",
+          "similarity": 0.7759553790092468,
+          "node_text": "Inferior myocardial infarction on electrocardiogram",
+          "node_properties": {}
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1626,
+          "similarity": 0.8851751685142517,
+          "text": "inferior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1626",
+            "name": "inferior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1777,
+          "similarity": 0.8449313640594482,
+          "text": "Old inferior myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 3,
+          "node_id": 1707,
+          "similarity": 0.8039803504943848,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 4,
+          "node_id": 1705,
+          "similarity": 0.8039803504943848,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 5,
+          "node_id": 1838,
+          "similarity": 0.7794843316078186,
+          "text": "Myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 6,
+          "node_id": 1776,
+          "similarity": 0.7759553790092468,
+          "text": "Inferior myocardial infarction on electrocardiogram",
+          "properties": {}
+        },
+        {
+          "rank": 7,
+          "node_id": 1828,
+          "similarity": 0.769848108291626,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 8,
+          "node_id": 1711,
+          "similarity": 0.7520415782928467,
+          "text": "myocardial ischemia/infarction",
+          "properties": {}
+        },
+        {
+          "rank": 9,
+          "node_id": 1655,
+          "similarity": 0.7520415782928467,
+          "text": "myocardial ischemia/infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_7431",
+            "name": "myocardial ischemia/infarction"
+          }
+        },
+        {
+          "rank": 10,
+          "node_id": 1706,
+          "similarity": 0.7239691019058228,
+          "text": "myocardial ischemia or myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_7431",
+            "name": "myocardial ischemia or myocardial infarction"
+          }
+        }
+      ],
+      "notes": "明确识别了下壁心肌梗死的相关节点与描述的关系。"
+    },
+    {
+      "disease": {
+        "scp_code": "ASMI",
+        "description": "anteroseptal myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:56:27.910094Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "候选节点与描述完全一致，均为前隔心肌梗死的急性表现。",
+          "rank": 1,
+          "node_id": "1813",
+          "similarity": 0.8150520324707031,
+          "node_text": "Acute anteroseptal myocardial infarction",
+          "node_properties": {}
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1813,
+          "similarity": 0.8150520324707031,
+          "text": "Acute anteroseptal myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 2,
+          "node_id": 1767,
+          "similarity": 0.7352457046508789,
+          "text": "Anteroseptal infarction on electrocardiogram",
+          "properties": {}
+        },
+        {
+          "rank": 3,
+          "node_id": 1828,
+          "similarity": 0.6674884557723999,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 4,
+          "node_id": 1660,
+          "similarity": 0.6646448373794556,
+          "text": "remote anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "remote anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 5,
+          "node_id": 1707,
+          "similarity": 0.6605891585350037,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 6,
+          "node_id": 1705,
+          "similarity": 0.6605891585350037,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 7,
+          "node_id": 1820,
+          "similarity": 0.6590787768363953,
+          "text": "Subendocardial myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 8,
+          "node_id": 1838,
+          "similarity": 0.646390438079834,
+          "text": "Myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 9,
+          "node_id": 1711,
+          "similarity": 0.6291766166687012,
+          "text": "myocardial ischemia/infarction",
+          "properties": {}
+        },
+        {
+          "rank": 10,
+          "node_id": 1655,
+          "similarity": 0.6291766166687012,
+          "text": "myocardial ischemia/infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_7431",
+            "name": "myocardial ischemia/infarction"
+          }
+        }
+      ],
+      "notes": "整体来说，仅候选节点1与疾病描述完全相符，其余均为不相关或不等价的概念。"
+    },
+    {
+      "disease": {
+        "scp_code": "AMI",
+        "description": "anterior myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:56:38.928697Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "候选节点与描述完全相同，表述一致",
+          "rank": 1,
+          "node_id": "1610",
+          "similarity": 0.9999992251396179,
+          "node_text": "anterior myocardial infarction",
+          "node_properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "anterior myocardial infarction"
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1610,
+          "similarity": 0.9999992251396179,
+          "text": "anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1620,
+          "similarity": 0.8655891418457031,
+          "text": "anterior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "anterior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 3,
+          "node_id": 1660,
+          "similarity": 0.7971333265304565,
+          "text": "remote anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "remote anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 4,
+          "node_id": 1812,
+          "similarity": 0.728767991065979,
+          "text": "Acute myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 5,
+          "node_id": 1707,
+          "similarity": 0.7266733050346375,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 6,
+          "node_id": 1705,
+          "similarity": 0.7266733050346375,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 7,
+          "node_id": 1818,
+          "similarity": 0.7142361402511597,
+          "text": "Acute myocardial infarction of anterior wall",
+          "properties": {}
+        },
+        {
+          "rank": 8,
+          "node_id": 1633,
+          "similarity": 0.7102962732315063,
+          "text": "posterior myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 9,
+          "node_id": 1814,
+          "similarity": 0.7083906531333923,
+          "text": "Acute posterior myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 10,
+          "node_id": 1775,
+          "similarity": 0.7034132480621338,
+          "text": "Anterior myocardial infarction on electrocardiogram",
+          "properties": {}
+        }
+      ],
+      "notes": "对候选节点的概念关系进行了严格判断"
+    },
+    {
+      "disease": {
+        "scp_code": "ALMI",
+        "description": "anterolateral myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:56:50.043623Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "该节点明确描述了急性前外侧壁心肌梗塞，与描述完全一致。",
+          "rank": 4,
+          "node_id": "1816",
+          "similarity": 0.7144551277160645,
+          "node_text": "Acute myocardial infarction of anterolateral wall",
+          "node_properties": {}
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "该节点同样清晰表明了anterolateral效应，与描述完全等价。",
+          "rank": 5,
+          "node_id": "1762",
+          "similarity": 0.7068527340888977,
+          "node_text": "Anterolateral infarction by electrocardiogram",
+          "node_properties": {}
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1660,
+          "similarity": 0.7826064825057983,
+          "text": "remote anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "remote anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1679,
+          "similarity": 0.7739472389221191,
+          "text": "lateral wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 3,
+          "node_id": 1696,
+          "similarity": 0.7413022518157959,
+          "text": "lateral infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral infarction"
+          }
+        },
+        {
+          "rank": 4,
+          "node_id": 1816,
+          "similarity": 0.7144551277160645,
+          "text": "Acute myocardial infarction of anterolateral wall",
+          "properties": {}
+        },
+        {
+          "rank": 5,
+          "node_id": 1762,
+          "similarity": 0.7068527340888977,
+          "text": "Anterolateral infarction by electrocardiogram",
+          "properties": {}
+        },
+        {
+          "rank": 6,
+          "node_id": 1817,
+          "similarity": 0.7000144720077515,
+          "text": "Acute myocardial infarction of inferolateral wall",
+          "properties": {}
+        },
+        {
+          "rank": 7,
+          "node_id": 1844,
+          "similarity": 0.6943467259407043,
+          "text": "Acute myocardial infarction of lateral wall",
+          "properties": {}
+        },
+        {
+          "rank": 8,
+          "node_id": 1828,
+          "similarity": 0.6907253265380859,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 9,
+          "node_id": 1814,
+          "similarity": 0.6904407143592834,
+          "text": "Acute posterior myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 10,
+          "node_id": 1707,
+          "similarity": 0.6902544498443604,
+          "text": "myocardial infarction",
+          "properties": {}
+        }
+      ],
+      "notes": "对于与anterolateral myocardial infarction的关系进行了详细判断，只有明确等价的节点标记为EXACT。"
+    },
+    {
+      "disease": {
+        "scp_code": "ILMI",
+        "description": "inferolateral myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:57:01.613523Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "该节点具体描述acute myocardial infarction of inferolateral wall，与疾病描述等价。",
+          "rank": 8,
+          "node_id": "1817",
+          "similarity": 0.7026032209396362,
+          "node_text": "Acute myocardial infarction of inferolateral wall",
+          "node_properties": {}
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1696,
+          "similarity": 0.7647233605384827,
+          "text": "lateral infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1679,
+          "similarity": 0.732339084148407,
+          "text": "lateral wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 3,
+          "node_id": 1626,
+          "similarity": 0.7172725200653076,
+          "text": "inferior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1626",
+            "name": "inferior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 4,
+          "node_id": 1707,
+          "similarity": 0.7108805775642395,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 5,
+          "node_id": 1705,
+          "similarity": 0.7108805775642395,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 6,
+          "node_id": 1697,
+          "similarity": 0.7107462286949158,
+          "text": "inferolateral ST segment elevation",
+          "properties": {}
+        },
+        {
+          "rank": 7,
+          "node_id": 1758,
+          "similarity": 0.705557107925415,
+          "text": "Lateral infarction on electrocardiogram",
+          "properties": {}
+        },
+        {
+          "rank": 8,
+          "node_id": 1817,
+          "similarity": 0.7026032209396362,
+          "text": "Acute myocardial infarction of inferolateral wall",
+          "properties": {}
+        },
+        {
+          "rank": 9,
+          "node_id": 1828,
+          "similarity": 0.6967648267745972,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 10,
+          "node_id": 1777,
+          "similarity": 0.6958826780319214,
+          "text": "Old inferior myocardial infarction",
+          "properties": {}
+        }
+      ],
+      "notes": "仅第8个节点与疾病描述在概念上等价，其他节点均不等价。"
+    },
+    {
+      "disease": {
+        "scp_code": "LMI",
+        "description": "lateral myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:57:14.883644Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "候选节点与描述完全相同，都是指侧壁心肌梗死",
+          "rank": 1,
+          "node_id": "1679",
+          "similarity": 0.8770060539245605,
+          "node_text": "lateral wall myocardial infarction",
+          "node_properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral wall myocardial infarction"
+          }
+        },
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "候选节点与描述具有相同的含义，都是侧面梗死",
+          "rank": 2,
+          "node_id": "1696",
+          "similarity": 0.8623144626617432,
+          "node_text": "lateral infarction",
+          "node_properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral infarction"
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1679,
+          "similarity": 0.8770060539245605,
+          "text": "lateral wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1696,
+          "similarity": 0.8623144626617432,
+          "text": "lateral infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral infarction"
+          }
+        },
+        {
+          "rank": 3,
+          "node_id": 1844,
+          "similarity": 0.7437146902084351,
+          "text": "Acute myocardial infarction of lateral wall",
+          "properties": {}
+        },
+        {
+          "rank": 4,
+          "node_id": 1758,
+          "similarity": 0.7410225868225098,
+          "text": "Lateral infarction on electrocardiogram",
+          "properties": {}
+        },
+        {
+          "rank": 5,
+          "node_id": 1633,
+          "similarity": 0.7121632099151611,
+          "text": "posterior myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 6,
+          "node_id": 1707,
+          "similarity": 0.7111152410507202,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 7,
+          "node_id": 1705,
+          "similarity": 0.7111152410507202,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 8,
+          "node_id": 1645,
+          "similarity": 0.692631185054779,
+          "text": "posterior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 9,
+          "node_id": 1817,
+          "similarity": 0.6893771886825562,
+          "text": "Acute myocardial infarction of inferolateral wall",
+          "properties": {}
+        },
+        {
+          "rank": 10,
+          "node_id": 1828,
+          "similarity": 0.6802576780319214,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        }
+      ],
+      "notes": "与侧壁心肌梗死相关的概念被认为是等价的，其余则不相关。"
+    },
+    {
+      "disease": {
+        "scp_code": "PMI",
+        "description": "posterior myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:57:24.320358Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "候选节点与描述完全相同，表示同一疾病。",
+          "rank": 1,
+          "node_id": "1633",
+          "similarity": 0.9999996423721313,
+          "node_text": "posterior myocardial infarction",
+          "node_properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1633,
+          "similarity": 0.9999996423721313,
+          "text": "posterior myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1645,
+          "similarity": 0.8654694557189941,
+          "text": "posterior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 3,
+          "node_id": 1814,
+          "similarity": 0.8121958374977112,
+          "text": "Acute posterior myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 4,
+          "node_id": 1610,
+          "similarity": 0.7102818489074707,
+          "text": "anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 5,
+          "node_id": 1707,
+          "similarity": 0.7065445184707642,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 6,
+          "node_id": 1705,
+          "similarity": 0.7065445184707642,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 7,
+          "node_id": 1660,
+          "similarity": 0.7032861113548279,
+          "text": "remote anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "remote anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 8,
+          "node_id": 1828,
+          "similarity": 0.6980980038642883,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 9,
+          "node_id": 1838,
+          "similarity": 0.6720568537712097,
+          "text": "Myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 10,
+          "node_id": 2354,
+          "similarity": 0.6630817651748657,
+          "text": "Prior Myocardial Infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_7573",
+            "match_method": "new_entity",
+            "normalized_name": "Prior Myocardial Infarction",
+            "text": "Prior MI"
+          }
+        }
+      ],
+      "notes": "候选节点中只有第一项与疾病描述完全等价。"
+    },
+    {
+      "disease": {
+        "scp_code": "IPMI",
+        "description": "inferoposterior myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:57:40.652001Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "后壁心肌梗死与下后心肌梗死在解剖位置上是相同的，故视为同义概念。",
+          "rank": 1,
+          "node_id": "1633",
+          "similarity": 0.7770265340805054,
+          "node_text": "posterior myocardial infarction",
+          "node_properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1633,
+          "similarity": 0.7770265340805054,
+          "text": "posterior myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1645,
+          "similarity": 0.7525848150253296,
+          "text": "posterior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 3,
+          "node_id": 1828,
+          "similarity": 0.732236385345459,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 4,
+          "node_id": 1660,
+          "similarity": 0.7247391939163208,
+          "text": "remote anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "remote anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 5,
+          "node_id": 1777,
+          "similarity": 0.7226129174232483,
+          "text": "Old inferior myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 6,
+          "node_id": 1626,
+          "similarity": 0.7203384041786194,
+          "text": "inferior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1626",
+            "name": "inferior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 7,
+          "node_id": 1820,
+          "similarity": 0.7202174663543701,
+          "text": "Subendocardial myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 8,
+          "node_id": 1707,
+          "similarity": 0.7158669233322144,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 9,
+          "node_id": 1705,
+          "similarity": 0.7158669233322144,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 10,
+          "node_id": 1838,
+          "similarity": 0.70600825548172,
+          "text": "Myocardial infarction",
+          "properties": {}
+        }
+      ],
+      "notes": "与下后心肌梗死对应的候选节点为后壁心肌梗死，其余节点均不具备等价关系。"
+    },
+    {
+      "disease": {
+        "scp_code": "IPLMI",
+        "description": "inferoposterolateral myocardial infarction",
+        "statement_category": "Myocardial Infarction"
+      },
+      "top_k": 10,
+      "generated_at": "2026-02-09T07:57:49.657683Z",
+      "mappings": [
+        {
+          "edge_type": "RELATED_TO",
+          "relation_type": "EXACT",
+          "reason": "描述中的'inferoposterolateral'包含'posterior'，与候选节点完全一致",
+          "rank": 1,
+          "node_id": "1633",
+          "similarity": 0.7261044979095459,
+          "node_text": "posterior myocardial infarction",
+          "node_properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        }
+      ],
+      "candidates": [
+        {
+          "rank": 1,
+          "node_id": 1633,
+          "similarity": 0.7261044979095459,
+          "text": "posterior myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 2,
+          "node_id": 1645,
+          "similarity": 0.6967624425888062,
+          "text": "posterior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1633",
+            "name": "posterior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 3,
+          "node_id": 1828,
+          "similarity": 0.6965256929397583,
+          "text": "Old myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 4,
+          "node_id": 1696,
+          "similarity": 0.6770437359809875,
+          "text": "lateral infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1679",
+            "name": "lateral infarction"
+          }
+        },
+        {
+          "rank": 5,
+          "node_id": 1707,
+          "similarity": 0.67435622215271,
+          "text": "myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 6,
+          "node_id": 1705,
+          "similarity": 0.67435622215271,
+          "text": "myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "myocardial infarction"
+          }
+        },
+        {
+          "rank": 7,
+          "node_id": 1626,
+          "similarity": 0.6714493632316589,
+          "text": "inferior wall myocardial infarction",
+          "properties": {
+            "ontology_id": "TEMP_diseases_1626",
+            "name": "inferior wall myocardial infarction"
+          }
+        },
+        {
+          "rank": 8,
+          "node_id": 1777,
+          "similarity": 0.670525074005127,
+          "text": "Old inferior myocardial infarction",
+          "properties": {}
+        },
+        {
+          "rank": 9,
+          "node_id": 1660,
+          "similarity": 0.6692277193069458,
+          "text": "remote anterior myocardial infarction",
+          "properties": {
+            "ontology_id": "D001.001.001.001",
+            "name": "remote anterior myocardial infarction"
+          }
+        },
+        {
+          "rank": 10,
+          "node_id": 1820,
+          "similarity": 0.6651012301445007,
+          "text": "Subendocardial myocardial infarction",
+          "properties": {}
+        }
+      ]
+    }
+  ]
+}

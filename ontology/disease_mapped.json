@@ -1,0 +1,3987 @@
+[
+  {
+    "ontology_id": "D001",
+    "code": "I00-I99",
+    "level": 1,
+    "parent_id": "ROOT",
+    "definition": "Cardiovascular disease refers to a broad range of disorders affecting the heart and blood vessels, including conditions such as coronary artery disease, heart failure, arrhythmias, and cerebrovascular diseases. These conditions are often related to atherosclerosis, hypertension, and other risk factors that impair normal cardiovascular function.",
+    "type": "disease_root",
+    "name_cn": "心血管疾病",
+    "name_en": "Cardiovascular_Disease",
+    "id": "D001",
+    "label": "Cardiovascular_Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001",
+    "level": 2,
+    "parent_id": "D001",
+    "definition": "Myocardial Ischemic Disease is a category of diseases characterized by the insufficient blood supply to the myocardium due to coronary artery obstruction, which leads to an imbalance between myocardial oxygen demand and supply, potentially resulting in ischemia and associated clinical manifestations such as angina pectoris, myocardial infarction, and heart failure.",
+    "type": "disease_category",
+    "name_cn": "心肌缺血性疾病",
+    "name_en": "Myocardial_Ischemic_Disease",
+    "id": "D001.001",
+    "label": "Myocardial_Ischemic_Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.001",
+    "level": 3,
+    "parent_id": "D001.001",
+    "definition": "Acute Coronary Syndrome (ACS) refers to a spectrum of clinical presentations resulting from the rupture or erosion of unstable atherosclerotic plaques in the coronary arteries, leading to thrombosis and subsequent acute myocardial ischemia. ACS encompasses various conditions including unstable angina, non-ST elevation myocardial infarction (NSTEMI), and ST elevation myocardial infarction (STEMI), characterized by sudden onset chest pain, changes in electrocardiogram, and elevated cardiac biomarkers.",
+    "type": "disease_syndrome",
+    "name_cn": "急性冠脉综合征",
+    "icd10": "I20-I25",
+    "name_en": "Acute_Coronary_Syndrome",
+    "id": "D001.001.001",
+    "label": "Acute_Coronary_Syndrome",
+    "umls_mapping": {
+      "cui": "C0948089",
+      "canonical_name": "Acute Coronary Syndrome",
+      "score": 0.9918,
+      "types": [
+        "T047"
+      ],
+      "definition": "Signs and symptoms related to acute ischemia of the myocardium secondary to coronary artery disease. The clinical presentation covers a spectrum of heart diseases from unstable angina to myocardial infarction.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.001",
+    "level": 4,
+    "parent_id": "D001.001.001",
+    "definition": "Acute Myocardial Infarction is a serious medical condition characterized by the necrosis of heart muscle tissue due to acute and prolonged ischemia and hypoxia caused by obstruction of the coronary arteries, often resulting from a thrombus or plaque rupture.",
+    "type": "disease_specific",
+    "name_cn": "急性心肌梗死",
+    "name_en": "Acute_Myocardial_Infarction",
+    "icd10": "I21",
+    "id": "D001.001.001.001",
+    "label": "Acute_Myocardial_Infarction",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.001.001.001",
+    "level": 5,
+    "parent_id": "D001.001.001.001",
+    "definition": "ST Elevation Myocardial Infarction (STEMI) is a subtype of acute myocardial infarction characterized by the elevation of the ST segment on the electrocardiogram (ECG), indicating the presence of significant myocardial ischemia and a high likelihood of a complete blockage in a coronary artery, necessitating prompt medical intervention to restore blood flow and minimize myocardial damage.",
+    "abbreviation": "STEMI",
+    "type": "disease_subtype",
+    "name_cn": "ST段抬高性心肌梗死",
+    "name_en": "ST_Elevation_Myocardial_Infarction",
+    "id": "D001.001.001.001.001",
+    "label": "ST_Elevation_Myocardial_Infarction",
+    "umls_mapping": {
+      "cui": "C0439775",
+      "canonical_name": "Elevation procedure",
+      "score": 0.9518,
+      "types": [
+        "T061"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.001.001.001",
+    "level": 6,
+    "parent_id": "D001.001.001.001.001",
+    "definition": "Anterior ST-Elevation Myocardial Infarction (anterior STEMI) is a type of acute myocardial infarction characterized by the elevation of the ST segment on the electrocardiogram, specifically affecting the anterior wall of the heart, typically due to occlusion of the left anterior descending artery.",
+    "type": "disease_location",
+    "name_cn": "前壁心肌梗死",
+    "name_en": "Anterior_STEMI",
+    "id": "D001.001.001.001.001.001",
+    "label": "Anterior_STEMI",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.001.001.001.002",
+    "level": 6,
+    "parent_id": "D001.001.001.001.001",
+    "definition": "Inferior ST-Elevation Myocardial Infarction (Inferior STEMI) is a condition characterized by the elevation of the ST segment on an electrocardiogram (ECG) and involves the ischemic damage to the inferior wall of the heart, typically resulting from occlusion of the right coronary artery or other coronary arteries supplying the inferior myocardium.",
+    "type": "disease_location",
+    "name_cn": "下壁心肌梗死",
+    "name_en": "Inferior_STEMI",
+    "id": "D001.001.001.001.001.002",
+    "label": "Inferior_STEMI",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.001.001.001.003",
+    "level": 6,
+    "parent_id": "D001.001.001.001.001",
+    "definition": "Lateral ST-Elevation Myocardial Infarction (Lateral STEMI) refers to a specific type of myocardial infarction characterized by ST-segment elevation on an electrocardiogram, predominantly affecting the lateral wall of the heart, which is typically supplied by the left circumflex artery or the diagonal branches of the left anterior descending artery.",
+    "type": "disease_location",
+    "name_cn": "侧壁心肌梗死",
+    "name_en": "Lateral_STEMI",
+    "id": "D001.001.001.001.001.003",
+    "label": "Lateral_STEMI",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.001.001.001.004",
+    "level": 6,
+    "parent_id": "D001.001.001.001.001",
+    "definition": "Posterior STEMI refers to an ST-segment elevation myocardial infarction that affects the posterior wall of the heart, characterized by the elevation of the ST segment on the electrocardiogram, indicating significant myocardial injury in the posterior region due to occlusion of the coronary arteries supplying that area.",
+    "type": "disease_location",
+    "name_cn": "后壁心肌梗死",
+    "name_en": "Posterior_STEMI",
+    "id": "D001.001.001.001.001.004",
+    "label": "Posterior_STEMI",
+    "umls_mapping": {
+      "cui": "C0205095",
+      "canonical_name": "Dorsal",
+      "score": 0.9869,
+      "types": [
+        "T082"
+      ],
+      "definition": "Pertaining to the back or upper surface of the body; opposite of ventral.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "FMA",
+        "HL7V2.5",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.001.002",
+    "level": 5,
+    "parent_id": "D001.001.001.001",
+    "diagnostic_criteria": "肌钙蛋白升高，心电图无ST段抬高",
+    "definition": "Non-ST-Elevation Myocardial Infarction (NSTEMI) is a subtype of acute myocardial infarction characterized by the absence of ST segment elevation on the electrocardiogram (ECG) while there is an elevation of cardiac biomarkers indicating myocardial injury.",
+    "abbreviation": "NSTEMI",
+    "type": "disease_subtype",
+    "name_cn": "非ST段抬高性心肌梗死",
+    "name_en": "Non_ST_Elevation_Myocardial_Infarction",
+    "id": "D001.001.001.001.002",
+    "label": "Non_ST_Elevation_Myocardial_Infarction",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.001.002",
+    "level": 4,
+    "parent_id": "D001.001.001",
+    "definition": "Unstable angina is an acute manifestation of coronary artery disease characterized by the occurrence of chest pain or discomfort that is more frequent, prolonged, or severe than stable angina. It represents a critical stage between stable angina and acute myocardial infarction, indicating a potential for imminent heart attack due to significantly reduced blood flow to the heart muscle, often resulting from the rupture of an atherosclerotic plaque and subsequent thrombosis.",
+    "type": "disease_specific",
+    "name_cn": "不稳定性心绞痛",
+    "icd10": "I20.0",
+    "name_en": "Unstable_Angina",
+    "id": "D001.001.001.002",
+    "label": "Unstable_Angina",
+    "umls_mapping": {
+      "cui": "C0443343",
+      "canonical_name": "Unstable status",
+      "score": 0.9866,
+      "types": [
+        "T033"
+      ],
+      "definition": "Subject to change; variable.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.002.001",
+    "level": 5,
+    "parent_id": "D001.001.001.002",
+    "definition": "New onset angina refers to the occurrence of exertional chest pain or discomfort due to myocardial ischemia that develops within a duration of two months, indicating a new episode of angina pectoris characterized by a lack of prior symptoms in the subject.",
+    "type": "disease_subtype",
+    "name_cn": "初发心绞痛",
+    "name_en": "New_Onset_Angina",
+    "id": "D001.001.001.002.001",
+    "label": "New_Onset_Angina",
+    "umls_mapping": {
+      "cui": "C0340289",
+      "canonical_name": "New onset angina",
+      "score": 0.9777,
+      "types": [
+        "T047"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "BI",
+        "CCPSS",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MDRKOR",
+        "MDRLAV",
+        "MDRLIT",
+        "MEDCIN",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.002.002",
+    "level": 5,
+    "parent_id": "D001.001.001.002",
+    "definition": "Worsening Angina is a subtype of angina characterized by the exacerbation of pre-existing stable angina symptoms, which may include increased frequency, severity, or duration of chest pain or discomfort, often indicative of a progression in underlying coronary artery disease.",
+    "type": "disease_subtype",
+    "name_cn": "恶化性心绞痛",
+    "name_en": "Worsening_Angina",
+    "id": "D001.001.001.002.002",
+    "label": "Worsening_Angina",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.001.002.003",
+    "level": 5,
+    "parent_id": "D001.001.001.002",
+    "definition": "Rest angina is a type of angina pectoris characterized by the occurrence of chest pain or discomfort during periods of rest rather than physical exertion, often associated with underlying coronary artery disease and indicative of myocardial ischemia.",
+    "type": "disease_subtype",
+    "name_cn": "静息心绞痛",
+    "name_en": "Rest_Angina",
+    "id": "D001.001.001.002.003",
+    "label": "Rest_Angina",
+    "umls_mapping": {
+      "cui": "C0152172",
+      "canonical_name": "Angina decubitus",
+      "score": 0.9849,
+      "types": [
+        "T047"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICD9CM",
+        "ICPC2ICD10DUT",
+        "ICPC2ICD10ENG",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.002",
+    "level": 3,
+    "parent_id": "D001.001",
+    "definition": "Stable angina is a clinical syndrome characterized by chest pain or discomfort occurring predictably with exertion or emotional stress, typically in response to a relatively fixed level of physical activity or stress. It results from myocardial ischemia due to coronary artery disease, and the symptoms are usually relieved by rest or nitrates.",
+    "type": "disease_syndrome",
+    "name_cn": "稳定性心绞痛",
+    "icd10": "I20.9",
+    "name_en": "Stable_Angina",
+    "id": "D001.001.002",
+    "label": "Stable_Angina",
+    "umls_mapping": {
+      "cui": "C0340288",
+      "canonical_name": "Stable angina",
+      "score": 0.9887,
+      "types": [
+        "T047"
+      ],
+      "definition": "Angina pectoris which has not recently changed in frequency, duration or intensity. Stable angina pectoris is relieved by rest or administration or oral, sublingual or transdermal antianginal medications.",
+      "sources": [
+        "ICD10CM",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "ICD10CM",
+        "LNC",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.002.001",
+    "level": 4,
+    "parent_id": "D001.001.002",
+    "definition": "Typical angina refers to a subtype of angina pectoris characterized by the presence of three hallmark features: a sensation of chest pain or discomfort, which is typically triggered by physical exertion or emotional stress, and is relieved by rest or the use of nitrates. This type of angina is commonly associated with coronary artery disease and indicates a predictable pattern of ischemic heart symptoms.",
+    "type": "disease_subtype",
+    "name_cn": "典型心绞痛",
+    "name_en": "Typical_Angina",
+    "id": "D001.001.002.001",
+    "label": "Typical_Angina",
+    "umls_mapping": {
+      "cui": "C1998435",
+      "canonical_name": "Typical angina",
+      "score": 0.9645,
+      "types": [
+        "T184"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.002.002",
+    "level": 4,
+    "parent_id": "D001.001.002",
+    "definition": "Atypical Angina is a subtype of angina pectoris characterized by chest pain that presents with only two of the three classical characteristics: quality, location, and provocation or relief.",
+    "type": "disease_subtype",
+    "name_cn": "不典型心绞痛",
+    "name_en": "Atypical_Angina",
+    "id": "D001.001.002.002",
+    "label": "Atypical_Angina",
+    "umls_mapping": {
+      "cui": "C0741026",
+      "canonical_name": "Atypical angina",
+      "score": 0.9629,
+      "types": [
+        "T047"
+      ],
+      "definition": "Angina pectoris which does not have associated classical symptoms of chest pain. Symptoms may include weakness, nausea, or sweating.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MDRKOR",
+        "MDRLAV",
+        "MDRLIT",
+        "MDRPOL",
+        "MDRPOR",
+        "MEDCIN",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.002.003",
+    "level": 4,
+    "parent_id": "D001.001.002",
+    "definition": "Non-Anginal Chest Pain refers to chest pain that meets only one of the three classic characteristics of angina pectoris or lacks all three characteristics entirely. These characteristics include: (1) a sensation of pressure, squeezing, or heaviness; (2) a relationship to physical exertion; and (3) relief with rest or nitroglycerin. Non-anginal chest pain is typically not due to coronary artery obstruction and may have various non-cardiac etiologies.",
+    "type": "disease_subtype",
+    "name_cn": "非心绞痛性胸痛",
+    "name_en": "Non_Anginal_Chest_Pain",
+    "id": "D001.001.002.003",
+    "label": "Non_Anginal_Chest_Pain",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.003",
+    "level": 3,
+    "parent_id": "D001.001",
+    "definition": "Silent myocardial ischemia is a clinical condition characterized by the presence of objective evidence of myocardial ischemia, such as changes in electrocardiogram or imaging studies, without the classical symptomatology of angina pectoris or chest pain.",
+    "type": "disease_syndrome",
+    "name_cn": "无症状性心肌缺血",
+    "name_en": "Silent_Myocardial_Ischemia",
+    "id": "D001.001.003",
+    "label": "Silent_Myocardial_Ischemia",
+    "umls_mapping": {
+      "cui": "C0022116",
+      "canonical_name": "Ischemia",
+      "score": 0.9904,
+      "types": [
+        "T046"
+      ],
+      "definition": "A hypoperfusion of the BLOOD through an organ or tissue caused by a PATHOLOGIC CONSTRICTION or obstruction of its BLOOD VESSELS, or an absence of BLOOD CIRCULATION.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NANDA-I",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.004",
+    "level": 3,
+    "parent_id": "D001.001",
+    "alias": "变异性心绞痛,Prinzmetal心绞痛",
+    "definition": "Vasospastic Angina is a syndrome characterized by episodes of chest pain (angina) resulting from transient coronary artery spasms, which lead to reduced blood flow to the heart muscle. This condition may occur at rest, often during sleep or emotional stress, and is typically associated with reversible myocardial ischemia.",
+    "type": "disease_syndrome",
+    "name_cn": "血管痉挛性心绞痛",
+    "name_en": "Vasospastic_Angina",
+    "id": "D001.001.004",
+    "label": "Vasospastic_Angina",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.005",
+    "level": 3,
+    "parent_id": "D001.001",
+    "alias": "心脏X综合征",
+    "definition": "Microvascular angina is a clinical syndrome characterized by angina pectoris resulting from dysfunction of the coronary microcirculation, which leads to inadequate blood supply to the myocardial tissue despite the absence of significant epicardial coronary artery disease.",
+    "type": "disease_syndrome",
+    "name_cn": "微血管性心绞痛",
+    "name_en": "Microvascular_Angina",
+    "id": "D001.001.005",
+    "label": "Microvascular_Angina",
+    "umls_mapping": {
+      "cui": "C0206064",
+      "canonical_name": "Microvascular Angina",
+      "score": 0.9854,
+      "types": [
+        "T047"
+      ],
+      "definition": "A disorder affecting the smallest coronary arteries. Causes include atherosclerosis and arterial spasm. Chest pain is a frequently observed symptom.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006",
+    "level": 3,
+    "parent_id": "D001.001",
+    "definition": "A term used to describe the clinical presentations of coronary artery disease during stable periods, particularly those preceding or following an acute coronary syndrome.",
+    "type": "disease_syndrome",
+    "name_cn": "慢性冠状动脉综合征",
+    "name_en": "Chronic Coronary Syndromes",
+    "id": "D001.001.006",
+    "label": "Chronic Coronary Syndromes",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001",
+    "level": 4,
+    "parent_id": "D001.001.006",
+    "definition": "A severe form of coronary artery disease characterized by extensive obstruction in the coronary arteries.",
+    "type": "Disease",
+    "name_cn": "广泛性阻塞性冠状动脉疾病",
+    "name_en": "Extensive Obstructive Coronary Artery Disease",
+    "id": "D001.001.006.001",
+    "label": "Extensive Obstructive Coronary Artery Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.007",
+    "level": 3,
+    "parent_id": "D001.001",
+    "definition": "Left ventricular dysfunction caused by ischemic conditions, often due to coronary artery disease.",
+    "type": null,
+    "name_cn": "缺血性左心室功能障碍",
+    "name_en": "Ischemic Left Ventricular Dysfunction",
+    "id": "D001.001.007",
+    "label": "Ischemic Left Ventricular Dysfunction",
+    "umls_mapping": {
+      "cui": "C0475224",
+      "canonical_name": "Ischemic",
+      "score": 0.9888,
+      "types": [
+        "T169"
+      ],
+      "definition": "insufficient blood supply to a body part",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.004.001",
+    "level": 4,
+    "parent_id": "D001.001.004",
+    "definition": "A condition characterized by transient constriction of the coronary arteries, leading to reduced blood flow and myocardial ischemia.",
+    "type": "disease",
+    "name_cn": "冠状动脉痉挛",
+    "name_en": "Coronary_Vasospasm",
+    "id": "D001.001.004.001",
+    "label": "Coronary_Vasospasm",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.001",
+    "level": 5,
+    "parent_id": "D001.001.006.001",
+    "definition": "Coronary artery stenosis reaching a significant level, usually requiring medical intervention",
+    "type": "disease",
+    "name_cn": "显著冠状动脉狭窄",
+    "name_en": "Significant_Coronary_Stenosis",
+    "id": "D001.001.006.001.001",
+    "label": "Significant_Coronary_Stenosis",
+    "umls_mapping": {
+      "cui": "C0750502",
+      "canonical_name": "Significant",
+      "score": 0.9688,
+      "types": [
+        "T078"
+      ],
+      "definition": "A term applied to differences, correlations, cause-and-effect relationships, etc., to indicate that they are noticeable, probably too closely correlated to be attributed to chance and therefore indicating a systematic relation: substantial, fairly large; also having consequence or import, important in effect or meaning. In statistics significant ordinarily indicates a probability of not less than 95 percent, while highly significant indicates a probability of not less than 99 percent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.001",
+    "level": 4,
+    "parent_id": "D001.001.005",
+    "definition": "A condition characterized by angina symptoms without obstructive coronary artery disease, often associated with microvascular dysfunction or vasospasm.",
+    "type": null,
+    "name_cn": "非阻塞性冠状动脉心绞痛",
+    "name_en": "Angina with non-obstructive coronary arteries",
+    "id": "D001.001.005.001",
+    "label": "Angina with non-obstructive coronary arteries",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.002",
+    "level": 2,
+    "parent_id": "D001",
+    "definition": "An unexpected death caused by loss of heart function.",
+    "type": "disease",
+    "name_cn": "心源性猝死",
+    "name_en": "Sudden_Cardiac_Death",
+    "id": "D001.002",
+    "label": "Sudden_Cardiac_Death",
+    "umls_mapping": {
+      "cui": "C2825161",
+      "canonical_name": "Family history of sudden cardiac death (situation)",
+      "score": 0.8308,
+      "types": [
+        "T033"
+      ],
+      "definition": "A first-degree relative (parent, sibling, child) documented to have died suddenly of presumed cardiac etiology without other obvious cause.",
+      "sources": [
+        "ICD10CM",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICD10CM",
+        "ICD9CM",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.008",
+    "id": "D001.001.008",
+    "name_en": "Chronic_Coronary_Syndrome",
+    "name_cn": "慢性冠脉综合征",
+    "definition": "A condition characterized by long-term myocardial ischemia due to coronary artery disease, distinct from acute coronary syndrome.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Chronic_Coronary_Syndrome",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.003",
+    "id": "D001.003",
+    "name_en": "Atrial Fibrillation",
+    "name_cn": "心房颤动",
+    "definition": "An irregular and often rapid heart rate that can increase the risk of stroke, heart failure and other heart-related complications.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Atrial Fibrillation",
+    "umls_mapping": {
+      "cui": "C0344434",
+      "canonical_name": "Atrial Fibrillation by ECG Finding",
+      "score": 0.9682,
+      "types": [
+        "T034"
+      ],
+      "definition": "An electrocardiographic finding of a supraventricular arrhythmia characterized by the replacement of consistent P waves by rapid oscillations or fibrillatory waves that vary in size, shape and timing and are accompanied by an irregularly irregular ventricular response. (CDISC)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MEDCIN",
+        "MTH",
+        "NANDA-I",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.006",
+    "id": "PC002.002.006",
+    "name_en": "Renal_Insufficiency",
+    "name_cn": "肾功能不全",
+    "definition": "A condition in which the kidneys fail to adequately filter waste products from the blood.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "PC002.002",
+    "alias": "",
+    "label": "Renal_Insufficiency",
+    "umls_mapping": {
+      "cui": "C1565662",
+      "canonical_name": "Acute Kidney Insufficiency",
+      "score": 0.8789,
+      "types": [
+        "T047"
+      ],
+      "definition": "Conditions in which the function of KIDNEYS deteriorates suddenly in a matter of days or even hours. It is characterized by the sudden drop in GLOMERULAR FILTRATION RATE.",
+      "sources": [
+        "ICD10CM",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "ICD10CM",
+        "ICPC2ICD10DUT",
+        "ICPC2ICD10ENG",
+        "LCH",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "MTHICD9",
+        "SNOMEDCT_US",
+        "SNOMEDCT_VET"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.001.001",
+    "id": "PC003.005.001.001",
+    "name_en": "Obstructive_CAD_with_post_test_likelihood_less_than_5_percent",
+    "name_cn": "梗阻性冠状动脉疾病且检查后可能性<5%",
+    "definition": "Obstructive coronary artery disease with post-test likelihood less than 5%",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "PC003.005.001",
+    "alias": "",
+    "label": "Obstructive_CAD_with_post_test_likelihood_less_than_5_percent",
+    "umls_mapping": {
+      "cui": "C0549186",
+      "canonical_name": "Obstructed",
+      "score": 0.9888,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "RCD",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.002",
+    "id": "D001.001.006.001.002",
+    "name_en": "Left main stem stenosis ≥50%",
+    "name_cn": "左主干狭窄≥50%",
+    "definition": "A condition where the left main coronary artery is narrowed by 50% or more, which can lead to significant reduction in blood flow to the heart muscle.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Left main stem stenosis ≥50%",
+    "umls_mapping": {
+      "cui": "C1261082",
+      "canonical_name": "Left coronary artery structure",
+      "score": 0.8009,
+      "types": [
+        "T023"
+      ],
+      "definition": "A coronary artery that arises from the aorta and bifurcates into the left anterior descending artery and the left circumflex artery.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "FMA",
+        "HCPCS",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.003",
+    "id": "D001.001.006.001.003",
+    "name_en": "Left Main or Proximal LAD Lesions",
+    "name_cn": "左主干或左前降支近端病变",
+    "definition": "Lesions located in the left main coronary artery or the proximal part of the left anterior descending artery, which supply a larger myocardial mass and are more likely to result in significant functional impairment.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Left Main or Proximal LAD Lesions",
+    "umls_mapping": {
+      "cui": "C1261082",
+      "canonical_name": "Left coronary artery structure",
+      "score": 0.8038,
+      "types": [
+        "T023"
+      ],
+      "definition": "A coronary artery that arises from the aorta and bifurcates into the left anterior descending artery and the left circumflex artery.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "CSP",
+        "FMA",
+        "HCPCS",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.001.002.001",
+    "id": "D001.001.001.001.002.001",
+    "name_en": "Non_Fatal_Myocardial_Infarction",
+    "name_cn": "非致死性心肌梗死",
+    "definition": "Myocardial infarction that does not result in death",
+    "type": "disease",
+    "level": 5,
+    "parent_id": "D001.001.001.001.002",
+    "alias": "",
+    "label": "Non_Fatal_Myocardial_Infarction",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.004",
+    "id": "D001.001.006.001.001.004",
+    "name_en": "Fixed_Flow_Limiting_Stenoses",
+    "name_cn": "固定性血流限制性狭窄",
+    "definition": "A type of stenosis that is fixed and limits blood flow, often associated with atherosclerotic lesions.",
+    "type": "disease",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Fixed_Flow_Limiting_Stenoses",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.010",
+    "id": "D001.001.010",
+    "name_en": "Diffuse_Atherosclerotic_Lesions",
+    "name_cn": "弥漫性动脉粥样硬化病变",
+    "definition": "Atherosclerotic lesions that are spread out over a large area of the blood vessels, potentially causing ischemia under stress even without identifiable luminal narrowing.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Diffuse_Atherosclerotic_Lesions",
+    "umls_mapping": {
+      "cui": "C0205219",
+      "canonical_name": "Diffuse",
+      "score": 0.9735,
+      "types": [
+        "T082"
+      ],
+      "definition": "Widely spread; not localized or confined.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.002",
+    "id": "D001.001.006.002",
+    "name_en": "Myocardial_Bridging",
+    "name_cn": "心肌桥",
+    "definition": "A structural abnormality where a segment of a coronary artery tunnels through the myocardium rather than resting on top of it, potentially causing transient ischemia.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.006",
+    "alias": "",
+    "label": "Myocardial_Bridging",
+    "umls_mapping": {
+      "cui": "C0027061",
+      "canonical_name": "Myocardium",
+      "score": 0.9722,
+      "types": [
+        "T024"
+      ],
+      "definition": "The muscle tissue of the HEART. It is composed of striated, involuntary muscle cells (MYOCYTES, CARDIAC) connected to form the contractile pump to generate blood flow.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "FMA",
+        "HL7V2.5",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.004",
+    "id": "D001.004",
+    "name_en": "Congenital_Arterial_Anomalies",
+    "name_cn": "先天性动脉异常",
+    "definition": "Structural abnormalities of the arteries present at birth",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Congenital_Arterial_Anomalies",
+    "umls_mapping": {
+      "cui": "C1744681",
+      "canonical_name": "Congenital qualifier",
+      "score": 0.9848,
+      "types": [
+        "T080"
+      ],
+      "definition": "Denoting something that is present at birth."
+    }
+  },
+  {
+    "ontology_id": "D001.001.004.002",
+    "id": "D001.001.004.002",
+    "name_en": "Dynamic Epicardial Vasospasm",
+    "name_cn": "动态心外膜血管痉挛",
+    "definition": "A transient constriction of the epicardial coronary arteries that may lead to myocardial ischemia.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.004",
+    "alias": "",
+    "label": "Dynamic Epicardial Vasospasm",
+    "umls_mapping": {
+      "cui": "C0729333",
+      "canonical_name": "Dynamic",
+      "score": 0.965,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.002",
+    "id": "D001.001.005.002",
+    "name_en": "Microcirculatory_Abnormality",
+    "name_cn": "微循环异常",
+    "definition": "Functional and structural abnormalities in the microcirculation that may cause angina and ischemia.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Microcirculatory_Abnormality",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.005",
+    "id": "D001.005",
+    "name_en": "Anemia",
+    "name_cn": "贫血",
+    "definition": "A condition characterized by a deficiency of red blood cells or hemoglobin, leading to reduced oxygen transport.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Anemia",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.011",
+    "id": "D001.001.011",
+    "name_en": "Non_Acute_Myocardial_Ischemia",
+    "name_cn": "非急性心肌缺血",
+    "definition": "Myocardial ischemia that is not acute, often associated with conditions such as coronary microvascular dysfunction, anemia, tachycardia, or blood pressure changes.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Non_Acute_Myocardial_Ischemia",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.006",
+    "id": "D001.006",
+    "name_en": "Myocardial_Hypertrophy",
+    "name_cn": "心肌肥厚",
+    "definition": "An increase in the size of myocardial cells leading to thickening of the heart muscle.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Myocardial_Hypertrophy",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.012",
+    "id": "D001.001.012",
+    "name_en": "Endothelial_Dysfunction",
+    "name_cn": "内皮功能障碍",
+    "definition": "A condition in which the endothelium (the inner lining of blood vessels) fails to function normally, leading to impaired vasodilation and other vascular abnormalities.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Endothelial_Dysfunction",
+    "umls_mapping": {
+      "cui": "C0856169",
+      "canonical_name": "Endothelial dysfunction",
+      "score": 0.9565,
+      "types": [
+        "T047"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.002.001",
+    "id": "D001.001.005.002.001",
+    "name_en": "Rarefaction",
+    "name_cn": "稀疏化",
+    "definition": "The reduction in the number of myocardial capillaries, leading to impaired coronary microcirculation.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.005.002",
+    "alias": "",
+    "label": "Rarefaction",
+    "umls_mapping": {
+      "cui": "C0332550",
+      "canonical_name": "Increased translucency",
+      "score": 0.9431,
+      "types": [
+        "T033"
+      ],
+      "definition": "A morphologic finding indicating reduced tissue density.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.013",
+    "id": "D001.001.013",
+    "name_en": "Obstructive Coronary Artery Disease",
+    "name_cn": "阻塞性冠状动脉疾病",
+    "definition": "A condition characterized by the narrowing or blockage of the coronary arteries, leading to reduced blood flow to the heart muscle.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Obstructive Coronary Artery Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC002.002.004.002",
+    "id": "PC002.002.004.002",
+    "name_en": "Severe kidney dysfunction",
+    "name_cn": "严重肾功能障碍",
+    "definition": "A condition characterized by a significant impairment in kidney function.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "PC002.002.004",
+    "alias": "",
+    "label": "Severe kidney dysfunction",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9812,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.006",
+    "id": "D001.001.006.001.006",
+    "name_en": "Coronary artery calcification",
+    "name_cn": "冠状动脉钙化",
+    "definition": "A condition characterized by the accumulation of calcium in the coronary arteries, often measured using the coronary artery calcium score (CACS).",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Coronary artery calcification",
+    "umls_mapping": {
+      "cui": "C1611184",
+      "canonical_name": "Calcification of coronary artery",
+      "score": 0.9805,
+      "types": [
+        "T046"
+      ],
+      "definition": "An accumulation of calcium and phosphate in arteries with mineral deposits in the intimal or medial layer of the vessel wall in a coronary artery. [HPO:probinson]",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MDRKOR",
+        "MDRLAV",
+        "MDRLIT",
+        "MDRPOL",
+        "NCI",
+        "OMIM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.007",
+    "id": "D001.007",
+    "name_en": "Non-coronary_Atherosclerotic_Disease",
+    "name_cn": "非冠状动脉粥样硬化性疾病",
+    "definition": "Atherosclerotic disease affecting non-coronary arteries",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Non-coronary_Atherosclerotic_Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.007.001",
+    "id": "D001.001.007.001",
+    "name_en": "Diastolic LV Dysfunction",
+    "name_cn": "舒张期左心室功能障碍",
+    "definition": "An early sign of ischaemic myocardial dysfunction and may also be indicative of microvascular dysfunction.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.007",
+    "alias": "",
+    "label": "Diastolic LV Dysfunction",
+    "umls_mapping": {
+      "cui": "C1273070",
+      "canonical_name": "Left ventricular diastolic dysfunction",
+      "score": 0.9464,
+      "types": [
+        "T047"
+      ],
+      "definition": "Abnormal function of the left ventricule during left ventricular relaxation and filling. [PMID:12527689, PMID:14594874]",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MDRGRE",
+        "MDRHUN",
+        "MDRISL",
+        "MDRITA",
+        "MDRJPN",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "OMIM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.007.002",
+    "id": "D001.001.007.002",
+    "name_en": "Ischemic_Myocardial_Dysfunction",
+    "name_cn": "缺血性心肌功能障碍",
+    "definition": "Ischemic Myocardial Dysfunction is a cardiovascular condition characterized by impaired cardiac function resulting from myocardial ischemia, which may manifest as diastolic dysfunction or systolic dysfunction. This dysfunction occurs when there is inadequate blood flow to the heart muscle, leading to a deficiency in oxygen supply and subsequent myocardial cellular injury.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.007",
+    "alias": "",
+    "label": "Ischemic_Myocardial_Dysfunction",
+    "umls_mapping": {
+      "cui": "C0349780",
+      "canonical_name": "Ischemic myocardial dysfunction",
+      "score": 0.9643,
+      "types": [
+        "T047"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "RCD",
+        "RCDAE",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.007.003",
+    "id": "D001.001.007.003",
+    "name_en": "Scarred_Myocardium",
+    "name_cn": "心肌瘢痕",
+    "definition": "A condition where the myocardium shows scarring, typically due to previous myocardial infarction.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.007",
+    "alias": "",
+    "label": "Scarred_Myocardium",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.008",
+    "id": "D001.008",
+    "name_en": "Major_Adverse_Cardiovascular_Events",
+    "name_cn": "主要不良心血管事件",
+    "definition": "A composite endpoint typically including cardiovascular death, myocardial infarction, and stroke",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Major_Adverse_Cardiovascular_Events",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9581,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.001.001",
+    "id": "PC003.005.005.001.001",
+    "name_en": "Obstructive Coronary Artery Disease",
+    "name_cn": "阻塞性冠状动脉疾病",
+    "definition": "A condition characterized by the narrowing or blockage of coronary arteries, leading to reduced blood flow to the heart muscle.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "PC003.005.005.001",
+    "alias": "",
+    "label": "Obstructive Coronary Artery Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.007.001",
+    "id": "D001.007.001",
+    "name_en": "Calcified_Atherosclerotic_Plaque",
+    "name_cn": "钙化动脉粥样硬化斑块",
+    "definition": "A hardened deposit formed by the accumulation of calcium in atherosclerotic plaque within the coronary arteries.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.007",
+    "alias": "",
+    "label": "Calcified_Atherosclerotic_Plaque",
+    "umls_mapping": {
+      "cui": "C0241148",
+      "canonical_name": "Cutaneous plaque",
+      "score": 0.962,
+      "types": [
+        "T033"
+      ],
+      "definition": "A large (greater than 5-10 mm) raised skin lesion with a wide, flat surface.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "DXP",
+        "HPO",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNOMEDCT_US",
+        "SNOMEDCT_VET"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.004.001",
+    "id": "PC003.005.004.001",
+    "name_en": "Very_Low_Likelihood_Of_Obstructive_CAD",
+    "name_cn": "极低可能性梗阻性冠状动脉疾病",
+    "definition": "A clinical assessment indicating a very low (≤5%) probability of having obstructive coronary artery disease.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "PC003.005.004",
+    "alias": "",
+    "label": "Very_Low_Likelihood_Of_Obstructive_CAD",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.005.005.001",
+    "id": "PC003.005.005.005.001",
+    "name_en": "Obstructive Coronary Artery Disease Likelihood",
+    "name_cn": "阻塞性冠状动脉疾病可能性",
+    "definition": "Likelihood of obstructive coronary artery disease categorized as moderate (>15%–50%), high (>50%–85%), or very high (>85%)",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "PC003.005.005.005",
+    "alias": "",
+    "label": "Obstructive Coronary Artery Disease Likelihood",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "PC003.005.005.007",
+    "id": "PC003.005.005.007",
+    "name_en": "Very_High_Likelihood_Of_Obstructive_CAD",
+    "name_cn": "极高可能性阻塞性冠状动脉疾病",
+    "definition": "A condition where there is a very high likelihood (>85%) of obstructive coronary artery disease (CAD).",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "PC003.005.005",
+    "alias": "",
+    "label": "Very_High_Likelihood_Of_Obstructive_CAD",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.005.003",
+    "id": "D001.001.005.003",
+    "name_en": "Microvascular Angina with Reduced CFR or Increased IMR",
+    "name_cn": "伴有CFR降低或IMR升高的微血管性心绞痛",
+    "definition": "A condition characterized by microvascular angina accompanied by reduced coronary flow reserve (CFR) and/or increased index of microcirculatory resistance (IMR), which may reflect arteriolar remodelling.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Microvascular Angina with Reduced CFR or Increased IMR",
+    "umls_mapping": {
+      "cui": "C0206064",
+      "canonical_name": "Microvascular Angina",
+      "score": 0.9854,
+      "types": [
+        "T047"
+      ],
+      "definition": "A disorder affecting the smallest coronary arteries. Causes include atherosclerosis and arterial spasm. Chest pain is a frequently observed symptom.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.004",
+    "id": "D001.001.005.004",
+    "name_en": "Microvascular_Spasm",
+    "name_cn": "微血管痉挛",
+    "definition": "A condition characterized by spasms in the microvascular system, often associated with angina symptoms.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Microvascular_Spasm",
+    "umls_mapping": {
+      "cui": "C0443258",
+      "canonical_name": "Microvascular",
+      "score": 0.988,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.004.003",
+    "id": "D001.001.004.003",
+    "name_en": "Severe Vasospastic Angina",
+    "name_cn": "严重血管痉挛性心绞痛",
+    "definition": "A severe form of vasospastic angina requiring high dosages of calcium antagonists or combination therapy.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.004",
+    "alias": "",
+    "label": "Severe Vasospastic Angina",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9812,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.005",
+    "id": "D001.001.005.005",
+    "name_en": "Vasoconstrictor_Response_of_Coronary_Microvessels",
+    "name_cn": "冠状动脉微血管收缩反应",
+    "definition": "The constriction of coronary microvessels in response to certain stimuli, such as endothelin.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Vasoconstrictor_Response_of_Coronary_Microvessels",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.009",
+    "id": "D001.009",
+    "name_en": "Inflammatory_Rheumatic_Disease",
+    "name_cn": "炎症性风湿病",
+    "definition": "A group of diseases characterized by inflammation and dysfunction of the joints, muscles, and connective tissues.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Inflammatory_Rheumatic_Disease",
+    "umls_mapping": {
+      "cui": "C1290884",
+      "canonical_name": "Inflammatory disorder",
+      "score": 0.8223,
+      "types": [
+        "T047"
+      ],
+      "definition": "An infectious or non infectious disorder characterized by signs and symptoms derived from focal or extensive tissue infiltration by acute (e.g., polymorphonuclear) or chronic (e.g., lymphocytic-plasmacytic) inflammatory cells. Representative examples of infectious disorders include viral infections, bacterial infections, and parasitic infections. Representative examples of non-infectious inflammatory disorders include inflammatory bowel disease and inflammatory polyps.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MEDCIN",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.007.003",
+    "id": "D001.007.003",
+    "name_en": "Asymptomatic_ASCVD",
+    "name_cn": "无症状性动脉粥样硬化性心血管疾病",
+    "definition": "Atherosclerotic cardiovascular disease without any noticeable symptoms",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.007",
+    "alias": "",
+    "label": "Asymptomatic_ASCVD",
+    "umls_mapping": {
+      "cui": "C0231221",
+      "canonical_name": "Asymptomatic (finding)",
+      "score": 0.9688,
+      "types": [
+        "T033"
+      ],
+      "definition": "Without clinical signs or indications that raise the possibility of a particular disorder or dysfunction.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "OMIM",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.010",
+    "id": "D001.010",
+    "name_en": "Rheumatic_and_Musculoskeletal_Diseases",
+    "name_cn": "风湿性和肌肉骨骼疾病",
+    "definition": "A group of diseases affecting the joints, bones, muscles, and connective tissues",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Rheumatic_and_Musculoskeletal_Diseases",
+    "umls_mapping": {
+      "cui": "C0026858",
+      "canonical_name": "Musculoskeletal Pain",
+      "score": 0.8419,
+      "types": [
+        "T033"
+      ],
+      "definition": "Discomfort stemming from muscles, LIGAMENTS, tendons, and bones.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "BI",
+        "CCPSS",
+        "CHV",
+        "COSTAR",
+        "ICPC2P",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "NCI",
+        "NOC",
+        "OMIM",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.011",
+    "id": "D001.011",
+    "name_en": "Atherosclerotic Cardiovascular Disease",
+    "name_cn": "动脉粥样硬化性心血管疾病",
+    "definition": "A group of diseases caused by atherosclerosis affecting the cardiovascular system, including coronary artery disease, cerebrovascular disease, and peripheral artery disease.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Atherosclerotic Cardiovascular Disease",
+    "umls_mapping": {
+      "cui": "C0004153",
+      "canonical_name": "Atherosclerosis",
+      "score": 0.986,
+      "types": [
+        "T047"
+      ],
+      "definition": "Build-up of fatty material and calcium deposition in the arterial wall resulting in partial or complete occlusion of the arterial lumen.",
+      "sources": [
+        "ICD10CM"
+      ],
+      "all_sources": [
+        "ICD10",
+        "ICD10AM",
+        "ICD10CM",
+        "ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSHCZE",
+        "MSHDUT",
+        "OMIM",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_VET"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.012",
+    "id": "D001.012",
+    "name_en": "Cardiovascular_Outcomes",
+    "name_cn": "心血管结局",
+    "definition": "The results or consequences related to cardiovascular health, including both positive and negative outcomes.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Cardiovascular_Outcomes",
+    "umls_mapping": {
+      "cui": "C0007226",
+      "canonical_name": "Cardiovascular system",
+      "score": 0.9832,
+      "types": [
+        "T022"
+      ],
+      "definition": "The HEART and the BLOOD VESSELS by which BLOOD is pumped and circulated through the body.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CST",
+        "FMA",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.005",
+    "id": "D001.001.006.001.001.005",
+    "name_en": "Coronary Artery Diameter Stenosis",
+    "name_cn": "冠状动脉直径狭窄",
+    "definition": "A narrowing of the coronary artery diameter by more than a specified percentage, typically indicating significant obstruction.",
+    "type": "disease",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Coronary Artery Diameter Stenosis",
+    "umls_mapping": {
+      "cui": "C0205042",
+      "canonical_name": "Coronary artery",
+      "score": 0.811,
+      "types": [
+        "T023"
+      ],
+      "definition": "One of two arteries that arise from the aortic sinuses of the ascending aorta and supply blood to the myocardium",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CSP",
+        "FMA",
+        "LCH",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.013.001",
+    "id": "D001.001.013.001",
+    "name_en": "CAD_Progression",
+    "name_cn": "冠状动脉疾病进展",
+    "definition": "The advancement or worsening of coronary artery disease, often characterized by increased atherosclerosis and plaque features.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.013",
+    "alias": "",
+    "label": "CAD_Progression",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.013",
+    "id": "D001.013",
+    "name_en": "Increased_CVD_Mortality",
+    "name_cn": "心血管疾病死亡率增加",
+    "definition": "An elevated rate of death due to cardiovascular diseases.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Increased_CVD_Mortality",
+    "umls_mapping": {
+      "cui": "C0205217",
+      "canonical_name": "Increased",
+      "score": 0.9793,
+      "types": [
+        "T081"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.013.002",
+    "id": "D001.001.013.002",
+    "name_en": "Non-calcified_plaque",
+    "name_cn": "非钙化斑块",
+    "definition": "A type of plaque in the coronary arteries that does not contain calcium deposits, often associated with higher risk of thrombosis and inflammation.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.013",
+    "alias": "",
+    "label": "Non-calcified_plaque",
+    "umls_mapping": {
+      "cui": "C0332209",
+      "canonical_name": "Non-calcified",
+      "score": 0.9803,
+      "types": [
+        "T169"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.007",
+    "id": "D001.001.006.001.007",
+    "name_en": "Luminal_Obstruction",
+    "name_cn": "管腔阻塞",
+    "definition": "A condition where the lumen of a blood vessel is blocked, often due to atherosclerosis or other pathological changes.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Luminal_Obstruction",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.001.006",
+    "id": "D001.001.006.001.001.006",
+    "name_en": "Anatomically_Significant_Stenoses",
+    "name_cn": "解剖学显著狭窄",
+    "definition": "Anatomical narrowing of blood vessels that is significant enough to potentially impair blood flow.",
+    "type": "disease",
+    "level": 5,
+    "parent_id": "D001.001.006.001.001",
+    "alias": "",
+    "label": "Anatomically_Significant_Stenoses",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.014",
+    "id": "D001.001.014",
+    "name_en": "Obstructive_Epicardial_Coronary_Atherosclerosis",
+    "name_cn": "阻塞性心外膜冠状动脉粥样硬化",
+    "definition": "A condition characterized by the narrowing or blockage of the epicardial coronary arteries due to atherosclerosis, leading to reduced blood flow.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Obstructive_Epicardial_Coronary_Atherosclerosis",
+    "umls_mapping": {
+      "cui": "C0003850",
+      "canonical_name": "Arteriosclerosis",
+      "score": 0.9951,
+      "types": [
+        "T047"
+      ],
+      "definition": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes. There are many forms classified by the types of lesions and arteries involved, such as ATHEROSCLEROSIS with fatty lesions in the ARTERIAL INTIMA of medium and large muscular arteries.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NCI",
+        "OMIM",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.014",
+    "id": "D001.014",
+    "name_en": "Left Bundle Branch Block",
+    "name_cn": "左束支传导阻滞",
+    "definition": "A conduction abnormality in the heart where the activation of the left ventricle is delayed, causing the left ventricle to contract later than the right ventricle.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Left Bundle Branch Block",
+    "umls_mapping": {
+      "cui": "C0344420",
+      "canonical_name": "Electrocardiogram: left bundle branch block (finding)",
+      "score": 0.9822,
+      "types": [
+        "T034"
+      ],
+      "definition": "An electrocardiographic finding of a wide QRS complex with evidence of delayed conduction to the left ventricle, manifested as a widened initial portion of the QRS complex in leads V5, V6, I and aVL and with QRS duration greater than or equal to 120 ms. (CDISC)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.013.003",
+    "id": "D001.001.013.003",
+    "name_en": "Epicardial Obstructive CAD",
+    "name_cn": "心外膜阻塞性冠状动脉疾病",
+    "definition": "A condition characterized by obstructive coronary artery disease affecting the epicardial vessels.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.013",
+    "alias": "",
+    "label": "Epicardial Obstructive CAD",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.006",
+    "id": "D001.001.005.006",
+    "name_en": "ANOCA/INOCA",
+    "name_cn": "非阻塞性冠状动脉缺血/非阻塞性冠状动脉心绞痛",
+    "definition": "Angina or ischemia caused by epicardial vasomotor abnormalities or functional/structural microvascular alterations in the absence of epicardial obstructive CAD",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "ANOCA/INOCA",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.013.004",
+    "id": "D001.001.013.004",
+    "name_en": "Epicardial Coronary Artery Disease",
+    "name_cn": "心外膜冠状动脉疾病",
+    "definition": "A condition where the epicardial coronary arteries are affected by atherosclerosis or other pathological changes.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.013",
+    "alias": "",
+    "label": "Epicardial Coronary Artery Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.015",
+    "id": "D001.001.015",
+    "name_en": "Transition_between_CCS_and_ACS",
+    "name_cn": "CCS与ACS之间的过渡",
+    "definition": "The variable and unpredictable course of patients transitioning between different types of CCS and ACS presentations throughout their lifetime.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Transition_between_CCS_and_ACS",
+    "umls_mapping": {
+      "cui": "C0796147",
+      "canonical_name": "Acrocallosal Syndrome",
+      "score": 0.9558,
+      "types": [
+        "T047"
+      ],
+      "definition": "Autosomal recessive syndrome characterized by hypogenesis or agenesis of CORPUS CALLOSUM. Clinical features include MENTAL RETARDATION; CRANIOFACIAL ABNORMALITIES; digital malformations, and growth retardation.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "JABL",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MTH",
+        "NCI",
+        "OMIM",
+        "ORPHANET",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.015",
+    "id": "D001.015",
+    "name_en": "Pulmonary_Conditions",
+    "name_cn": "肺部疾病",
+    "definition": "Conditions affecting the pulmonary system, often co-existing with cardiovascular diseases.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Pulmonary_Conditions",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.004.004",
+    "id": "D001.001.004.004",
+    "name_en": "Macrovascular_Spasm",
+    "name_cn": "大血管痉挛",
+    "definition": "A condition characterized by spasms in the large blood vessels, often leading to reduced blood flow and ischemic symptoms.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.004",
+    "alias": "",
+    "label": "Macrovascular_Spasm",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "SS003.002.012",
+    "id": "SS003.002.012",
+    "name_en": "Complex_Ventricular_Ectopy",
+    "name_cn": "复杂性室性异位搏动",
+    "definition": "A type of ventricular arrhythmia characterized by frequent or multifocal premature ventricular contractions.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "SS003.002",
+    "alias": "",
+    "label": "Complex_Ventricular_Ectopy",
+    "umls_mapping": {
+      "cui": "C0439855",
+      "canonical_name": "Complex",
+      "score": 0.9903,
+      "types": [
+        "T080"
+      ],
+      "definition": "Hard, involved or complicated, elaborate, having many parts.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.016",
+    "id": "D001.016",
+    "name_en": "Stenosis",
+    "name_cn": "狭窄",
+    "definition": "An abnormal narrowing in a blood vessel or other tubular organ or structure.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Stenosis",
+    "umls_mapping": {
+      "cui": "C0678234",
+      "canonical_name": "Stenosis Morphology",
+      "score": 0.9955,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.001.002.002",
+    "id": "D001.001.001.001.002.002",
+    "name_en": "Fatal and Non-fatal Myocardial Infarction",
+    "name_cn": "致命性和非致命性心肌梗死",
+    "definition": "A condition encompassing both fatal and non-fatal cases of myocardial infarction, often considered in prognostic studies.",
+    "type": "disease",
+    "level": 5,
+    "parent_id": "D001.001.001.001.002",
+    "alias": "",
+    "label": "Fatal and Non-fatal Myocardial Infarction",
+    "umls_mapping": {
+      "cui": "C1302234",
+      "canonical_name": "Fatal",
+      "score": 0.969,
+      "types": [
+        "T080"
+      ],
+      "definition": "Bringing death.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.016.001",
+    "id": "D001.016.001",
+    "name_en": "Proximal lesion",
+    "name_cn": "近端病变",
+    "definition": "A lesion located more proximally in a vessel, associated with more extensive ischemia and increased risk of clinical events.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.016",
+    "alias": "",
+    "label": "Proximal lesion",
+    "umls_mapping": {
+      "cui": "C0205107",
+      "canonical_name": "Proximal",
+      "score": 0.9636,
+      "types": [
+        "T082"
+      ],
+      "definition": "Situated nearest to a point of attachment or origin.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "HPO",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.002.004",
+    "id": "D001.001.002.004",
+    "name_en": "Effort-Induced Angina",
+    "name_cn": "劳力性心绞痛",
+    "definition": "Angina symptoms induced by physical activities, classified by the Canadian Cardiovascular Society grading system.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.002",
+    "alias": "",
+    "label": "Effort-Induced Angina",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.017",
+    "id": "D001.017",
+    "name_en": "Familial_Hypercholesterolemia",
+    "name_cn": "家族性高胆固醇血症",
+    "definition": "A genetic disorder characterized by high cholesterol levels in the blood",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Familial_Hypercholesterolemia",
+    "umls_mapping": {
+      "cui": "C1366529",
+      "canonical_name": "LDLR gene",
+      "score": 0.9865,
+      "types": [
+        "T028"
+      ],
+      "definition": "This gene plays a role in the modulation of ligand-specific receptor-mediated endocytosis, and also plays a regulatory role in cholesterol synthesis.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HGNC",
+        "LNC",
+        "MEDLINEPLUS",
+        "MTH",
+        "NCI",
+        "OMIM",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.008",
+    "id": "D001.001.006.001.008",
+    "name_en": "Left_Main_Stenosis",
+    "name_cn": "左主干狭窄",
+    "definition": "Coronary artery disease characterized by ≥50% stenosis in the left main coronary artery as shown by CCTA.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Left_Main_Stenosis",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.004.005",
+    "id": "D001.001.004.005",
+    "name_en": "Epicardial Vasospastic Angina",
+    "name_cn": "心外膜血管痉挛性心绞痛",
+    "definition": "A type of vasospastic angina affecting the epicardial coronary arteries, often co-existing with microvascular angina and associated with a worse prognosis.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.004",
+    "alias": "",
+    "label": "Epicardial Vasospastic Angina",
+    "umls_mapping": {
+      "cui": "C0442016",
+      "canonical_name": "Epicardial",
+      "score": 0.9833,
+      "types": [
+        "T082"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "LNC",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.013.001",
+    "id": "D001.013.001",
+    "name_en": "Worse_Prognosis",
+    "name_cn": "预后不良",
+    "definition": "A condition where the expected outcome of a disease is worse than average.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.013",
+    "alias": "",
+    "label": "Worse_Prognosis",
+    "umls_mapping": {
+      "cui": "C0332271",
+      "canonical_name": "Worsening pattern",
+      "score": 0.9834,
+      "types": [
+        "T080"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MTH",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US",
+        "SNOMEDCT_VET"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.004.006",
+    "id": "D001.001.004.006",
+    "name_en": "Coronary_Spasm",
+    "name_cn": "冠状动脉痉挛",
+    "definition": "A temporary, sudden narrowing of one or more of the coronary arteries that can lead to reduced blood flow to the heart muscle.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.004",
+    "alias": "",
+    "label": "Coronary_Spasm",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.016",
+    "id": "D001.001.016",
+    "name_en": "Non-obstructive Coronary Atherosclerosis",
+    "name_cn": "非阻塞性冠状动脉粥样硬化",
+    "definition": "A type of coronary artery disease where atherosclerosis is present but does not cause significant obstruction of blood flow",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Non-obstructive Coronary Atherosclerosis",
+    "umls_mapping": {
+      "cui": "C0003850",
+      "canonical_name": "Arteriosclerosis",
+      "score": 0.8348,
+      "types": [
+        "T047"
+      ],
+      "definition": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes. There are many forms classified by the types of lesions and arteries involved, such as ATHEROSCLEROSIS with fatty lesions in the ARTERIAL INTIMA of medium and large muscular arteries.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NCI",
+        "OMIM",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.018",
+    "id": "D001.018",
+    "name_en": "Secondary Mitral Regurgitation",
+    "name_cn": "继发性二尖瓣反流",
+    "definition": "A condition where the mitral valve does not close properly due to left ventricular dysfunction, often ischemic in origin.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Secondary Mitral Regurgitation",
+    "umls_mapping": {
+      "cui": "C0175668",
+      "canonical_name": "Secondary to",
+      "score": 0.9853,
+      "types": [
+        "T080"
+      ],
+      "definition": "Derived as a result of a primary condition; not direct or immediate; of second rank or importance or value.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.009",
+    "id": "D001.001.006.001.009",
+    "name_en": "Coronary Artery Diameter Stenosis >70% in Proximal Segments",
+    "name_cn": "近端段冠状动脉直径狭窄>70%",
+    "definition": "A condition where the diameter stenosis of the coronary artery in proximal segments exceeds 70%, often indicating significant obstruction.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Coronary Artery Diameter Stenosis >70% in Proximal Segments",
+    "umls_mapping": {
+      "cui": "C0205107",
+      "canonical_name": "Proximal",
+      "score": 0.9636,
+      "types": [
+        "T082"
+      ],
+      "definition": "Situated nearest to a point of attachment or origin.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "HPO",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.017",
+    "id": "D001.001.017",
+    "name_en": "Chronic_Coronary_Disease",
+    "name_cn": "慢性冠状动脉疾病",
+    "definition": "A long-term condition characterized by progressive narrowing or blockage of the coronary arteries, which may lead to acute coronary syndrome (ACS).",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Chronic_Coronary_Disease",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.8364,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.019",
+    "id": "D001.019",
+    "name_en": "Pericarditis",
+    "name_cn": "心包炎",
+    "definition": "Inflammation of the pericardium",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Pericarditis",
+    "umls_mapping": {
+      "cui": "C0276139",
+      "canonical_name": "Viral pericarditis",
+      "score": 0.8308,
+      "types": [
+        "T047"
+      ],
+      "definition": "Pericarditis that is caused by an infection with a viral agent.",
+      "sources": [
+        "ICD10CM",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "COSTAR",
+        "ICD10CM",
+        "ICPC2ICD10DUT",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.013.005",
+    "id": "D001.001.013.005",
+    "name_en": "Destabilizing_Coronary_Atherosclerotic_Plaque",
+    "name_cn": "不稳定性冠状动脉粥样硬化斑块",
+    "definition": "A coronary atherosclerotic plaque that is becoming unstable, potentially leading to acute coronary syndromes.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.013",
+    "alias": "",
+    "label": "Destabilizing_Coronary_Atherosclerotic_Plaque",
+    "umls_mapping": {
+      "cui": "C0184512",
+      "canonical_name": "Stabilized (qualifier value)",
+      "score": 0.8328,
+      "types": [
+        "T033"
+      ],
+      "definition": "Condition did not change and required not further care to maintain condition",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCC",
+        "CHV",
+        "LNC",
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.020",
+    "id": "D001.020",
+    "name_en": "Hyperuricemia",
+    "name_cn": "高尿酸血症",
+    "definition": "A condition characterized by abnormally high levels of uric acid in the blood, which may affect renal function.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Hyperuricemia",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.021",
+    "id": "D001.021",
+    "name_en": "Heart_Failure",
+    "name_cn": "心力衰竭",
+    "definition": "A chronic condition where the heart doesn't pump blood as well as it should",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Heart_Failure",
+    "umls_mapping": {
+      "cui": "C2939447",
+      "canonical_name": "Right ventricular failure",
+      "score": 0.8648,
+      "types": [
+        "T047"
+      ],
+      "definition": "Failure of proper functioning of the right ventricle, with venous engorgement, hepatic enlargement, and subcutaneous edema."
+    }
+  },
+  {
+    "ontology_id": "D001.016.002",
+    "id": "D001.016.002",
+    "name_en": "Obstructive_Coronary_Artery_Stenosis",
+    "name_cn": "阻塞性冠状动脉狭窄",
+    "definition": "Obstructive Coronary Artery Stenosis is a condition characterized by the narrowing of coronary arteries, leading to restricted blood flow to the heart muscle. It is typically defined as a reduction in the diameter of the artery by 50% or more, often 70% or greater, which can result in ischemia and increase the risk of myocardial infarction.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.016",
+    "alias": "",
+    "label": "Obstructive_Coronary_Artery_Stenosis",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.022",
+    "id": "D001.022",
+    "name_en": "Downstream_ICA",
+    "name_cn": "下游颈内动脉",
+    "definition": "Downstream ICA (Internal Carotid Artery) refers to vascular lesions or abnormalities located beyond the bifurcation of the internal carotid artery, which may impact blood flow and cerebral perfusion, potentially leading to clinical manifestations such as transient ischemic attacks or stroke.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Downstream_ICA",
+    "umls_mapping": {
+      "cui": "C0522506",
+      "canonical_name": "Downstream",
+      "score": 0.9651,
+      "types": [
+        "T082"
+      ],
+      "definition": "",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.023",
+    "id": "D001.023",
+    "name_en": "Cardiovascular_Death",
+    "name_cn": "心血管死亡",
+    "definition": "Death caused by cardiovascular diseases",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Cardiovascular_Death",
+    "umls_mapping": {
+      "cui": "C0007226",
+      "canonical_name": "Cardiovascular system",
+      "score": 0.844,
+      "types": [
+        "T022"
+      ],
+      "definition": "The HEART and the BLOOD VESSELS by which BLOOD is pumped and circulated through the body.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CST",
+        "FMA",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.018",
+    "id": "D001.001.018",
+    "name_en": "Myocardial Oxygen Demand",
+    "name_cn": "心肌氧需求量",
+    "definition": "The amount of oxygen required by the heart muscle to maintain its function, particularly during increased workload or stress.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Myocardial Oxygen Demand",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.024",
+    "id": "D001.024",
+    "name_en": "Cardiac_Conditions",
+    "name_cn": "心脏疾病",
+    "definition": "A broad term referring to various conditions affecting the heart.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Cardiac_Conditions",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.019",
+    "id": "D001.001.019",
+    "name_en": "Myocardial_Hypoperfusion",
+    "name_cn": "心肌低灌注",
+    "definition": "A condition characterized by reduced blood flow to the heart muscle during vasodilation or stress compared to resting state.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Myocardial_Hypoperfusion",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.010",
+    "id": "D001.001.006.001.010",
+    "name_en": "Multivessel Coronary Artery Disease",
+    "name_cn": "多支冠状动脉疾病",
+    "definition": "A condition where multiple coronary arteries are affected by atherosclerosis, leading to reduced blood flow to the heart muscle.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Multivessel Coronary Artery Disease",
+    "umls_mapping": {
+      "cui": "C0206064",
+      "canonical_name": "Microvascular Angina",
+      "score": 0.871,
+      "types": [
+        "T047"
+      ],
+      "definition": "A disorder affecting the smallest coronary arteries. Causes include atherosclerosis and arterial spasm. Chest pain is a frequently observed symptom.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.013.006",
+    "id": "D001.001.013.006",
+    "name_en": "Severe Obstructive Coronary Artery Disease",
+    "name_cn": "严重阻塞性冠状动脉疾病",
+    "definition": "A severe form of coronary artery disease characterized by significant obstruction of the coronary arteries.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.013",
+    "alias": "",
+    "label": "Severe Obstructive Coronary Artery Disease",
+    "umls_mapping": {
+      "cui": "C0205082",
+      "canonical_name": "Severe (severity modifier)",
+      "score": 0.9812,
+      "types": [
+        "T033"
+      ],
+      "definition": "Intensely bad or unpleasant in degree, quality or extent.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.020",
+    "id": "D001.001.020",
+    "name_en": "Myocardial_Perfusion_Supply_Demand_Impairment",
+    "name_cn": "心肌灌注供需障碍",
+    "definition": "Myocardial Perfusion Supply-Demand Impairment refers to a pathological condition characterized by an imbalance between the supply of blood to the myocardium (heart muscle) and the metabolic demand of the myocardial tissues, leading to insufficient oxygen and nutrient delivery to the heart, which can result in ischemia and subsequent myocardial dysfunction or damage.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Myocardial_Perfusion_Supply_Demand_Impairment",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.005.007",
+    "id": "D001.001.005.007",
+    "name_en": "Functional disorders leading to ANOCA or INOCA",
+    "name_cn": "导致ANOCA或INOCA的功能性障碍",
+    "definition": "Functional disorders that lead to angina with non-obstructive coronary arteries (ANOCA) or ischemia with non-obstructive coronary arteries (INOCA), such as microvascular angina (MVA) and vasospastic angina (VSA).",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Functional disorders leading to ANOCA or INOCA",
+    "umls_mapping": {
+      "cui": "C0277785",
+      "canonical_name": "Functional disorder",
+      "score": 0.9789,
+      "types": [
+        "T046"
+      ],
+      "definition": "Deranged function in an individual or an organ that is due to a disease. (MedicineNet.com)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CSP",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.021",
+    "id": "D001.001.021",
+    "name_en": "Coronary_Circulation",
+    "name_cn": "冠状动脉循环",
+    "definition": "Blood flow through the coronary arteries that supply the heart muscle",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Coronary_Circulation",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.006.001.011",
+    "id": "D001.001.006.001.011",
+    "name_en": "Severity_of_Coronary_Stenoses",
+    "name_cn": "冠状动脉狭窄程度",
+    "definition": "The degree of narrowing in the coronary arteries, often assessed in patients with stable angina.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Severity_of_Coronary_Stenoses",
+    "umls_mapping": {
+      "cui": "C0439793",
+      "canonical_name": "Severities",
+      "score": 0.9799,
+      "types": [
+        "T080"
+      ],
+      "definition": "Used of the degree of something undesirable e.g. pain or weather; also, strictness.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.012",
+    "id": "D001.001.006.001.012",
+    "name_en": "Flow-limiting CAD",
+    "name_cn": "血流限制性冠状动脉疾病",
+    "definition": "Flow-limiting coronary artery disease (CAD) is a type of coronary artery disease characterized by a significant reduction in blood flow through the coronary arteries, which may lead to myocardial ischemia, particularly during periods of increased myocardial oxygen demand. This condition is typically identified through diagnostic techniques such as angiography and may require interventions to restore adequate blood flow and prevent adverse cardiovascular events.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Flow-limiting CAD",
+    "umls_mapping": {
+      "cui": "C0010068",
+      "canonical_name": "Coronary heart disease",
+      "score": 0.9699,
+      "types": [
+        "T047"
+      ],
+      "definition": "An imbalance between myocardial functional requirements and the capacity of the CORONARY VESSELS to supply sufficient blood flow. It is a form of MYOCARDIAL ISCHEMIA (insufficient blood supply to the heart muscle) caused by a decreased capacity of the coronary vessels.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICPC2ICD10DUT",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "PSY",
+        "RCD",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.004.007",
+    "id": "D001.001.004.007",
+    "name_en": "Vascular Smooth Muscle Dysfunction",
+    "name_cn": "血管平滑肌功能障碍",
+    "definition": "A condition characterized by abnormal function of vascular smooth muscle, often leading to vasospasm.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.004",
+    "alias": "",
+    "label": "Vascular Smooth Muscle Dysfunction",
+    "umls_mapping": {
+      "cui": "C0277785",
+      "canonical_name": "Functional disorder",
+      "score": 0.9438,
+      "types": [
+        "T046"
+      ],
+      "definition": "Deranged function in an individual or an organ that is due to a disease. (MedicineNet.com)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CSP",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.016.001",
+    "id": "D001.001.016.001",
+    "name_en": "Coronary_Atherosclerosis",
+    "name_cn": "冠状动脉粥样硬化",
+    "definition": "A condition where the coronary arteries become narrowed or blocked due to the buildup of atherosclerotic plaques.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.016",
+    "alias": "",
+    "label": "Coronary_Atherosclerosis",
+    "umls_mapping": {
+      "cui": "C0003850",
+      "canonical_name": "Arteriosclerosis",
+      "score": 0.8348,
+      "types": [
+        "T047"
+      ],
+      "definition": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes. There are many forms classified by the types of lesions and arteries involved, such as ATHEROSCLEROSIS with fatty lesions in the ARTERIAL INTIMA of medium and large muscular arteries.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NCI",
+        "OMIM",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.025",
+    "id": "D001.025",
+    "name_en": "Stroke",
+    "name_cn": "中风",
+    "definition": "A condition caused by interrupted blood supply to the brain, leading to cell death.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Stroke",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.016.002.002",
+    "id": "D001.016.002.002",
+    "name_en": "Hemodynamically_Insignificant",
+    "name_cn": "非血流动力学显著",
+    "definition": "A condition where the stenosis does not significantly affect blood flow hemodynamically.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.016.002",
+    "alias": "",
+    "label": "Hemodynamically_Insignificant",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.016.002.005",
+    "id": "D001.016.002.005",
+    "name_en": "Functionally_Non-significant_Stenosis",
+    "name_cn": "功能无显著狭窄",
+    "definition": "A stenosis that does not significantly affect blood flow or function, often determined by specific angiographic cut-off values.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.016.002",
+    "alias": "",
+    "label": "Functionally_Non-significant_Stenosis",
+    "umls_mapping": {
+      "cui": "C0542341",
+      "canonical_name": "Function (attribute)",
+      "score": 0.826,
+      "types": [
+        "T169"
+      ],
+      "definition": "The normal action performed by a structure or device.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.001.001.002.003",
+    "id": "D001.001.001.001.002.003",
+    "name_en": "Non-fatal_Myocardial_Infarction_rate",
+    "name_cn": "非致命性心肌梗死率",
+    "definition": "The Non-fatal Myocardial Infarction rate refers to the incidence of myocardial infarction events that do not result in death, typically expressed as the number of non-fatal myocardial infarctions per unit of population over a specified time period. This metric is crucial for understanding the burden of heart disease and the effectiveness of preventive interventions in reducing acute coronary events.",
+    "type": "disease",
+    "level": 5,
+    "parent_id": "D001.001.001.001.002",
+    "alias": "",
+    "label": "Non-fatal_Myocardial_Infarction_rate",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.026",
+    "id": "D001.026",
+    "name_en": "Coronary_Artery",
+    "name_cn": "冠状动脉",
+    "definition": "The blood vessels that supply the heart muscle with oxygen-rich blood.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Coronary_Artery",
+    "umls_mapping": {
+      "cui": "C0205042",
+      "canonical_name": "Coronary artery",
+      "score": 0.9913,
+      "types": [
+        "T023"
+      ],
+      "definition": "One of two arteries that arise from the aortic sinuses of the ascending aorta and supply blood to the myocardium",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CSP",
+        "FMA",
+        "LCH",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.014",
+    "id": "D001.001.006.001.014",
+    "name_en": "Lesions_with_Abnormal_FFR_but_Normal_CFR",
+    "name_cn": "FFR异常但CFR正常的病变",
+    "definition": "Coronary lesions showing abnormal fractional flow reserve (FFR) but normal coronary flow reserve (CFR)",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Lesions_with_Abnormal_FFR_but_Normal_CFR",
+    "umls_mapping": {
+      "cui": "C0221198",
+      "canonical_name": "Lesion",
+      "score": 0.9855,
+      "types": [
+        "T033"
+      ],
+      "definition": "A localized pathological or traumatic structural change, damage, deformity, or discontinuity of tissue, organ, or body part.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.015",
+    "id": "D001.001.006.001.015",
+    "name_en": "Hyperaemic_Stenosis_Resistance",
+    "name_cn": "充血性狭窄抵抗",
+    "definition": "A condition characterized by resistance to blood flow due to hyperaemia and stenosis in the coronary arteries.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Hyperaemic_Stenosis_Resistance",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.005.008",
+    "id": "D001.001.005.008",
+    "name_en": "Microcirculation_Dysfunction",
+    "name_cn": "微循环功能障碍",
+    "definition": "Abnormal function of the microcirculation, often leading to impaired blood flow and tissue perfusion.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Microcirculation_Dysfunction",
+    "umls_mapping": {
+      "cui": "C0277785",
+      "canonical_name": "Functional disorder",
+      "score": 0.9438,
+      "types": [
+        "T046"
+      ],
+      "definition": "Deranged function in an individual or an organ that is due to a disease. (MedicineNet.com)",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "AOD",
+        "CCPSS",
+        "CSP",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNM",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.004.001.001",
+    "id": "PC002.002.004.001.001",
+    "name_en": "Disease or Complications for Patients with eGFR <30 mL/min/1.73 m2",
+    "name_cn": "eGFR小于30 mL/min/1.73 m2患者的疾病或并发症",
+    "definition": "Diseases or complications that occur in patients with an estimated glomerular filtration rate (eGFR) of less than 30 mL/min/1.73 m2",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "PC002.002.004.001",
+    "alias": "",
+    "label": "Disease or Complications for Patients with eGFR <30 mL/min/1.73 m2",
+    "umls_mapping": {
+      "cui": "C0012634",
+      "canonical_name": "Disease",
+      "score": 0.9868,
+      "types": [
+        "T047"
+      ],
+      "definition": "A definite pathologic process with a characteristic set of signs and symptoms. It may affect the whole body or any of its parts, and its etiology, pathology, and prognosis may be known or unknown.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "CSP",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.027",
+    "id": "D001.027",
+    "name_en": "Uncertain_CCS_Diagnosis",
+    "name_cn": "不确定的CCS诊断",
+    "definition": "A condition where the diagnosis of chronic coronary syndrome (CCS) is not definitively established.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Uncertain_CCS_Diagnosis",
+    "umls_mapping": {
+      "cui": "C0087130",
+      "canonical_name": "Uncertainty",
+      "score": 0.9858,
+      "types": [
+        "T033"
+      ],
+      "definition": "The condition in which reasonable knowledge regarding risks, benefits, or the future is not available.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "LCH_NW",
+        "LNC",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "MSHFIN",
+        "MSHFRE",
+        "MSHGER",
+        "MTH",
+        "NANDA-I",
+        "NCI",
+        "PSY",
+        "RCD",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC003.005.005.001.002",
+    "id": "PC003.005.005.001.002",
+    "name_en": "Obstructive Coronary Artery Disease Likelihood",
+    "name_cn": "阻塞性冠状动脉疾病可能性",
+    "definition": "The probability of having obstructive coronary artery disease, often quantified as a percentage.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "PC003.005.005.001",
+    "alias": "",
+    "label": "Obstructive Coronary Artery Disease Likelihood",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.005.009",
+    "id": "D001.001.005.009",
+    "name_en": "Coronary Microvascular Dysfunction",
+    "name_cn": "冠状动脉微血管功能障碍",
+    "definition": "A condition characterized by impaired function of the small blood vessels in the heart, leading to reduced blood flow and ischemia.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Coronary Microvascular Dysfunction",
+    "umls_mapping": {
+      "cui": "C3696962",
+      "canonical_name": "Coronary microvascular dysfunction",
+      "score": 0.9691,
+      "types": [
+        "T047"
+      ],
+      "definition": "",
+      "sources": [
+        "ICD10CM",
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "ICD10CM",
+        "MEDCIN",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.016",
+    "id": "D001.001.006.001.016",
+    "name_en": "Coronary_Artery_Stenosis",
+    "name_cn": "冠状动脉狭窄",
+    "definition": "Narrowing of the coronary artery lumen, typically caused by atherosclerosis, leading to reduced blood flow to the heart muscle.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Coronary_Artery_Stenosis",
+    "umls_mapping": {
+      "cui": "C0687568",
+      "canonical_name": "Coronary artery stent (device)",
+      "score": 0.856,
+      "types": [
+        "T074"
+      ],
+      "definition": "An expandable hollow tube that is advanced into an obstructed or narrow coronary artery to restore blood flow to the heart.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICPC2P",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US",
+        "SPN",
+        "UMD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.010",
+    "id": "D001.001.005.010",
+    "name_en": "Moderate_Severe_Ischemia",
+    "name_cn": "中重度缺血",
+    "definition": "A condition characterized by moderate to severe myocardial ischemia detected through non-invasive testing.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Moderate_Severe_Ischemia",
+    "umls_mapping": {
+      "cui": "C0205081",
+      "canonical_name": "Moderate (severity modifier)",
+      "score": 0.9829,
+      "types": [
+        "T080"
+      ],
+      "definition": "<p>Privacy metadata indicating the level of protection required to safeguard personal and healthcare information, which if disclosed without authorization, would present a moderate risk of harm to an individual's reputation and sense of privacy.</p><i>Usage Note:</i>The level of protection afforded moderately confidential information is dictated by privacy policies intended to engender trust in a service provider. May include publicly available information in jurisdictions that restrict uses of that information without the consent of the data subject.<p>Privacy policies mandating moderate levels of protection, which preempt less protective privacy policies. \"Moderate\" confidentiality policies differ from and would be preempted by the prevailing privacy policies mandating the normative level of protection for information used in the delivery and management of healthcare.</p>Confidentiality code total order hierarchy: Moderate (M) is less protective than<i>V, R, and N*, and subsumes all other protection levels (i.e., *L</i>and *U*).<b>Examples:</b>Includes personal and health information that an individual authorizes to be collected, accessed, used or disclosed to a bank for a health credit card or savings account; to health oversight authorities; to a hospital patient directory; to worker compensation, disability, property and casualty or life insurers; and to personal health record systems, consumer-controlled devices, social media accounts and online Apps; or for marketing purposes",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V3.0",
+        "HPO",
+        "LNC",
+        "MTH",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "PC002.002.004.003",
+    "id": "PC002.002.004.003",
+    "name_en": "Renal Failure",
+    "name_cn": "肾功能衰竭",
+    "definition": "A condition in which the kidneys lose the ability to remove waste and balance fluids.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "PC002.002.004",
+    "alias": "",
+    "label": "Renal Failure",
+    "umls_mapping": {
+      "cui": "C3854173",
+      "canonical_name": "Pre-renal acute kidney injury",
+      "score": 0.8535,
+      "types": [
+        "T047"
+      ],
+      "definition": "Pre-renal acute kidney injury (AKI), occurs when a sudden reduction in blood flow to the kidney (renal hypoperfusion) causes a loss of kidney function. In pre-renal acute kidney injury, there is nothing wrong with the kidney itself.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MEDCIN",
+        "MTH",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.017",
+    "id": "D001.001.006.001.017",
+    "name_en": "Coronary Artery Stenosis >70%",
+    "name_cn": "冠状动脉狭窄>70%",
+    "definition": "A condition where the coronary artery lumen is narrowed by more than 70%, as visualized by imaging techniques such as CCTA.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Coronary Artery Stenosis >70%",
+    "umls_mapping": {
+      "cui": "C0687568",
+      "canonical_name": "Coronary artery stent (device)",
+      "score": 0.856,
+      "types": [
+        "T074"
+      ],
+      "definition": "An expandable hollow tube that is advanced into an obstructed or narrow coronary artery to restore blood flow to the heart.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "ICPC2P",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US",
+        "SPN",
+        "UMD"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.006.001.018",
+    "id": "D001.001.006.001.018",
+    "name_en": "Low-attenuation plaque",
+    "name_cn": "低衰减斑块",
+    "definition": "A type of coronary artery plaque characterized by low attenuation on CCTA imaging, indicating potential lipid-rich or necrotic content.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.006.001",
+    "alias": "",
+    "label": "Low-attenuation plaque",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.016.004",
+    "id": "D001.016.004",
+    "name_en": "Proximal_lesion",
+    "name_cn": "近端病变",
+    "definition": "Lesions located more proximally in the coronary artery",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.016",
+    "alias": "",
+    "label": "Proximal_lesion",
+    "umls_mapping": {
+      "cui": "C0205107",
+      "canonical_name": "Proximal",
+      "score": 0.9636,
+      "types": [
+        "T082"
+      ],
+      "definition": "Situated nearest to a point of attachment or origin.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CHV",
+        "HL7V2.5",
+        "HPO",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US",
+        "UWDA"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.001.005.011",
+    "id": "D001.001.005.011",
+    "name_en": "Abnormal_Vasoconstriction_of_Coronary_Arterioles",
+    "name_cn": "冠状动脉小动脉异常收缩",
+    "definition": "A condition characterized by abnormal narrowing of the coronary arterioles, leading to dynamic obstruction and potentially causing microvascular angina.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "Abnormal_Vasoconstriction_of_Coronary_Arterioles",
+    "umls_mapping": {
+      "cui": "C0205161",
+      "canonical_name": "Abnormal",
+      "score": 0.9744,
+      "types": [
+        "T033"
+      ],
+      "definition": "Deviating in any way from the state, position, structure, condition, behavior, or rule which is considered a norm.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.010.001",
+    "id": "D001.010.001",
+    "name_en": "Systemic Lupus Erythematosus",
+    "name_cn": "系统性红斑狼疮",
+    "definition": "An autoimmune disease that can affect various parts of the body, including the skin, joints, kidneys, and brain.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.010",
+    "alias": "",
+    "label": "Systemic Lupus Erythematosus",
+    "umls_mapping": {
+      "cui": "C0521471",
+      "canonical_name": "Systemic lupus erythematosus rash",
+      "score": 0.8868,
+      "types": [
+        "T047"
+      ],
+      "definition": "A rash associated with systemic lupus erythematosus.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CST",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDCIN",
+        "MTH",
+        "NCI",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.010.002",
+    "id": "D001.010.002",
+    "name_en": "Rheumatoid_Arthritis",
+    "name_cn": "类风湿性关节炎",
+    "definition": "A chronic inflammatory disorder affecting many joints, including those in the hands and feet.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.010",
+    "alias": "",
+    "label": "Rheumatoid_Arthritis",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.004.008",
+    "id": "D001.001.004.008",
+    "name_en": "Coronary_Vasomotor_Disorders",
+    "name_cn": "冠状动脉血管运动障碍",
+    "definition": "A disorder characterized by abnormal constriction or dilation of the coronary arteries, leading to impaired blood flow to the heart muscle.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.004",
+    "alias": "",
+    "label": "Coronary_Vasomotor_Disorders",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.022",
+    "id": "D001.001.022",
+    "name_en": "Endothelium-Dependent Vasomotor Tone Disorder",
+    "name_cn": "内皮依赖性血管舒缩功能障碍",
+    "definition": "A disorder of vasomotor tone regulation dependent on endothelial function, often associated with coronary microvascular dysfunction (CMD) and epicardial vasomotor abnormalities.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.001",
+    "alias": "",
+    "label": "Endothelium-Dependent Vasomotor Tone Disorder",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.021.001",
+    "id": "D001.021.001",
+    "name_en": "Acute_and_Chronic_Heart_Failure",
+    "name_cn": "急性和慢性心力衰竭",
+    "definition": "A condition characterized by the heart's inability to pump blood effectively, which can occur suddenly (acute) or develop over time (chronic).",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.021",
+    "alias": "",
+    "label": "Acute_and_Chronic_Heart_Failure",
+    "umls_mapping": {
+      "cui": "C0205178",
+      "canonical_name": "acute",
+      "score": 0.988,
+      "types": [
+        "T079"
+      ],
+      "definition": "Having a severe and rapid onset of symptoms with short duration.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "DXP",
+        "HPO",
+        "LNC",
+        "MTH",
+        "NCI",
+        "RCD",
+        "SCTSPA",
+        "SNMI",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.021.001.001",
+    "id": "D001.021.001.001",
+    "name_en": "Heart Failure with Preserved Ejection Fraction",
+    "name_cn": "射血分数保留的心力衰竭",
+    "definition": "A type of heart failure where the left ventricular ejection fraction is preserved (typically ≥50%), but the heart is unable to pump sufficient blood to meet the body's needs.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.021.001",
+    "alias": "",
+    "label": "Heart Failure with Preserved Ejection Fraction",
+    "umls_mapping": {
+      "cui": "C2939447",
+      "canonical_name": "Right ventricular failure",
+      "score": 0.8648,
+      "types": [
+        "T047"
+      ],
+      "definition": "Failure of proper functioning of the right ventricle, with venous engorgement, hepatic enlargement, and subcutaneous edema."
+    }
+  },
+  {
+    "ontology_id": "D001.001.007.004",
+    "id": "D001.001.007.004",
+    "name_en": "Diastolic_Dysfunction",
+    "name_cn": "舒张功能障碍",
+    "definition": "A condition where the heart's ventricles do not relax properly during the diastolic phase, leading to impaired filling.",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.007",
+    "alias": "",
+    "label": "Diastolic_Dysfunction",
+    "umls_mapping": {
+      "cui": "C0520863",
+      "canonical_name": "Diastolic dysfunction",
+      "score": 0.957,
+      "types": [
+        "T046"
+      ],
+      "definition": "Impairment in the filling of the ventricles during diastole. Causes include hypertrophic and restrictive cardiomyopathies, coronary artery disease, chronic high blood pressure, aortic stenosis, and aging.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "CCPSS",
+        "CHV",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MDREST",
+        "MDRFIN",
+        "MDRFRE",
+        "MDRGER",
+        "MEDCIN",
+        "NCI",
+        "OMIM",
+        "SNMI",
+        "SNOMEDCT_US",
+        "SNOMEDCT_VET"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.021.001.002",
+    "id": "D001.021.001.002",
+    "name_en": "Heart_Failure_with_Severe_LV_Systolic_Dysfunction",
+    "name_cn": "严重左心室收缩功能障碍性心力衰竭",
+    "definition": "A condition characterized by heart failure in patients with severe left ventricular systolic dysfunction (LVEF ≤ 35%).",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.021.001",
+    "alias": "",
+    "label": "Heart_Failure_with_Severe_LV_Systolic_Dysfunction",
+    "umls_mapping": {
+      "cui": "C2939447",
+      "canonical_name": "Right ventricular failure",
+      "score": 0.8648,
+      "types": [
+        "T047"
+      ],
+      "definition": "Failure of proper functioning of the right ventricle, with venous engorgement, hepatic enlargement, and subcutaneous edema."
+    }
+  },
+  {
+    "ontology_id": "D001.021.001.002.001",
+    "id": "D001.021.001.002.001",
+    "name_en": "Heart failure-related events in HFrEF",
+    "name_cn": "HFrEF患者的心力衰竭相关事件",
+    "definition": "Adverse events related to heart failure in patients with HFrEF (heart failure with reduced ejection fraction).",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.021.001.002",
+    "alias": "",
+    "label": "Heart failure-related events in HFrEF",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.021.001.003",
+    "id": "D001.021.001.003",
+    "name_en": "HFpEF",
+    "name_cn": "射血分数保留的心力衰竭",
+    "definition": "Heart failure with preserved ejection fraction as defined by the 2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.021.001",
+    "alias": "",
+    "label": "HFpEF",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.013.003.001",
+    "id": "D001.001.013.003.001",
+    "name_en": "Epicardial Obstructive Coronary Artery Disease",
+    "name_cn": "心外膜阻塞性冠状动脉疾病",
+    "definition": "A type of coronary artery disease characterized by epicardial obstruction leading to myocardial ischemia.",
+    "type": "disease",
+    "level": 4,
+    "parent_id": "D001.001.013.003",
+    "alias": "",
+    "label": "Epicardial Obstructive Coronary Artery Disease",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.001.005.012",
+    "id": "D001.001.005.012",
+    "name_en": "ANOCA/INOCA Endotypes",
+    "name_cn": "ANOCA/INOCA内型",
+    "definition": "Different subtypes of angina with no obstructive coronary artery disease (ANOCA) or ischemia with no obstructive coronary artery disease (INOCA).",
+    "type": "disease",
+    "level": 3,
+    "parent_id": "D001.001.005",
+    "alias": "",
+    "label": "ANOCA/INOCA Endotypes",
+    "umls_mapping": null
+  },
+  {
+    "ontology_id": "D001.028",
+    "id": "D001.028",
+    "name_en": "Chronic_Obstructive_Pulmonary_Disease",
+    "name_cn": "慢性阻塞性肺疾病",
+    "definition": "A type of obstructive lung disease characterized by long-term breathing problems and poor airflow.",
+    "type": "disease",
+    "level": 1,
+    "parent_id": "D001",
+    "alias": "",
+    "label": "Chronic_Obstructive_Pulmonary_Disease",
+    "umls_mapping": {
+      "cui": "C4758039",
+      "canonical_name": "Chronic Obstructive Pulmonary Disease Assessment Test",
+      "score": 0.8272,
+      "types": [
+        "T060"
+      ],
+      "definition": "A standardized rating scale developed by Jones et al in 2009, which is a self-administered instrument used to measure the health status of patients with COPD. This instrument contains 8 items; each item is scored on a scale from 0 to 5.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "MTH",
+        "NCI",
+        "SCTSPA",
+        "SNOMEDCT_US"
+      ]
+    }
+  },
+  {
+    "ontology_id": "D001.007.004",
+    "id": "D001.007.004",
+    "name_en": "Extracoronary_Atherosclerosis",
+    "name_cn": "冠状动脉外动脉粥样硬化",
+    "definition": "Atherosclerosis occurring outside the coronary arteries, often assessed via carotid ultrasound.",
+    "type": "disease",
+    "level": 2,
+    "parent_id": "D001.007",
+    "alias": "",
+    "label": "Extracoronary_Atherosclerosis",
+    "umls_mapping": {
+      "cui": "C0003850",
+      "canonical_name": "Arteriosclerosis",
+      "score": 0.9951,
+      "types": [
+        "T047"
+      ],
+      "definition": "Thickening and loss of elasticity of the walls of ARTERIES of all sizes. There are many forms classified by the types of lesions and arteries involved, such as ATHEROSCLEROSIS with fatty lesions in the ARTERIAL INTIMA of medium and large muscular arteries.",
+      "sources": [
+        "SNOMEDCT_US"
+      ],
+      "all_sources": [
+        "HPO",
+        "ICPC2P",
+        "LCH",
+        "LCH_NW",
+        "MDR",
+        "MDRARA",
+        "MDRCZE",
+        "MDRDUT",
+        "MEDLINEPLUS",
+        "MSH",
+        "MSHCZE",
+        "MSHDUT",
+        "NCI",
+        "OMIM",
+        "PSY",
+        "RCD",
+        "SNM",
+        "SNOMEDCT_US"
+      ]
+    }
+  }
+]

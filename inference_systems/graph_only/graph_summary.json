@@ -1,0 +1,66 @@
+{
+  "n_findinglabel": 66,
+  "n_ecgfinding": 92,
+  "n_diseaselabel": 39,
+  "n_disease": 420,
+  "edges_ef_to_fl": 609,
+  "edges_ef_to_dis": 143,
+  "edges_dl_to_dis": 152,
+  "isa_edges": 0,
+  "syn_groups": 420,
+  "missing_vocab_labels": [
+    "Left posterior fascicular block",
+    "Ventricular aneurysm",
+    "Aneurysm of heart"
+  ],
+  "relation_type_ef_fl_top": [
+    [
+      "RELATED",
+      453
+    ],
+    [
+      "NARROWER",
+      81
+    ],
+    [
+      "EXACT",
+      53
+    ],
+    [
+      "BROADER",
+      22
+    ]
+  ],
+  "edge_type_ef_dis_top": [
+    [
+      "INDICATES",
+      74
+    ],
+    [
+      "SUPPORTS",
+      52
+    ],
+    [
+      "IS_SPECIFIC_FOR",
+      17
+    ]
+  ],
+  "relation_type_dl_dis_top": [
+    [
+      "RELATED",
+      106
+    ],
+    [
+      "EXACT",
+      25
+    ],
+    [
+      "NARROWER",
+      11
+    ],
+    [
+      "BROADER",
+      10
+    ]
+  ]
+}
